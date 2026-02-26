@@ -31,6 +31,8 @@ URL_RE = re.compile(r"https?://\S+|www\.\S+", re.IGNORECASE)
 NON_TEXT_RE = re.compile(r"[^0-9a-zA-Z\u0980-\u09FF\s]")
 DIGIT_RE = re.compile(r"[0-9০-৯]+")
 SPACE_RE = re.compile(r"\s+")
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR.parent
 
 
 def configure_font() -> str:
@@ -378,18 +380,33 @@ def write_report(
     output_path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def resolve_input_path(path: Path) -> Path:
+    if path.is_absolute():
+        return path
+    cwd_candidate = path.resolve()
+    if cwd_candidate.exists():
+        return cwd_candidate
+    return (PROJECT_ROOT / path).resolve()
+
+
+def resolve_output_path(path: Path) -> Path:
+    if path.is_absolute():
+        return path
+    return (PROJECT_ROOT / path).resolve()
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="EDA + Topic modeling for Before/After election text files.")
     parser.add_argument(
         "--before",
         type=Path,
-        default=Path("data/Before Election  - Sheet1.csv"),
+        default=PROJECT_ROOT / "data/Before Election  - Sheet1.csv",
         help="Path to before-election CSV",
     )
     parser.add_argument(
         "--after",
         type=Path,
-        default=Path("data/After Election - Sheet1.csv"),
+        default=PROJECT_ROOT / "data/After Election - Sheet1.csv",
         help="Path to after-election CSV",
     )
     parser.add_argument(
@@ -407,18 +424,30 @@ def main() -> None:
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("outputs/election_text_analysis"),
+        default=PROJECT_ROOT / "outputs/election_text_analysis",
         help="Output folder for CSV/plots/report",
     )
     args = parser.parse_args()
 
-    output_dir = args.output_dir
+    before_path = resolve_input_path(args.before)
+    after_path = resolve_input_path(args.after)
+    output_dir = resolve_output_path(args.output_dir)
+
+    if not before_path.exists():
+        raise FileNotFoundError(f"Before-election file not found: {before_path}")
+    if not after_path.exists():
+        raise FileNotFoundError(f"After-election file not found: {after_path}")
+
+    print(f"Before file: {before_path}")
+    print(f"After file: {after_path}")
+    print(f"Output dir: {output_dir}")
+
     output_dir.mkdir(parents=True, exist_ok=True)
 
     font_name = configure_font()
     print(f"Using font: {font_name}")
 
-    data_df = build_dataframe(args.before, args.after)
+    data_df = build_dataframe(before_path, after_path)
     data_df.to_csv(output_dir / "cleaned_documents.csv", index=False, encoding="utf-8")
 
     summary_df = compute_summary(data_df)
