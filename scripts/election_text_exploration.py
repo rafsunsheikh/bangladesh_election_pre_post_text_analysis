@@ -568,6 +568,7 @@ def plot_wordclouds_all(
         counter = Counter()
         for tokens in dataset_tokens:
             counter.update(tokens)
+
         if not counter:
             ax.text(0.5, 0.5, "No text available", ha="center", va="center")
             ax.axis("off")
@@ -578,14 +579,15 @@ def plot_wordclouds_all(
             width=1800,
             height=1100,
             background_color="white",
-            max_words=120,
+            max_words=180,
             max_font_size=140,
-            min_font_size=14,
+            min_font_size=10,
             margin=4,
-            relative_scaling=0.5,
+            relative_scaling=0.4,
             prefer_horizontal=1.0,
             collocations=False,
             font_path=font_path,
+            random_state=42,
         ).generate_from_frequencies(counter)
         ax.imshow(wc, interpolation="bilinear")
         ax.axis("off")
