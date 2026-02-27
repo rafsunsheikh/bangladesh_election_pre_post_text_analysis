@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import math
 import re
 from collections import Counter
 from pathlib import Path
@@ -32,7 +33,7 @@ BANGLA_STOPWORDS = {
 BANGLA_POSITIVE_WORDS = {
     "ভালো", "ভাল", "সেরা", "সফল", "শান্তি", "জয়", "জয়", "সমর্থন", "অভিনন্দন", "ধন্যবাদ",
     "উন্নতি", "উন্নয়ন", "উন্নয়ন", "নিরাপদ", "খুশি", "আশা", "পজিটিভ", "দারুণ", "চমৎকার",
-    "শক্তিশালী", "ঠিক", "ইতিবাচক", "সমাধান",
+    "শক্তিশালী", "ঠিক", "ইতিবাচক", "সমাধান", "শুভেচ্ছা", "অভিনন্দন", "সমৃদ্ধি",
 }
 
 BANGLA_NEGATIVE_WORDS = {
@@ -80,6 +81,100 @@ def get_font_path(font_name: str) -> str | None:
         return None
 
 
+def resolve_input_path(path: Path) -> Path:
+    if path.is_absolute():
+        return path
+    cwd_candidate = path.resolve()
+    if cwd_candidate.exists():
+        return cwd_candidate
+    return (PROJECT_ROOT / path).resolve()
+
+
+def resolve_output_path(path: Path) -> Path:
+    if path.is_absolute():
+        return path
+    return (PROJECT_ROOT / path).resolve()
+
+
+def slugify(name: str) -> str:
+    slug = name.lower().strip()
+    slug = re.sub(r"[^a-z0-9\u0980-\u09FF]+", "_", slug)
+    slug = re.sub(r"_+", "_", slug).strip("_")
+    return slug or "dataset"
+
+
+def normalize_dataset_label(stem: str) -> str:
+    label = stem.replace("_", " ").replace("-", " ")
+    label = re.sub(r"\s+", " ", label).strip()
+    if not label:
+        return "Dataset"
+    return label.title()
+
+
+def dataset_sort_key(label: str) -> tuple[int, str]:
+    low = label.lower()
+    if "before" in low:
+        return (0, low)
+    if "after election" in low:
+        return (1, low)
+    if "after forming" in low or "forming government" in low:
+        return (2, low)
+    return (9, low)
+
+
+def ensure_unique_label(label: str, existing: set[str]) -> str:
+    if label not in existing:
+        return label
+    idx = 2
+    while f"{label} ({idx})" in existing:
+        idx += 1
+    return f"{label} ({idx})"
+
+
+def discover_dataset_files(
+    data_dir: Path,
+    input_files: list[Path] | None,
+) -> dict[str, Path]:
+    dataset_files: dict[str, Path] = {}
+    labels_in_use: set[str] = set()
+
+    chosen_files: list[Path]
+    if input_files:
+        chosen_files = [resolve_input_path(path) for path in input_files]
+    else:
+        chosen_files = sorted(
+            [path for path in data_dir.glob("*.csv") if not path.name.startswith(".")],
+            key=lambda p: dataset_sort_key(normalize_dataset_label(p.stem)),
+        )
+
+    if not chosen_files:
+        raise FileNotFoundError(f"No CSV files found. Checked: {data_dir}")
+
+    for path in chosen_files:
+        if not path.exists():
+            raise FileNotFoundError(f"Input file not found: {path}")
+        label = normalize_dataset_label(path.stem)
+        label = ensure_unique_label(label, labels_in_use)
+        labels_in_use.add(label)
+        dataset_files[label] = path
+    return dataset_files
+
+
+def cleanup_legacy_outputs(output_dir: Path) -> None:
+    legacy_files = [
+        "top_terms_before.csv",
+        "top_terms_after.csv",
+        "topics_before.csv",
+        "topics_after.csv",
+        "document_topics_before.csv",
+        "document_topics_after.csv",
+    ]
+    for name in legacy_files:
+        target = output_dir / name
+        if target.exists():
+            target.unlink()
+
+
 def load_single_column_csv(path: Path) -> list[str]:
     rows: list[str] = []
     with path.open("r", encoding="utf-8-sig", newline="") as file:
@@ -107,18 +202,17 @@ def tokenize(text: str, stopwords: set[str]) -> list[str]:
     return [token for token in tokens if len(token) > 1 and token not in stopwords]
 
 
-def build_dataframe(before_file: Path, after_file: Path) -> pd.DataFrame:
-    before_rows = load_single_column_csv(before_file)
-    after_rows = load_single_column_csv(after_file)
-
+def build_dataframe(dataset_files: dict[str, Path]) -> pd.DataFrame:
     records: list[dict[str, object]] = []
-    for dataset, rows in [("Before Election", before_rows), ("After Election", after_rows)]:
+    for dataset, path in dataset_files.items():
+        rows = load_single_column_csv(path)
         for idx, raw in enumerate(rows):
             clean = normalize_text(raw)
             tokens = tokenize(clean, BANGLA_STOPWORDS)
             records.append(
                 {
                     "dataset": dataset,
+                    "dataset_slug": slugify(dataset),
                     "doc_id": idx,
                     "raw_text": raw,
                     "clean_text": clean,
@@ -210,7 +304,7 @@ def term_counter(text_tokens: Iterable[list[str]]) -> Counter[str]:
     return counter
 
 
-def build_top_terms(df: pd.DataFrame, dataset: str, top_n: int = 30) -> pd.DataFrame:
+def build_top_terms(df: pd.DataFrame, dataset: str, top_n: int = 40) -> pd.DataFrame:
     subset = df[df["dataset"] == dataset]
     counter = term_counter(subset["tokens"])
     total = sum(counter.values()) or 1
@@ -227,29 +321,51 @@ def build_top_terms(df: pd.DataFrame, dataset: str, top_n: int = 30) -> pd.DataF
     return pd.DataFrame(rows)
 
 
-def build_term_comparison(df: pd.DataFrame) -> pd.DataFrame:
-    before_counter = term_counter(df[df["dataset"] == "Before Election"]["tokens"])
-    after_counter = term_counter(df[df["dataset"] == "After Election"]["tokens"])
-    before_total = sum(before_counter.values()) or 1
-    after_total = sum(after_counter.values()) or 1
+def build_top_terms_all(df: pd.DataFrame, datasets: list[str], top_n: int = 40) -> pd.DataFrame:
+    frames = [build_top_terms(df, dataset, top_n=top_n) for dataset in datasets]
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
 
-    all_terms = set(before_counter) | set(after_counter)
-    rows = []
-    for term in all_terms:
-        before_rel = before_counter[term] / before_total
-        after_rel = after_counter[term] / after_total
-        rows.append(
-            {
-                "term": term,
-                "before_count": before_counter[term],
-                "after_count": after_counter[term],
-                "before_relative_freq": before_rel,
-                "after_relative_freq": after_rel,
-                "after_minus_before": after_rel - before_rel,
-            }
-        )
-    comp = pd.DataFrame(rows)
-    return comp.sort_values("after_minus_before", ascending=False)
+
+def build_distinctive_terms(df: pd.DataFrame, datasets: list[str]) -> pd.DataFrame:
+    counters: dict[str, Counter[str]] = {}
+    totals: dict[str, int] = {}
+    all_terms: set[str] = set()
+
+    for dataset in datasets:
+        dataset_counter = term_counter(df[df["dataset"] == dataset]["tokens"])
+        counters[dataset] = dataset_counter
+        totals[dataset] = sum(dataset_counter.values())
+        all_terms |= set(dataset_counter.keys())
+
+    rows: list[dict[str, object]] = []
+    for dataset in datasets:
+        others = [name for name in datasets if name != dataset]
+        for term in all_terms:
+            count = counters[dataset][term]
+            rel = count / totals[dataset] if totals[dataset] else 0.0
+
+            if others:
+                others_rel = [
+                    counters[other][term] / totals[other] if totals[other] else 0.0
+                    for other in others
+                ]
+                avg_others_rel = sum(others_rel) / len(others_rel)
+            else:
+                avg_others_rel = 0.0
+
+            rows.append(
+                {
+                    "dataset": dataset,
+                    "term": term,
+                    "count": count,
+                    "relative_freq": rel,
+                    "others_avg_relative_freq": avg_others_rel,
+                    "distinctiveness_score": rel - avg_others_rel,
+                }
+            )
+
+    distinctive = pd.DataFrame(rows)
+    return distinctive.sort_values(["dataset", "distinctiveness_score"], ascending=[True, False])
 
 
 def run_lda_for_dataset(
@@ -268,7 +384,7 @@ def run_lda_for_dataset(
         token_pattern=None,
         min_df=2,
         max_df=0.95,
-        max_features=1000,
+        max_features=1500,
     )
     document_term = vectorizer.fit_transform(subset["token_text"])
     if document_term.shape[1] == 0:
@@ -278,7 +394,7 @@ def run_lda_for_dataset(
             token_pattern=None,
             min_df=1,
             max_df=1.0,
-            max_features=1000,
+            max_features=1500,
         )
         document_term = vectorizer.fit_transform(subset["token_text"])
 
@@ -299,6 +415,7 @@ def run_lda_for_dataset(
         top_indices = topic_weights.argsort()[::-1][:top_words]
         topic_record: dict[str, object] = {
             "dataset": dataset,
+            "dataset_slug": slugify(dataset),
             "topic_id": int(topic_idx),
             "topic_prevalence": float(topic_prevalence[topic_idx]),
             "top_terms": ", ".join(terms[i] for i in top_indices),
@@ -309,11 +426,12 @@ def run_lda_for_dataset(
         topic_rows.append(topic_record)
 
     doc_rows: list[dict[str, object]] = []
-    for i, (row_idx, row) in enumerate(subset.iterrows()):
+    for i, (_, row) in enumerate(subset.iterrows()):
         dominant_topic = int(doc_topic[i].argmax())
         doc_rows.append(
             {
                 "dataset": dataset,
+                "dataset_slug": slugify(dataset),
                 "doc_id": int(row["doc_id"]),
                 "raw_text": row["raw_text"],
                 "clean_text": row["clean_text"],
@@ -324,86 +442,64 @@ def run_lda_for_dataset(
     return pd.DataFrame(topic_rows), pd.DataFrame(doc_rows)
 
 
-def plot_top_terms(before_terms: pd.DataFrame, after_terms: pd.DataFrame, output: Path) -> None:
-    fig, axes = plt.subplots(1, 2, figsize=(16, 7), constrained_layout=True)
-    for ax, df, title, color in [
-        (axes[0], before_terms, "Before Election: Top Terms", "#1f77b4"),
-        (axes[1], after_terms, "After Election: Top Terms", "#d62728"),
-    ]:
-        plot_df = df.sort_values("count", ascending=True).tail(15)
-        ax.barh(plot_df["term"], plot_df["count"], color=color, alpha=0.85)
-        ax.set_title(title)
-        ax.set_xlabel("Term Frequency")
-    fig.savefig(output, dpi=200)
-    plt.close(fig)
+def subplot_grid(total: int, max_cols: int = 2, width: float = 8.0, height: float = 5.0):
+    cols = min(max_cols, max(1, total))
+    rows = max(1, math.ceil(total / cols))
+    fig, axes = plt.subplots(rows, cols, figsize=(width * cols, height * rows), constrained_layout=True)
+    if isinstance(axes, plt.Axes):
+        axes_list = [axes]
+    else:
+        axes_list = list(axes.flatten())
+    return fig, axes_list
 
 
-def plot_length_distribution(df: pd.DataFrame, output: Path) -> None:
-    fig, axes = plt.subplots(1, 2, figsize=(16, 6), constrained_layout=True)
-    before = df[df["dataset"] == "Before Election"]["char_len"]
-    after = df[df["dataset"] == "After Election"]["char_len"]
-    axes[0].hist(before, bins=25, color="#1f77b4", alpha=0.75)
-    axes[0].set_title("Before Election: Character Length")
-    axes[0].set_xlabel("Characters per comment")
-    axes[0].set_ylabel("Count")
-    axes[1].hist(after, bins=25, color="#d62728", alpha=0.75)
-    axes[1].set_title("After Election: Character Length")
-    axes[1].set_xlabel("Characters per comment")
-    axes[1].set_ylabel("Count")
-    fig.savefig(output, dpi=200)
-    plt.close(fig)
+def hide_unused_axes(axes: list[plt.Axes], used: int) -> None:
+    for ax in axes[used:]:
+        ax.axis("off")
 
 
-def plot_distinctive_terms(term_comp: pd.DataFrame, output: Path) -> None:
-    top_after = term_comp.head(10).copy()
-    top_after["direction"] = "After > Before"
-    top_before = term_comp.tail(10).copy()
-    top_before["direction"] = "Before > After"
-    top_before = top_before.sort_values("after_minus_before", ascending=False)
-
-    plot_df = pd.concat([top_after, top_before], ignore_index=True)
-    fig, ax = plt.subplots(figsize=(12, 8), constrained_layout=True)
-    colors = plot_df["direction"].map({"After > Before": "#d62728", "Before > After": "#1f77b4"})
-    ax.barh(plot_df["term"], plot_df["after_minus_before"], color=colors, alpha=0.9)
-    ax.axvline(0, color="black", linewidth=1)
-    ax.set_xlabel("Relative Frequency Difference (After - Before)")
-    ax.set_title("Most Distinctive Terms")
-    fig.savefig(output, dpi=200)
-    plt.close(fig)
-
-
-def plot_topic_prevalence(before_topics: pd.DataFrame, after_topics: pd.DataFrame, output: Path) -> None:
-    fig, axes = plt.subplots(1, 2, figsize=(16, 6), constrained_layout=True)
-    for ax, tdf, title, color in [
-        (axes[0], before_topics, "Before Election: Topic Prevalence", "#1f77b4"),
-        (axes[1], after_topics, "After Election: Topic Prevalence", "#d62728"),
-    ]:
-        if tdf.empty:
-            ax.set_title(title)
-            ax.text(0.5, 0.5, "No topics extracted", ha="center", va="center")
+def plot_top_terms_all(top_terms_all: pd.DataFrame, datasets: list[str], output: Path) -> None:
+    fig, axes = subplot_grid(len(datasets), max_cols=2, width=8.0, height=5.0)
+    for idx, dataset in enumerate(datasets):
+        ax = axes[idx]
+        subset = top_terms_all[top_terms_all["dataset"] == dataset].copy()
+        if subset.empty:
+            ax.set_title(f"{dataset}: Top Terms")
+            ax.text(0.5, 0.5, "No terms available", ha="center", va="center")
             ax.axis("off")
             continue
-        x_labels = [f"T{int(i)}" for i in tdf["topic_id"]]
-        ax.bar(x_labels, tdf["topic_prevalence"], color=color, alpha=0.85)
-        ax.set_ylim(0, max(0.2, float(tdf["topic_prevalence"].max() * 1.2)))
-        ax.set_title(title)
-        ax.set_xlabel("Topic")
-        ax.set_ylabel("Average Topic Probability")
+        plot_df = subset.sort_values("count", ascending=True).tail(15)
+        ax.barh(plot_df["term"], plot_df["count"], color="#1f77b4", alpha=0.85)
+        ax.set_title(f"{dataset}: Top Terms")
+        ax.set_xlabel("Term Frequency")
+    hide_unused_axes(axes, len(datasets))
     fig.savefig(output, dpi=200)
     plt.close(fig)
 
 
-def plot_wordclouds(df: pd.DataFrame, output: Path, font_path: str | None = None) -> None:
-    fig, axes = plt.subplots(1, 2, figsize=(16, 7), constrained_layout=True)
-    for ax, dataset, title in [
-        (axes[0], "Before Election", "Before Election: Wordcloud"),
-        (axes[1], "After Election", "After Election: Wordcloud"),
-    ]:
+def plot_length_distribution_all(df: pd.DataFrame, datasets: list[str], output: Path) -> None:
+    fig, axes = subplot_grid(len(datasets), max_cols=2, width=8.0, height=4.5)
+    for idx, dataset in enumerate(datasets):
+        ax = axes[idx]
+        series = df[df["dataset"] == dataset]["char_len"]
+        ax.hist(series, bins=25, color="#d62728", alpha=0.75)
+        ax.set_title(f"{dataset}: Character Length")
+        ax.set_xlabel("Characters per comment")
+        ax.set_ylabel("Count")
+    hide_unused_axes(axes, len(datasets))
+    fig.savefig(output, dpi=200)
+    plt.close(fig)
+
+
+def plot_wordclouds_all(df: pd.DataFrame, datasets: list[str], output: Path, font_path: str | None = None) -> None:
+    fig, axes = subplot_grid(len(datasets), max_cols=2, width=8.0, height=5.5)
+    for idx, dataset in enumerate(datasets):
+        ax = axes[idx]
         text = " ".join(df[df["dataset"] == dataset]["token_text"].astype(str).tolist()).strip()
         if not text:
             ax.text(0.5, 0.5, "No text available", ha="center", va="center")
             ax.axis("off")
-            ax.set_title(title)
+            ax.set_title(f"{dataset}: Wordcloud")
             continue
 
         wc = WordCloud(
@@ -417,8 +513,8 @@ def plot_wordclouds(df: pd.DataFrame, output: Path, font_path: str | None = None
         ).generate(text)
         ax.imshow(wc, interpolation="bilinear")
         ax.axis("off")
-        ax.set_title(title)
-
+        ax.set_title(f"{dataset}: Wordcloud")
+    hide_unused_axes(axes, len(datasets))
     fig.savefig(output, dpi=200)
     plt.close(fig)
 
@@ -432,14 +528,11 @@ def plot_sentiment_distribution(sentiment_summary: pd.DataFrame, output: Path) -
     colors = {"negative": "#d62728", "neutral": "#7f7f7f", "positive": "#2ca02c"}
 
     fig, ax = plt.subplots(figsize=(10, 6), constrained_layout=True)
-    bottom = None
+    cumulative = [0] * len(pivot.index)
     for label in ["negative", "neutral", "positive"]:
-        vals = pivot[label].values
-        ax.bar(pivot.index, vals, bottom=bottom, color=colors[label], label=label.title(), alpha=0.9)
-        if bottom is None:
-            bottom = vals
-        else:
-            bottom = bottom + vals
+        values = pivot[label].values
+        ax.bar(pivot.index, values, bottom=cumulative, color=colors[label], label=label.title(), alpha=0.9)
+        cumulative = [c + v for c, v in zip(cumulative, values)]
 
     ax.set_title("Sentiment Distribution by Dataset")
     ax.set_ylabel("Number of Comments")
@@ -448,12 +541,53 @@ def plot_sentiment_distribution(sentiment_summary: pd.DataFrame, output: Path) -
     plt.close(fig)
 
 
+def plot_distinctive_terms_all(distinctive_df: pd.DataFrame, datasets: list[str], output: Path) -> None:
+    fig, axes = subplot_grid(len(datasets), max_cols=2, width=8.0, height=5.0)
+    for idx, dataset in enumerate(datasets):
+        ax = axes[idx]
+        subset = distinctive_df[distinctive_df["dataset"] == dataset].copy()
+        subset = subset[subset["distinctiveness_score"] > 0].head(12)
+        if subset.empty:
+            ax.set_title(f"{dataset}: Distinctive Terms")
+            ax.text(0.5, 0.5, "No distinctive terms", ha="center", va="center")
+            ax.axis("off")
+            continue
+        plot_df = subset.sort_values("distinctiveness_score", ascending=True)
+        ax.barh(plot_df["term"], plot_df["distinctiveness_score"], color="#9467bd", alpha=0.9)
+        ax.set_title(f"{dataset}: Distinctive Terms")
+        ax.set_xlabel("Distinctiveness vs other datasets")
+    hide_unused_axes(axes, len(datasets))
+    fig.savefig(output, dpi=200)
+    plt.close(fig)
+
+
+def plot_topic_prevalence_all(topics_all: pd.DataFrame, datasets: list[str], output: Path) -> None:
+    fig, axes = subplot_grid(len(datasets), max_cols=2, width=8.0, height=4.5)
+    for idx, dataset in enumerate(datasets):
+        ax = axes[idx]
+        subset = topics_all[topics_all["dataset"] == dataset].copy()
+        if subset.empty:
+            ax.set_title(f"{dataset}: Topic Prevalence")
+            ax.text(0.5, 0.5, "No topics extracted", ha="center", va="center")
+            ax.axis("off")
+            continue
+        labels = [f"T{int(topic_id)}" for topic_id in subset["topic_id"]]
+        ax.bar(labels, subset["topic_prevalence"], color="#2ca02c", alpha=0.85)
+        ax.set_ylim(0, max(0.2, float(subset["topic_prevalence"].max() * 1.2)))
+        ax.set_title(f"{dataset}: Topic Prevalence")
+        ax.set_xlabel("Topic")
+        ax.set_ylabel("Avg topic probability")
+    hide_unused_axes(axes, len(datasets))
+    fig.savefig(output, dpi=200)
+    plt.close(fig)
+
+
 def write_report(
     summary_df: pd.DataFrame,
     sentiment_summary_df: pd.DataFrame,
-    before_topics: pd.DataFrame,
-    after_topics: pd.DataFrame,
-    term_comp: pd.DataFrame,
+    distinctive_df: pd.DataFrame,
+    topics_all_df: pd.DataFrame,
+    datasets: list[str],
     output_path: Path,
 ) -> None:
     def dataframe_to_markdown(df: pd.DataFrame) -> str:
@@ -471,6 +605,11 @@ def write_report(
     lines: list[str] = []
     lines.append("# Election Text Exploration Report")
     lines.append("")
+    lines.append("## Datasets Processed")
+    for dataset in datasets:
+        lines.append(f"- {dataset}")
+    lines.append("")
+
     lines.append("## Dataset Summary")
     lines.append(dataframe_to_markdown(summary_df))
     lines.append("")
@@ -482,94 +621,67 @@ def write_report(
     lines.append("")
 
     lines.append("## Top Distinctive Terms")
-    lines.append("Terms with highest positive score are more frequent in *After Election*.")
-    lines.append("Terms with highest negative score are more frequent in *Before Election*.")
+    lines.append("Distinctiveness score is each term's relative frequency in one dataset minus")
+    lines.append("the average relative frequency across other datasets.")
     lines.append("")
-    lines.append(dataframe_to_markdown(term_comp.head(10)))
-    lines.append("")
-    lines.append(dataframe_to_markdown(term_comp.tail(10)))
-    lines.append("")
+    for dataset in datasets:
+        lines.append(f"### {dataset}")
+        subset = (
+            distinctive_df[distinctive_df["dataset"] == dataset]
+            .head(10)[["term", "count", "relative_freq", "distinctiveness_score"]]
+        )
+        lines.append(dataframe_to_markdown(subset))
+        lines.append("")
 
-    lines.append("## Topics: Before Election")
-    if before_topics.empty:
-        lines.append("No topics extracted.")
-    else:
-        lines.append(dataframe_to_markdown(before_topics[["topic_id", "topic_prevalence", "top_terms"]]))
-    lines.append("")
-
-    lines.append("## Topics: After Election")
-    if after_topics.empty:
-        lines.append("No topics extracted.")
-    else:
-        lines.append(dataframe_to_markdown(after_topics[["topic_id", "topic_prevalence", "top_terms"]]))
-    lines.append("")
+    lines.append("## Topics")
+    for dataset in datasets:
+        lines.append(f"### {dataset}")
+        subset = topics_all_df[topics_all_df["dataset"] == dataset][["topic_id", "topic_prevalence", "top_terms"]]
+        if subset.empty:
+            lines.append("No topics extracted.")
+        else:
+            lines.append(dataframe_to_markdown(subset))
+        lines.append("")
 
     output_path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def resolve_input_path(path: Path) -> Path:
-    if path.is_absolute():
-        return path
-    cwd_candidate = path.resolve()
-    if cwd_candidate.exists():
-        return cwd_candidate
-    return (PROJECT_ROOT / path).resolve()
-
-
-def resolve_output_path(path: Path) -> Path:
-    if path.is_absolute():
-        return path
-    return (PROJECT_ROOT / path).resolve()
-
-
 def main() -> None:
-    parser = argparse.ArgumentParser(description="EDA + Topic modeling for Before/After election text files.")
+    parser = argparse.ArgumentParser(description="EDA + Topic modeling for election text datasets.")
     parser.add_argument(
-        "--before",
+        "--data-dir",
         type=Path,
-        default=PROJECT_ROOT / "data/Before Election  - Sheet1.csv",
-        help="Path to before-election CSV",
+        default=PROJECT_ROOT / "data",
+        help="Directory containing CSV files (used when --input-files is not provided).",
     )
     parser.add_argument(
-        "--after",
+        "--input-files",
         type=Path,
-        default=PROJECT_ROOT / "data/After Election - Sheet1.csv",
-        help="Path to after-election CSV",
+        nargs="*",
+        default=None,
+        help="Optional explicit CSV files to analyze.",
     )
-    parser.add_argument(
-        "--topics",
-        type=int,
-        default=5,
-        help="Requested number of LDA topics per dataset",
-    )
-    parser.add_argument(
-        "--top-words",
-        type=int,
-        default=10,
-        help="Number of top words per topic",
-    )
+    parser.add_argument("--topics", type=int, default=5, help="Requested number of LDA topics per dataset.")
+    parser.add_argument("--top-words", type=int, default=10, help="Number of top words per topic.")
     parser.add_argument(
         "--output-dir",
         type=Path,
         default=PROJECT_ROOT / "outputs/election_text_analysis",
-        help="Output folder for CSV/plots/report",
+        help="Output folder for CSV/plots/report.",
     )
     args = parser.parse_args()
 
-    before_path = resolve_input_path(args.before)
-    after_path = resolve_input_path(args.after)
+    data_dir = resolve_input_path(args.data_dir)
     output_dir = resolve_output_path(args.output_dir)
-
-    if not before_path.exists():
-        raise FileNotFoundError(f"Before-election file not found: {before_path}")
-    if not after_path.exists():
-        raise FileNotFoundError(f"After-election file not found: {after_path}")
-
-    print(f"Before file: {before_path}")
-    print(f"After file: {after_path}")
-    print(f"Output dir: {output_dir}")
-
     output_dir.mkdir(parents=True, exist_ok=True)
+    cleanup_legacy_outputs(output_dir)
+
+    dataset_files = discover_dataset_files(data_dir=data_dir, input_files=args.input_files)
+    datasets = list(dataset_files.keys())
+    print("Datasets:")
+    for dataset, path in dataset_files.items():
+        print(f"  - {dataset}: {path}")
+    print(f"Output dir: {output_dir}")
 
     font_name = configure_font()
     print(f"Using font: {font_name}")
@@ -577,12 +689,13 @@ def main() -> None:
     if font_path:
         print(f"Wordcloud font path: {font_path}")
 
-    data_df = build_dataframe(before_path, after_path)
+    data_df = build_dataframe(dataset_files)
     data_df = add_sentiment_features(data_df)
     data_df.to_csv(output_dir / "cleaned_documents.csv", index=False, encoding="utf-8")
 
     summary_df = compute_summary(data_df)
     summary_df.to_csv(output_dir / "summary_stats.csv", index=False, encoding="utf-8")
+
     sentiment_summary_df = build_sentiment_summary(data_df)
     sentiment_summary_df.to_csv(output_dir / "sentiment_summary.csv", index=False, encoding="utf-8")
 
@@ -599,56 +712,63 @@ def main() -> None:
         ]
     ].to_csv(output_dir / "document_sentiment.csv", index=False, encoding="utf-8")
 
-    before_terms = build_top_terms(data_df, "Before Election", top_n=40)
-    after_terms = build_top_terms(data_df, "After Election", top_n=40)
-    before_terms.to_csv(output_dir / "top_terms_before.csv", index=False, encoding="utf-8")
-    after_terms.to_csv(output_dir / "top_terms_after.csv", index=False, encoding="utf-8")
+    top_terms_all_df = build_top_terms_all(data_df, datasets, top_n=40)
+    top_terms_all_df.to_csv(output_dir / "top_terms_all.csv", index=False, encoding="utf-8")
+    for dataset in datasets:
+        slug = slugify(dataset)
+        top_terms_dataset = top_terms_all_df[top_terms_all_df["dataset"] == dataset]
+        top_terms_dataset.to_csv(output_dir / f"top_terms_{slug}.csv", index=False, encoding="utf-8")
 
-    term_comp = build_term_comparison(data_df)
-    term_comp.to_csv(output_dir / "term_comparison_full.csv", index=False, encoding="utf-8")
+    distinctive_df = build_distinctive_terms(data_df, datasets)
+    distinctive_df.to_csv(output_dir / "term_comparison_full.csv", index=False, encoding="utf-8")
 
-    before_topics, before_doc_topics = run_lda_for_dataset(
-        data_df,
-        dataset="Before Election",
-        requested_topics=args.topics,
-        top_words=args.top_words,
-    )
-    after_topics, after_doc_topics = run_lda_for_dataset(
-        data_df,
-        dataset="After Election",
-        requested_topics=args.topics,
-        top_words=args.top_words,
-    )
-    before_topics.to_csv(output_dir / "topics_before.csv", index=False, encoding="utf-8")
-    after_topics.to_csv(output_dir / "topics_after.csv", index=False, encoding="utf-8")
-    before_doc_topics.to_csv(output_dir / "document_topics_before.csv", index=False, encoding="utf-8")
-    after_doc_topics.to_csv(output_dir / "document_topics_after.csv", index=False, encoding="utf-8")
+    topics_frames: list[pd.DataFrame] = []
+    doc_topic_frames: list[pd.DataFrame] = []
+    for dataset in datasets:
+        topics_df, doc_topics_df = run_lda_for_dataset(
+            data_df,
+            dataset=dataset,
+            requested_topics=args.topics,
+            top_words=args.top_words,
+        )
+        slug = slugify(dataset)
+        topics_df.to_csv(output_dir / f"topics_{slug}.csv", index=False, encoding="utf-8")
+        doc_topics_df.to_csv(output_dir / f"document_topics_{slug}.csv", index=False, encoding="utf-8")
+        if not topics_df.empty:
+            topics_frames.append(topics_df)
+        if not doc_topics_df.empty:
+            doc_topic_frames.append(doc_topics_df)
 
-    plot_top_terms(before_terms, after_terms, output_dir / "plot_top_terms.png")
-    plot_wordclouds(data_df, output_dir / "plot_wordcloud.png", font_path=font_path)
+    topics_all_df = pd.concat(topics_frames, ignore_index=True) if topics_frames else pd.DataFrame()
+    doc_topics_all_df = pd.concat(doc_topic_frames, ignore_index=True) if doc_topic_frames else pd.DataFrame()
+    topics_all_df.to_csv(output_dir / "topics_all.csv", index=False, encoding="utf-8")
+    doc_topics_all_df.to_csv(output_dir / "document_topics_all.csv", index=False, encoding="utf-8")
+
+    plot_top_terms_all(top_terms_all_df, datasets, output_dir / "plot_top_terms.png")
+    plot_wordclouds_all(data_df, datasets, output_dir / "plot_wordcloud.png", font_path=font_path)
     plot_sentiment_distribution(sentiment_summary_df, output_dir / "plot_sentiment_distribution.png")
-    plot_length_distribution(data_df, output_dir / "plot_length_distribution.png")
-    plot_distinctive_terms(term_comp, output_dir / "plot_distinctive_terms.png")
-    plot_topic_prevalence(before_topics, after_topics, output_dir / "plot_topic_prevalence.png")
+    plot_length_distribution_all(data_df, datasets, output_dir / "plot_length_distribution.png")
+    plot_distinctive_terms_all(distinctive_df, datasets, output_dir / "plot_distinctive_terms.png")
+    plot_topic_prevalence_all(topics_all_df, datasets, output_dir / "plot_topic_prevalence.png")
 
     write_report(
         summary_df=summary_df,
         sentiment_summary_df=sentiment_summary_df,
-        before_topics=before_topics,
-        after_topics=after_topics,
-        term_comp=term_comp,
+        distinctive_df=distinctive_df,
+        topics_all_df=topics_all_df,
+        datasets=datasets,
         output_path=output_dir / "report.md",
     )
 
     print(f"Saved outputs to: {output_dir}")
     print("Key files:")
     print(f"  - {output_dir / 'report.md'}")
-    print(f"  - {output_dir / 'topics_before.csv'}")
-    print(f"  - {output_dir / 'topics_after.csv'}")
+    print(f"  - {output_dir / 'summary_stats.csv'}")
+    print(f"  - {output_dir / 'sentiment_summary.csv'}")
+    print(f"  - {output_dir / 'topics_all.csv'}")
     print(f"  - {output_dir / 'plot_top_terms.png'}")
     print(f"  - {output_dir / 'plot_wordcloud.png'}")
     print(f"  - {output_dir / 'plot_sentiment_distribution.png'}")
-    print(f"  - {output_dir / 'plot_topic_prevalence.png'}")
 
 
 if __name__ == "__main__":
