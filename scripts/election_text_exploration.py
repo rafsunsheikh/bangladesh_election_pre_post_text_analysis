@@ -29,6 +29,18 @@ BANGLA_STOPWORDS = {
     "হচ্ছে", "এর", "কে", "এক", "হয়ে", "গুলো", "গেছে", "কথা", "রে", "করেছে", "দিন", "হইছে", "এদের",
 }
 
+BANGLA_POSITIVE_WORDS = {
+    "ভালো", "ভাল", "সেরা", "সফল", "শান্তি", "জয়", "জয়", "সমর্থন", "অভিনন্দন", "ধন্যবাদ",
+    "উন্নতি", "উন্নয়ন", "উন্নয়ন", "নিরাপদ", "খুশি", "আশা", "পজিটিভ", "দারুণ", "চমৎকার",
+    "শক্তিশালী", "ঠিক", "ইতিবাচক", "সমাধান",
+}
+
+BANGLA_NEGATIVE_WORDS = {
+    "খারাপ", "মন্দ", "দুর্নীতি", "চোর", "বেইমান", "বেইমানি", "দালাল", "ভণ্ড", "ব্যর্থ", "অন্যায়",
+    "অন্যায়", "সমস্যা", "গাদ্দার", "প্রতারণা", "ঘৃণা", "ভয়", "ভয়", "অপমান", "হত্যা", "গুম",
+    "চাঁদাবাজ", "চাঁদাবাজি", "চান্দাবাজ", "সহিংসতা", "বিচারহীনতা", "নাটক", "পতন", "ধ্বংস",
+}
+
 URL_RE = re.compile(r"https?://\S+|www\.\S+", re.IGNORECASE)
 NON_TEXT_RE = re.compile(r"[^0-9a-zA-Z\u0980-\u09FF\s]")
 DIGIT_RE = re.compile(r"[0-9০-৯]+")
@@ -119,6 +131,47 @@ def build_dataframe(before_file: Path, after_file: Path) -> pd.DataFrame:
                 }
             )
     return pd.DataFrame(records)
+
+
+def score_sentiment(tokens: list[str]) -> tuple[int, int, float, str]:
+    if not tokens:
+        return 0, 0, 0.0, "neutral"
+
+    pos_hits = sum(1 for token in tokens if token in BANGLA_POSITIVE_WORDS)
+    neg_hits = sum(1 for token in tokens if token in BANGLA_NEGATIVE_WORDS)
+    score = (pos_hits - neg_hits) / max(1, len(tokens))
+
+    if pos_hits > neg_hits and score > 0:
+        label = "positive"
+    elif neg_hits > pos_hits and score < 0:
+        label = "negative"
+    else:
+        label = "neutral"
+    return pos_hits, neg_hits, score, label
+
+
+def add_sentiment_features(df: pd.DataFrame) -> pd.DataFrame:
+    sentiment_rows = df["tokens"].apply(score_sentiment)
+    sentiment_df = pd.DataFrame(
+        sentiment_rows.tolist(),
+        columns=["positive_hits", "negative_hits", "sentiment_score", "sentiment_label"],
+        index=df.index,
+    )
+    return pd.concat([df, sentiment_df], axis=1)
+
+
+def build_sentiment_summary(df: pd.DataFrame) -> pd.DataFrame:
+    summary = (
+        df.groupby(["dataset", "sentiment_label"], as_index=False)
+        .size()
+        .rename(columns={"size": "count"})
+    )
+    total_per_dataset = summary.groupby("dataset")["count"].transform("sum")
+    summary["percentage"] = summary["count"] / total_per_dataset
+    label_order = {"negative": 0, "neutral": 1, "positive": 2}
+    summary["label_order"] = summary["sentiment_label"].map(label_order).fillna(99)
+    summary = summary.sort_values(["dataset", "label_order"]).drop(columns=["label_order"])
+    return summary
 
 
 def compute_summary(df: pd.DataFrame) -> pd.DataFrame:
@@ -370,8 +423,34 @@ def plot_wordclouds(df: pd.DataFrame, output: Path, font_path: str | None = None
     plt.close(fig)
 
 
+def plot_sentiment_distribution(sentiment_summary: pd.DataFrame, output: Path) -> None:
+    pivot = (
+        sentiment_summary.pivot(index="dataset", columns="sentiment_label", values="count")
+        .fillna(0)
+        .reindex(columns=["negative", "neutral", "positive"], fill_value=0)
+    )
+    colors = {"negative": "#d62728", "neutral": "#7f7f7f", "positive": "#2ca02c"}
+
+    fig, ax = plt.subplots(figsize=(10, 6), constrained_layout=True)
+    bottom = None
+    for label in ["negative", "neutral", "positive"]:
+        vals = pivot[label].values
+        ax.bar(pivot.index, vals, bottom=bottom, color=colors[label], label=label.title(), alpha=0.9)
+        if bottom is None:
+            bottom = vals
+        else:
+            bottom = bottom + vals
+
+    ax.set_title("Sentiment Distribution by Dataset")
+    ax.set_ylabel("Number of Comments")
+    ax.legend(loc="upper right")
+    fig.savefig(output, dpi=200)
+    plt.close(fig)
+
+
 def write_report(
     summary_df: pd.DataFrame,
+    sentiment_summary_df: pd.DataFrame,
     before_topics: pd.DataFrame,
     after_topics: pd.DataFrame,
     term_comp: pd.DataFrame,
@@ -394,6 +473,12 @@ def write_report(
     lines.append("")
     lines.append("## Dataset Summary")
     lines.append(dataframe_to_markdown(summary_df))
+    lines.append("")
+
+    lines.append("## Sentiment Summary")
+    lines.append("Lexicon-based sentiment over cleaned tokens (`positive`, `neutral`, `negative`).")
+    lines.append("")
+    lines.append(dataframe_to_markdown(sentiment_summary_df))
     lines.append("")
 
     lines.append("## Top Distinctive Terms")
@@ -493,10 +578,26 @@ def main() -> None:
         print(f"Wordcloud font path: {font_path}")
 
     data_df = build_dataframe(before_path, after_path)
+    data_df = add_sentiment_features(data_df)
     data_df.to_csv(output_dir / "cleaned_documents.csv", index=False, encoding="utf-8")
 
     summary_df = compute_summary(data_df)
     summary_df.to_csv(output_dir / "summary_stats.csv", index=False, encoding="utf-8")
+    sentiment_summary_df = build_sentiment_summary(data_df)
+    sentiment_summary_df.to_csv(output_dir / "sentiment_summary.csv", index=False, encoding="utf-8")
+
+    data_df[
+        [
+            "dataset",
+            "doc_id",
+            "raw_text",
+            "clean_text",
+            "sentiment_label",
+            "sentiment_score",
+            "positive_hits",
+            "negative_hits",
+        ]
+    ].to_csv(output_dir / "document_sentiment.csv", index=False, encoding="utf-8")
 
     before_terms = build_top_terms(data_df, "Before Election", top_n=40)
     after_terms = build_top_terms(data_df, "After Election", top_n=40)
@@ -525,12 +626,14 @@ def main() -> None:
 
     plot_top_terms(before_terms, after_terms, output_dir / "plot_top_terms.png")
     plot_wordclouds(data_df, output_dir / "plot_wordcloud.png", font_path=font_path)
+    plot_sentiment_distribution(sentiment_summary_df, output_dir / "plot_sentiment_distribution.png")
     plot_length_distribution(data_df, output_dir / "plot_length_distribution.png")
     plot_distinctive_terms(term_comp, output_dir / "plot_distinctive_terms.png")
     plot_topic_prevalence(before_topics, after_topics, output_dir / "plot_topic_prevalence.png")
 
     write_report(
         summary_df=summary_df,
+        sentiment_summary_df=sentiment_summary_df,
         before_topics=before_topics,
         after_topics=after_topics,
         term_comp=term_comp,
@@ -544,6 +647,7 @@ def main() -> None:
     print(f"  - {output_dir / 'topics_after.csv'}")
     print(f"  - {output_dir / 'plot_top_terms.png'}")
     print(f"  - {output_dir / 'plot_wordcloud.png'}")
+    print(f"  - {output_dir / 'plot_sentiment_distribution.png'}")
     print(f"  - {output_dir / 'plot_topic_prevalence.png'}")
 
 
