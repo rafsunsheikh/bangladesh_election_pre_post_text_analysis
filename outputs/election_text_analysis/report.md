@@ -6,6 +6,18 @@
 | After Election | 257 | 203 | 54 | 54 | 36.94163424124513 | 32.0 | 5.097276264591439 | 4.0 |
 | Before Election | 250 | 244 | 6 | 6 | 42.34 | 37.5 | 5.996 | 6.0 |
 
+## Sentiment Summary
+Lexicon-based sentiment over cleaned tokens (`positive`, `neutral`, `negative`).
+
+| dataset | sentiment_label | count | percentage |
+| --- | --- | --- | --- |
+| After Election | negative | 19 | 0.07392996108949416 |
+| After Election | neutral | 226 | 0.8793774319066148 |
+| After Election | positive | 12 | 0.04669260700389105 |
+| Before Election | negative | 16 | 0.064 |
+| Before Election | neutral | 223 | 0.892 |
+| Before Election | positive | 11 | 0.044 |
+
 ## Top Distinctive Terms
 Terms with highest positive score are more frequent in *After Election*.
 Terms with highest negative score are more frequent in *Before Election*.
@@ -16,11 +28,11 @@ Terms with highest negative score are more frequent in *Before Election*.
 | দল | 3 | 11 | 0.0020013342228152103 | 0.008396946564885497 | 0.006395612342070286 |
 | পাশ | 0 | 7 | 0.0 | 0.0053435114503816794 | 0.0053435114503816794 |
 | আম | 0 | 6 | 0.0 | 0.004580152671755725 | 0.004580152671755725 |
-| ভারতের | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
-| প্রধানমন্ত্রী | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | ইন্টার | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | ইন্জিনিয়ারিং | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | প্রথম | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
+| প্রধানমন্ত্রী | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
+| ভারতের | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | ভালো | 4 | 8 | 0.00266844563042028 | 0.0061068702290076335 | 0.0034384245985873535 |
 
 | term | before_count | after_count | before_relative_freq | after_relative_freq | after_minus_before |

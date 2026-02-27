@@ -12,15 +12,18 @@ This README reflects the latest run of `scripts/election_text_exploration.py`.
 
 | File | Type | Size (bytes) | Notes |
 | --- | --- | ---: | --- |
-| [`cleaned_documents.csv`](outputs/election_text_analysis/cleaned_documents.csv) | CSV | 225686 | Cleaned document-level dataset with tokens and length features |
+| [`cleaned_documents.csv`](outputs/election_text_analysis/cleaned_documents.csv) | CSV | 234502 | Cleaned document-level dataset with tokens, lengths, and sentiment metadata |
+| [`document_sentiment.csv`](outputs/election_text_analysis/document_sentiment.csv) | CSV | 126165 | Document-level sentiment labels/scores |
 | [`document_topics_after.csv`](outputs/election_text_analysis/document_topics_after.csv) | CSV | 58422 | Dominant topic assignment per After-Election document |
 | [`document_topics_before.csv`](outputs/election_text_analysis/document_topics_before.csv) | CSV | 66417 | Dominant topic assignment per Before-Election document |
-| [`plot_distinctive_terms.png`](outputs/election_text_analysis/plot_distinctive_terms.png) | PNG | 84999 | Most distinctive terms (After vs Before) |
+| [`plot_distinctive_terms.png`](outputs/election_text_analysis/plot_distinctive_terms.png) | PNG | 85007 | Most distinctive terms (After vs Before) |
 | [`plot_length_distribution.png`](outputs/election_text_analysis/plot_length_distribution.png) | PNG | 62763 | Character length distributions |
+| [`plot_sentiment_distribution.png`](outputs/election_text_analysis/plot_sentiment_distribution.png) | PNG | 48337 | Sentiment class distribution by dataset |
 | [`plot_top_terms.png`](outputs/election_text_analysis/plot_top_terms.png) | PNG | 96265 | Top-frequency term bar charts |
-| [`plot_wordcloud.png`](outputs/election_text_analysis/plot_wordcloud.png) | PNG | 1667489 | Side-by-side wordcloud for Before vs After corpora |
 | [`plot_topic_prevalence.png`](outputs/election_text_analysis/plot_topic_prevalence.png) | PNG | 64314 | Topic prevalence by dataset |
-| [`report.md`](outputs/election_text_analysis/report.md) | Markdown | 4808 | Generated analysis report |
+| [`plot_wordcloud.png`](outputs/election_text_analysis/plot_wordcloud.png) | PNG | 1725171 | Side-by-side wordcloud for Before vs After corpora |
+| [`report.md`](outputs/election_text_analysis/report.md) | Markdown | 5291 | Generated analysis report |
+| [`sentiment_summary.csv`](outputs/election_text_analysis/sentiment_summary.csv) | CSV | 283 | Dataset-level sentiment counts and percentages |
 | [`summary_stats.csv`](outputs/election_text_analysis/summary_stats.csv) | CSV | 262 | Dataset-level summary statistics |
 | [`term_comparison_full.csv`](outputs/election_text_analysis/term_comparison_full.csv) | CSV | 115619 | Full term comparison with relative frequencies |
 | [`top_terms_after.csv`](outputs/election_text_analysis/top_terms_after.csv) | CSV | 2211 | Top terms in After-Election corpus |
@@ -38,6 +41,19 @@ This README reflects the latest run of `scripts/election_text_exploration.py`.
 | Before Election | 250 | 244 | 6 | 6 | 42.34 | 37.5 | 5.996 | 6.0 |
 
 ![Length distribution](outputs/election_text_analysis/plot_length_distribution.png)
+
+### Sentiment Summary
+
+| dataset | sentiment_label | count | percentage |
+| --- | --- | --- | --- |
+| After Election | negative | 19 | 0.07392996108949416 |
+| After Election | neutral | 226 | 0.8793774319066148 |
+| After Election | positive | 12 | 0.04669260700389105 |
+| Before Election | negative | 16 | 0.064 |
+| Before Election | neutral | 223 | 0.892 |
+| Before Election | positive | 11 | 0.044 |
+
+![Sentiment distribution](outputs/election_text_analysis/plot_sentiment_distribution.png)
 
 ### Top Terms by Dataset
 
@@ -58,11 +74,11 @@ Terms with highest negative score are more frequent in `Before Election`.
 | দল | 3 | 11 | 0.0020013342228152103 | 0.008396946564885497 | 0.006395612342070286 |
 | পাশ | 0 | 7 | 0.0 | 0.0053435114503816794 | 0.0053435114503816794 |
 | আম | 0 | 6 | 0.0 | 0.004580152671755725 | 0.004580152671755725 |
-| ভারতের | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
-| প্রধানমন্ত্রী | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | ইন্টার | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | ইন্জিনিয়ারিং | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | প্রথম | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
+| প্রধানমন্ত্রী | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
+| ভারতের | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | ভালো | 4 | 8 | 0.00266844563042028 | 0.0061068702290076335 | 0.0034384245985873535 |
 
 | term | before_count | after_count | before_relative_freq | after_relative_freq | after_minus_before |
@@ -115,6 +131,20 @@ All CSV outputs are shown below as Markdown tables. Large files are shown as pre
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | After Election | 257 | 203 | 54 | 54 | 36.94163424124513 | 32.0 | 5.097276264591439 | 4.0 |
 | Before Election | 250 | 244 | 6 | 6 | 42.34 | 37.5 | 5.996 | 6.0 |
+
+### `sentiment_summary.csv`
+
+- Full file: [`sentiment_summary.csv`](outputs/election_text_analysis/sentiment_summary.csv)
+- Row count: `6`
+
+| dataset | sentiment_label | count | percentage |
+| --- | --- | --- | --- |
+| After Election | negative | 19 | 0.07392996108949416 |
+| After Election | neutral | 226 | 0.8793774319066148 |
+| After Election | positive | 12 | 0.04669260700389105 |
+| Before Election | negative | 16 | 0.064 |
+| Before Election | neutral | 223 | 0.892 |
+| Before Election | positive | 11 | 0.044 |
 
 ### `topics_before.csv`
 
@@ -238,6 +268,36 @@ All CSV outputs are shown below as Markdown tables. Large files are shown as pre
 | After Election | ক্ষমতায় | 3 | 0.0022900763358778627 |
 | After Election | নাই | 3 | 0.0022900763358778627 |
 
+### `document_sentiment.csv`
+
+- Full file: [`document_sentiment.csv`](outputs/election_text_analysis/document_sentiment.csv)
+- Row count: `507`
+
+Showing first `20` rows:
+
+| dataset | doc_id | raw_text | clean_text | sentiment_label | sentiment_score | positive_hits | negative_hits |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Before Election | 0 | ধানের শীষে ভোট দিবো মিলেমিশে চান্দা তুলবো | ধানের শীষে ভোট দিবো মিলেমিশে চান্দা তুলবো | neutral | 0.0 | 0 | 0 |
+| Before Election | 1 | সবাই মিলে করবো কাজ, নেতা মোদের HSC পাস | সবাই মিলে করবো কাজ নেতা মোদের hsc পাস | neutral | 0.0 | 0 | 0 |
+| Before Election | 2 | ফ্যামিলি কার্ড সাথে আছে পরকাল, শুনে হাসি পাইলো | ফ্যামিলি কার্ড সাথে আছে পরকাল শুনে হাসি পাইলো | neutral | 0.0 | 0 | 0 |
+| Before Election | 3 | দেখ খাম্বার মুরিদেরা জান্নাতের টিকেট কে দেয় | দেখ খাম্বার মুরিদেরা জান্নাতের টিকেট কে দেয় | neutral | 0.0 | 0 | 0 |
+| Before Election | 4 | বিম্পি দেখি মাগনা টিকেট দিতেছে! | বিম্পি দেখি মাগনা টিকেট দিতেছে | neutral | 0.0 | 0 | 0 |
+| Before Election | 5 | এখন কি বিএনপিও জান্নাতের টিকেট বিক্রি করছে? এটা নিয়ে বিএনপির ৯ জনকে দেখলাম বিক্রি করতে | এখন কি বিএনপিও জান্নাতের টিকেট বিক্রি করছে এটা নিয়ে বিএনপির জনকে দেখলাম বিক্রি করতে | neutral | 0.0 | 0 | 0 |
+| Before Election | 6 | খাম্বা তারেক জানেন নাকি | খাম্বা তারেক জানেন নাকি | neutral | 0.0 | 0 | 0 |
+| Before Election | 7 | বিএনপির ছাপড়ি গুলো কি টিকেট পাইছে | বিএনপির ছাপড়ি গুলো কি টিকেট পাইছে | neutral | 0.0 | 0 | 0 |
+| Before Election | 8 | বিএনপি ভাইয়েরা ভালো করে দেখেন কারা জান্নাতের টিকিট দিচ্ছে | বিএনপি ভাইয়েরা ভালো করে দেখেন কারা জান্নাতের টিকিট দিচ্ছে | positive | 0.125 | 1 | 0 |
+| Before Election | 9 | গাঞ্জা ইফেক্ট | গাঞ্জা ইফেক্ট | neutral | 0.0 | 0 | 0 |
+| Before Election | 10 | এই বি এন পির নেতা গুলোকে স্কিপ্ট লিখে দেয় কে | এই বি এন পির নেতা গুলোকে স্কিপ্ট লিখে দেয় কে | neutral | 0.0 | 0 | 0 |
+| Before Election | 11 | ওরে বাটপার | ওরে বাটপার | neutral | 0.0 | 0 | 0 |
+| Before Election | 12 | বিএনপি মানেই বিনোদন! | বিএনপি মানেই বিনোদন | neutral | 0.0 | 0 | 0 |
+| Before Election | 13 | ধানের শীষে ভোট দিলেই জান্নাত কনফার্ম | ধানের শীষে ভোট দিলেই জান্নাত কনফার্ম | neutral | 0.0 | 0 | 0 |
+| Before Election | 14 | বিএনপি বললে সবকিছুই জায়েজ | বিএনপি বললে সবকিছুই জায়েজ | neutral | 0.0 | 0 | 0 |
+| Before Election | 15 | Ai দিয়ে বিডিউ বানিয়ে পরে বিএনপির নামে চালিয়ে দেওয়া , এইটা ঠিকনা | ai দিয়ে বিডিউ বানিয়ে পরে বিএনপির নামে চালিয়ে দেওয়া এইটা ঠিকনা | neutral | 0.0 | 0 | 0 |
+| Before Election | 16 | চাঁদাবাজের বাংলার জমিনে ঠাই নাই | চাঁদাবাজের বাংলার জমিনে ঠাই নাই | neutral | 0.0 | 0 | 0 |
+| Before Election | 17 | নাটকের নামটা যদি হয়, নির্বাচনের আগে, তাহলে কেমন হয় | নাটকের নামটা যদি হয় নির্বাচনের আগে তাহলে কেমন হয় | neutral | 0.0 | 0 | 0 |
+| Before Election | 18 | Zarek Tia r chagol abid egla dekhena | zarek tia r chagol abid egla dekhena | neutral | 0.0 | 0 | 0 |
+| Before Election | 19 | বিম্পির কাছেও জান্নাতের টিকিট আছে | বিম্পির কাছেও জান্নাতের টিকিট আছে | neutral | 0.0 | 0 | 0 |
+
 ### `document_topics_before.csv`
 
 - Full file: [`document_topics_before.csv`](outputs/election_text_analysis/document_topics_before.csv)
@@ -305,28 +365,28 @@ Showing first `20` rows:
 
 Showing first `20` rows:
 
-| dataset | doc_id | raw_text | clean_text | tokens | token_text | char_len | token_len | is_empty_raw | is_empty_tokenized |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Before Election | 0 | ধানের শীষে ভোট দিবো মিলেমিশে চান্দা তুলবো | ধানের শীষে ভোট দিবো মিলেমিশে চান্দা তুলবো | ['ধানের', 'শীষে', 'ভোট', 'দিবো', 'মিলেমিশে', 'চান্দা', 'তুলবো'] | ধানের শীষে ভোট দিবো মিলেমিশে চান্দা তুলবো | 41 | 7 | 0 | 0 |
-| Before Election | 1 | সবাই মিলে করবো কাজ, নেতা মোদের HSC পাস | সবাই মিলে করবো কাজ নেতা মোদের hsc পাস | ['সবাই', 'মিলে', 'করবো', 'কাজ', 'নেতা', 'মোদের', 'hsc', 'পাস'] | সবাই মিলে করবো কাজ নেতা মোদের hsc পাস | 38 | 8 | 0 | 0 |
-| Before Election | 2 | ফ্যামিলি কার্ড সাথে আছে পরকাল, শুনে হাসি পাইলো | ফ্যামিলি কার্ড সাথে আছে পরকাল শুনে হাসি পাইলো | ['ফ্যামিলি', 'কার্ড', 'পরকাল', 'শুনে', 'হাসি', 'পাইলো'] | ফ্যামিলি কার্ড পরকাল শুনে হাসি পাইলো | 46 | 6 | 0 | 0 |
-| Before Election | 3 | দেখ খাম্বার মুরিদেরা জান্নাতের টিকেট কে দেয় | দেখ খাম্বার মুরিদেরা জান্নাতের টিকেট কে দেয় | ['দেখ', 'খাম্বার', 'মুরিদেরা', 'জান্নাতের', 'টিকেট', 'দেয়'] | দেখ খাম্বার মুরিদেরা জান্নাতের টিকেট দেয় | 44 | 6 | 0 | 0 |
-| Before Election | 4 | বিম্পি দেখি মাগনা টিকেট দিতেছে! | বিম্পি দেখি মাগনা টিকেট দিতেছে | ['বিম্পি', 'দেখি', 'মাগনা', 'টিকেট', 'দিতেছে'] | বিম্পি দেখি মাগনা টিকেট দিতেছে | 31 | 5 | 0 | 0 |
-| Before Election | 5 | এখন কি বিএনপিও জান্নাতের টিকেট বিক্রি করছে? এটা নিয়ে বিএনপির ৯ জনকে দেখলাম বিক্রি করতে | এখন কি বিএনপিও জান্নাতের টিকেট বিক্রি করছে এটা নিয়ে বিএনপির জনকে দেখলাম বিক্রি করতে | ['বিএনপিও', 'জান্নাতের', 'টিকেট', 'বিক্রি', 'নিয়ে', 'বিএনপির', 'জনকে', 'দেখলাম', 'বিক্রি', 'করতে'] | বিএনপিও জান্নাতের টিকেট বিক্রি নিয়ে বিএনপির জনকে দেখলাম বিক্রি করতে | 86 | 10 | 0 | 0 |
-| Before Election | 6 | খাম্বা তারেক জানেন নাকি | খাম্বা তারেক জানেন নাকি | ['খাম্বা', 'তারেক', 'জানেন', 'নাকি'] | খাম্বা তারেক জানেন নাকি | 23 | 4 | 0 | 0 |
-| Before Election | 7 | বিএনপির ছাপড়ি গুলো কি টিকেট পাইছে | বিএনপির ছাপড়ি গুলো কি টিকেট পাইছে | ['বিএনপির', 'ছাপড়ি', 'টিকেট', 'পাইছে'] | বিএনপির ছাপড়ি টিকেট পাইছে | 33 | 4 | 0 | 0 |
-| Before Election | 8 | বিএনপি ভাইয়েরা ভালো করে দেখেন কারা জান্নাতের টিকিট দিচ্ছে | বিএনপি ভাইয়েরা ভালো করে দেখেন কারা জান্নাতের টিকিট দিচ্ছে | ['বিএনপি', 'ভাইয়েরা', 'ভালো', 'দেখেন', 'কারা', 'জান্নাতের', 'টিকিট', 'দিচ্ছে'] | বিএনপি ভাইয়েরা ভালো দেখেন কারা জান্নাতের টিকিট দিচ্ছে | 57 | 8 | 0 | 0 |
-| Before Election | 9 | গাঞ্জা ইফেক্ট | গাঞ্জা ইফেক্ট | ['গাঞ্জা', 'ইফেক্ট'] | গাঞ্জা ইফেক্ট | 13 | 2 | 0 | 0 |
-| Before Election | 10 | এই বি এন পির নেতা গুলোকে স্কিপ্ট লিখে দেয় কে | এই বি এন পির নেতা গুলোকে স্কিপ্ট লিখে দেয় কে | ['বি', 'এন', 'পির', 'নেতা', 'গুলোকে', 'স্কিপ্ট', 'লিখে', 'দেয়'] | বি এন পির নেতা গুলোকে স্কিপ্ট লিখে দেয় | 44 | 8 | 0 | 0 |
-| Before Election | 11 | ওরে বাটপার | ওরে বাটপার | ['ওরে', 'বাটপার'] | ওরে বাটপার | 10 | 2 | 0 | 0 |
-| Before Election | 12 | বিএনপি মানেই বিনোদন! | বিএনপি মানেই বিনোদন | ['বিএনপি', 'মানেই', 'বিনোদন'] | বিএনপি মানেই বিনোদন | 20 | 3 | 0 | 0 |
-| Before Election | 13 | ধানের শীষে ভোট দিলেই জান্নাত কনফার্ম | ধানের শীষে ভোট দিলেই জান্নাত কনফার্ম | ['ধানের', 'শীষে', 'ভোট', 'দিলেই', 'জান্নাত', 'কনফার্ম'] | ধানের শীষে ভোট দিলেই জান্নাত কনফার্ম | 36 | 6 | 0 | 0 |
-| Before Election | 14 | বিএনপি বললে সবকিছুই জায়েজ | বিএনপি বললে সবকিছুই জায়েজ | ['বিএনপি', 'বললে', 'সবকিছুই', 'জায়েজ'] | বিএনপি বললে সবকিছুই জায়েজ | 26 | 4 | 0 | 0 |
-| Before Election | 15 | Ai দিয়ে বিডিউ বানিয়ে পরে বিএনপির নামে চালিয়ে দেওয়া , এইটা ঠিকনা | ai দিয়ে বিডিউ বানিয়ে পরে বিএনপির নামে চালিয়ে দেওয়া এইটা ঠিকনা | ['ai', 'বিডিউ', 'বানিয়ে', 'বিএনপির', 'নামে', 'চালিয়ে', 'দেওয়া', 'ঠিকনা'] | ai বিডিউ বানিয়ে বিএনপির নামে চালিয়ে দেওয়া ঠিকনা | 64 | 8 | 0 | 0 |
-| Before Election | 16 | চাঁদাবাজের বাংলার জমিনে ঠাই নাই | চাঁদাবাজের বাংলার জমিনে ঠাই নাই | ['চাঁদাবাজের', 'বাংলার', 'জমিনে', 'ঠাই', 'নাই'] | চাঁদাবাজের বাংলার জমিনে ঠাই নাই | 31 | 5 | 0 | 0 |
-| Before Election | 17 | নাটকের নামটা যদি হয়, নির্বাচনের আগে, তাহলে কেমন হয় | নাটকের নামটা যদি হয় নির্বাচনের আগে তাহলে কেমন হয় | ['নাটকের', 'নামটা', 'নির্বাচনের', 'তাহলে'] | নাটকের নামটা নির্বাচনের তাহলে | 52 | 4 | 0 | 0 |
-| Before Election | 18 | Zarek Tia r chagol abid egla dekhena | zarek tia r chagol abid egla dekhena | ['zarek', 'tia', 'chagol', 'abid', 'egla', 'dekhena'] | zarek tia chagol abid egla dekhena | 36 | 6 | 0 | 0 |
-| Before Election | 19 | বিম্পির কাছেও জান্নাতের টিকিট আছে | বিম্পির কাছেও জান্নাতের টিকিট আছে | ['বিম্পির', 'কাছেও', 'জান্নাতের', 'টিকিট'] | বিম্পির কাছেও জান্নাতের টিকিট | 33 | 4 | 0 | 0 |
+| dataset | doc_id | raw_text | clean_text | tokens | token_text | char_len | token_len | is_empty_raw | is_empty_tokenized | positive_hits | negative_hits | sentiment_score | sentiment_label |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Before Election | 0 | ধানের শীষে ভোট দিবো মিলেমিশে চান্দা তুলবো | ধানের শীষে ভোট দিবো মিলেমিশে চান্দা তুলবো | ['ধানের', 'শীষে', 'ভোট', 'দিবো', 'মিলেমিশে', 'চান্দা', 'তুলবো'] | ধানের শীষে ভোট দিবো মিলেমিশে চান্দা তুলবো | 41 | 7 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 1 | সবাই মিলে করবো কাজ, নেতা মোদের HSC পাস | সবাই মিলে করবো কাজ নেতা মোদের hsc পাস | ['সবাই', 'মিলে', 'করবো', 'কাজ', 'নেতা', 'মোদের', 'hsc', 'পাস'] | সবাই মিলে করবো কাজ নেতা মোদের hsc পাস | 38 | 8 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 2 | ফ্যামিলি কার্ড সাথে আছে পরকাল, শুনে হাসি পাইলো | ফ্যামিলি কার্ড সাথে আছে পরকাল শুনে হাসি পাইলো | ['ফ্যামিলি', 'কার্ড', 'পরকাল', 'শুনে', 'হাসি', 'পাইলো'] | ফ্যামিলি কার্ড পরকাল শুনে হাসি পাইলো | 46 | 6 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 3 | দেখ খাম্বার মুরিদেরা জান্নাতের টিকেট কে দেয় | দেখ খাম্বার মুরিদেরা জান্নাতের টিকেট কে দেয় | ['দেখ', 'খাম্বার', 'মুরিদেরা', 'জান্নাতের', 'টিকেট', 'দেয়'] | দেখ খাম্বার মুরিদেরা জান্নাতের টিকেট দেয় | 44 | 6 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 4 | বিম্পি দেখি মাগনা টিকেট দিতেছে! | বিম্পি দেখি মাগনা টিকেট দিতেছে | ['বিম্পি', 'দেখি', 'মাগনা', 'টিকেট', 'দিতেছে'] | বিম্পি দেখি মাগনা টিকেট দিতেছে | 31 | 5 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 5 | এখন কি বিএনপিও জান্নাতের টিকেট বিক্রি করছে? এটা নিয়ে বিএনপির ৯ জনকে দেখলাম বিক্রি করতে | এখন কি বিএনপিও জান্নাতের টিকেট বিক্রি করছে এটা নিয়ে বিএনপির জনকে দেখলাম বিক্রি করতে | ['বিএনপিও', 'জান্নাতের', 'টিকেট', 'বিক্রি', 'নিয়ে', 'বিএনপির', 'জনকে', 'দেখলাম', 'বিক্রি', 'করতে'] | বিএনপিও জান্নাতের টিকেট বিক্রি নিয়ে বিএনপির জনকে দেখলাম বিক্রি করতে | 86 | 10 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 6 | খাম্বা তারেক জানেন নাকি | খাম্বা তারেক জানেন নাকি | ['খাম্বা', 'তারেক', 'জানেন', 'নাকি'] | খাম্বা তারেক জানেন নাকি | 23 | 4 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 7 | বিএনপির ছাপড়ি গুলো কি টিকেট পাইছে | বিএনপির ছাপড়ি গুলো কি টিকেট পাইছে | ['বিএনপির', 'ছাপড়ি', 'টিকেট', 'পাইছে'] | বিএনপির ছাপড়ি টিকেট পাইছে | 33 | 4 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 8 | বিএনপি ভাইয়েরা ভালো করে দেখেন কারা জান্নাতের টিকিট দিচ্ছে | বিএনপি ভাইয়েরা ভালো করে দেখেন কারা জান্নাতের টিকিট দিচ্ছে | ['বিএনপি', 'ভাইয়েরা', 'ভালো', 'দেখেন', 'কারা', 'জান্নাতের', 'টিকিট', 'দিচ্ছে'] | বিএনপি ভাইয়েরা ভালো দেখেন কারা জান্নাতের টিকিট দিচ্ছে | 57 | 8 | 0 | 0 | 1 | 0 | 0.125 | positive |
+| Before Election | 9 | গাঞ্জা ইফেক্ট | গাঞ্জা ইফেক্ট | ['গাঞ্জা', 'ইফেক্ট'] | গাঞ্জা ইফেক্ট | 13 | 2 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 10 | এই বি এন পির নেতা গুলোকে স্কিপ্ট লিখে দেয় কে | এই বি এন পির নেতা গুলোকে স্কিপ্ট লিখে দেয় কে | ['বি', 'এন', 'পির', 'নেতা', 'গুলোকে', 'স্কিপ্ট', 'লিখে', 'দেয়'] | বি এন পির নেতা গুলোকে স্কিপ্ট লিখে দেয় | 44 | 8 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 11 | ওরে বাটপার | ওরে বাটপার | ['ওরে', 'বাটপার'] | ওরে বাটপার | 10 | 2 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 12 | বিএনপি মানেই বিনোদন! | বিএনপি মানেই বিনোদন | ['বিএনপি', 'মানেই', 'বিনোদন'] | বিএনপি মানেই বিনোদন | 20 | 3 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 13 | ধানের শীষে ভোট দিলেই জান্নাত কনফার্ম | ধানের শীষে ভোট দিলেই জান্নাত কনফার্ম | ['ধানের', 'শীষে', 'ভোট', 'দিলেই', 'জান্নাত', 'কনফার্ম'] | ধানের শীষে ভোট দিলেই জান্নাত কনফার্ম | 36 | 6 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 14 | বিএনপি বললে সবকিছুই জায়েজ | বিএনপি বললে সবকিছুই জায়েজ | ['বিএনপি', 'বললে', 'সবকিছুই', 'জায়েজ'] | বিএনপি বললে সবকিছুই জায়েজ | 26 | 4 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 15 | Ai দিয়ে বিডিউ বানিয়ে পরে বিএনপির নামে চালিয়ে দেওয়া , এইটা ঠিকনা | ai দিয়ে বিডিউ বানিয়ে পরে বিএনপির নামে চালিয়ে দেওয়া এইটা ঠিকনা | ['ai', 'বিডিউ', 'বানিয়ে', 'বিএনপির', 'নামে', 'চালিয়ে', 'দেওয়া', 'ঠিকনা'] | ai বিডিউ বানিয়ে বিএনপির নামে চালিয়ে দেওয়া ঠিকনা | 64 | 8 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 16 | চাঁদাবাজের বাংলার জমিনে ঠাই নাই | চাঁদাবাজের বাংলার জমিনে ঠাই নাই | ['চাঁদাবাজের', 'বাংলার', 'জমিনে', 'ঠাই', 'নাই'] | চাঁদাবাজের বাংলার জমিনে ঠাই নাই | 31 | 5 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 17 | নাটকের নামটা যদি হয়, নির্বাচনের আগে, তাহলে কেমন হয় | নাটকের নামটা যদি হয় নির্বাচনের আগে তাহলে কেমন হয় | ['নাটকের', 'নামটা', 'নির্বাচনের', 'তাহলে'] | নাটকের নামটা নির্বাচনের তাহলে | 52 | 4 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 18 | Zarek Tia r chagol abid egla dekhena | zarek tia r chagol abid egla dekhena | ['zarek', 'tia', 'chagol', 'abid', 'egla', 'dekhena'] | zarek tia chagol abid egla dekhena | 36 | 6 | 0 | 0 | 0 | 0 | 0.0 | neutral |
+| Before Election | 19 | বিম্পির কাছেও জান্নাতের টিকিট আছে | বিম্পির কাছেও জান্নাতের টিকিট আছে | ['বিম্পির', 'কাছেও', 'জান্নাতের', 'টিকিট'] | বিম্পির কাছেও জান্নাতের টিকিট | 33 | 4 | 0 | 0 | 0 | 0 | 0.0 | neutral |
 
 ### `term_comparison_full.csv`
 
@@ -341,19 +401,19 @@ Showing first `20` rows:
 | দল | 3 | 11 | 0.0020013342228152103 | 0.008396946564885497 | 0.006395612342070286 |
 | পাশ | 0 | 7 | 0.0 | 0.0053435114503816794 | 0.0053435114503816794 |
 | আম | 0 | 6 | 0.0 | 0.004580152671755725 | 0.004580152671755725 |
-| ভারতের | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
-| প্রধানমন্ত্রী | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | ইন্টার | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | ইন্জিনিয়ারিং | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | প্রথম | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
+| প্রধানমন্ত্রী | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
+| ভারতের | 0 | 5 | 0.0 | 0.003816793893129771 | 0.003816793893129771 |
 | ভালো | 4 | 8 | 0.00266844563042028 | 0.0061068702290076335 | 0.0034384245985873535 |
 | লোক | 2 | 6 | 0.00133422281521014 | 0.004580152671755725 | 0.003245929856545585 |
-| গভর্নর | 0 | 4 | 0.0 | 0.0030534351145038168 | 0.0030534351145038168 |
+| দালাল | 0 | 4 | 0.0 | 0.0030534351145038168 | 0.0030534351145038168 |
 | পতন | 0 | 4 | 0.0 | 0.0030534351145038168 | 0.0030534351145038168 |
 | বেইমানি | 0 | 4 | 0.0 | 0.0030534351145038168 | 0.0030534351145038168 |
-| দালাল | 0 | 4 | 0.0 | 0.0030534351145038168 | 0.0030534351145038168 |
-| অশিক্ষিত | 0 | 3 | 0.0 | 0.0022900763358778627 | 0.0022900763358778627 |
-| গুপ্ত | 0 | 3 | 0.0 | 0.0022900763358778627 | 0.0022900763358778627 |
-| গেলো | 0 | 3 | 0.0 | 0.0022900763358778627 | 0.0022900763358778627 |
-| মত | 0 | 3 | 0.0 | 0.0022900763358778627 | 0.0022900763358778627 |
+| গভর্নর | 0 | 4 | 0.0 | 0.0030534351145038168 | 0.0030534351145038168 |
 | বিরোধী | 0 | 3 | 0.0 | 0.0022900763358778627 | 0.0022900763358778627 |
+| অশিক্ষিত | 0 | 3 | 0.0 | 0.0022900763358778627 | 0.0022900763358778627 |
+| রাতে | 0 | 3 | 0.0 | 0.0022900763358778627 | 0.0022900763358778627 |
+| গাদ্দারি | 0 | 3 | 0.0 | 0.0022900763358778627 | 0.0022900763358778627 |
+| ক্ষমতায় | 0 | 3 | 0.0 | 0.0022900763358778627 | 0.0022900763358778627 |
