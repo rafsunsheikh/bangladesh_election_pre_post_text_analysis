@@ -5,6 +5,8 @@ import argparse
 import csv
 import math
 import re
+import unicodedata
+import urllib.request
 from collections import Counter
 from pathlib import Path
 from typing import Iterable
@@ -12,6 +14,7 @@ from typing import Iterable
 import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib import font_manager
+from PIL import features as pil_features
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
 from wordcloud import WordCloud
@@ -48,26 +51,43 @@ DIGIT_RE = re.compile(r"[0-9০-৯]+")
 SPACE_RE = re.compile(r"\s+")
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
+ASSETS_DIR = PROJECT_ROOT / "assets" / "fonts"
+NOTO_FONT_FILE = ASSETS_DIR / "NotoSansBengali-Regular.ttf"
+NOTO_FONT_URL = (
+    "https://github.com/googlefonts/noto-fonts/raw/main/hinted/ttf/"
+    "NotoSansBengali/NotoSansBengali-Regular.ttf"
+)
+
+
+def set_font_stack(primary_font: str) -> None:
+    fallback_fonts = [
+        "Arial Unicode MS",
+        "Noto Sans",
+        "DejaVu Sans",
+        "Arial",
+    ]
+    stack = [primary_font] + [name for name in fallback_fonts if name != primary_font]
+    plt.rcParams["font.family"] = "sans-serif"
+    plt.rcParams["font.sans-serif"] = stack
+    plt.rcParams["axes.unicode_minus"] = False
 
 
 def configure_font() -> str:
     candidates = [
+        "Arial Unicode MS",
         "Noto Sans Bengali",
         "Noto Serif Bengali",
         "Vrinda",
         "Mukti",
         "Kalpurush",
         "Siyam Rupali",
-        "Arial Unicode MS",
     ]
     available = {font.name for font in font_manager.fontManager.ttflist}
     for name in candidates:
         if name in available:
-            plt.rcParams["font.family"] = name
-            plt.rcParams["axes.unicode_minus"] = False
+            set_font_stack(name)
             return name
-    plt.rcParams["font.family"] = "DejaVu Sans"
-    plt.rcParams["axes.unicode_minus"] = False
+    set_font_stack("DejaVu Sans")
     return "DejaVu Sans"
 
 
@@ -79,6 +99,32 @@ def get_font_path(font_name: str) -> str | None:
         return font_manager.findfont(font_name, fallback_to_default=True)
     except Exception:
         return None
+
+
+def download_font_if_missing(target_path: Path, url: str) -> bool:
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+    if target_path.exists():
+        return True
+    try:
+        urllib.request.urlretrieve(url, target_path)
+        return True
+    except Exception:
+        return False
+
+
+def ensure_bangla_font(font_name: str) -> tuple[str, str | None]:
+    if download_font_if_missing(NOTO_FONT_FILE, NOTO_FONT_URL):
+        try:
+            font_manager.fontManager.addfont(str(NOTO_FONT_FILE))
+            return font_name, str(NOTO_FONT_FILE)
+        except Exception:
+            pass
+
+    font_path = get_font_path(font_name)
+    if font_path:
+        return font_name, font_path
+
+    return font_name, None
 
 
 def resolve_input_path(path: Path) -> Path:
@@ -188,6 +234,7 @@ def load_single_column_csv(path: Path) -> list[str]:
 
 
 def normalize_text(text: str) -> str:
+    text = unicodedata.normalize("NFC", text)
     text = text.lower()
     text = URL_RE.sub(" ", text)
     text = text.replace("\u200c", " ").replace("\u200d", " ")
@@ -459,7 +506,7 @@ def hide_unused_axes(axes: list[plt.Axes], used: int) -> None:
 
 
 def plot_top_terms_all(top_terms_all: pd.DataFrame, datasets: list[str], output: Path) -> None:
-    fig, axes = subplot_grid(len(datasets), max_cols=2, width=8.0, height=5.0)
+    fig, axes = subplot_grid(len(datasets), max_cols=2, width=9.0, height=6.0)
     for idx, dataset in enumerate(datasets):
         ax = axes[idx]
         subset = top_terms_all[top_terms_all["dataset"] == dataset].copy()
@@ -468,10 +515,11 @@ def plot_top_terms_all(top_terms_all: pd.DataFrame, datasets: list[str], output:
             ax.text(0.5, 0.5, "No terms available", ha="center", va="center")
             ax.axis("off")
             continue
-        plot_df = subset.sort_values("count", ascending=True).tail(15)
+        plot_df = subset.sort_values("count", ascending=True).tail(12)
         ax.barh(plot_df["term"], plot_df["count"], color="#1f77b4", alpha=0.85)
         ax.set_title(f"{dataset}: Top Terms")
         ax.set_xlabel("Term Frequency")
+        ax.tick_params(axis="y", labelsize=11)
     hide_unused_axes(axes, len(datasets))
     fig.savefig(output, dpi=200)
     plt.close(fig)
@@ -491,8 +539,14 @@ def plot_length_distribution_all(df: pd.DataFrame, datasets: list[str], output: 
     plt.close(fig)
 
 
-def plot_wordclouds_all(df: pd.DataFrame, datasets: list[str], output: Path, font_path: str | None = None) -> None:
-    fig, axes = subplot_grid(len(datasets), max_cols=2, width=8.0, height=5.5)
+def plot_wordclouds_all(
+    df: pd.DataFrame,
+    datasets: list[str],
+    output: Path,
+    font_path: str | None = None,
+    per_dataset_dir: Path | None = None,
+) -> None:
+    fig, axes = subplot_grid(len(datasets), max_cols=2, width=9.0, height=6.5)
     for idx, dataset in enumerate(datasets):
         ax = axes[idx]
         text = " ".join(df[df["dataset"] == dataset]["token_text"].astype(str).tolist()).strip()
@@ -503,10 +557,15 @@ def plot_wordclouds_all(df: pd.DataFrame, datasets: list[str], output: Path, fon
             continue
 
         wc = WordCloud(
-            width=1400,
-            height=800,
+            width=1800,
+            height=1100,
             background_color="white",
-            max_words=250,
+            max_words=180,
+            max_font_size=140,
+            min_font_size=10,
+            margin=4,
+            relative_scaling=0.4,
+            prefer_horizontal=1.0,
             collocations=False,
             font_path=font_path,
             regexp=r"[\w\u0980-\u09FF]+",
@@ -514,6 +573,15 @@ def plot_wordclouds_all(df: pd.DataFrame, datasets: list[str], output: Path, fon
         ax.imshow(wc, interpolation="bilinear")
         ax.axis("off")
         ax.set_title(f"{dataset}: Wordcloud")
+
+        if per_dataset_dir is not None:
+            per_dataset_dir.mkdir(parents=True, exist_ok=True)
+            single_fig, single_ax = plt.subplots(figsize=(10, 6.5), constrained_layout=True)
+            single_ax.imshow(wc, interpolation="bilinear")
+            single_ax.axis("off")
+            single_ax.set_title(f"{dataset}: Wordcloud")
+            single_fig.savefig(per_dataset_dir / f"plot_wordcloud_{slugify(dataset)}.png", dpi=240)
+            plt.close(single_fig)
     hide_unused_axes(axes, len(datasets))
     fig.savefig(output, dpi=200)
     plt.close(fig)
@@ -684,10 +752,18 @@ def main() -> None:
     print(f"Output dir: {output_dir}")
 
     font_name = configure_font()
+    font_name, font_path = ensure_bangla_font(font_name)
     print(f"Using font: {font_name}")
-    font_path = get_font_path(font_name)
     if font_path:
         print(f"Wordcloud font path: {font_path}")
+    else:
+        print("Warning: No explicit Bangla font path found. Rendering quality may degrade.")
+
+    if not pil_features.check("raqm"):
+        print(
+            "Warning: Pillow is missing libraqm (raqm=False). "
+            "Complex Bangla shaping can appear broken in wordcloud text."
+        )
 
     data_df = build_dataframe(dataset_files)
     data_df = add_sentiment_features(data_df)
@@ -745,7 +821,13 @@ def main() -> None:
     doc_topics_all_df.to_csv(output_dir / "document_topics_all.csv", index=False, encoding="utf-8")
 
     plot_top_terms_all(top_terms_all_df, datasets, output_dir / "plot_top_terms.png")
-    plot_wordclouds_all(data_df, datasets, output_dir / "plot_wordcloud.png", font_path=font_path)
+    plot_wordclouds_all(
+        data_df,
+        datasets,
+        output=output_dir / "plot_wordcloud.png",
+        font_path=font_path,
+        per_dataset_dir=output_dir,
+    )
     plot_sentiment_distribution(sentiment_summary_df, output_dir / "plot_sentiment_distribution.png")
     plot_length_distribution_all(data_df, datasets, output_dir / "plot_length_distribution.png")
     plot_distinctive_terms_all(distinctive_df, datasets, output_dir / "plot_distinctive_terms.png")
