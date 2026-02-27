@@ -13,6 +13,7 @@ import pandas as pd
 from matplotlib import font_manager
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
+from wordcloud import WordCloud
 
 
 BANGLA_STOPWORDS = {
@@ -25,6 +26,7 @@ BANGLA_STOPWORDS = {
     "যায়", "যায়", "দিয়ে", "দিয়ে", "হলেও", "যখন", "তখন", "কখন", "কোথায়", "কোথায়",
     "কেন", "কেমন", "অনেক", "খুব", "বেশ", "আরও", "শুধু", "সব", "কেউ", "কিছু",
     "এখন", "তখনও", "এইটা", "ওইটা", "সবার", "একজন",
+    "হচ্ছে", "এর", "কে", "এক", "হয়ে", "গুলো", "গেছে", "কথা", "রে", "করেছে", "দিন", "হইছে", "এদের",
 }
 
 URL_RE = re.compile(r"https?://\S+|www\.\S+", re.IGNORECASE)
@@ -54,6 +56,16 @@ def configure_font() -> str:
     plt.rcParams["font.family"] = "DejaVu Sans"
     plt.rcParams["axes.unicode_minus"] = False
     return "DejaVu Sans"
+
+
+def get_font_path(font_name: str) -> str | None:
+    for font in font_manager.fontManager.ttflist:
+        if font.name == font_name:
+            return font.fname
+    try:
+        return font_manager.findfont(font_name, fallback_to_default=True)
+    except Exception:
+        return None
 
 
 def load_single_column_csv(path: Path) -> list[str]:
@@ -328,6 +340,36 @@ def plot_topic_prevalence(before_topics: pd.DataFrame, after_topics: pd.DataFram
     plt.close(fig)
 
 
+def plot_wordclouds(df: pd.DataFrame, output: Path, font_path: str | None = None) -> None:
+    fig, axes = plt.subplots(1, 2, figsize=(16, 7), constrained_layout=True)
+    for ax, dataset, title in [
+        (axes[0], "Before Election", "Before Election: Wordcloud"),
+        (axes[1], "After Election", "After Election: Wordcloud"),
+    ]:
+        text = " ".join(df[df["dataset"] == dataset]["token_text"].astype(str).tolist()).strip()
+        if not text:
+            ax.text(0.5, 0.5, "No text available", ha="center", va="center")
+            ax.axis("off")
+            ax.set_title(title)
+            continue
+
+        wc = WordCloud(
+            width=1400,
+            height=800,
+            background_color="white",
+            max_words=250,
+            collocations=False,
+            font_path=font_path,
+            regexp=r"[\w\u0980-\u09FF]+",
+        ).generate(text)
+        ax.imshow(wc, interpolation="bilinear")
+        ax.axis("off")
+        ax.set_title(title)
+
+    fig.savefig(output, dpi=200)
+    plt.close(fig)
+
+
 def write_report(
     summary_df: pd.DataFrame,
     before_topics: pd.DataFrame,
@@ -446,6 +488,9 @@ def main() -> None:
 
     font_name = configure_font()
     print(f"Using font: {font_name}")
+    font_path = get_font_path(font_name)
+    if font_path:
+        print(f"Wordcloud font path: {font_path}")
 
     data_df = build_dataframe(before_path, after_path)
     data_df.to_csv(output_dir / "cleaned_documents.csv", index=False, encoding="utf-8")
@@ -479,6 +524,7 @@ def main() -> None:
     after_doc_topics.to_csv(output_dir / "document_topics_after.csv", index=False, encoding="utf-8")
 
     plot_top_terms(before_terms, after_terms, output_dir / "plot_top_terms.png")
+    plot_wordclouds(data_df, output_dir / "plot_wordcloud.png", font_path=font_path)
     plot_length_distribution(data_df, output_dir / "plot_length_distribution.png")
     plot_distinctive_terms(term_comp, output_dir / "plot_distinctive_terms.png")
     plot_topic_prevalence(before_topics, after_topics, output_dir / "plot_topic_prevalence.png")
@@ -497,6 +543,7 @@ def main() -> None:
     print(f"  - {output_dir / 'topics_before.csv'}")
     print(f"  - {output_dir / 'topics_after.csv'}")
     print(f"  - {output_dir / 'plot_top_terms.png'}")
+    print(f"  - {output_dir / 'plot_wordcloud.png'}")
     print(f"  - {output_dir / 'plot_topic_prevalence.png'}")
 
 
