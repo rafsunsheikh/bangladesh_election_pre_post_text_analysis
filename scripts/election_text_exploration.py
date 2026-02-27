@@ -46,9 +46,11 @@ BANGLA_NEGATIVE_WORDS = {
 }
 
 URL_RE = re.compile(r"https?://\S+|www\.\S+", re.IGNORECASE)
-NON_TEXT_RE = re.compile(r"[^0-9a-zA-Z\u0980-\u09FF\s]")
+NON_TEXT_RE = re.compile(r"[^0-9a-zA-Z\u0980-\u09FF\u200c\u200d\s]")
 DIGIT_RE = re.compile(r"[0-9০-৯]+")
 SPACE_RE = re.compile(r"\s+")
+LEADING_MARKS_RE = re.compile(r"^[\u0981-\u0983\u09bc\u09be-\u09c4\u09c7-\u09c8\u09cb-\u09cc\u09cd\u09d7]+")
+VALID_BASE_CHAR_RE = re.compile(r"[a-zA-Z\u0985-\u09b9\u09dc-\u09df\u09f0-\u09f1]")
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 ASSETS_DIR = PROJECT_ROOT / "assets" / "fonts"
@@ -237,7 +239,9 @@ def normalize_text(text: str) -> str:
     text = unicodedata.normalize("NFC", text)
     text = text.lower()
     text = URL_RE.sub(" ", text)
-    text = text.replace("\u200c", " ").replace("\u200d", " ")
+    # Preserve word integrity: remove joiners instead of turning them into spaces.
+    text = text.replace("\u200b", "").replace("\ufeff", "")
+    text = text.replace("\u200c", "").replace("\u200d", "")
     text = NON_TEXT_RE.sub(" ", text)
     text = DIGIT_RE.sub(" ", text)
     text = SPACE_RE.sub(" ", text).strip()
@@ -245,8 +249,19 @@ def normalize_text(text: str) -> str:
 
 
 def tokenize(text: str, stopwords: set[str]) -> list[str]:
-    tokens = text.split()
-    return [token for token in tokens if len(token) > 1 and token not in stopwords]
+    cleaned_tokens: list[str] = []
+    for token in text.split():
+        token = token.replace("\u200c", "").replace("\u200d", "")
+        token = LEADING_MARKS_RE.sub("", token)
+        token = token.rstrip("\u09cd")
+        if len(token) <= 1:
+            continue
+        if token in stopwords:
+            continue
+        if not VALID_BASE_CHAR_RE.search(token):
+            continue
+        cleaned_tokens.append(token)
+    return cleaned_tokens
 
 
 def build_dataframe(dataset_files: dict[str, Path]) -> pd.DataFrame:
@@ -506,7 +521,7 @@ def hide_unused_axes(axes: list[plt.Axes], used: int) -> None:
 
 
 def plot_top_terms_all(top_terms_all: pd.DataFrame, datasets: list[str], output: Path) -> None:
-    fig, axes = subplot_grid(len(datasets), max_cols=2, width=9.0, height=6.0)
+    fig, axes = subplot_grid(len(datasets), max_cols=2, width=10.0, height=6.5)
     for idx, dataset in enumerate(datasets):
         ax = axes[idx]
         subset = top_terms_all[top_terms_all["dataset"] == dataset].copy()
@@ -519,7 +534,7 @@ def plot_top_terms_all(top_terms_all: pd.DataFrame, datasets: list[str], output:
         ax.barh(plot_df["term"], plot_df["count"], color="#1f77b4", alpha=0.85)
         ax.set_title(f"{dataset}: Top Terms")
         ax.set_xlabel("Term Frequency")
-        ax.tick_params(axis="y", labelsize=11)
+        ax.tick_params(axis="y", labelsize=12)
     hide_unused_axes(axes, len(datasets))
     fig.savefig(output, dpi=200)
     plt.close(fig)
@@ -549,8 +564,11 @@ def plot_wordclouds_all(
     fig, axes = subplot_grid(len(datasets), max_cols=2, width=9.0, height=6.5)
     for idx, dataset in enumerate(datasets):
         ax = axes[idx]
-        text = " ".join(df[df["dataset"] == dataset]["token_text"].astype(str).tolist()).strip()
-        if not text:
+        dataset_tokens = df[df["dataset"] == dataset]["tokens"]
+        counter = Counter()
+        for tokens in dataset_tokens:
+            counter.update(tokens)
+        if not counter:
             ax.text(0.5, 0.5, "No text available", ha="center", va="center")
             ax.axis("off")
             ax.set_title(f"{dataset}: Wordcloud")
@@ -560,16 +578,15 @@ def plot_wordclouds_all(
             width=1800,
             height=1100,
             background_color="white",
-            max_words=180,
+            max_words=120,
             max_font_size=140,
-            min_font_size=10,
+            min_font_size=14,
             margin=4,
-            relative_scaling=0.4,
+            relative_scaling=0.5,
             prefer_horizontal=1.0,
             collocations=False,
             font_path=font_path,
-            regexp=r"[\w\u0980-\u09FF]+",
-        ).generate(text)
+        ).generate_from_frequencies(counter)
         ax.imshow(wc, interpolation="bilinear")
         ax.axis("off")
         ax.set_title(f"{dataset}: Wordcloud")

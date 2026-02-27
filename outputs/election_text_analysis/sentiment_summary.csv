@@ -1,7 +1,7 @@
 dataset,sentiment_label,count,percentage
 After Election,negative,116,0.05675146771037182
-After Election,neutral,1826,0.8933463796477495
-After Election,positive,102,0.049902152641878667
+After Election,neutral,1825,0.8928571428571429
+After Election,positive,103,0.05039138943248532
 After Forming Government,negative,119,0.04650254005470887
 After Forming Government,neutral,2221,0.867917155138726
 After Forming Government,positive,219,0.08558030480656506
