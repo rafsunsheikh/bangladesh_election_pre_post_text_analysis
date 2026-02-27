@@ -560,6 +560,7 @@ def plot_wordclouds_all(
     output: Path,
     font_path: str | None = None,
     per_dataset_dir: Path | None = None,
+    random_seed: int | None = None,
 ) -> None:
     fig, axes = subplot_grid(len(datasets), max_cols=2, width=9.0, height=6.5)
     for idx, dataset in enumerate(datasets):
@@ -587,7 +588,7 @@ def plot_wordclouds_all(
             prefer_horizontal=1.0,
             collocations=False,
             font_path=font_path,
-            random_state=42,
+            random_state=random_seed,
         ).generate_from_frequencies(counter)
         ax.imshow(wc, interpolation="bilinear")
         ax.axis("off")
@@ -756,6 +757,12 @@ def main() -> None:
         default=PROJECT_ROOT / "outputs/election_text_analysis",
         help="Output folder for CSV/plots/report.",
     )
+    parser.add_argument(
+        "--wordcloud-seed",
+        type=int,
+        default=7,
+        help="Random seed for wordcloud layout. Use a different value for a new layout.",
+    )
     args = parser.parse_args()
 
     data_dir = resolve_input_path(args.data_dir)
@@ -846,6 +853,7 @@ def main() -> None:
         output=output_dir / "plot_wordcloud.png",
         font_path=font_path,
         per_dataset_dir=output_dir,
+        random_seed=args.wordcloud_seed,
     )
     plot_sentiment_distribution(sentiment_summary_df, output_dir / "plot_sentiment_distribution.png")
     plot_length_distribution_all(data_df, datasets, output_dir / "plot_length_distribution.png")
