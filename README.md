@@ -55,7 +55,7 @@ Location-based insights are generated from finalized period files with district 
 
 - Hosted interactive map URL: [https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html](https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html)
 
-### Interactive Map Embed (local markdown preview)
+<!-- ### Interactive Map Embed (local markdown preview) -->
 
 <!-- <iframe src="https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html" width="100%" height="620" style="border:1px solid #ddd;border-radius:8px;"></iframe> -->
 
