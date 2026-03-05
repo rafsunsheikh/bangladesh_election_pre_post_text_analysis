@@ -57,7 +57,7 @@ Location-based insights are generated from finalized period files with district 
 
 ### Interactive Map Embed (local markdown preview)
 
-<iframe src="https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html" width="100%" height="620" style="border:1px solid #ddd;border-radius:8px;"></iframe>
+<!-- <iframe src="https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html" width="100%" height="620" style="border:1px solid #ddd;border-radius:8px;"></iframe> -->
 
 ## Main Outputs
 Generated under `outputs/election_text_analysis/`:
