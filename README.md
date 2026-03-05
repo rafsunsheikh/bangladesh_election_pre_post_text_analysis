@@ -50,6 +50,7 @@ Location-based insights are generated from finalized period files with district 
 - Top-by-period summary: `outputs/election_text_analysis/location_top_by_period.csv`
 - Top co-occurrence pairs: `outputs/election_text_analysis/location_top_cooccurrence.csv`
 - Interactive Bangladesh map: [outputs/notebook_assets/bangladesh_interactive_location_map.html](outputs/notebook_assets/bangladesh_interactive_location_map.html)
+- Hosted interactive map URL: [https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html](https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html)
 
 ### Interactive Map Embed (local markdown preview)
 
@@ -166,7 +167,8 @@ Final-annotation sentiment across four classes (`negative`, `sarcastic_negative`
 | Rajshahi | 72 | 0.6944 |
 | Bogura | 47 | 0.6596 |
 
-Interactive map: [outputs/notebook_assets/bangladesh_interactive_location_map.html](outputs/notebook_assets/bangladesh_interactive_location_map.html)
+Interactive map: [outputs/notebook_assets/bangladesh_interactive_location_map.html](outputs/notebook_assets/bangladesh_interactive_location_map.html)  
+Hosted URL: [https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html](https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html)
 
 ### Top Terms by Dataset
 
