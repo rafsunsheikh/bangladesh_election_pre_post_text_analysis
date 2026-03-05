@@ -13,19 +13,24 @@
 | Before Election | 1370 | 1358 | 12 | 18 | 42.93576642335766 | 33.5 | 6.015328467153284 | 5.0 |
 
 ## Sentiment Summary
-Lexicon-based sentiment over cleaned tokens (`positive`, `neutral`, `negative`).
+Final-annotation sentiment across four classes (`negative`, `sarcastic_negative`, `neutral`, `positive`).
 
 | dataset | sentiment_label | count | percentage |
 | --- | --- | --- | --- |
-| After Election | negative | 116 | 0.05675146771037182 |
-| After Election | neutral | 1825 | 0.8928571428571429 |
-| After Election | positive | 103 | 0.05039138943248532 |
-| After Forming Government | negative | 119 | 0.04650254005470887 |
-| After Forming Government | neutral | 2221 | 0.867917155138726 |
-| After Forming Government | positive | 219 | 0.08558030480656506 |
-| Before Election | negative | 96 | 0.07007299270072993 |
-| Before Election | neutral | 1197 | 0.8737226277372263 |
-| Before Election | positive | 77 | 0.05620437956204379 |
+| After Election | negative | 445 | 0.2299741602067183 |
+| After Election | sarcastic_negative | 885 | 0.4573643410852713 |
+| After Election | neutral | 114 | 0.0589147286821705 |
+| After Election | positive | 491 | 0.2537467700258398 |
+| After Forming Government | negative | 806 | 0.3202224870878029 |
+| After Forming Government | sarcastic_negative | 886 | 0.3520063567739372 |
+| After Forming Government | neutral | 265 | 0.1052840683353198 |
+| After Forming Government | positive | 560 | 0.22248708780294 |
+| Before Election | negative | 522 | 0.381021897810219 |
+| Before Election | sarcastic_negative | 453 | 0.3306569343065693 |
+| Before Election | neutral | 129 | 0.0941605839416058 |
+| Before Election | positive | 266 | 0.1941605839416058 |
+
+![Sentiment distribution](outputs/election_text_analysis/plot_sentiment_distribution.svg)
 
 ## Top Distinctive Terms
 Distinctiveness score is each term's relative frequency in one dataset minus

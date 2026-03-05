@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<style>text{font-family:Arial,sans-serif;fill:#1f2937}.small{font-size:12px}.axis{stroke:#9ca3af;stroke-width:1}</style>
+<rect x="0" y="0" width="1200" height="640" fill="white"/>
+<text x="140" y="44" font-size="28" font-weight="700">Sentiment Distribution by Dataset</text>
+<text x="140" y="70" class="small">Using final annotated sentiment labels (negative, sarcastic_negative, neutral, positive)</text>
+<line class="axis" x1="140" y1="520" x2="1140" y2="520"/>
+<line class="axis" x1="140" y1="90" x2="140" y2="520"/>
+<line x1="140" y1="520.0" x2="1140" y2="520.0" stroke="#eef2f7"/>
+<text class="small" x="132" y="524.0" text-anchor="end">0%</text>
+<line x1="140" y1="434.0" x2="1140" y2="434.0" stroke="#eef2f7"/>
+<text class="small" x="132" y="438.0" text-anchor="end">20%</text>
+<line x1="140" y1="348.0" x2="1140" y2="348.0" stroke="#eef2f7"/>
+<text class="small" x="132" y="352.0" text-anchor="end">40%</text>
+<line x1="140" y1="262.0" x2="1140" y2="262.0" stroke="#eef2f7"/>
+<text class="small" x="132" y="266.0" text-anchor="end">60%</text>
+<line x1="140" y1="176.0" x2="1140" y2="176.0" stroke="#eef2f7"/>
+<text class="small" x="132" y="180.0" text-anchor="end">80%</text>
+<line x1="140" y1="90.0" x2="1140" y2="90.0" stroke="#eef2f7"/>
+<text class="small" x="132" y="94.0" text-anchor="end">100%</text>
+<rect x="215.0" y="356.2" width="183.3" height="163.8" fill="#d62728"/>
+<rect x="215.0" y="214.0" width="183.3" height="142.2" fill="#8b0000"/>
+<rect x="215.0" y="173.5" width="183.3" height="40.5" fill="#7f7f7f"/>
+<rect x="215.0" y="90.0" width="183.3" height="83.5" fill="#2ca02c"/>
+<text class="small" x="306.7" y="544" text-anchor="middle">Before Election</text>
+<rect x="548.3" y="421.1" width="183.3" height="98.9" fill="#d62728"/>
+<rect x="548.3" y="224.4" width="183.3" height="196.7" fill="#8b0000"/>
+<rect x="548.3" y="199.1" width="183.3" height="25.3" fill="#7f7f7f"/>
+<rect x="548.3" y="90.0" width="183.3" height="109.1" fill="#2ca02c"/>
+<text class="small" x="640.0" y="544" text-anchor="middle">After Election</text>
+<rect x="881.7" y="382.3" width="183.3" height="137.7" fill="#d62728"/>
+<rect x="881.7" y="230.9" width="183.3" height="151.4" fill="#8b0000"/>
+<rect x="881.7" y="185.7" width="183.3" height="45.3" fill="#7f7f7f"/>
+<rect x="881.7" y="90.0" width="183.3" height="95.7" fill="#2ca02c"/>
+<text class="small" x="973.3" y="544" text-anchor="middle">After Forming Government</text>
+<rect x="860" y="96" width="14" height="14" fill="#d62728"/>
+<text class="small" x="880" y="108">negative</text>
+<rect x="860" y="118" width="14" height="14" fill="#8b0000"/>
+<text class="small" x="880" y="130">sarcastic_negative</text>
+<rect x="860" y="140" width="14" height="14" fill="#7f7f7f"/>
+<text class="small" x="880" y="152">neutral</text>
+<rect x="860" y="162" width="14" height="14" fill="#2ca02c"/>
+<text class="small" x="880" y="174">positive</text>
+</svg>

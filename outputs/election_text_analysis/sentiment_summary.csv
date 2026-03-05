@@ -1,10 +1,13 @@
 dataset,sentiment_label,count,percentage
-After Election,negative,116,0.05675146771037182
-After Election,neutral,1825,0.8928571428571429
-After Election,positive,103,0.05039138943248532
-After Forming Government,negative,119,0.04650254005470887
-After Forming Government,neutral,2221,0.867917155138726
-After Forming Government,positive,219,0.08558030480656506
-Before Election,negative,96,0.07007299270072993
-Before Election,neutral,1197,0.8737226277372263
-Before Election,positive,77,0.05620437956204379
+After Election,negative,445,0.22997416020671835
+After Election,sarcastic_negative,885,0.4573643410852713
+After Election,neutral,114,0.05891472868217054
+After Election,positive,491,0.2537467700258398
+After Forming Government,negative,806,0.32022248708780293
+After Forming Government,sarcastic_negative,886,0.3520063567739372
+After Forming Government,neutral,265,0.10528406833531982
+After Forming Government,positive,560,0.22248708780294002
+Before Election,negative,522,0.381021897810219
+Before Election,sarcastic_negative,453,0.33065693430656934
+Before Election,neutral,129,0.09416058394160584
+Before Election,positive,266,0.19416058394160585

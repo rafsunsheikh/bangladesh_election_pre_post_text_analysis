@@ -55,7 +55,7 @@ Generated under `outputs/election_text_analysis/`:
 - `topics_all.csv`
 - `document_topics_all.csv`
 - `report.md`
-- plot images (`plot_sentiment_distribution.png`, `plot_top_terms.png`, etc.)
+- plot images (`plot_sentiment_distribution.svg`, `plot_top_terms.png`, etc.)
 
 ## Notes
 - If `models/sentiment_model.joblib` exists, it is used for fallback sentiment prediction.
@@ -86,7 +86,7 @@ This README is synchronized with the **updated data files** and the refactored m
 | [`document_topics_before_election.csv`](outputs/election_text_analysis/document_topics_before_election.csv) | CSV | 381122 | Document topics for Before Election |
 | [`plot_distinctive_terms.png`](outputs/election_text_analysis/plot_distinctive_terms.png) | PNG | 151416 | Distinctive terms by dataset (vs average of others) |
 | [`plot_length_distribution.png`](outputs/election_text_analysis/plot_length_distribution.png) | PNG | 114069 | Character length distributions by dataset |
-| [`plot_sentiment_distribution.png`](outputs/election_text_analysis/plot_sentiment_distribution.png) | PNG | 52360 | Sentiment class distribution by dataset |
+| [`plot_sentiment_distribution.svg`](outputs/election_text_analysis/plot_sentiment_distribution.svg) | SVG | 2984 | Sentiment class distribution by dataset (4 classes) |
 | [`plot_top_terms.png`](outputs/election_text_analysis/plot_top_terms.png) | PNG | 150757 | Top-term frequency plots by dataset |
 | [`plot_topic_prevalence.png`](outputs/election_text_analysis/plot_topic_prevalence.png) | PNG | 105400 | Topic prevalence charts by dataset |
 | [`plot_wordcloud.png`](outputs/election_text_analysis/plot_wordcloud.png) | PNG | 2324318 | Wordclouds by dataset |
@@ -117,19 +117,24 @@ This README is synchronized with the **updated data files** and the refactored m
 
 ### Sentiment Summary
 
+Final-annotation sentiment across four classes (`negative`, `sarcastic_negative`, `neutral`, `positive`).
+
 | dataset | sentiment_label | count | percentage |
 | --- | --- | --- | --- |
-| After Election | negative | 116 | 0.05675146771037182 |
-| After Election | neutral | 1826 | 0.8933463796477495 |
-| After Election | positive | 102 | 0.049902152641878667 |
-| After Forming Government | negative | 119 | 0.04650254005470887 |
-| After Forming Government | neutral | 2221 | 0.867917155138726 |
-| After Forming Government | positive | 219 | 0.08558030480656506 |
-| Before Election | negative | 95 | 0.06934306569343066 |
-| Before Election | neutral | 1198 | 0.8744525547445255 |
-| Before Election | positive | 77 | 0.05620437956204379 |
+| After Election | negative | 445 | 0.2299741602067183 |
+| After Election | sarcastic_negative | 885 | 0.4573643410852713 |
+| After Election | neutral | 114 | 0.0589147286821705 |
+| After Election | positive | 491 | 0.2537467700258398 |
+| After Forming Government | negative | 806 | 0.3202224870878029 |
+| After Forming Government | sarcastic_negative | 886 | 0.3520063567739372 |
+| After Forming Government | neutral | 265 | 0.1052840683353198 |
+| After Forming Government | positive | 560 | 0.22248708780294 |
+| Before Election | negative | 522 | 0.381021897810219 |
+| Before Election | sarcastic_negative | 453 | 0.3306569343065693 |
+| Before Election | neutral | 129 | 0.0941605839416058 |
+| Before Election | positive | 266 | 0.1941605839416058 |
 
-![Sentiment distribution](outputs/election_text_analysis/plot_sentiment_distribution.png)
+![Sentiment distribution](outputs/election_text_analysis/plot_sentiment_distribution.svg)
 
 ### Top Terms by Dataset
 
