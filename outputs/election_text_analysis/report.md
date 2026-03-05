@@ -32,6 +32,72 @@ Final-annotation sentiment across four classes (`negative`, `sarcastic_negative`
 
 ![Sentiment distribution](outputs/election_text_analysis/plot_sentiment_distribution.svg)
 
+## Location Analysis
+Location analytics are computed from finalized location-labeled period datasets.
+
+### Top Locations (All Periods)
+
+| location | total_mentions | pressure_share |
+| --- | --- | --- |
+| Dhaka | 1568 | 0.7698 |
+| Chattogram | 363 | 0.7989 |
+| Barishal | 166 | 0.8253 |
+| Khulna | 149 | 0.7785 |
+| Sylhet | 118 | 0.839 |
+| Cumilla | 102 | 0.7745 |
+| Gazipur | 99 | 0.8485 |
+| Mymensingh | 81 | 0.7901 |
+| Rangpur | 80 | 0.75 |
+| Noakhali | 76 | 0.7895 |
+| Rajshahi | 72 | 0.6944 |
+| Bogura | 47 | 0.6596 |
+
+### Top Locations by Period
+
+| period | location | mentions |
+| --- | --- | --- |
+| 12.02.26 —- 17.02.26 | Dhaka | 527 |
+| 12.02.26 —- 17.02.26 | Chattogram | 98 |
+| 12.02.26 —- 17.02.26 | Barishal | 46 |
+| 12.02.26 —- 17.02.26 | Sylhet | 40 |
+| 12.02.26 —- 17.02.26 | Gazipur | 27 |
+| 12.02.26 —- 17.02.26 | Mymensingh | 26 |
+| 12.02.26 —- 17.02.26 | Khulna | 25 |
+| 12.02.26 —- 17.02.26 | Cumilla | 23 |
+| 18.02.26 —--- 01.03.26 | Dhaka | 1041 |
+| 18.02.26 —--- 01.03.26 | Chattogram | 265 |
+| 18.02.26 —--- 01.03.26 | Khulna | 124 |
+| 18.02.26 —--- 01.03.26 | Barishal | 120 |
+| 18.02.26 —--- 01.03.26 | Cumilla | 79 |
+| 18.02.26 —--- 01.03.26 | Sylhet | 78 |
+| 18.02.26 —--- 01.03.26 | Gazipur | 72 |
+| 18.02.26 —--- 01.03.26 | Noakhali | 57 |
+
+### Top Co-occurring Location Pairs
+
+| period | location_a | location_b | co_mentions |
+| --- | --- | --- | --- |
+| 12.02.26 —- 17.02.26 | Dhaka | Gazipur | 24 |
+| 12.02.26 —- 17.02.26 | Chattogram | Dhaka | 23 |
+| 12.02.26 —- 17.02.26 | Barishal | Dhaka | 19 |
+| 12.02.26 —- 17.02.26 | Dhaka | Mymensingh | 17 |
+| 12.02.26 —- 17.02.26 | Chattogram | Noakhali | 15 |
+| 12.02.26 —- 17.02.26 | Dhaka | Rangpur | 14 |
+| 12.02.26 —- 17.02.26 | Dhaka | Kishoreganj | 11 |
+| 12.02.26 —- 17.02.26 | Barishal | Bhola | 9 |
+| 18.02.26 —--- 01.03.26 | Chattogram | Dhaka | 62 |
+| 18.02.26 —--- 01.03.26 | Dhaka | Gazipur | 62 |
+| 18.02.26 —--- 01.03.26 | Chattogram | Noakhali | 45 |
+| 18.02.26 —--- 01.03.26 | Barishal | Dhaka | 42 |
+| 18.02.26 —--- 01.03.26 | Dhaka | Khulna | 41 |
+| 18.02.26 —--- 01.03.26 | Dhaka | Mymensingh | 37 |
+| 18.02.26 —--- 01.03.26 | Dhaka | Rangpur | 30 |
+| 18.02.26 —--- 01.03.26 | Dhaka | Pabna | 27 |
+
+### Interactive Bangladesh Map
+
+- Open interactive map: [outputs/notebook_assets/bangladesh_interactive_location_map.html](outputs/notebook_assets/bangladesh_interactive_location_map.html)
+
 ## Top Distinctive Terms
 Distinctiveness score is each term's relative frequency in one dataset minus
 the average relative frequency across other datasets.

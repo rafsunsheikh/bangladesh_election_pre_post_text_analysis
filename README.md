@@ -43,6 +43,18 @@ Optional: override input files manually.
   "data/After Forming Government.annotated.final.csv"
 ```
 
+## Location Analysis
+Location-based insights are generated from finalized period files with district columns.
+
+- Top-location summary: `outputs/election_text_analysis/location_top_mentions.csv`
+- Top-by-period summary: `outputs/election_text_analysis/location_top_by_period.csv`
+- Top co-occurrence pairs: `outputs/election_text_analysis/location_top_cooccurrence.csv`
+- Interactive Bangladesh map: [outputs/notebook_assets/bangladesh_interactive_location_map.html](outputs/notebook_assets/bangladesh_interactive_location_map.html)
+
+### Interactive Map Embed (local markdown preview)
+
+<iframe src="outputs/notebook_assets/bangladesh_interactive_location_map.html" width="100%" height="620" style="border:1px solid #ddd;border-radius:8px;"></iframe>
+
 ## Main Outputs
 Generated under `outputs/election_text_analysis/`:
 
@@ -102,6 +114,7 @@ This README is synchronized with the **updated data files** and the refactored m
 | [`topics_after_forming_government.csv`](outputs/election_text_analysis/topics_after_forming_government.csv) | CSV | 3131 | Topics for After Forming Government |
 | [`topics_all.csv`](outputs/election_text_analysis/topics_all.csv) | CSV | 8575 | All extracted topics (all datasets) |
 | [`topics_before_election.csv`](outputs/election_text_analysis/topics_before_election.csv) | CSV | 3022 | Topics for Before Election |
+| [`bangladesh_interactive_location_map.html`](outputs/notebook_assets/bangladesh_interactive_location_map.html) | HTML | 80137 | Interactive Bangladesh location map |
 
 ## Integrated Report (with visuals)
 
@@ -135,6 +148,25 @@ Final-annotation sentiment across four classes (`negative`, `sarcastic_negative`
 | Before Election | positive | 266 | 0.1941605839416058 |
 
 ![Sentiment distribution](outputs/election_text_analysis/plot_sentiment_distribution.svg)
+
+### Location Analysis
+
+| location | total_mentions | pressure_share |
+| --- | --- | --- |
+| Dhaka | 1568 | 0.7698 |
+| Chattogram | 363 | 0.7989 |
+| Barishal | 166 | 0.8253 |
+| Khulna | 149 | 0.7785 |
+| Sylhet | 118 | 0.839 |
+| Cumilla | 102 | 0.7745 |
+| Gazipur | 99 | 0.8485 |
+| Mymensingh | 81 | 0.7901 |
+| Rangpur | 80 | 0.75 |
+| Noakhali | 76 | 0.7895 |
+| Rajshahi | 72 | 0.6944 |
+| Bogura | 47 | 0.6596 |
+
+Interactive map: [outputs/notebook_assets/bangladesh_interactive_location_map.html](outputs/notebook_assets/bangladesh_interactive_location_map.html)
 
 ### Top Terms by Dataset
 
