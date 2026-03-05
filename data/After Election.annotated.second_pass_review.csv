@@ -1,0 +1,485 @@
+Comment,Sentiment,sentiment_confidence,sentiment_source,needs_review,auto_review_predicted,auto_review_pred_confidence,auto_review_action
+জিলাপি আছে নাকি?,Negative,0.3840043469924593,model_autofill,True,Negative,0.47679987914188476,keep
+"Anayet Ahamed: জি ভাই, পুরো ইফতারের সামগ্রী ছিল!!",Sarcastic_negative,0.3658751541779687,model_autofill,True,Sarcastic_negative,0.41993988037981994,keep
+"হ, ঈদের দিন আজ।",Sarcastic_negative,0.3301117669670215,model_autofill,True,Sarcastic_negative,0.3318506272223638,keep
+হাতিয়া ৬,Negative,0.3557953114720575,model_autofill,True,Sarcastic_negative,0.34340758580697495,keep
+দুর্নীতিবাজদের রুখে দাও।,Negative,0.3686344358119767,model_autofill,True,Sarcastic_negative,0.33420162615194826,keep
+দাঁড়িপাল্লায় ভোট দাও।,Neutral,0.374580994665692,model_autofill,True,Neutral,0.49170730039904365,keep
+ইউরোপ-আমেরিকা-জাপান এক ই অক্ষ শক্তি।,Negative,0.3880774666674958,model_autofill,True,Negative,0.38788752689522066,keep
+"এবার কি জনগণের প্রকৃত ভোটে এই শতাংশ ছাড়িয়ে যাবে? মারিক কাটিং হতে দেওয়া যাবে না। ১ ভোট হলেও সেটা হতে হবে জনগণের প্রকৃত ভোট, এছাড়া সব বৃথা।",Negative,0.3768002905195532,model_autofill,True,Negative,0.31128898676290007,keep
+"প্রতারিত করেছে, তার জ্বলন্ত প্রমাণ নিচে।",Sarcastic_negative,0.3377042453642772,model_autofill,True,Negative,0.3678347762338138,keep
+নুরুল হক নুরু,Negative,0.335211626748121,model_autofill,True,Negative,0.4309862483886941,keep
+জিলাপি আছে নাকি?,Negative,0.3840043469924593,model_autofill,True,Negative,0.47679987914188476,keep
+"Anayet Ahamed জি ভাই, পুরো ইফতারের সামগ্রী ছিল!!",Sarcastic_negative,0.3658751541779687,model_autofill,True,Sarcastic_negative,0.41993988037981994,keep
+আসতো একটা গুপ্ত,Sarcastic_negative,0.3811539041618485,model_autofill,True,Sarcastic_negative,0.35383232379692603,keep
+এই বয়সে এসেও প্রথম ভোট,Negative,0.3421830535533923,model_autofill,True,Negative,0.3258478323760865,keep
+কচি বয়,Sarcastic_negative,0.3867651421850908,model_autofill,True,Sarcastic_negative,0.4182835542288202,keep
+Batpar ageo dese,Sarcastic_negative,0.3661225557518018,model_autofill,True,Sarcastic_negative,0.4015944699247445,keep
+Aaaa. Dalal,Sarcastic_negative,0.3909523524251519,model_autofill,True,Sarcastic_negative,0.4377096362161928,keep
+ক্ষনিকের পোলা,Sarcastic_negative,0.3660703429910499,model_autofill,True,Sarcastic_negative,0.3789446805148708,keep
+Batpar..,Sarcastic_negative,0.3528587425632625,model_autofill,True,Sarcastic_negative,0.39395456395485023,keep
+সুবিধাভোগী,Sarcastic_negative,0.4036431332817877,model_autofill,True,Sarcastic_negative,0.4466353867923312,keep
+Sala batpar ata naki ar prothom,Neutral,0.3762013063602794,model_autofill,True,Neutral,0.4153779364526516,keep
+Aghe Kar bal palaila ... Apar lok,Sarcastic_negative,0.3587735628969726,model_autofill,True,Sarcastic_negative,0.34067671974351765,keep
+ছোট ভাই তামিম,Neutral,0.287843055457708,model_autofill,True,Sarcastic_negative,0.31717913928928176,keep
+"Tmr amur paa chatso,se tmake vote dite dey nay",Sarcastic_negative,0.3712167048154049,model_autofill,True,Neutral,0.3843259828522779,keep
+i am to obak,Sarcastic_negative,0.3288697210272097,model_autofill,True,Neutral,0.5211615121503212,keep
+গুপ্ত সাধক,Sarcastic_negative,0.3607917623212787,model_autofill,True,Sarcastic_negative,0.3897497656044469,keep
+তখন কষ্ট করে ভোট দেওয়া লাগত না,Positive,0.3367778767603306,model_autofill,True,Positive,0.34689445896732585,keep
+মনে হচ্ছে আর বয়স 20 মাত্র,Negative,0.3758747278767753,model_autofill,True,Negative,0.39662617408247103,keep
+ভায়ে নতুন ভোটার কচি,Sarcastic_negative,0.3134505633646787,model_autofill,True,Sarcastic_negative,0.3776778550851259,keep
+Number 1 Butpar,Sarcastic_negative,0.3069086785648073,model_autofill,True,Sarcastic_negative,0.3348453857653921,keep
+dot Babar vote oh dot hoi jabe,Sarcastic_negative,0.3756913869631693,model_autofill,True,Sarcastic_negative,0.3361108159994066,keep
+Chinta kora jai koto boro natokbaz,Sarcastic_negative,0.3841671434082986,model_autofill,True,Sarcastic_negative,0.43093175347407947,keep
+ওনি ধানে মারছে ১০০%,Sarcastic_negative,0.3767297723066272,model_autofill,True,Sarcastic_negative,0.3652713164986235,keep
+ওলে লে লে লে,Sarcastic_negative,0.3498680696722725,model_autofill,True,Sarcastic_negative,0.3650295643245456,keep
+বয়স ১৮ মাএ,Sarcastic_negative,0.3998280760788403,model_autofill,True,Sarcastic_negative,0.4177012833441912,keep
+হাহাহা,Sarcastic_negative,0.3505733603059702,model_autofill,True,Sarcastic_negative,0.42974322682836347,keep
+বিহারি,Sarcastic_negative,0.3904103775967449,model_autofill,True,Sarcastic_negative,0.3947387018205105,keep
+২০০৮ এ তামিম কি নাবালক ছিল,Negative,0.3511986785980396,model_autofill,True,Negative,0.3726290526145739,keep
+বিহারি তামিম,Sarcastic_negative,0.3881366499924318,model_autofill,True,Sarcastic_negative,0.38456947632630256,keep
+#NoBoatNoVote,Sarcastic_negative,0.4031680017982416,model_autofill,True,Sarcastic_negative,0.4061903421061849,keep
+ধন চুসা,Sarcastic_negative,0.3487842094293225,model_autofill,True,Sarcastic_negative,0.35416961486668413,keep
+Batpar,Sarcastic_negative,0.3314045580260542,model_autofill,True,Sarcastic_negative,0.3801943524301849,keep
+তাহলে আগে তুমি গুপ্ত ছিলা তামিল কাকু!?,Sarcastic_negative,0.4027621127538909,model_autofill,True,Sarcastic_negative,0.43904676493108025,keep
+বাংলাদেশে থাকতে হলে আরো কত কিছু দেখতে পারবো,Positive,0.3632578594535571,model_autofill,True,Negative,0.35687253001684294,keep
+#NoElectionWithoutAwamileague,Sarcastic_negative,0.3238126240751575,model_autofill,True,Sarcastic_negative,0.33154978923841993,keep
+Jitle BCB head hoben apni sure.,Sarcastic_negative,0.3593321219441008,model_autofill,True,Sarcastic_negative,0.3740327596137085,keep
+আগেও তিনি আপা কে সুন্দর করে ভোট দিছে,Positive,0.3841868225015807,model_autofill,True,Positive,0.46148106398553607,keep
+dalal,Sarcastic_negative,0.3909523524251519,model_autofill,True,Sarcastic_negative,0.4377096362161928,keep
+"গোলআলু, জার ব্যাক্তিত্বের সমস্যা আছে",Negative,0.3719893800111083,model_autofill,True,Negative,0.46461550231137216,keep
+Sala batpar,Sarcastic_negative,0.3536982243678074,model_autofill,True,Sarcastic_negative,0.383906158105302,keep
+তুই নাবালক ছিলি এতোদিন।,Sarcastic_negative,0.4039600922527824,model_autofill,True,Sarcastic_negative,0.4637210665854945,keep
+Dalal a bole ki,Sarcastic_negative,0.3880408047411361,model_autofill,True,Sarcastic_negative,0.40183678480835905,keep
+তামিন কি আগে ভোট দে নি শালার পুত,Negative,0.3905482497529116,model_autofill,True,Sarcastic_negative,0.34604751930993194,keep
+শালার পাকিস্তানি বিহারি,Negative,0.3691439378400893,model_autofill,True,Sarcastic_negative,0.426826665882733,keep
+Dur dalal,Sarcastic_negative,0.3857791517879445,model_autofill,True,Sarcastic_negative,0.4266819762280058,keep
+মাদারচোদ তামিম,Negative,0.3515787009342911,model_autofill,True,Negative,0.3726740108608061,keep
+Dalal,Sarcastic_negative,0.3909523524251519,model_autofill,True,Sarcastic_negative,0.4377096362161928,keep
+একটা মানুষ এত বড় বাটপার হয় কি করে,Positive,0.3752962796654834,model_autofill,True,Positive,0.40492817961302374,keep
+ওরে চিটার!,Sarcastic_negative,0.3568250821315135,model_autofill,True,Sarcastic_negative,0.48790553681631565,keep
+দালাল না এজেন্ট,Sarcastic_negative,0.3784010821797346,model_autofill,True,Sarcastic_negative,0.4339362773912837,keep
+চুদির ভাই বলে কি এসব,Positive,0.3054218097538176,model_autofill,True,Sarcastic_negative,0.3441823956922588,keep
+ওরে মাদারি,Sarcastic_negative,0.3037807522079693,model_autofill,True,Sarcastic_negative,0.4074774567738679,keep
+মিথ্যুক,Sarcastic_negative,0.3459805978979909,model_autofill,True,Sarcastic_negative,0.3548196424729446,keep
+"গুপ্ত, শালারপুতে",Sarcastic_negative,0.3951089664477187,model_autofill,True,Sarcastic_negative,0.5110007323176909,keep
+মাদারচোদ দালাল,Sarcastic_negative,0.4029866674370573,model_autofill,True,Sarcastic_negative,0.3943289445839664,keep
+সালায় আস্থা মাদারচোধ সুবিধবাদী,Negative,0.3516394618145768,model_autofill,True,Negative,0.45751543909336645,keep
+রাজাকার সন্ত্রাসী,Negative,0.3899864168365284,model_autofill,True,Negative,0.477517521524224,keep
+বদমাস,Sarcastic_negative,0.4021469331046858,model_autofill,True,Sarcastic_negative,0.400937945375466,keep
+বড় মাফের চোর,Negative,0.3928197357817962,model_autofill,True,Negative,0.4440854375874821,keep
+দালালের বাচ্চা দালাল,Sarcastic_negative,0.3712303360569605,model_autofill,True,Sarcastic_negative,0.41318784652585117,keep
+Liar… Hasina re to thik e vote disos,Sarcastic_negative,0.3484125921002948,model_autofill,True,Neutral,0.46173241823175765,keep
+নৌকা মার্কায়?,Sarcastic_negative,0.4048514819282181,model_autofill,True,Sarcastic_negative,0.34359844884702173,keep
+"সেটা নেই তবে কিসের মার্কায় ভোট দিল, দালাল।",Sarcastic_negative,0.4007633649727539,model_autofill,True,Sarcastic_negative,0.44700619654134954,keep
+Sala bainchud,Sarcastic_negative,0.3541489102231446,model_autofill,True,Sarcastic_negative,0.40047369866605576,keep
+মুখে সস্তা ফালতু কথা না থাকলে,Positive,0.3474241668846021,model_autofill,True,Positive,0.40643503067852754,keep
+sillyব্র্যাট হওয়া যায় না,Negative,0.3528992124061209,model_autofill,True,Negative,0.3724779742807024,keep
+এতদিন তাহলে কি তুই নাবালক ছিলি,Sarcastic_negative,0.3526957231055195,model_autofill,True,Negative,0.3983689307180519,keep
+"দালাল না বলছিলো উনাকে,",Sarcastic_negative,0.30501580237018,model_autofill,True,Negative,0.36002469582522484,keep
+"শালা মিথ্যাবাদী, তেলবাজ",Sarcastic_negative,0.3695790323427138,model_autofill,True,Sarcastic_negative,0.43993384070990826,keep
+ওরে চিটার,Sarcastic_negative,0.3277245960679428,model_autofill,True,Sarcastic_negative,0.4473607156691827,keep
+এদের মত দালালদের,Positive,0.3172018428326263,model_autofill,True,Positive,0.37334261291197773,keep
+শালা বুড়া ভাম,Sarcastic_negative,0.3972530436610306,model_autofill,True,Sarcastic_negative,0.38727183071361265,keep
+সব শালারা দালাল,Sarcastic_negative,0.3660829933610707,model_autofill,True,Sarcastic_negative,0.47405907518063345,keep
+দালালের পক্ষ থেকে লাল গোলাপের শুভেচ্ছা,Positive,0.3238416067242414,model_autofill,True,Positive,0.6012937505315121,keep
+মাগির পোলা দালালি চুদাও আগে ভোট চোদো নি,Negative,0.3609599108206339,model_autofill,True,Sarcastic_negative,0.3649158617289846,keep
+"দালাল,কচি বয়",Sarcastic_negative,0.4054883122997782,model_autofill,True,Sarcastic_negative,0.43300412092227814,keep
+মিথ‍্যা তামিম,Sarcastic_negative,0.3444804027085672,model_autofill,True,Sarcastic_negative,0.35776783178295996,keep
+দালাল সুবিধাবাদী যেদিকে চাঁদ ওঠে সেদিক যায়৷,Sarcastic_negative,0.3723167449108523,model_autofill,True,Sarcastic_negative,0.402574958449405,keep
+মিথ্যাবাদী,Negative,0.3800934949382957,model_autofill,True,Negative,0.37583895927263133,keep
+দাঁড়িপাল্লাই শ্রেষ্ঠ~,Positive,0.3452436150264886,model_autofill,True,Neutral,0.5001248960524701,keep
+ফেসবুকে আমিও তাই খবর পেলাম,Negative,0.3796587619250768,model_autofill,True,Sarcastic_negative,0.38264317682360127,keep
+প্রাথমিক ভোট দিয়ে বুঝিয়ে দেন,Negative,0.3443643050196545,model_autofill,True,Sarcastic_negative,0.40223281881994044,keep
+আগামীকাল কে প্রধানমন্ত্রী হতে পারে।,Positive,0.3449585227788235,model_autofill,True,Positive,0.3591694652081429,keep
+জামায়াত,Negative,0.3450594613464156,model_autofill,True,Negative,0.3717179755763332,keep
+জাতীয় পার্টি,Negative,0.3711769174033028,model_autofill,True,Sarcastic_negative,0.3561008190480737,keep
+দেখি কে সবচেয়ে এগিয়ে যায়,Positive,0.3116489514140196,model_autofill,True,Negative,0.30352528754761243,keep
+ওয়েলকাম বলবে না স্বাগতম বলবে,Sarcastic_negative,0.3153977576260081,model_autofill,True,Sarcastic_negative,0.46082082126285856,keep
+"হিংসা-বিদ্বেষ ভুলে চলুন কাঁধে কাঁধ মিলিয়ে প্রিয় মাতৃভূমিকে এগিয়ে নিয়ে যান।""",Sarcastic_negative,0.3419414610102966,model_autofill,True,Positive,0.30073378731075645,keep
+"রাসূলুল্লাহ ﷺ বলেছেন, “তোমাদের প্রত্যেকেই দায়িত্বশীল, এবং প্রত্যেকেই তার দায়িত্ব সম্পর্কে জিজ্ঞাসিত হবে।” (বুখারি, মুসলিম)",Negative,0.3781268098211587,model_autofill,True,Negative,0.3977519261126795,keep
+আসলে উনি রাগের মাথায় বলসে,Sarcastic_negative,0.3722136886023237,model_autofill,True,Negative,0.3359494338538464,keep
+জয় ধনি,Negative,0.3475462144849841,model_autofill,True,Negative,0.26283171322646987,keep
+অপেক্ষা করো আর মাত্র একঘন্টা,Positive,0.3479098581179483,model_autofill,True,Positive,0.33292364031776084,keep
+কথাটা ১০০% সত্য হলো,Neutral,0.3604715013945387,model_autofill,True,Positive,0.36290998032560773,keep
+সিনেমা করলে ডিপজলকেও হার মানাতেন,Negative,0.3587908005654903,model_autofill,True,Sarcastic_negative,0.5095137175022592,keep
+আবার সুযোগ নিন।,Negative,0.3862581403160837,model_autofill,True,Negative,0.4581953238012542,keep
+এই কথা বলতে হতো শরম করে আসলে মানুষ কতটা নিজ হয়ে গেছে বলা যায় না,Positive,0.3763600305007445,model_autofill,True,Positive,0.37007764540969373,keep
+রুখো যারা ! পিকচার আভি বাকি হ্যায় !!,Sarcastic_negative,0.3500483525503135,model_autofill,True,Sarcastic_negative,0.37573579981259725,keep
+এবার জামানত হারানো বাকি আছে,Sarcastic_negative,0.3697908524329413,model_autofill,True,Negative,0.33814269700306715,keep
+InsahAllah,Positive,0.3441617813372703,model_autofill,True,Positive,0.3882066629803884,keep
+জামানত শেষ তোমগো,Sarcastic_negative,0.3897754080998659,model_autofill,True,Negative,0.36058034556123775,keep
+Bah tokfoka sooder munafek.,Sarcastic_negative,0.3823417198805327,model_autofill,True,Sarcastic_negative,0.3870642193199044,keep
+দাঁড়ি পাল্লা,Sarcastic_negative,0.3111887052527587,model_autofill,True,Neutral,0.37667524998469487,keep
+ডাঃ শফিকুর রহমান জিন্দবাদ,Positive,0.3475952909594769,model_autofill,True,Positive,0.3377327338266562,keep
+এই নির্বাচন কখনো সুস্থ হয়নি জনগণ স্বৈরাচার দেখতে চায়না,Sarcastic_negative,0.4028630054216067,model_autofill,True,Sarcastic_negative,0.4830432481027727,keep
+দাদুর মুখে জ্যাপসা দেখা যাচ্ছে,Sarcastic_negative,0.3202072799570664,model_autofill,True,Neutral,0.3000814273014752,keep
+নাফাক,Sarcastic_negative,0.3555963042452356,model_autofill,True,Sarcastic_negative,0.38832212240858155,keep
+রাজা কারদের বয়কট,Sarcastic_negative,0.3564062166008401,model_autofill,True,Sarcastic_negative,0.37004712285612806,keep
+ki holo dadu churi korew kicu korte parlen na?,Sarcastic_negative,0.33122662460066,model_autofill,True,Sarcastic_negative,0.531079892931263,keep
+কে পেসিবাদ,Sarcastic_negative,0.3694051498226254,model_autofill,True,Sarcastic_negative,0.3946698568071529,keep
+আল্লাহর ফয়সালা দাড়ি পাল্লা,Negative,0.354773253917877,model_autofill,True,Negative,0.346642896856585,keep
+Sasaji seharatathoh kub molin lagse,Sarcastic_negative,0.3907980888991147,model_autofill,True,Sarcastic_negative,0.43244107370370943,keep
+যে জাতি যেমন তার জন্য শাসকও তেমন এটাই আল্লাহর ফয়সালা,Negative,0.3742259645480821,model_autofill,True,Negative,0.45619452851985104,keep
+Oree batpar,Sarcastic_negative,0.3821600426905726,model_autofill,True,Sarcastic_negative,0.4190614932426396,keep
+সঠিক খবরই পাইছেন দাদা,Sarcastic_negative,0.3943454739654676,model_autofill,True,Sarcastic_negative,0.3372033718318756,keep
+Dude doya tulsi pata,Sarcastic_negative,0.3770665244684181,model_autofill,True,Sarcastic_negative,0.4223153914661155,keep
+আপনাকে এই শোক সহিবার তৌফিক দান করুক,Negative,0.3397015120503139,model_autofill,True,Negative,0.4981713885523171,keep
+দাদু নাকে তেল দিয়ে ঘুমান,Sarcastic_negative,0.3691712098312942,model_autofill,True,Sarcastic_negative,0.4145733832266319,keep
+"Alhamdulillah,,",Positive,0.3195369433115027,model_autofill,True,Sarcastic_negative,0.3582728181505545,keep
+ক্ষমতায় বসার পর সমালোচনা করুন।,Positive,0.3812707271911775,model_autofill,True,Negative,0.3881584924463186,keep
+হাস্যকর খুবই হাস্যকর লজ্জা থাকা দরকার,Negative,0.3660983142951118,model_autofill,True,Sarcastic_negative,0.3303590262312703,keep
+আরে কাক্কু নাকে তেল দিয়ে ঘুমায় পড়েন,Negative,0.3260252579633931,model_autofill,True,Negative,0.3465871683336876,keep
+Tui naformn.new dorves,Sarcastic_negative,0.2966948255950075,model_autofill,True,Neutral,0.43399447789330753,keep
+Welcome already hoye gase.,Sarcastic_negative,0.3412341660060078,model_autofill,True,Sarcastic_negative,0.40128715647291385,keep
+তোমাদের জন্য কলা পাঠালাম।,Negative,0.3429191176494632,model_autofill,True,Sarcastic_negative,0.36066863822651296,keep
+নানা স্বপ্ন দেখেন।,Negative,0.4018041332369532,model_autofill,True,Negative,0.4020510953767993,keep
+অবশ্যই করবে না। এবং আজ তা প্রমাণও করে দিয়েছে।,Positive,0.3713233864069716,model_autofill,True,Positive,0.45433722026481016,keep
+কাকা ঘরে যাই হুতি থাকেন গই,Sarcastic_negative,0.4028748863811615,model_autofill,True,Negative,0.47061600140266774,keep
+Tai naki tw vote gula ki jine dice,Negative,0.3672284236810257,model_autofill,True,Negative,0.3800891555262829,keep
+Insallah,Positive,0.3586157046232487,model_autofill,True,Positive,0.36028716464916144,keep
+Right dada. Nijer Kotha Nije bolle hobe,Sarcastic_negative,0.4005669558976256,model_autofill,True,Positive,0.3528416514498771,keep
+"আরে ভাই, মাঠ পর্যায়ে তো আপনার ভোট নাই!",Sarcastic_negative,0.4014097046816986,model_autofill,True,Sarcastic_negative,0.34912273881929734,keep
+বৃক্ষ তোমার নাম কি?,Negative,0.3994189850987582,model_autofill,True,Negative,0.49908606639009595,keep
+"দাড়িপাল্লা একদিকে হেলে পড়ছে বাকি আছে অন্যদিকটা,,,,,",Sarcastic_negative,0.3409862133100285,model_autofill,True,Negative,0.4398313683394684,keep
+তবে ছেড়ে দেয় না।,Sarcastic_negative,0.3560789795644346,model_autofill,True,Sarcastic_negative,0.3382864820996827,keep
+বাংলাদেশের জনগণ আবার বুজবে কত ধানে কত চাল।,Positive,0.3643223573008752,model_autofill,True,Sarcastic_negative,0.30441507612624336,keep
+Inshallah,Sarcastic_negative,0.3300656675233211,model_autofill,True,Sarcastic_negative,0.35794980662117093,keep
+আবার নি হার্ট অ্যাটাক হয় এয়ারপোর্টে ৭৪ লাখের মতো।,Negative,0.4057179638667825,model_autofill,True,Negative,0.33308193999322044,keep
+প্রথম বার বাচ্চার বাপ হলে তারা কিসের ছবি দেখাবে!,Negative,0.3481308920923125,model_autofill,True,Negative,0.32715690415474974,keep
+তাহলে তো মুখে হাসি থাকার কথা। কিন্তু চেহারা দেখে মনে হচ্ছে তো অন্য কিছু,Sarcastic_negative,0.3866768195841689,model_autofill,True,Sarcastic_negative,0.4762797314619479,keep
+kotha sotti,Sarcastic_negative,0.4042565419118618,model_autofill,True,Positive,0.3809320169847407,keep
+Koyda ason paisen???,Sarcastic_negative,0.3477966394328779,model_autofill,True,Sarcastic_negative,0.43375077186249245,keep
+ইংশাল্লাহ,Positive,0.3955677025937392,model_autofill,True,Positive,0.33477370137946016,keep
+chada bajder vote din,Negative,0.3403125969011423,model_autofill,True,Negative,0.3361686522987821,keep
+নতুন নতুন,Sarcastic_negative,0.3972692476966711,model_autofill,True,Sarcastic_negative,0.42424300785235897,keep
+তাই নাকি,Sarcastic_negative,0.3878117941110728,model_autofill,True,Sarcastic_negative,0.4188360473139616,keep
+চাচার মন খারাপ,Sarcastic_negative,0.3966015035886984,model_autofill,True,Sarcastic_negative,0.6059032460981227,keep
+শুকুন কি কই,Sarcastic_negative,0.4002416141294745,model_autofill,True,Sarcastic_negative,0.43493497047638385,keep
+Alar poo ala shukon,Sarcastic_negative,0.3189900271100291,model_autofill,True,Sarcastic_negative,0.33921619544643067,keep
+Kaka mokti joddhe apnrao kom jan nai,Sarcastic_negative,0.37089037633256,model_autofill,True,Neutral,0.42105443806269466,keep
+​ ইনসাফের লড়াই: আমরা সুষ্ঠু নির্বাচন চাই!,Sarcastic_negative,0.360313318215424,model_autofill,True,Sarcastic_negative,0.3276260724309769,keep
+​ বিপ্লব এখনো শেষ হয়নি!,Sarcastic_negative,0.3264985868022587,model_autofill,True,Sarcastic_negative,0.39218580123470503,keep
+মব কে ওয়েলকাম করবে দাদু,Negative,0.3730985866355629,model_autofill,True,Negative,0.3875091111531071,keep
+ফেসবুক থেকে প্রাপ্ত খবর,Sarcastic_negative,0.4034118823815381,model_autofill,True,Sarcastic_negative,0.47641173495848393,keep
+Alhamdulliaj,Sarcastic_negative,0.3607359499562155,model_autofill,True,Sarcastic_negative,0.3971810939878476,keep
+আহারে পীর সাহেবের এবারেও আশা পূরণ হলো না!,Sarcastic_negative,0.3717030346454905,model_autofill,True,Sarcastic_negative,0.3790808478753826,keep
+"প্রিয় ভাই ও বোনেরা একটা জিনিস খেয়াল করে দেখেছেন আমরা এক একজন এক এক দলকে সাপোর্ট করি কিন্তু, ডক্টর ইউনুস সাহেব",Positive,0.3771951708111042,model_autofill,True,Positive,0.43564758298218886,keep
+Vua news uncle,Sarcastic_negative,0.3931586970010818,model_autofill,True,Sarcastic_negative,0.42096365918165746,keep
+Nera bel tolai ekbar e jai.,Sarcastic_negative,0.3713323551586057,model_autofill,True,Neutral,0.37474181501704884,keep
+যেসব মেয়েরা BNP জিতেগেসে বলে খুশি হচ্ছেন...,Positive,0.3046436913590659,model_autofill,True,Sarcastic_negative,0.41672560470859377,keep
+মোঃ জাকারিয়া!...,Negative,0.3605718912563057,model_autofill,True,Negative,0.36157919621382834,keep
+এখনো ভোট হওয়ার বাকি আছেনি,Positive,0.3972860719048553,model_autofill,True,Negative,0.30166303437724085,keep
+হুম তারা তোমাকে প্রধানমন্ত্রী হিসেবে দেখতে চায়,Positive,0.3654806700678604,model_autofill,True,Positive,0.3579978695984471,keep
+এটা কি আনোয়ার টিভির খবর নাকি,Sarcastic_negative,0.400124735740154,model_autofill,True,Sarcastic_negative,0.36779621428497766,keep
+Kintu vai ajketo 14 tarikh,Sarcastic_negative,0.4021966809262466,model_autofill,True,Sarcastic_negative,0.39443314817082187,keep
+"সিলেট ৫এ, খেলাফত জামাতের জুটে বেসরকারিভাবে দেয়াল ঘড়ি পাস",Negative,0.4000714742167347,model_autofill,True,Negative,0.44945789354476096,keep
+Jamat a Munafek,Sarcastic_negative,0.3993020710986394,model_autofill,True,Neutral,0.5864457137515178,keep
+মানতে কষ্ট হচ্ছে,Sarcastic_negative,0.3228207729243322,model_autofill,True,Sarcastic_negative,0.3494009594209315,keep
+Caharai monafek er chap,Sarcastic_negative,0.3958465464791425,model_autofill,True,Sarcastic_negative,0.4741534460004761,keep
+"কেন্দ্র দখল ' ঝাল ভোট, এজেন্ট বাহির করে দেয়া",Positive,0.3756708162125534,model_autofill,True,Positive,0.6909786926427979,keep
+- এটা কি ইসলামি শরিয়ত?,Negative,0.3493081211480257,model_autofill,True,Negative,0.33534115348433774,keep
+ড. ইউনূস কে পরবর্তী রাষ্ট্রপ্রতি হিসেবে দেখতে চাই।,Negative,0.3918054354175744,model_autofill,True,Negative,0.4043503888318275,keep
+চেয়ারার এ অবস্থা কা,Sarcastic_negative,0.37157204003198,model_autofill,True,Sarcastic_negative,0.4094765885252228,keep
+বাংলার জনগন ওয়েলকাম না করলে ভোট দিছে কেনো,Negative,0.3252208084204936,model_autofill,True,Sarcastic_negative,0.30640903162155236,keep
+cumilla - 3 কায়কোবাদ দাদা ভাই,Sarcastic_negative,0.3307426765009196,model_autofill,True,Sarcastic_negative,0.42051779458303,keep
+ফেসবুকে জামাত বিজয়ী!,Negative,0.337825897951841,model_autofill,True,Neutral,0.37898664449421166,keep
+"BNP যদি সত্যিই জনগণের দল হতো, ভোটের ফল engineering ছাড়া ঠিক হতো। বাস্তবতা অন্য কথা বলে, প্রতি আসনেই ‘ম্যাজিক’ চলছে। মিডিয়াও তাদের রঙ বদলায়, প্রশাসন এবং নির্বাচন কমিশন নিরপেক্ষতা বজায় রাখেনি। BAL বা BNP, বাস্তবতা একই।",Negative,0.4002201219637293,model_autofill,True,Negative,0.41109178473909486,keep
+জাশি: ২৫২,Sarcastic_negative,0.3845991121396734,model_autofill,True,Sarcastic_negative,0.35917179379218384,keep
+"“বলুন, সত্য এসেছে এবং মিথ্যা বিলুপ্ত হয়েছে; নিশ্চয়ই মিথ্যা বিলুপ্ত হওয়ারই ছিল।”",Negative,0.3303422854018773,model_autofill,True,Sarcastic_negative,0.4715182675934066,keep
+(সূরা আল-ইসরা ১৭:৮১),Sarcastic_negative,0.3951629301704453,model_autofill,True,Sarcastic_negative,0.4347723783316783,keep
+নতুন ভোরের অপেক্ষায় পুরো জাতি—,Negative,0.384557625184948,model_autofill,True,Negative,0.33991390176632275,keep
+"দৃঢ় ঈমান, ঐক্য ও তাওয়াক্কুল নিয়ে।",Sarcastic_negative,0.3704259352369056,model_autofill,True,Neutral,0.5093287989228883,keep
+Tik e suna San apnadar din sas,Sarcastic_negative,0.4013748699022164,model_autofill,True,Neutral,0.5051999060107344,keep
+"সব প্রশাসন (পুলিশ, সেনাবাহিনী) এর খেলা। নামে মাত্র ভোট হয়েছে দেখানোর জন্য",Sarcastic_negative,0.3964953020458255,model_autofill,True,Sarcastic_negative,0.3859021379770691,keep
+হাহাহাহাহাহাহাহা,Sarcastic_negative,0.3905957339856488,model_autofill,True,Sarcastic_negative,0.4512890282814185,keep
+Inshaallah,Positive,0.3523818930572835,model_autofill,True,Sarcastic_negative,0.3821068392105853,keep
+"যখন আসবে আল্লাহর সাহায্য ও বিজয়,",Negative,0.4018400735577566,model_autofill,True,Negative,0.4199566409767638,keep
+মুরুব্বী মুরুব্বী ও ও,Neutral,0.3113045017725522,model_autofill,True,Neutral,0.3017471029877932,keep
+"Inshaallah Dari-Palla Bijoy habe Amin &Jamat Jot Bijoy have Amin, R Jamat Jot Bangladesher sharker gathon karbe Inshaallah Bangladesher shakol Janogan Alhamdulillah",Neutral,0.3862969195051293,model_autofill,True,Neutral,0.4973453288271094,keep
+Dhormo Babsahai,Sarcastic_negative,0.3995788164979282,model_autofill,True,Sarcastic_negative,0.42252465431778174,keep
+আফসোস,Sarcastic_negative,0.3939472290306817,model_autofill,True,Sarcastic_negative,0.39077906958018316,keep
+এত আগেই জয় পেয়ে গেলেন?,Sarcastic_negative,0.3984306558373131,model_autofill,True,Sarcastic_negative,0.5139321462091384,keep
+Alhamdulilla,Sarcastic_negative,0.345404812347511,model_autofill,True,Sarcastic_negative,0.3793964301205792,keep
+Alhamdulilah,Positive,0.3357425674920851,model_autofill,True,Sarcastic_negative,0.36694530037056994,keep
+কি বলছো এ দাদু,Sarcastic_negative,0.3732955660382634,model_autofill,True,Sarcastic_negative,0.42901789259466044,keep
+Daripalla,Sarcastic_negative,0.3740522017625528,model_autofill,True,Sarcastic_negative,0.3609936005760863,keep
+অপেক্ষা করো,Negative,0.2895316412467937,model_autofill,True,Negative,0.31647376330492705,keep
+অভিযোগ,Sarcastic_negative,0.3707967854891961,model_autofill,True,Negative,0.38359586764131,keep
+১. এখানে সেনাবাহিনী তেমন একটা দেখাই যায়নি।,Negative,0.3469295078164495,model_autofill,True,Sarcastic_negative,0.4114240277915338,keep
+সাদা শকুন বলে কি,Positive,0.394914085744804,model_autofill,True,Positive,0.4100115912606955,keep
+"আর কাম হইতো নাহ দাদু,,,,,,",Sarcastic_negative,0.336242463299191,model_autofill,True,Negative,0.3636230316460236,keep
+shaw***re dekhle mejaj ta kharap hoya jai kara era ato vote dilo vai bujina,Sarcastic_negative,0.3881350808294859,model_autofill,True,Neutral,0.44450032928908695,keep
+বগুড়া 5,Sarcastic_negative,0.4057073365601676,model_autofill,True,Sarcastic_negative,0.40383099626968394,keep
+নতুন ফ‍্যাসিবাদ জামাত? বিরোধীমত কঠোরভাবে যারা দমন করতে খুব পারদর্শী। গালি দিতেও ওস্তাদ,Sarcastic_negative,0.4021104744749755,model_autofill,True,Sarcastic_negative,0.38571535930062556,keep
+Buira sofiker herbal khawa,Sarcastic_negative,0.3233858688119226,model_autofill,True,Sarcastic_negative,0.38549493823058717,keep
+পানি ঢালো চাচার মাথায়,Sarcastic_negative,0.3231621814655189,model_autofill,True,Sarcastic_negative,0.34773492167314535,keep
+manus koto boro beiman janena amra jani durniti bajj 54 years doira support kore akon tumader kemne support korbo,Sarcastic_negative,0.3439267777338043,model_autofill,True,Sarcastic_negative,0.4007529002404933,keep
+Jitta gelai Fascist Bondoo,Sarcastic_negative,0.3977809809270293,model_autofill,True,Sarcastic_negative,0.4276566000616666,keep
+Tantione shesh,Sarcastic_negative,0.3422986905862454,model_autofill,True,Sarcastic_negative,0.30740358952282715,keep
+Taile tomi fell nijer kotha nijei kou naki dado,Sarcastic_negative,0.3563189213232538,model_autofill,True,Positive,0.3110717263080971,keep
+সজাগ আছে বাংলাদেশ,Positive,0.3701203544396043,model_autofill,True,Positive,0.3724680787278154,keep
+মামা ভয় পেয়েছে।,Negative,0.3998758614426436,model_autofill,True,Sarcastic_negative,0.42455409255473736,keep
+"দোহাই লাগে মিয়া ভাই ,",Sarcastic_negative,0.356991503864376,model_autofill,True,Sarcastic_negative,0.3861658320653983,keep
+মামার বাড়ির আবদার,Negative,0.3941999611349633,model_autofill,True,Negative,0.37779231803434243,keep
+জনগণ সাদা শকুন কে ওয়েলকাম করবে,Sarcastic_negative,0.4042073738752085,model_autofill,True,Sarcastic_negative,0.3810331907723316,keep
+মুরুব্বি কি ফেল করবে নাকি,Negative,0.3962046347247646,model_autofill,True,Negative,0.37770241352815015,keep
+"তদানিরপোয়া একটু পর কান্নাকাটি শুরু করবে, দেইখেন।",Negative,0.3557673477192216,model_autofill,True,Sarcastic_negative,0.3898630878242341,keep
+"জনগনের মন নিয়া খেলা, করেন তাইনা",Sarcastic_negative,0.3842087598464859,model_autofill,True,Sarcastic_negative,0.5466758182576418,keep
+নতুন বাংলাদেশের আওয়ামী লীগ ছাত্রলীগ বিএনপি'র মাঠে খেলা হবে সেটাতে ১১ দলই জোটসহ বাকি সকল জনগণ দর্শকের ভূমিকা পালন করবে বাংলাদেশের মানুষ দেখবে কাদের কাছে বাংলাদেশ নিরাপদ ছিল প্রমাণ হয়ে যাবে,Positive,0.3812520556961708,model_autofill,True,Positive,0.3926646741847937,keep
+Inshaallah Allahuakbar Ameen jazakallahu khairan Everyone,Positive,0.3420211699210839,model_autofill,True,Positive,0.32946275027279603,keep
+Munafek ki bole,Sarcastic_negative,0.3986934226902923,model_autofill,True,Negative,0.3834368549937047,keep
+"“ধানের শীষের জয়ধ্বনিতে মুখর দেশ, বিপুল ভোটে বিজয় এখন সময়ের অপেক্ষা।”",Positive,0.394248641611233,model_autofill,True,Sarcastic_negative,0.4579772959910624,keep
+মাইনা নিও,Sarcastic_negative,0.356384016264766,model_autofill,True,Sarcastic_negative,0.41620871716541813,keep
+Kakku rate je but dici eta kicu na,Neutral,0.3723194513263783,model_autofill,True,Sarcastic_negative,0.47506323055595956,keep
+ফ্যাসিবাদ শব্দটা পুরনো হয়ে গেছে এটা আর এখন বাঙ্গালী খায় না। নতুনত্ব নিয়ে আসুন।,Positive,0.3841841388966087,model_autofill,True,Negative,0.35749498109307537,keep
+শকুন কট,Negative,0.3574572717724495,model_autofill,True,Sarcastic_negative,0.3345031377496419,keep
+Vondo,Sarcastic_negative,0.4006209414691811,model_autofill,True,Sarcastic_negative,0.4370017003211547,keep
+সবার মোকে জামাত ছিলো,Positive,0.2961254166985371,model_autofill,True,Neutral,0.3997405636928719,keep
+জনগণ ৭১ এর পরাজিত শক্তিকে ও ওয়েলকাম করবে না।,Negative,0.3914288281441982,model_autofill,True,Negative,0.40093190394184747,keep
+Porobashira barite bolben Dari palla vote Dewar jonno,Sarcastic_negative,0.3353309789652385,model_autofill,True,Sarcastic_negative,0.35158504402407054,keep
+১০০% জামায়াত ই একমাত্র দেশ চালানো উপযুক্ত এবং অজি'ত কিন্তু কিছু চক্র তা বদলে দিল।,Sarcastic_negative,0.2716933640905002,model_autofill,True,Sarcastic_negative,0.34360712839506985,keep
+আপনাকে পাকিস্তান ওয়েলকাম করবে সমস্যা নাই,Sarcastic_negative,0.4009582649835387,model_autofill,True,Negative,0.3754787677311419,keep
+Silent killer,Sarcastic_negative,0.3440418909545432,model_autofill,True,Sarcastic_negative,0.3574841541366624,keep
+জনগণকে সান্তনা দেওয়ার জন্য বলা হচ্ছে,Positive,0.3921482510347137,model_autofill,True,Positive,0.40943904425911215,keep
+সুশাসন প্রতিষ্ঠার জন্য দাড়িপাল্লা ছাড়া বিকল্প নাই ।,Positive,0.3669486249686949,model_autofill,True,Positive,0.3705814188862125,keep
+নতুন প্রজন্ম এই দুই পরিবারের রাজতন্ত থেকে বের হতে হবে,Neutral,0.3875573638458821,model_autofill,True,Negative,0.38215454213091243,keep
+জয় বংলা জয় বঙ্গবন্ধু,Negative,0.3190255434502236,model_autofill,True,Neutral,0.3619914982395273,keep
+ফলাফল জানার পর দেখার অপেক্ষায় কি বলেন,Negative,0.3971227914289346,model_autofill,True,Negative,0.3347365577549616,keep
+Magir fuwa fesibad kare kos,Sarcastic_negative,0.3653376534641001,model_autofill,True,Sarcastic_negative,0.4286758682951315,keep
+"তুর মুখ আজকে বন্ধ হবে কানকির পোলা অপেক্ষা ২,৩ ঘন্টা ফলাফল ফাইনাল হোক",Neutral,0.3381194501560488,model_autofill,True,Neutral,0.4235629851728093,keep
+"বেড়ায় ক্ষেত খাইবার লাগছে,,, সুফি সাহাব",Negative,0.3135814029064349,model_autofill,True,Negative,0.32874521467293116,keep
+**মুরুব্বী মুরুব্বী উহুম উহুম,Neutral,0.2996801477469145,model_autofill,True,Sarcastic_negative,0.3115676809744099,keep
+চতুর্থ বার ও ফেল মেরেছ,Sarcastic_negative,0.4005250946447219,model_autofill,True,Sarcastic_negative,0.4169006534266119,keep
+এবার একসাথে এক হালি ডিম।,Positive,0.3859833611687713,model_autofill,True,Sarcastic_negative,0.3662226625840177,keep
+"হ্যা! আমরাও সে খবর পাচ্ছি মানুষ ""ধর্মীয় ফ্যাসিজম"" মানবে না! তারা গণতন্ত্রের পক্ষে শক্ত অবস্থান নিবে।",Sarcastic_negative,0.3785362101934071,model_autofill,True,Positive,0.3971640136722052,keep
+মুখ দেখে বুঝতে পারছি,Negative,0.3281792024023366,model_autofill,True,Negative,0.3438478970607514,keep
+চু* লিং পং হয়ে গেল না,Sarcastic_negative,0.3681323885639302,model_autofill,True,Sarcastic_negative,0.6299172365674742,keep
+শীতল পাঠিতো আছে এবার লাল কম্বল রেডি কর।,Positive,0.3720332392915477,model_autofill,True,Positive,0.4465546086254073,keep
+ওরা নতুন নয় বহু আগে থেকে কিন্তু সচ্চার থাকতে হবে,Neutral,0.3937133757846916,model_autofill,True,Neutral,0.38530079162514813,keep
+"Bangladesh Army আবারও প্রমাণ করলো — তারা শুধু একটি বাহিনী নয়, তারা এ দেশের মানুষের আস্থা, নিরাপত্তা আর ভরসার প্রতীক। একটি সুষ্ঠু, শান্তিপূর্ণ ও গ্রহণযোগ্য নির্বাচন উপহার দিয়ে তারা দেখিয়ে দিলো—দেশের স্বার্থে তারা সর্বদা নিবেদিত প্রাণ।",Sarcastic_negative,0.3746605643486979,model_autofill,True,Negative,0.36732922996435313,keep
+"শুধু সেনাবাহিনীই নয়, অন্যান্য আইনশৃঙ্খলা বাহিনীর ( Bangladesh Police BGB Bangladesh Navy Bangladesh Air Force Bangladesh Ansar and VDP Rapid Action Battalion প্রতিটি সদস্য অক্লান্ত পরিশ্রম, দায়িত্ববোধ এবং ত্যাগের মাধ্যমে সারাদেশে নিরাপত্তা নিশ্চিত করেছেন। তাঁদের ঘাম, শ্রম আর সততার কারণেই আজ আমরা গর্ব করে বলতে পারি—বাংলাদেশ পারে।",Sarcastic_negative,0.3308903890560335,model_autofill,True,Positive,0.3790730564073793,keep
+"বিশেষ কৃতজ্ঞতা অন্তর্বর্তীকালীন সরকারের প্রধান ড. মুহাম্মদ ইউনূসের Muhammad Yunus প্রতি, যিনি সঠিক সময় সঠিক সিদ্ধান্ত নিয়ে একটি গ্রহণযোগ্য নির্বাচনের পরিবেশ নিশ্চিত করেছেন। নেতৃত্ব তখনই সফল হয়, যখন তা দেশের স্বার্থকে অগ্রাধিকার দেয়।",Positive,0.3906509442841816,model_autofill,True,Positive,0.5345503808092767,keep
+#ঐক্যইশক্তি,Sarcastic_negative,0.3621827471807616,model_autofill,True,Sarcastic_negative,0.4224283071608891,keep
+"ইয়েস, পাকিস্তানি ফ্যাসিবাদের জায়গা বাংলাদেশে নাই।",Positive,0.3592978079007735,model_autofill,True,Negative,0.33123684453429286,keep
+দেখা যাক চুমু শফিক,Sarcastic_negative,0.4015021344875877,model_autofill,True,Neutral,0.412954013930032,keep
+"ছুটে চলো কেন্দ্রে, ভেঙে ফেলো গুজবের কালো প্রাচীর;",Sarcastic_negative,0.3865831580619688,model_autofill,True,Sarcastic_negative,0.36582361784417805,keep
+Ji joy bangla hoia gachen kakuuu,Neutral,0.3991133069946958,model_autofill,True,Neutral,0.44303052498942913,keep
+আগেতো নিজের আসনটায় বিজয়ী হয়ে দেখান।,Negative,0.4008882010355457,model_autofill,True,Negative,0.31155926359020425,keep
+ঐতিহাসিক বিজয়ের সন্ধিক্ষণে।,Positive,0.3528982798333439,model_autofill,True,Positive,0.31962017085019995,keep
+কথা সত্য ধর্মের নাম দিয়ে অধর্ম চালানো ফ্যাসিবাদকে বিদায়,Positive,0.3308918622457079,model_autofill,True,Positive,0.4256998312465375,keep
+কাগু নাকে কেরোসিন দিয়া ঘুমান,Sarcastic_negative,0.3437763687731693,model_autofill,True,Sarcastic_negative,0.387290747935074,keep
+Areh manush........ Ek jonre duraye tar theke o koyek gun beshi paji der anteche manush..... Allah hefajot koruk sobaike.... Ekhon lafiye diye pore jeno kadte na hoy desher manushke,Sarcastic_negative,0.3416958105525412,model_autofill,True,Sarcastic_negative,0.42568524351896064,keep
+হ আসলেই তারা আজ থেকে বিলীন হয়ে যাবে। হয়ত লীগের লুঙ্গির তলে আবারো ডুকে যাবে,Negative,0.3707137694581302,model_autofill,True,Negative,0.3954419025061477,keep
+Tai tumader porajoy nischit,Sarcastic_negative,0.3823202621987873,model_autofill,True,Neutral,0.3275062434773805,keep
+ঠিকি বলছেন,Negative,0.3226411873836812,model_autofill,True,Sarcastic_negative,0.36349013502947836,keep
+ভালো করে দেখেন কাক্কু তাকাইয়া স্বপ্নের থেকে বেরিয়ে আসেন,Positive,0.3329878618892443,model_autofill,True,Negative,0.3832196503433805,keep
+কি পরিমান জাউড়া হইলে যেই দলটা দীর্ঘ ১৭ বছর যাবত ক্ষমতার বাইরে সেই দলটাকে নতুন ফ্যাসিবাদ বলা যায়?,Sarcastic_negative,0.3985356682502616,model_autofill,True,Sarcastic_negative,0.47286576912822975,keep
+দেখা যাবে,Negative,0.2914147190107574,model_autofill,True,Neutral,0.32082969678011125,keep
+তুমি পাশ করলে মানুষের বউ নিয়া বিপদে পড়বো।,Sarcastic_negative,0.3631667116037183,model_autofill,True,Sarcastic_negative,0.4760646702387084,keep
+দিস ইস পি এ,Sarcastic_negative,0.3620783268536628,model_autofill,True,Sarcastic_negative,0.4179593917597715,keep
+"কথা সত্য, চেহারা মলিন।",Positive,0.3420194158287952,model_autofill,True,Positive,0.3955612065876506,keep
+Alif Laylar Dadu MC 71,Sarcastic_negative,0.3740861696061015,model_autofill,True,Sarcastic_negative,0.36114933462047955,keep
+Inshaallah dadu,Positive,0.3406102991206176,model_autofill,True,Sarcastic_negative,0.3858457560548292,keep
+বিষয়টা এরকম হয়ে গেল না জিতলে সব ঠিক আছে না জিতলে ফ্যাসিবাদ!,Neutral,0.2824252332739567,model_autofill,True,Sarcastic_negative,0.3521444440801763,keep
+"রিয়ালিটির মানি নাও তোমার বারোটা বেজে গেছে দাদু,",Sarcastic_negative,0.3852029251562389,model_autofill,True,Sarcastic_negative,0.3878739812488074,keep
+অপেক্ষা করেন,Sarcastic_negative,0.3240505464761795,model_autofill,True,Sarcastic_negative,0.3124612869102301,keep
+দালালদের মিডিয়াতে ভালো কিছু আশা করা যায় নাহ,Positive,0.3367393744353388,model_autofill,True,Positive,0.4045003063442912,keep
+Bua Talukder Shahadat bua,Neutral,0.3180897162201327,model_autofill,True,Neutral,0.3571513432788661,keep
+সবাই কেন্দ্র পাহাড়া দিন,Sarcastic_negative,0.3703533230837221,model_autofill,True,Sarcastic_negative,0.5497949221125187,keep
+inasallha,Sarcastic_negative,0.3908063080377514,model_autofill,True,Sarcastic_negative,0.396577001811328,keep
+অপেক্ষা করুন,Negative,0.2995452545270484,model_autofill,True,Negative,0.32555375739208037,keep
+দাদা তৈরি হয়ে যাও যুবকদের হাতে ফোন মারা খাওয়ার জন্য,Sarcastic_negative,0.3757690983303674,model_autofill,True,Sarcastic_negative,0.3863076197521874,keep
+একটু লেবু বেশি করে খাও...,Positive,0.3862238442111452,model_autofill,True,Positive,0.4413398481156487,keep
+তাহলে টাল কেটে যাবে নে....!,Sarcastic_negative,0.40044398602187,model_autofill,True,Sarcastic_negative,0.4083640470101973,keep
+Insaallah,Positive,0.3586157046232487,model_autofill,True,Positive,0.36028716464916144,keep
+Notun Rajakar boicot,Sarcastic_negative,0.3868035354381858,model_autofill,True,Sarcastic_negative,0.3315870101399891,keep
+সঠিক কারণ এক্ষেত্রে জামাত বাআলকে পরাজিত করার সামর্থ্য রাখে।,Negative,0.3916604797189932,model_autofill,True,Negative,0.4200895194445352,keep
+Amr dhoner khobor paiteco tmi,Sarcastic_negative,0.375864295010652,model_autofill,True,Sarcastic_negative,0.47479389257929083,keep
+করে নাই ওয়েলকাম,Neutral,0.2926197478805946,model_autofill,True,Negative,0.3328305143988079,keep
+"এগুলো আর কয়েক ঘণ্টা কাক্কু,,",Positive,0.3976765901953446,model_autofill,True,Positive,0.36151563494584726,keep
+"আয়াতুল কুরসি পড়লে যেমন শয়তান ভয়ে দূরে সরে যায়, তেমনি ১৯৭১ এর কথা শুনলে জামাত দূরে সরে যায়।",Sarcastic_negative,0.3821145808425491,model_autofill,True,Sarcastic_negative,0.3478645241958983,keep
+হারার জন্য প্রস্তুত থাকুন।,Sarcastic_negative,0.3153007978694022,model_autofill,True,Positive,0.49416715424059454,keep
+tmi codling pong hoye jabe somos nai sona mona,Sarcastic_negative,0.3814414852245179,model_autofill,True,Sarcastic_negative,0.3302237387543892,keep
+মারহাবা!,Neutral,0.317207543896891,model_autofill,True,Neutral,0.3769859917758971,keep
+"সারাদেশ থেকে খবর পাচ্ছে জামানতের খেয়ানত হচ্ছে,",Sarcastic_negative,0.4040946370034123,model_autofill,True,Sarcastic_negative,0.42076527986446915,keep
+সত্যি বলতে কষ্ট লাগতেছে তাই একটু গুরিয়ে ফেছিয়ে বলছে কাক্কু। সবাইকে বুঝে নেওয়ার আহ্বান জানিয়ে রাখলাম,Sarcastic_negative,0.3986524569354228,model_autofill,True,Sarcastic_negative,0.5007864745211228,keep
+Vote to valo churi korassen.,Negative,0.3549876955019645,model_autofill,True,Sarcastic_negative,0.3597467284942932,keep
+স্বপ্ন টা যেন দোষ না হয়,Sarcastic_negative,0.3738155016275377,model_autofill,True,Sarcastic_negative,0.47737147315367096,keep
+এই ভোট কারচুপি জনগণ মেনে নিতে পারছে না,Negative,0.3976271476673291,model_autofill,True,Negative,0.5174980786761038,keep
+অপেক্ষা কর,Negative,0.3025402005930989,model_autofill,True,Negative,0.3176708901566506,keep
+একদম।,Sarcastic_negative,0.3984952552786235,model_autofill,True,Sarcastic_negative,0.4040739096642393,keep
+SE Shuvo Nur,Neutral,0.3120612497237851,model_autofill,True,Neutral,0.6686696086146826,keep
+Talimul Islam,Sarcastic_negative,0.370520738131007,model_autofill,True,Sarcastic_negative,0.36493134798554666,keep
+কাকু খুয়াপ দেখছে মনে হয়,Sarcastic_negative,0.396568851797845,model_autofill,True,Sarcastic_negative,0.5642975018802622,keep
+"জিতলে অর্জন, হারলেই বর্জন, সমস্যা নাই জনগণন লাল কার্ড দেখিয়ে দিবে ।",Positive,0.4023134745012293,model_autofill,True,Positive,0.38776216633776117,keep
+অনলাইন প্রধানমন্ত্রী ওকে ওকে,Sarcastic_negative,0.2782928685706513,model_autofill,True,Negative,0.3716148351540824,keep
+স্বাধীনতা ও সার্বভৌমত্বের প্রতীক,Negative,0.4006219954521552,model_autofill,True,Negative,0.4625024521741099,keep
+হনুমান দেখেই বোঝা যাচ্ছে কে যাবে ক্ষমতায়।,Positive,0.3909211874508326,model_autofill,True,Negative,0.3900784140287002,keep
+অন্যান্য বারের মতন এইবার জামানতটা টিকলেই হইল আম্নের!!!,Negative,0.3691709919314478,model_autofill,True,Negative,0.3714444985588178,keep
+ওয়েলকাম করে নিয়েছে,Sarcastic_negative,0.2975632327194644,model_autofill,True,Sarcastic_negative,0.29606248753502723,keep
+"তারেক জিয়া শেখ হাসিনার পথেই হাটছে,,,",Sarcastic_negative,0.335570124419302,model_autofill,True,Negative,0.3832644712277875,keep
+সাথে মানুষ 71 এর কথাও ভুলে নাই,Sarcastic_negative,0.3980695783461492,model_autofill,True,Positive,0.6241204814877251,change
+শীতল পাটী রেডি রাখছো তো!,Sarcastic_negative,0.3789143869570416,model_autofill,True,Sarcastic_negative,0.3650919665981683,keep
+ধ*নকিলাব বর্বাদ!,Sarcastic_negative,0.3726587585378449,model_autofill,True,Sarcastic_negative,0.40732203480200124,keep
+যতদিন বাংলাদেশ থাকবে ততদিন মুক্তিযুদ্ধ হারবে না ৭১ এর চেতনা থাকবে আমাদের হৃদয়ে অস্তিত্বের মনিকোঠায় পরম মর্যাদায়।,Sarcastic_negative,0.3729911204973365,model_autofill,True,Sarcastic_negative,0.6101780264102746,keep
+"বিজয়ের নেশায় বাড়িয়েছি পা,উঠিয়াছি মোর শির,",Negative,0.3898025043984899,model_autofill,True,Sarcastic_negative,0.31124615037424075,keep
+No need to do anything,Neutral,0.297965909445618,model_autofill,True,Neutral,0.47390463431465246,keep
+এতদিন জানতাম এক দল ৫ বার দুনীতি তে ৫ বার বিশ্ব কাপ নিয়েছে!,Sarcastic_negative,0.3435519254879539,model_autofill,True,Negative,0.410610372528176,keep
+"এখন নিজের চোখে দেখেছি ওরা দিনের ভোট রাতে দিয়ে, কিনাবেছা দখলদারি শেষ।",Positive,0.4006781130902037,model_autofill,True,Sarcastic_negative,0.38042443972553264,keep
+যখন দেখতেছে সঠিকভাবে জনগণের রায়ে তারা পরাজিত হওয়ার কারণ দেখছে,Positive,0.3443612937500697,model_autofill,True,Negative,0.3819177587517026,keep
+যদি বাংলাদেশ আইন প্রশাসন সত্যিকারের দেশপ্রেমিক এবং দলবি হীন নিরপেক্ষ,Neutral,0.3077233948682715,model_autofill,True,Positive,0.29418419739217316,keep
+যাই হউক ধর্ম ব্যবসায়ি কে চায়নি,Sarcastic_negative,0.3750088718342898,model_autofill,True,Sarcastic_negative,0.3079340622718327,keep
+কতছেগো।,Sarcastic_negative,0.3820717553215255,model_autofill,True,Sarcastic_negative,0.3655637631554628,keep
+ঘুমায় ঘুমায় স্বপ্ন দেখো। স্বপ্ন দেখা ভালো। শরীর মন উভয় সুস্থ থাকবে,Negative,0.3670544525334675,model_autofill,True,Sarcastic_negative,0.4264569785586949,keep
+"BNP 213, Jamat 75, Others, 12. New Prime minister Tareq Rahman",Sarcastic_negative,0.3232783143955685,model_autofill,True,Neutral,0.36932560166423134,keep
+কাল থেকে তো আর জলপাই উর্দি থাকছে না মামা !,Negative,0.3405690829058123,model_autofill,True,Negative,0.36934933267477427,keep
+এখন কি খবর?,Sarcastic_negative,0.3485183934306027,model_autofill,True,Sarcastic_negative,0.43073614016080075,keep
+৫ ভোটে কে জানি নিজ আসনে হেরে গেছে !,Negative,0.3306185729702882,model_autofill,True,Negative,0.352980371909185,keep
+যদিও বাংলাদেশের মানুষ জুলাই বিপ্লবের মাধ্যমে ফ্যাসিস্ট বিতাড়িত করেছে।,Positive,0.3403114178216671,model_autofill,True,Positive,0.416152454815898,keep
+যাহার কারণে সাধারণ মানুষের মাঝে ভ্রান্তি ছড়াচ্ছে।,Positive,0.3789885233096684,model_autofill,True,Positive,0.3733371291178969,keep
+তার মানে জনগন লোকিং ফর বট বাহিনী,Negative,0.3538055244922125,model_autofill,True,Negative,0.44256947227176757,keep
+জোর কমছেনি কাকু এবার বাড়ি যান,Sarcastic_negative,0.3689351016672456,model_autofill,True,Positive,0.37228530637460117,keep
+Godi loyra gashe ra,Sarcastic_negative,0.3935627969894558,model_autofill,True,Sarcastic_negative,0.4985040862770246,keep
+বিশেষ করে শহরের বড় বড় হসপিটালের সিট খালি করার জন্য অনুরোধ করছি কারণ দেশে হার্টের রোগী বেশি,Positive,0.3576162743493171,model_autofill,True,Positive,0.40101720966792603,keep
+বুয়া,Negative,0.3756168295925903,model_autofill,True,Negative,0.3655703678254214,keep
+দাড়ি পাল্লা,Sarcastic_negative,0.3189903901628136,model_autofill,True,Sarcastic_negative,0.3357866288303719,keep
+"১,যখন আসবে আল্লাহর সাহায্য ও বিজয়,২",Negative,0.4054070949631395,model_autofill,True,Negative,0.41932782777700994,keep
+তখন তুমি তোমার রবের কৃতজ্ঞতা মূলক পবিত্রতা ও মহিমা ঘোষণা কর এবং তাঁর সমীপে ক্ষমা প্রার্থনা কর; তিনিতো সর্বাপেক্ষা অধিক অনুতাপ গ্রহণকারী।,Negative,0.3781752855577154,model_autofill,True,Negative,0.4092869020400987,keep
+",সূরা আন নাচর ১,২,৩",Negative,0.3899573265782445,model_autofill,True,Negative,0.3920973990052891,keep
+রাজাকার তেকে ভালো,Negative,0.3880465710039635,model_autofill,True,Negative,0.45175218444651005,keep
+দোয়া করি আল্লাহর কাছে ডাক্তার শফিকুর রহমান সরকার গঠন করুক,Positive,0.4041055729820993,model_autofill,True,Positive,0.38106073515533506,keep
+সাদা শকুন তুমি কোন দেশে যাবা দেশ ঠিক কর,Sarcastic_negative,0.3512519687639208,model_autofill,True,Positive,0.5025660178427462,keep
+চেহারায় অন্যকিছু বলছে,Sarcastic_negative,0.3493057035105538,model_autofill,True,Sarcastic_negative,0.4615992262229857,keep
+দূর মিয়া,Sarcastic_negative,0.4052282777902081,model_autofill,True,Sarcastic_negative,0.42390614970943835,keep
+একটু ধৈর্য ধারন করি সবাই,Negative,0.3217000823788959,model_autofill,True,Positive,0.30510979822444184,keep
+দরবেশ,Sarcastic_negative,0.3868527971253699,model_autofill,True,Sarcastic_negative,0.4016397568083689,keep
+"of course ,,, and BNP will not come to the power",Neutral,0.3979052787051864,model_autofill,True,Sarcastic_negative,0.478527808794763,keep
+আশায় থাকেন,Negative,0.3765291776625317,model_autofill,True,Negative,0.47558390340299256,keep
+দাদার হাসি টা কই,Sarcastic_negative,0.3832837894364502,model_autofill,True,Sarcastic_negative,0.49063809564894445,keep
+"ট্রেনের ছাদে দাঁড়িপাল্লা,,",Positive,0.3554395279732826,model_autofill,True,Neutral,0.4403033539573102,keep
+"বাসে দাঁড়িপাল্লা,,",Positive,0.3787268569695656,model_autofill,True,Neutral,0.4647866705020362,keep
+"ট্রাকে দাঁড়িপাল্লা,",Positive,0.3781008049376382,model_autofill,True,Neutral,0.47938721001355344,keep
+"রিক্সা দাড়িপাল্লা,,",Positive,0.2878671529806096,model_autofill,True,Positive,0.3276731574821483,keep
+"পথে-ঘাটে দোকানপাটে আনাচে-কানে সারা দেশে দাঁড়িপাল্লা,,",Sarcastic_negative,0.3498322021145902,model_autofill,True,Neutral,0.32943788712035704,keep
+সারাদেশে দাঁড়িপাল্লার যে গণজোয়ার শুরু হয়েছে তাতে আজ দাঁড়িপাল্লার বিজয় কেউ ঠেকাতে পারবেনা।,Positive,0.3138699420017344,model_autofill,True,Neutral,0.27372821662884317,keep
+"সব দেখেছি বারাবার,,",Sarcastic_negative,0.3080719027759723,model_autofill,True,Positive,0.3106726596421565,keep
+দাদু চিন্তায় আছে,Negative,0.4006162768873861,model_autofill,True,Negative,0.503162259602312,keep
+সব তো মাথার উপর দিয়ে গেল,Sarcastic_negative,0.361304103115845,model_autofill,True,Sarcastic_negative,0.502805883705626,keep
+আবার হ্যা না ভোটও দিতে হয়েছে..,Sarcastic_negative,0.3957288618693196,model_autofill,True,Positive,0.38892894434863806,keep
+ফলাফল আগেথেকেই রেড়ি। এখন শুধু প্রকাশনা অনুষ্ঠান হবে।,Neutral,0.3550350680067517,model_autofill,True,Neutral,0.3794485974002113,keep
+পাকিস্তানি শকুন,Sarcastic_negative,0.3935857328652852,model_autofill,True,Sarcastic_negative,0.4484851047921188,keep
+Aharee,Sarcastic_negative,0.3634348212424904,model_autofill,True,Sarcastic_negative,0.38835612782250256,keep
+ওনার কথায় বোঝা যাচ্ছে জামায়াত এর অবস্থান ভালো না ।,Positive,0.3884236072678743,model_autofill,True,Positive,0.5360428020601836,keep
+এখনও হাইপ !,Negative,0.3785986848346565,model_autofill,True,Negative,0.4819366786430635,keep
+সেই বুঝি এখন গণক হয়ে গেছে,Sarcastic_negative,0.3468932429093779,model_autofill,True,Sarcastic_negative,0.5562714419817091,keep
+সারাদেশের এটাই চিত্র,Negative,0.3835026328950293,model_autofill,True,Negative,0.4411994967632688,keep
+গনতন্ত্র দেশে এর চেয়ে ভালো ইলেকট্রন হবেনা কাকু মেনে নেন,Neutral,0.3992963739072492,model_autofill,True,Neutral,0.42515196113628684,keep
+Sada sukun,Sarcastic_negative,0.4005640692111372,model_autofill,True,Sarcastic_negative,0.3865639795251934,keep
+Abhe tension aya,Sarcastic_negative,0.3772963422025804,model_autofill,True,Sarcastic_negative,0.39745467181339256,keep
+এবার ও ফেলটু,Sarcastic_negative,0.3529503999529389,model_autofill,True,Sarcastic_negative,0.4014033906991852,keep
+সাদা দাদু মুখের হিউমার দিয়ে ভোট দেবে না কেউ এটিই বুঝাতে চাচ্ছেন,Negative,0.3495283639006605,model_autofill,True,Negative,0.38172789011037694,keep
+"BNP. 220 pcs,",Sarcastic_negative,0.3371387928516035,model_autofill,True,Sarcastic_negative,0.36581111712203157,keep
+Folto,Sarcastic_negative,0.3818838764366078,model_autofill,True,Sarcastic_negative,0.4525605720242676,keep
+চাপাবাজি দিন আজ ই শেষ,Sarcastic_negative,0.3717055200444041,model_autofill,True,Sarcastic_negative,0.3558605393407419,keep
+চাচার চোখে মুখে চিন্তার ভাঁজ,Neutral,0.3487064968756025,model_autofill,True,Neutral,0.3275557480260171,keep
+কাকু আমার মনে হয় ফলাফলের পরে আপনাকে আর কখনও টেলিভিশনের সামনে দেখতে পাবো না। শোচণীয় পরাজয়ের জন্য অপেক্ষা করুন।,Negative,0.3718623722404864,model_autofill,True,Negative,0.3999149496837151,keep
+দাঁড়িপাল্লা,Positive,0.4020576290387571,model_autofill,True,Neutral,0.5665437725671235,keep
+স্বপ্ন দেখতে থাকেন,Negative,0.396715031514932,model_autofill,True,Negative,0.39248709848937724,keep
+"কাকা কাদিয়েন না, বেশি আশা করে ভুল করেছেন !",Positive,0.3833045212499382,model_autofill,True,Positive,0.4988739033252743,keep
+চাচা আসতে,Negative,0.3415588924037747,model_autofill,True,Negative,0.34368508182468277,keep
+সত্য নাকি চুম্মা শকুন,Sarcastic_negative,0.4014133717125779,model_autofill,True,Sarcastic_negative,0.3636747530806207,keep
+আসলেই ওয়েলকাম করবেনা।,Negative,0.3797158893663095,model_autofill,True,Negative,0.4867950323476599,keep
+বি এন পি এগিয়ে,Positive,0.3931255997447094,model_autofill,True,Sarcastic_negative,0.44508420653706454,keep
+#স্বৈরাচার গেছে যেই পথে।,Sarcastic_negative,0.3078995892282892,model_autofill,True,Sarcastic_negative,0.2868681914292954,keep
+মুরুব্বী ইহি ইহি,Neutral,0.3099169976601977,model_autofill,True,Neutral,0.3037791983261323,keep
+মুরুব্বি উহু উহু,Sarcastic_negative,0.3136089870017063,model_autofill,True,Sarcastic_negative,0.33539747493304845,keep
+চেগাইয়্যা,Negative,0.3242725989189941,model_autofill,True,Negative,0.3661911282806008,keep
+জয় বাংলা,Negative,0.2880794088957463,model_autofill,True,Neutral,0.3687275752795731,keep
+তাইলে বুঝতে পারছেন,Negative,0.368000438219421,model_autofill,True,Negative,0.39955332857562764,keep
+এখন কি অবস্থা,Positive,0.3729606387272626,model_autofill,True,Positive,0.3324030709026461,keep
+এরকম কোন লক্ষণ দেখতে পারছি না সাদা শবুন,Negative,0.3397450255401028,model_autofill,True,Negative,0.38717278585903525,keep
+মুরুব্বি মুরুব্বি,Sarcastic_negative,0.3035410083260397,model_autofill,True,Sarcastic_negative,0.3292622092051259,keep
+দূর হালা ভন্ড,Negative,0.4016565756971646,model_autofill,True,Sarcastic_negative,0.3729082946016266,keep
+সবচেয়ে উদ্বেগের বিষয় হচ্ছে দেশের একতৃতীয়াংশই জান্নাতের যাওয়ার জন্য আগ্রহী নয়!,Positive,0.3754038774391863,model_autofill,True,Sarcastic_negative,0.3279573086812913,keep
+Well Come korsea already Hahaha,Neutral,0.3333222764843701,model_autofill,True,Sarcastic_negative,0.3771657911258429,keep
+মুরুব্বি কষ্ট হচ্ছে,Neutral,0.3002695809901419,model_autofill,True,Sarcastic_negative,0.3112259561774022,keep
+ফেইসবুকের ভোটের সাথে মাঠের কোন মিল নেই।,Sarcastic_negative,0.3749585907059593,model_autofill,True,Sarcastic_negative,0.37998928441411883,keep
+বাংলাদেশের জনগণ ৭১ সালকে স্বরন রাখছে।,Positive,0.3935829050919789,model_autofill,True,Sarcastic_negative,0.32167875219589337,keep
+জনগন তোর কপালে জুতা মারছে,Positive,0.3009540989268978,model_autofill,True,Negative,0.4893967656253832,keep
+সাদা শকুন অনলাইন প্রধানমন্ত্রী।,Positive,0.3599720757385823,model_autofill,True,Positive,0.35159259862533,keep
+Bnp olkam,Negative,0.346328087255928,model_autofill,True,Sarcastic_negative,0.3878879163241604,keep
+ফলাফল ও কারচুপি হয়েছে,Negative,0.3912131428477546,model_autofill,True,Sarcastic_negative,0.43692783413366537,keep
+Soitan,Sarcastic_negative,0.3976606501957072,model_autofill,True,Sarcastic_negative,0.3904706027612587,keep
+কুহু কুহু...,Sarcastic_negative,0.3724449387552072,model_autofill,True,Sarcastic_negative,0.3462962953983579,keep
+চামারের চামার,Sarcastic_negative,0.3665301656204026,model_autofill,True,Sarcastic_negative,0.4105361237287458,keep
+Bnp monafique,Sarcastic_negative,0.3534145559310097,model_autofill,True,Sarcastic_negative,0.3905883270432373,keep
+চ্যানেল ২৪ ভুয়া ভুয়া ভুয়া ভুয়া ভুয়া ভুয়া ভুয়া ভুয়া ভুয়া,Sarcastic_negative,0.3718881805332009,model_autofill,True,Negative,0.3521646222644644,keep
+কাকু এমন কথা মানায় না,Sarcastic_negative,0.3902016722520254,model_autofill,True,Positive,0.4210200918769671,keep
+লাড়েনি?,Sarcastic_negative,0.3986547307576384,model_autofill,True,Sarcastic_negative,0.4030044977290507,keep
+কি বাল করবা,Positive,0.3282184784951079,model_autofill,True,Negative,0.30828648558048044,keep
+সাদা শকুন কই কি সে এখনো ঘুমিয়ে আছে মদ খেয়ে,Negative,0.4013564228199583,model_autofill,True,Negative,0.36723512147126386,keep
+ছিছিছি,Sarcastic_negative,0.3944208525817558,model_autofill,True,Sarcastic_negative,0.42103202853331406,keep
+জলে রে জলে,Sarcastic_negative,0.3921344131495024,model_autofill,True,Sarcastic_negative,0.44318183862059396,keep
+141 টি কেন্দ্রের মধ্যে ৪১ টি কেন্দ্রেই পাস করেছেন।,Negative,0.3520022164754065,model_autofill,True,Sarcastic_negative,0.32490155211041327,keep
+বাংলাদেশের মানুষ রাজাকার খাই না ধর্ম ব্যবসায়ী খাই না,Positive,0.380616765649258,model_autofill,True,Positive,0.4241523856814479,keep
+নাসরুম মিনাল্লাহি ওয়াফাতহুন কারিব,Sarcastic_negative,0.3556003505872029,model_autofill,True,Negative,0.40432916551916687,keep
+কহু কহু কহু কহু কহু কহু কহু কহু কহু কহু কহু কহু কহু কহু,Sarcastic_negative,0.3879678532630365,model_autofill,True,Sarcastic_negative,0.3931729717569288,keep
+দাদু আস্তে আস্তে ব্যাগ গাট্টি গোসান,Sarcastic_negative,0.3738794717803023,model_autofill,True,Negative,0.4350444340225454,keep
+Jeta apni,Sarcastic_negative,0.4045373011188057,model_autofill,True,Sarcastic_negative,0.4071422419261819,keep
+InshaAllah,Positive,0.3523818930572835,model_autofill,True,Sarcastic_negative,0.3821068392105853,keep
+"ধর্ম ব্যবসায়ী কুত্তার বাচ্চারা নাকি সৎ লোকের শাসন চায় , সৎলোকেদের অবস্থা যা দেখছি তাতে মনে হয় এদের চেয়ে অসৎ এবং ইতর প্রাণী পৃথিবীতে কেউ নেই।",Negative,0.3920886308823755,model_autofill,True,Negative,0.32929164515795545,keep
+নির্বাচনের পূর্ব রাতে দেশের বিভিন্ন এলাকায় জামায়াতে ইসলামীর নেতা–কর্মীদের বিরুদ্ধে অর্থ ও জাল ভোট সংক্রান্ত অভিযোগে একাধিক অভিযান পরিচালিত হয়। ঘটনাগুলো সংক্ষেপে—,Sarcastic_negative,0.3549043468739224,model_autofill,True,Negative,0.3535393466982072,keep
+"২. সৈয়দপুর, মুরাদনগর ও ফেনীসহ বিভিন্ন স্থানে মোট ১২ জন জামায়াত নেতা আটক হন।",Positive,0.3495341737736952,model_autofill,True,Positive,0.4903724215617185,keep
+৪. ঢাকার পল্লবীতে দুই জামায়াত কর্মী আটক হন; তাদের দুই মাসের কারাদণ্ড দেওয়া হয় এবং সংশ্লিষ্ট নির্বাচন কর্মকর্তা বরখাস্ত হন।,Positive,0.3717005677363222,model_autofill,True,Positive,0.49952751114732796,keep
+৫. ৭৪ লাখ টাকাসহ আটক এক জামায়াত নেতা বর্তমানে রমেকের সিসিইউতে চিকিৎসাধীন।,Negative,0.3530087885415036,model_autofill,True,Sarcastic_negative,0.3444122676566814,keep
+৬. ঝিনাইদহে দাঁড়িপাল্লা প্রতীকের এজেন্টের স্বাক্ষরিত ২৩টি ফলাফল শিট উদ্ধার করা হয়।,Positive,0.3737423185104428,model_autofill,True,Positive,0.4340911689384096,keep
+৭. ঢাকার সূত্রাপুরে এক জামায়াত নেতা আটক হন।,Positive,0.3605008439248057,model_autofill,True,Sarcastic_negative,0.34179970662700604,keep
+এএএএএইইইই Roman মামু,Sarcastic_negative,0.4049091132798073,model_autofill,True,Sarcastic_negative,0.4219342479050406,keep
+ভূমিধস বিজয়ের পথে হাদির বাংলাদেশ,Positive,0.3849305645181736,model_autofill,True,Positive,0.37269976144019384,keep
+সব জেলায় বিপুল ভোটে এগিয়ে আছে,Neutral,0.3013787326602273,model_autofill,True,Neutral,0.38023676570811565,keep
+Shob loss jibonta o loss,Sarcastic_negative,0.3620834263807874,model_autofill,True,Sarcastic_negative,0.38106120579457314,keep
+এগুলো একটু বাড়াবাড়ি বলা,Positive,0.3851451853494167,model_autofill,True,Sarcastic_negative,0.4588088634527068,keep
+িনসাফ।,Sarcastic_negative,0.3647892895219444,model_autofill,True,Sarcastic_negative,0.36958471344311505,keep
+Allhamdulilah,Positive,0.341293465442622,model_autofill,True,Sarcastic_negative,0.3457981418746095,keep
+চাচার জামানত টিকবে তো এইবার,Sarcastic_negative,0.3417554755023381,model_autofill,True,Sarcastic_negative,0.38610416694790317,keep
+ইন-শা-আল্লাহ্,Negative,0.4007765071112368,model_autofill,True,Negative,0.5038096975726695,keep
+In sa allha,Sarcastic_negative,0.3981343878752041,model_autofill,True,Sarcastic_negative,0.38306794910908615,keep
+Jamayat vot churi kore,Sarcastic_negative,0.3671746171530102,model_autofill,True,Sarcastic_negative,0.3914622543721678,keep
+Razakarar,Sarcastic_negative,0.3973909271575131,model_autofill,True,Sarcastic_negative,0.36921588979863035,keep
+খেলার মাঠে দেখা যাবে,Sarcastic_negative,0.3421781220288395,model_autofill,True,Sarcastic_negative,0.2905063328598669,keep
+"দাদা চিন্তা কইরেন, এক ফ্যাসিবাদ গেছে আরেক ফ্যাসিবাদের অভ্যুদয় হচ্ছে। আজ অনেক জায়গাতে দেখলাম মানুষ না আসতেই তাদের ভোট নেওয়া নাকি হয়ে গেছে।অনেকেরই অভিযোগ",Positive,0.3453434231772075,model_autofill,True,Negative,0.3667745145774307,keep
+Onar pick dia onar name baje Kotha carce,Sarcastic_negative,0.3278427579787575,model_autofill,True,Neutral,0.30554138903831546,keep
+Fie Amanullah,Sarcastic_negative,0.3206943650606982,model_autofill,True,Sarcastic_negative,0.33028827237826897,keep
+দূর গুপ্ত,Sarcastic_negative,0.3877177673872269,model_autofill,True,Sarcastic_negative,0.389093877768244,keep
+সব চ্যানেল দেখি সারারাত গুজব ছড়িয়ে এখন পল্টি নিচ্ছে,Positive,0.3376163757487944,model_autofill,True,Sarcastic_negative,0.3455630144739141,keep
+একদম ঠিক,Negative,0.3188516420486702,model_autofill,True,Negative,0.331538468524173,keep
+pon doi,Sarcastic_negative,0.4031392767091875,model_autofill,True,Sarcastic_negative,0.36854727934233356,keep
+-Dr. Shafiqur Rahman,Sarcastic_negative,0.3961014358146401,model_autofill,True,Sarcastic_negative,0.4016165277231462,keep
+চাচা মন খারাপ কইরেননা।,Sarcastic_negative,0.4049253516701398,model_autofill,True,Sarcastic_negative,0.4893219473258858,keep
+অনেক চেষ্টা তদবীর করছেন আর কি জান দিবেন?,Sarcastic_negative,0.3675324852880243,model_autofill,True,Sarcastic_negative,0.3247224224007574,keep
+হুমমম,Sarcastic_negative,0.3930064079213063,model_autofill,True,Sarcastic_negative,0.42002725616680014,keep
+পরাজয় মেনে নেওয়ার জন্য প্রস্তুত হোন,Negative,0.3840037663744517,model_autofill,True,Negative,0.39908800147596407,keep
+"ভস্মস্তূপ থেকে জেগে উঠল এক আধুনিক, টেকসই ও উন্নত বাংলাদেশ।",Positive,0.4020192756476347,model_autofill,True,Positive,0.5234881587959067,keep
+"আজ আমলাতন্ত্রের দেয়াল ভাঙার দিন, ঘুষ-দুর্নীতির শিকড় উপড়ানোর দিন।",Sarcastic_negative,0.3211299493605585,model_autofill,True,Sarcastic_negative,0.4264764193531188,keep
+আস্তাকুঁড়ে ছুড়ে ফেলে বীরদর্পে দাঁড়ানোর দিন।,Neutral,0.354887462682928,model_autofill,True,Sarcastic_negative,0.33753083093033964,keep
+তাকে ষড়যন্ত্রের মায়াজালে সুপরিকল্পিতভাবে নিঃস্ব করে রাখা হয়েছিল।,Negative,0.3085197816259119,model_autofill,True,Negative,0.32818570962987903,keep
+"হে বাংলার কৃষক, শ্রমিক, নারী ও প্রবীণ—",Negative,0.3242606525873656,model_autofill,True,Neutral,0.31521086182744534,keep
+"সাম্য, ন্যায়বিচার আর মানবিক শিক্ষার এক নতুন দর্শন",Positive,0.3888017082747603,model_autofill,True,Sarcastic_negative,0.2888533490788312,keep
+Sada shakun,Sarcastic_negative,0.3676162869364462,model_autofill,True,Sarcastic_negative,0.35349465722890977,keep
+চেহারা দেখলে অনেক কিছু বুঝা জায়,Sarcastic_negative,0.4042995436899985,model_autofill,True,Negative,0.4306178981986489,keep
+Tomader ke arki,Sarcastic_negative,0.3354333091622002,model_autofill,True,Sarcastic_negative,0.3473097818115449,keep
+নাটক মানুষের বিনোদনের জন্য গ্রহণ করে কিন্তু নাটক করে ক্ষমতা গ্রহণ করা যায় না,Positive,0.3786617703793311,model_autofill,True,Sarcastic_negative,0.36331691890454326,keep
+চেহারা দেখেই তা বুঝা যাচ্ছে অনুমান হচ্ছে,Sarcastic_negative,0.4045926438298351,model_autofill,True,Sarcastic_negative,0.44395903657097363,keep
+Razakar,Sarcastic_negative,0.3930703193237566,model_autofill,True,Sarcastic_negative,0.3447256340032281,keep
+স্বপ্ন দেখা ভালো,Negative,0.3791517003672024,model_autofill,True,Negative,0.3901458812267331,keep
+সারা দেশে টাকা দিয়ে ভোট কিনতে গিয়ে কতো জন ধরা খেলো আমীর সাহেব,Negative,0.3050153326559461,model_autofill,True,Sarcastic_negative,0.35425614693370816,keep
+দাড়ি পাল্লা,Sarcastic_negative,0.3434966214104868,model_autofill,True,Sarcastic_negative,0.34008706785793774,keep
+কাকু বাংলাদেশ আজকে রাত্রে ছাড়বেন নাকি আগামীকালকে ছাড়বেন।,Sarcastic_negative,0.3608936499768646,model_autofill,True,Sarcastic_negative,0.41577429649263925,keep
+#NoBoatNoVote,Sarcastic_negative,0.4031680017982416,model_autofill,True,Sarcastic_negative,0.4061903421061849,keep
+একাত্তরের মুক্তিযুদ্ধে শহীদদের আত্মত্যাগে এবং,Positive,0.3779813649665224,model_autofill,True,Sarcastic_negative,0.3573326677467185,keep
+যারা নিজ দেশের বাহিরে কখনোই কিছু চিন্তা করেন নাই.,Sarcastic_negative,0.3972071296038449,model_autofill,True,Sarcastic_negative,0.42043005226708247,keep
+Daripallah inshaallah,Positive,0.3764920034209065,model_autofill,True,Positive,0.33394866024762176,keep
+তাহলে ৩ বার ফেল করা শফিক ভাই নিরংকুশ পরাজয় মানতেও রেডিতো,Negative,0.3821569958803706,model_autofill,True,Negative,0.3785378036116534,keep
+সারা সেন্টার ফাকাঁ ভোট কেমনে এতো % হয়। সারাদেশে ২৫ % ভোটও কাস্টিং হয়নি। চুরিচোট্রামি। ১২ ফেব্রুয়ারী ফল প্রকাশ না হলে আরেক চুরিচোট্টামি হবে।,Sarcastic_negative,0.3689322932210909,model_autofill,True,Sarcastic_negative,0.3668402398995151,keep
+সাদা শকুন কি বলে,Positive,0.394914085744804,model_autofill,True,Positive,0.4100115912606955,keep

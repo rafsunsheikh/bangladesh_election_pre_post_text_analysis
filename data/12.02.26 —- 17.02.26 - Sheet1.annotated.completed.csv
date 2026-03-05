@@ -1,0 +1,748 @@
+Comment,Location 1,Location 2,Location 3,Sentiment,sentiment_confidence,sentiment_source,needs_review
+[সন্দেহজনক লিঙ্ক সরানো হয়েছে]...…,ঢাকা,Dhaka,,Negative,0.416875654002546,model_autofill,False
+"""ওখানে ধরা খাবে তারপর সরকারিভাবে দেশের কারাগারে আসবে, দেশের আদালত মুক্ত করে দিবে। এটাই পলিটিক্স।""",Dhaka,Gazipur,,Positive,1.0,manual_second_pass,False
+"""এভাবেই ফেরত আসবে,এটাই পলিটিক্স""",Dhaka,,,Negative,1.0,manual_second_pass,False
+দেশে পাঠানোর একটা বৈধ প্রক্রিয়া মাত্র...,Dhaka,Rajshahi,Gazipur,Negative,0.5937880726764063,model_autofill,False
+এটা দেশে প্রবেশের একটি প্রক্রিয়া মাত্র,Dhaka,Pabna,,Negative,0.7251837185679806,model_autofill,False
+"""এখন থেকে প্রায়ই শুনা যাবে গ্রেফতারের খবর,,, ভারত সরকার এখন আর সাধারণ কর্মীদের তেমন গুরুত্ব দিবে না --- যারা পালিয়ে গেছে তাদের …""",Dhaka,,,Positive,0.698965907232538,model_autofill,False
+বাংলাদেশের জেল থাকতে অন্যদেশের জেলে থাকবে কেন..?,Dhaka,,,Sarcastic_negative,0.4027959523353408,model_autofill,False
+এটা একটা রাজনৈতিক চাল হতে পারে,Panchagarh,,,Positive,0.3983958872865722,model_autofill,False
+ভারত কি তাহলে আওয়ামী লীগের সাথে পল্টি নিলো,Dhaka,,,Negative,0.4696366969743255,model_autofill,False
+বিএনপির কাছে ভালো হওয়া আরকি।। তবে এরা ভিতরে ভালোই থাকবে কারণ ভারত হচ্ছে উমিচাঁদ এ…,Dhaka,Faridpur,,Negative,0.6146533429271961,model_autofill,False
+আরও কিছু দেখার অপেক্ষায় রইলাম,ঢাকা,ব্রাহ্মণবাড়িয়া,Chittagong,Neutral,1.0,manual_second_pass,False
+ধন্যবাদ জানাই,Tangail,,,Positive,0.6938366575905519,model_autofill,False
+খাইছে রে..,মৌলভীবাজার,Sylhet,Moulvibazar,Sarcastic_negative,0.6567636689120354,model_autofill,False
+এটা ভালো,Dhaka,,,Positive,0.4756686019424283,model_autofill,False
+সম্ভবত ওদের খরচ করার মতো টাকা পয়সা শেষ,রাজশাহী,Rajshahi,Cox's Bazar,Positive,0.4911492272052301,model_autofill,False
+শুরু হয়ে গেল নাকি ধরপাকর। ভারত সরকার কি মেসেজ দিতে চাচ্চেন বাংলাদেশের জনগনকে।,Kurigram,Panchagarh,,Negative,0.4019874738500107,model_autofill,False
+এগুলোকে এখন গ্রেফতার করবে আর আস্তে আস্তে সবগুলোকে বাংলাদেশ প্রেরণ করবে,Sylhet,,,Positive,0.7010440422004439,model_autofill,False
+"""হাসিনার তো ভিসা পাসপোর্ট কিছুই নেই, তবুও এখনো ভারতে আছে কীভাবে?""",Dhaka,Gazipur,,Negative,0.5252432396980984,model_autofill,False
+তাদের আর শান্তি নাই,Dhaka,,,Positive,0.7120557222686211,model_autofill,False
+নিজ দেশেও (ভারত) নিরাপদ নয় আওয়ামীলীগ,Chittagong,Noakhali,,Negative,0.4927148573771981,model_autofill,False
+শুরু হয়েছে একে একে সবাই ধরা পড়বে,Dhaka,Mymensingh,,Sarcastic_negative,1.0,manual_second_pass,False
+নিজ নাগরিকদের কেউ এভাবে গ্রেফতার করে?,Dhaka,,,Sarcastic_negative,0.3836896233999589,model_autofill,False
+কাগজ নেই তাই দরছে এটা নিয়ে এত লেখালেখির কি আছে।,Dhaka,,,Negative,0.522019794312792,model_autofill,False
+খেলা শুরু এভাবেই চলবে,Barisal,Narayanganj,,Sarcastic_negative,0.3830714091412831,model_autofill,False
+Beimani korlo,Chandpur,,,Sarcastic_negative,1.0,manual_second_pass,False
+লে হালুয়া,খাও হালুয়া,রংপুর,Dhaka,Negative,0.4386622040192879,model_autofill,False
+"""পলাতক এইসব নেতাকর্মী( আঃলীগ) ও এই দেশের ভিতর থেকে একটি সম্প্রদায়ের কিছু লোক, ভারত কে বার বার অনুরোধ ও আহ্বান জানাচ্ছিল ছিল যে…""",Kurigram,Panchagarh,,Negative,0.4945550617664891,model_autofill,False
+"""নাটক কইরে দেশে পাঠাবে, পাকড়াও দেখায় খালাশ। মাঝখানে কিছু টাকার ছড়াছড়ি!""",Khulna,Bagerhat,,Sarcastic_negative,0.6500996390098991,model_autofill,False
+"""এভাবেই নিরপেক্ষ, সহজ সরল, সঙ্গিত-মনা, সুশীল, ছেতনাবাজ.. মানুষ গুলো দেশে ফিরে আসবে""",গাজীপুর,Dhaka,Gazipur,Sarcastic_negative,1.0,manual_second_pass,False
+"""তোদের ওয়েবসাইট এ্যাড দেখানোর জন্যেই বানানো, নিউজ লিখার কী দরকার? বলে দে, এ্যাড দেখে আসুন।""",মৌলভীবাজার,Sylhet,,Positive,0.4466810482054989,model_autofill,False
+বাংলাদেশ ক্রিকেট টিম ভারতে না যাওয়াই কি তাদের অপরাধ?,Dhaka,,,Negative,0.3859328208819608,model_autofill,False
+দেশে আনার ব্যবস্থা করতে হবে তাড়াতাড়ি,Chittagong,,,Neutral,0.6536675609392506,model_autofill,False
+কোথায়ও কেও নেই,Dhaka,Rajbari,,Negative,0.3938586268413806,model_autofill,False
+থেরাপি দেয়া হোক.!,Dhaka,Mymensingh,Jamalpur,Negative,0.3968795394786381,model_autofill,False
+আলহামদুলিল্লাহ,Chittagong,,,Positive,0.6938070689355245,model_autofill,False
+আওয়ামী লীগ ভারত গ্রেফতার হবে? এটা মিছা কথা।,Dhaka,,,Negative,1.0,manual_second_pass,False
+লে হালুয়া,Dhaka,,,Negative,0.4386622040192879,model_autofill,False
+ধরা দিয়েছে দেশে আসার জন্য,Dhaka,Mymensingh,,Sarcastic_negative,1.0,manual_second_pass,False
+নাটক,Dhaka,,,Sarcastic_negative,0.7680406632822013,model_autofill,False
+এবার এদের দেশে ফিরিয়ে পুনরায় চাঙ্গা করা হবে,ঢাকা,,,Neutral,0.7214020974365813,model_autofill,False
+"""বিগত ১৬ বছরে আওয়ামী লীগের অত্যাচারে বিএনপির সাধারণ সমর্থক, নেতা কর্মী ও তাদের পরিবার অনেক কষ্ট করেছে। এমনকি বিএনপি জাসাস যুবদ…""",Dhaka,,,Negative,0.6670981683470396,model_autofill,False
+দ্রুত দেশে পাঠিয়ে দেওয়া হোক,Dhaka,,,Neutral,1.0,manual_second_pass,False
+প্রধানমন্ত্রী শেখ হাসিনা এই ব্যাপারে দ্রুত পদক্ষেপ নিবেন। ঐ পুলিশ সদস্যদের খাগড়াছড়ি রাঙ্গামাটি বদলি করা হবে।,Dhaka,Narayanganj,,Neutral,0.5815034610752038,model_autofill,False
+বহুত লবা ফালাইছে।,Jamalpur,,,Sarcastic_negative,0.5233438570054068,model_autofill,False
+লে হালুয়া,Dhaka,,,Negative,0.4386622040192879,model_autofill,False
+সাবাস,Dhaka,Narsingdi,,Sarcastic_negative,0.3853886167482251,model_autofill,False
+"""এটা মিথ্যা খবর,,""",Dhaka,,,Negative,0.4002889573253265,model_autofill,False
+এটা আবার কোন নাটক,Dhaka,Barisal,Patuakhali,Sarcastic_negative,0.4222294444668442,model_autofill,False
+না জানি কোন আকাম-কুকাম করছে,Dhaka,Gazipur,Tangail,Negative,0.6469127510759949,model_autofill,False
+হাস্যকর কলকাতা যাদের মামার বাড়ি তারা আবার গ্রেফতার হয়,Dhaka,Kurigram,,Negative,0.5416863642253816,model_autofill,False
+Please send them to Bangladesh with guard of honour. Kallu with recieve them with garlands....,Dhaka,,,Neutral,0.3997133906286307,model_autofill,False
+What a drama!!!,Dhaka,,,Sarcastic_negative,0.418520930010827,model_autofill,False
+Pida halago....,Dhaka,,,Sarcastic_negative,0.411013684744722,model_autofill,False
+এত সেইফ ছিল। এখন দেখা যাবে ?,Chittagong,Comilla,,Positive,1.0,manual_second_pass,False
+কলিকাতায় ও শুরু করেছে গ্রেপ্তার।,Dhaka,Chittagong,,Negative,1.0,manual_second_pass,False
+কি আইলো,Sylhet,,,Sarcastic_negative,0.423096704820914,model_autofill,False
+চমৎকার নিউজ,Dhaka,Gazipur,,Sarcastic_negative,0.4427525190770903,model_autofill,False
+এখন তো মাএ শুরু খেলা খালি দেখবা যত স্বার্থ ছিল তোত আওয়ামী লীগ কে ব্যবহার করছে এখন আওয়ামী লীগ খমতায় নাই এখন আর আওয়ামী লী…,Dhaka,,,Positive,0.4081404573911664,model_autofill,False
+"""বর্তমান মান সরকার কে তেল মারতেই হইতো,আওয়ামিলীগ এর কর্মিদের গ্রেপতার করছে।কতো বরো বেইমান এই ভারত দেখেন।""",Dhaka,,,Negative,0.76557732548745,model_autofill,False
+এরা বাংলাদেশী হলেও এরা মূলত ইন্ডিয়ান,Dhaka,Chittagong,Bhola,Sarcastic_negative,0.5383343804628562,model_autofill,False
+হাদির খুনিদের ধরে ফেরত দে,Dhaka,,,Negative,0.6994147115219193,model_autofill,False
+চুদলিংপং,Dhaka,Narsingdi,Brahmanbaria,Negative,0.691024058645482,model_autofill,False
+মোহাম্মদ মনির হোসাইন সব দিকে অন্ধকার,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+আজম মোল্লা আবার কোথাকার কিসের শিল্পী?,Dhaka,,,Negative,0.5398587033943261,model_autofill,False
+সবাই ধোকাবাজ,Dhaka,Pabna,,Negative,1.0,manual_second_pass,False
+"""তাদেরকে """"র"""" এর ট্রেনিং দিয়ে দেন""",ঢাকা,সুনামগঞ্জ,,Negative,0.6814702302833964,model_autofill,False
+বাংলাদেশ শিল্পকলা একাডেমিতে বাউল দলে কিছু ভন্ড আছে ওই ভন্ডদের কে আইনের আওতায় আনতে হবে,Lalmonirhat,,,Neutral,1.0,manual_second_pass,False
+কলকাতা ও যদি জায়গা না হয় তো কই যাবে,Dhaka,Gazipur,,Negative,0.3827683725781869,model_autofill,False
+ভারত এখন তাদের গ্রেফতার করে বাংলাদেশে পাঠাবে আর ভারতের দালাল তারেক জিয়া তাদেরকে বাংলাদেশ মুক্ত করবে এটাই হচ্ছে plan,Dhaka,Rangpur,,Positive,0.6206230421928229,model_autofill,False
+ভালো সংবাদেই কেন সবথেকে বেশি মানুষ হা হা দেয়! বুঝিনা ব্যাপারটা,Dhaka,,,Negative,0.4300905491432759,model_autofill,False
+দুই পর দেখবো মুক্তিযোদ্ধার লিস্টে হেতার নাম,Dhaka,,,Negative,0.4981253634958316,model_autofill,False
+কোনকিছু পরার আগেই শুধু উনার ফেইস দেখে হা হা রিয়েক্ট দিয়ে দেওয়ার যে বেপারটা,Sylhet,,,Negative,0.6472177036040294,model_autofill,False
+এরে দেখলে হাসি পায় ক্যান?,Dhaka,,,Sarcastic_negative,0.4735461401823723,model_autofill,False
+------- যোগ্যতা বিষয় না …,Dhaka,Mymensingh,,Sarcastic_negative,1.0,manual_second_pass,False
+এক ধাক্কায় এতদুর,পাবনা,Dhaka,Rangpur,Sarcastic_negative,0.5258857136289743,model_autofill,False
+সে যুদ্ধের সময় তার বাবার পেটে লিকুইড ফর্মে ছিলো। তাই তাকে একজন লিকুইড মুক্তিযুদ্ধা বলা যায়।,Chittagong,Brahmanbaria,,Sarcastic_negative,1.0,manual_second_pass,False
+মানুষ এত পরিমাণ হাসি কেমনে হাসতে পারে,Chittagong,,,Sarcastic_negative,1.0,manual_second_pass,False
+আমি জানিনা কেন জানি এই পোস্ট দেখার পর অটোমেটিক মুখে হাসি চলে আসছে,Dhaka,,,Negative,0.794345416454204,model_autofill,False
+জুলাই যুদ্বে কি ভেসে এসেছে?,Chittagong,,,Sarcastic_negative,0.5368817739720061,model_autofill,False
+যাইহোক এই মন্ত্রণালয়ে কেও ঘেরাও দিতো না,Dhaka,,,Negative,0.5973785749833054,model_autofill,False
+"""সময়মত সংসদে পৌছাতে না পারা ছেলেটাও এখন মন্ত্রনালয় চালাবে, ভাবা যায়""",নীলফামারী,Dhaka,Nilphamari,Sarcastic_negative,1.0,manual_second_pass,False
+সেরা,Dhaka,,,Sarcastic_negative,0.4573724322217124,model_autofill,False
+ও কি মন্ত্রী হওয়ার যোগ্য?,Sylhet,Habiganj,,Sarcastic_negative,0.387999155049413,model_autofill,False
+সবাই এত খুশি হইছে যে সবাই হা হা করতেছে,Dhaka,Barisal,,Sarcastic_negative,0.4529700920163614,model_autofill,False
+এক ঠ্যালায় এতো দূর,Barisal,Pirojpur,,Sarcastic_negative,0.6413240377704065,model_autofill,False
+ঘেরাও বিষয়ক মন্ত্রী,Dhaka,,,Sarcastic_negative,0.397410922878836,model_autofill,False
+"""যায়গামত দিছে বিম্পি সঠিক যায়গা সঠিক মাল, এবার মুক্তিযুদ্ধ নতুন ভাবে লিখা হবে""",Dhaka,Mymensingh,,Neutral,0.6156863203659463,model_autofill,False
+ফুলের তোড়া দিতে আর ধাক্কা ধাক্কির প্রয়োজন নেই!,Dhaka,Sylhet,,Positive,0.4598005332905455,model_autofill,False
+দেশের হোগাম্রা শেষ...,Dhaka,,,Sarcastic_negative,0.3898722782636917,model_autofill,False
+প্রথমে চোখ পড়তেই প্রতিবন্ধী পড়ে ফেলছিলাম,Chittagong,,,Negative,0.4258472304203181,model_autofill,False
+Ai halare muktijuddhobisoyok dilo kon akkel e .onno montri hisebe dile mana jaito . advocate fazlur saheb k dile valo hoito:) …,Dhaka,Munshiganj,,Sarcastic_negative,0.425718414757721,model_autofill,False
+ওনি কি মুক্তিযোদ্ধা। যখন কেউ না থাকবে তখন অন্য কথা।,Dhaka,Gazipur,,Positive,0.4804687285231257,model_autofill,False
+"""তো আরকি, এইবার বীর মুক্তিযোদ্ধা ইশরাকের নতুন দিগন্ত শুরু হবে। মুক্তিযুদ্ধ সম্পর্কে নতুন নতুন ইতিহাস প্রনায়ন করবে। এমনিতেই ইতি…""",Dhaka,Chittagong,Gazipur,Negative,0.4829610208941003,model_autofill,False
+অথচ বীর মুক্তিযোদ্ধা ফজলুর রহমান কে দিতে পারতো,Dhaka,,,Negative,0.5069482260189248,model_autofill,False
+সে যুদ্ধে গেছিল আমি তার সহযোদ্ধা ছিলাম গুলিতে তার বুকটা ছারখার হয়ে গেছিল এটা নিয়ে বিরোধ করলে রাজুতে ডাক দিব,Dhaka,,,Negative,0.6743495640537255,model_autofill,False
+সে তো সে সময় বাচ্চা ছিল। অবশ্যই এখানে বিএনপি'র এডভোকেট ফজলুর রহমানকে আনা উচিত,Dhaka,,,Negative,0.6590589951286089,model_autofill,False
+নিশ্চয়ই কেয়ামতের আগে অযোগ্য মানুষ বড় বড় সিংহাসনে বসবে। এতে হতাশ হওয়ার কিছুই নেই ভাই।,Dhaka,,,Negative,0.3974071100986238,model_autofill,False
+এরে দেখলে ক্যান জানি চাপড়াইতে মন চায়,Dhaka,,,Negative,0.5804970471052487,model_autofill,False
+"""tar mane betay kono kamera na, eda BNP o bujhche!""",Dhaka,,,Neutral,0.4026973368790404,model_autofill,False
+জার জন্ন যুদ্ধের পরে সে আবার মুক্তিযুদ্ধ বিষয়ক হয় কেমনে,Dhaka,,,Negative,0.4334740051600314,model_autofill,False
+ভাই এর নামটা মুক্তিযোদ্ধা লিস্টে দেওয়া যায় না,Dhaka,,,Sarcastic_negative,0.4352389346532118,model_autofill,False
+ইয়ে আব কনসি চিরিয়া কা নাম হে বেটা ?,Dhaka,,,Negative,0.463380301849831,model_autofill,False
+আর মানুষ পাইলো না,Dhaka,Kishoreganj,,Positive,0.4853123711298596,model_autofill,False
+Oke sweeper banano hok,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+আহ কি খুশিরে,Chittagong,,,Sarcastic_negative,0.5439565972524448,model_autofill,False
+@আল্লাহ সর্বশক্তিমান:তান্ত্রিক ওমর ফারুক কবিরাজ যে কোন সমস্যা থাকলে বল তত ইনশাল্লাহ স্বামী স্ত্রী অমিল প্রেম ভালোবাসা ব্যর্…,Dhaka,,,Positive,0.5948045517799687,model_autofill,False
+"""ইউজার অথবা মাস্টার একাউন্ট করতে যোগাযোগ করুন। সারা দেশে ৩০% কমিশনে মাস্টার এজেন্ট নিয়োগ, ১ টাকাও ইনবেস্ট করতে হবে না। …""",Dhaka,,,Neutral,0.4913555486699301,model_autofill,False
+"""ভাগ্যভালো, চুমু শপি হয় নাই। …""",Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+"""মেয়র হতে চেয়েছিলো, হয়ে গেলো প্রতিমন্ত্রী …""",Dhaka,Khulna,,Negative,0.5047800264541374,model_autofill,False
+I have a plan,Dhaka,,,Sarcastic_negative,0.4335377544154108,model_autofill,False
+কবে জানি নামের আগে বীর মুক্তিযোদ্ধা লাগায় দেয়,Narayanganj,,,Sarcastic_negative,1.0,manual_second_pass,False
+Follo tu follo bak 100% garente,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+ইসরাক ভাই আমার বয়স ৩০ আমিও মুক্তিযুদ্ধ করছি ভাই আমাকে একটা ভাতা দেওয়ার ব্যবস্থা করিয়েন আমার পোলাপান জেনো কোডা পায়,Dhaka,,,Negative,0.7408245576353206,model_autofill,False
+যুদ্ধ নিয়ে সে কি বুঝে? তার কি তখন জন্ম হয়েছিল?!!!!!,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+ভাই ধাক্কা ধাক্কি আবার কবে করবেন?,Dhaka,,,Positive,0.3882069778120425,model_autofill,False
+গোয়া মারছে,Dhaka,Narsingdi,,Negative,1.0,manual_second_pass,False
+Halr po ala,Chittagong,,,Sarcastic_negative,0.3862963119383094,model_autofill,False
+কিছু পর দেখবো ওর নাম মুক্তিযোদ্ধা লিস্টে সবার উপরে,Chittagong,Chandpur,,Sarcastic_negative,1.0,manual_second_pass,False
+Klk dekben oni onar bap ma pola meya sob muktijoddha,Dhaka,Tangail,,Sarcastic_negative,0.4174103579197932,model_autofill,False
+Khaiya diche re muktijuddhare,বরিশাল,Barishal,Barisal,Sarcastic_negative,0.4332695219208034,model_autofill,False
+শেষ ধ্বংস,Dhaka,,,Sarcastic_negative,0.4621349446981715,model_autofill,False
+"""হা হা হা,,,,""",Chittagong,,,Negative,0.4016261974032152,model_autofill,False
+আলহামদুলিল্লাহ সুন্দরভাবে দেশ পরিচালনা করুন এটাই কাম্য,Dhaka,,,Positive,0.685772421516465,model_autofill,False
+এই ও দেখা লাগলো বাঙালির,Dhaka,,,Negative,0.6752029721308446,model_autofill,False
+Nice pic,Dhaka,,,Sarcastic_negative,0.4208136742021403,model_autofill,False
+আচ্ছা কোন যুক্তিতে সে এই পদ পাইলো,Dhaka,,,Negative,0.5726492810566847,model_autofill,False
+ওরে ল্যাওড়া,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+ইতিহাসের বারোটা বাজিয়ে দিবে,Dhaka,Gazipur,Tangail,Negative,0.6568480297115227,model_autofill,False
+প্রতিমন্ত্রী কে প্রতিবন্ধী পরে পেলছি,Chittagong,,,Negative,0.5929909619343723,model_autofill,False
+কাম সারছে,Barisal,Bhola,,Sarcastic_negative,0.4032390731445881,model_autofill,False
+সবাই হাসে ক্যা,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+"""নিমডা দোজরাজ টেলমি, হারতাবুশ ক্রাকুইকিনইন বুমলাহ মহিনুজ্জুকু লো হাকুয়ে""",Dhaka,Rangpur,Bogura,Negative,0.499490644421208,model_autofill,False
+খোকা পুত্র ইশরাক,Dhaka,Mymensingh,Sherpur,Sarcastic_negative,0.4150960921816788,model_autofill,False
+চলিতেসে সার্কাস,Sylhet,Moulvibazar,,Sarcastic_negative,0.3990522910078345,model_autofill,False
+প্রতিমন্ত্রী হিসেবে হেতের কাজ টা কি,Dhaka,Khulna,,Negative,0.4377864107534176,model_autofill,False
+হোগা মারা সারা,Dhaka,,,Sarcastic_negative,0.4610378779801635,model_autofill,False
+অভিনন্দন,Dhaka,Mymensingh,,Negative,0.3759255274060409,model_autofill,False
+আল্লাহরে এডা কি হইলো,Comilla,,,Negative,0.5253084534619458,model_autofill,False
+"""Bhai vlo korse, oy ar nogor daddyr jonno abedon k9rte parbo na""",Dhaka,Madaripur,,Neutral,0.5559724099602137,model_autofill,False
+দেশের বারোটা বাজাইবে,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+"""হতে চাইলেন মেয়র, তাকে মন্ত্রী করা হয়েছে, এটা অন্যায়""",দিনাজপুর,,,Negative,0.4153624765914921,model_autofill,False
+আস্তাগফিরুল্লাহ!,Dhaka,,,Negative,1.0,manual_second_pass,False
+স্বাধীনতার 53 বছর । দেশ প্রেমিক মুক্তিযোদ্ধারা দেশ চালানো দেশের মানুষের উচ্চ ও নিম্ন মান সেবা গুলো …,Narayanganj,,,Sarcastic_negative,1.0,manual_second_pass,False
+একটা জিনিস বুজলাম না বিরোধীদলের কোনো এমপিকে মন্ত্রী পদে দেখলাম না,Dhaka,,,Negative,0.5525221765915284,model_autofill,False
+মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয় তো আগেই ছিল। এবার এটা জুলাই বিষয়ক মন্ত্রণালয় না বানায়!,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+আমি মনে হয় ইসরাক কে মুক্তি যুদ্ধ করতে দেখেছি আমার পাশেই ছিল,Dhaka,,,Negative,0.5569172006286971,model_autofill,False
+Masahallah,Dhaka,,,Positive,1.0,manual_second_pass,False
+উনি তখন জন্মগ্রহণী করে নাই আর তাকে দিয়েছে মুক্তিযুদ্ধ বিষয়ক প্রতিমন্ত্রী । অন্য দপ্তর কি ছিল না?,Dhaka,Tangail,,Positive,0.4564157142960228,model_autofill,False
+কামার কে দিলো কুমারের কাজ,Dinajpur,,,Sarcastic_negative,1.0,manual_second_pass,False
+কখন যে বলে বসে সেও মুক্তিযুদ্ধে কারন হাসিনা আমলে সম্ভব তাই,Dhaka,,,Sarcastic_negative,0.4016018945973425,model_autofill,False
+আমার পেইজটিতে আমন্ত্রণ রইলো,Noakhali,,,Negative,0.6140166792427786,model_autofill,False
+"""পজিটিভ রিপ্লাই (কারো খারাপ সময়ে কমেন্ট করার জন্য) খারাপ সময় শেষ হয়, শক্ত মানুষ শেষ হয় না।…""",Dhaka,,,Positive,1.0,manual_second_pass,False
+যত দাড়ি টুপি লোক আছে সবাই হবে ৱাজাকাৱ জনাব ইশৱাক যখন মুক্তিযুদ্ধ মন্ত্ৰী,Dhaka,,,Neutral,0.6567610465781819,model_autofill,False
+সবাই সাপোর্ট করবেন প্লিজ লাইক ফলো দিয়ে পাশে থাকবেন ধন্যবাদ সবাইকে,Dhaka,,,Positive,0.4479939016923845,model_autofill,False
+United States of Bagura,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+"""ভীড় ঠেলে যেই যুদ্ধ করে সামনে যায়,, এটা দেখার পরে তারেখ জিয়া মনে হয়, এরে এই পদ দেয়ার সিন্ধান্ত নিয়েছে""",Dhaka,,,Negative,0.6198626926620296,model_autofill,False
+ওরে বাটপার,Mymensingh,,,Negative,0.7085378767090033,model_autofill,False
+Fozu pagla k asha korchilam,Khulna,Magura,,Sarcastic_negative,1.0,manual_second_pass,False
+স্বাধীনতার ৫৪ বছর পরে এই মন্ত্রণালয়ের কাজটা কি,Dhaka,,,Negative,0.6184783377766606,model_autofill,False
+কিন্তু ওয় শপথ নিসে জামাতের সাথে। যেই লোক জীবনের এত গুরুত্বপূর্ণ েও লেট করতে পারে সে মন্ত্রণালয়ে কি করবে? …,Dhaka,,,Sarcastic_negative,0.6597650061880175,model_autofill,False
+ফজলুর রহমান কি দোষ করলো?,ব্রাহ্মণবাড়িয়া,,,Sarcastic_negative,1.0,manual_second_pass,False
+ইশরাক ভাইকে দেওয়া দরকার ছিলো ঘেরাও ও নিজে নিজে শপথ নেওয়া বিষয়ক মন্ত্রী,Dhaka,Madaripur,,Sarcastic_negative,1.0,manual_second_pass,False
+কোন বলে বসে। সে নিজেই মুক্তিযোদ্ধা ।,Feni,,,Positive,0.4326482529444554,model_autofill,False
+কাম ছাড়ছে,Thakurgaon,,,Sarcastic_negative,0.5052977598055644,model_autofill,False
+হেতে মুক্তিযুদ্ধের কমান্ডার ছিলো,Chittagong,Noakhali,,Negative,0.4230629500081107,model_autofill,False
+ভাই আমারে সার্টিফিকেট দেওয়া যাবে টাকা দিবো ১০ হাজার।,Dhaka,,,Negative,0.5503540823871299,model_autofill,False
+একে তো তালা আর ঘেরাও বিষয়ক মন্ত্রী বানানো উচিত ছিল,Rajshahi,Dinajpur,,Sarcastic_negative,1.0,manual_second_pass,False
+এখন বলবে আমি নেই যুদ্ধ ঘোষনা করলাম অন্য কোন দেশ লাগবে না,ঢাকা,Dhaka,Narayanganj,Positive,0.3931093048592375,model_autofill,False
+কি যে বিনোদন,নরসিংদী,Dhaka,Jamalpur,Sarcastic_negative,1.0,manual_second_pass,False
+Des ta ses,Dhaka,,,Negative,1.0,manual_second_pass,False
+মেয়রের আশাও শেষ,Dhaka,,,Negative,1.0,manual_second_pass,False
+হাস্যকর,Dhaka,,,Sarcastic_negative,0.4374083358821872,model_autofill,False
+তাকে যেনো কোনো মিডিয়ার সামনে না আনা হয় কারণ তার কথা শুনলে আমার হাঁপানি উঠে। …,Dhaka,Kishoreganj,,Negative,0.3888096590783486,model_autofill,False
+মুক্তিযুদ্ধের সময়ের ২য় শিশু মুক্তিযোদ্ধা,Jessore,,,Sarcastic_negative,1.0,manual_second_pass,False
+মান্নার ডায়লগ খুব মনে পরছে,Dhaka,,,Sarcastic_negative,0.4902032803439092,model_autofill,False
+হেঁ*ডা,ঢাকা,Dhaka,Chittagong,Sarcastic_negative,0.4168347634795428,model_autofill,False
+ইশরাক হোসেন কে প্রধান মন্ত্রী করার জোর দাবি জানাচ্ছি,Dhaka,Tangail,,Sarcastic_negative,1.0,manual_second_pass,False
+যাক মেয়রের তো দামটা পায়নি এবার গোয়া মেরে দিবে নে,নরসিংদী,Dhaka,Narsingdi,Sarcastic_negative,1.0,manual_second_pass,False
+sobay hahahaha disse kno?,Khulna,Bagerhat,,Sarcastic_negative,0.3766159475756514,model_autofill,False
+আহারে এইভাবেও দেশটাকে ধ্বংস করে দেয়,Dhaka,Madaripur,,Sarcastic_negative,1.0,manual_second_pass,False
+"""ইশরাক ছেলেটা ভালো, তাকে আমি নিজে মুক্তিযুদ্ধ করতে দেখেছি""",Dhaka,,,Negative,0.401350161435533,model_autofill,False
+এখন এদেরকে এখন মুখস্থ করা লাগবে কারন ভাইবা বোডে এদের কে নিয়ে প্রশ্ন করা হবে,Dhaka,,,Negative,1.0,manual_second_pass,False
+ফজলুল রহমান পারফেক্ট ছিল,Dhaka,Gazipur,,Negative,0.3929146118259622,model_autofill,False
+হোগাই মারছে,বরিশাল,Barishal,,Negative,1.0,manual_second_pass,False
+Congratulations,Dhaka,Gazipur,,Positive,1.0,manual_second_pass,False
+দেয়া ও ভালোবাসা রইল ভাই,Dhaka,Manikganj,,Positive,1.0,manual_second_pass,False
+তিনি কি ছিলেন মুক্তিযুদ্ধের সময়?,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+আমার আইডিটা ফলো করে দাও,Dhaka,,,Negative,0.4752373379517697,model_autofill,False
+এটা আসলে মানায়নি,Dhaka,,,Negative,0.4072099011937195,model_autofill,False
+যাত্রা শুভ হোক।,Dhaka,,,Negative,0.3928323236750664,model_autofill,False
+এইটা ফজলুর রহমানরে দেওয়া দরকার ছিল,Dhaka,,,Negative,0.3806038036367464,model_autofill,False
+ধন্যবাদ।।,Dhaka,,,Positive,0.7331706743843098,model_autofill,False
+হাসবো না কাদবো?? সবাই একটু বলে যান।,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+"""বাহের কোটায় মুক্তি যুদ্ধ মন্ত্রী, মুক্তিযোদ্ধা লিস্টে হেতার নাম জানি চলে আসে না আবার।""",Dhaka,,,Negative,1.0,manual_second_pass,False
+উনি মুক্তিযোদ্ধা,Dhaka,,,Neutral,1.0,manual_second_pass,False
+অভিনন্দন জানাই আপনাকে।,Dhaka,,,Sarcastic_negative,0.3776304696155074,model_autofill,False
+আল্লাহই জানেন এখন আবার কোন ইতিহাস পড়তে হয়,Dhaka,,,Negative,0.6827718850001339,model_autofill,False
+অভিনন্দন,Dhaka,,,Negative,0.3759255274060409,model_autofill,False
+আসলে কি বলবো দুঃখের কথা। যে সমস্ত জায়গা যাদের দরকার সে সমস্ত জায়গায় তাদের দেওয়াদরকার।,Dhaka,,,Positive,0.3943292646183413,model_autofill,False
+Adv Fazlur Rahman k kora uchit chilo Muktijoddho bishoyok montri.,Dhaka,,,Sarcastic_negative,0.3923731695687523,model_autofill,False
+হা হার সংখ্যা এত বেশি কেন,Khulna,,,Sarcastic_negative,0.6044343148088901,model_autofill,False
+প্লিজ কেউ ফলো করে দেও,Dhaka,,,Positive,0.3763688066440325,model_autofill,False
+আসসালামুয়ালাইকুম আমার প্রিয় বন্ধুরা সবাই ফলো করে পাশে থাকবেন আমার ছোট পরিবারের,Dhaka,,,Negative,0.632075462396418,model_autofill,False
+ভেঙে দেওয়া হলো অন্তর্বর্তী সরকার রাজনৈতিক অঙ্গনে নতুন মোড়—সরকারি সিদ্ধান্তের পর আনুষ্ঠানিকভাবে অন্তর্বর্তী সরকারের কার্যক্র…,Dhaka,,,Negative,0.5284898043464916,model_autofill,False
+ধন্যবাদ,Dhaka,,,Positive,0.7331706743843098,model_autofill,False
+ওনার চেহারা টা দেখলেই ঐযে ঠেলাঠেলি করেছিলো এটার কথা মনে পড়ে । ওনাকে প্রতিমন্ত্রী দিছে কারন উনি ঠেইললা যুদ্ধ করতে পারে তাই,Comilla,,,Negative,1.0,manual_second_pass,False
+খুব সুন্দর সাজানো গোছানো,Dhaka,,,Sarcastic_negative,0.4385731885326095,model_autofill,False
+এগিয়ে যান ভাই,Dhaka,,,Positive,1.0,manual_second_pass,False
+Manush kuje painai,Chattogram,Chittagong,Rajshahi,Sarcastic_negative,0.4538563897253166,model_autofill,False
+মাত্র ২০০ টাকা কেজি,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+ছোট আইডি সবাই একটু সাহায্য করবেন যেন বড় কিছু করতে পারি …,Dhaka,,,Sarcastic_negative,0.5219749066349434,model_autofill,False
+বাংলাদেশ জাতীয়তাবাদী সাইবার দল নাটোর জেলা শাখার পক্ষ থেকে প্রানঢালা শুভেচ্ছা ও অভিনন্দন শুভ কামনা অবিরাম …,নাটোর,Natore,,Negative,0.4538720850613637,model_autofill,False
+সবাই হাহাহা দিচ্ছে কেন,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+Kopal,Chittagong,,,Sarcastic_negative,1.0,manual_second_pass,False
+মুক্তিযোদ্ধা সার্টিফিকেটটাও দিয়ে দেওয়া হোক,Dhaka,Barguna,,Sarcastic_negative,1.0,manual_second_pass,False
+Oni Abar kon muktijota,Dhaka,,,Sarcastic_negative,0.4366135863999096,model_autofill,False
+ঘেরাও চলবে,Dhaka,,,Sarcastic_negative,0.4338228281879757,model_autofill,False
+উনি মুক্তিযুদ্ধের কি বুঝবে? বুঝলাম না। খেলা ধুলা তে দিলে ভালো হতো।,Dhaka,,,Sarcastic_negative,0.3768461917257115,model_autofill,False
+অসাধারণ!,Dhaka,,,Sarcastic_negative,0.5081556340814122,model_autofill,False
+নব্য আ.লীগের উত্তরাধিকার ভিত্তিক মুক্তিযুদ্ধার জন্ম হবে!,Dhaka,,,Neutral,0.4911465635270378,model_autofill,False
+ধাক্কাধাক্কি বিষয়ক মন্ত্রী তে দেন,Khulna,,,Sarcastic_negative,0.4299418576221707,model_autofill,False
+এই ও দেখা লাগলো বাঙালির,Khulna,,,Negative,0.6752029721308446,model_autofill,False
+সেই পেটে থাকতে যুদ্ধ করছে এই বেডায় ভাবা যায়! এর লাইগাইতো এই মন্ত্রণালয় পাইছে,Barisal,,,Negative,0.8091743485094149,model_autofill,False
+সংসদে যেমন দেরি করে গেছে এদেশে কোনো যুদ্ধ লাগলে তার নির্দেশ যদি এমন দেরি করে দেয় তাহলে তো খেল খতম,Dhaka,,,Sarcastic_negative,0.4184179838483688,model_autofill,False
+একে মন্ত্রনালয়ে মানায় না একে মানাই জোর করে ক্ষমতা নেওয়ার আন্দোলনে,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+হেতেনের জন্ম শুক্কুরে শুক্কুরে আট সে মুক্তিযোদ্ধা মন্ত্রী হয় কেন কিভাবে?,Barisal,Chandpur,,Sarcastic_negative,0.3839350033707281,model_autofill,False
+জনাব ২০২৮ সাল পর্যন্ত ইনশাআল্লাহ,Dhaka,,,Positive,0.650871598943046,model_autofill,False
+এ কি মন্ত্রী হবার যোগ্য?,বগুড়া,ময়মনসিংহ,Dhaka,Neutral,0.9493879242371536,model_autofill,False
+মুক্তিযুদ্ধ কি উনি কি এটা জানে.?,Dhaka,,,Negative,1.0,manual_second_pass,False
+এহন সবাই বইয়ে জিয়া পরিবারের মুক্তিযুদ্ধের ইতিহাস পড়বো,Dhaka,,,Negative,0.7402907135850104,model_autofill,False
+ঘেরাও করে মুক্তিযুদ্ধে সফল হয়েছিল বাংলাদেশ,Tangail,,,Positive,0.4759691113505997,model_autofill,False
+কাচা কাজ হয়েছে,সিলেট,Sylhet,Habiganj,Negative,0.3765002116179752,model_autofill,False
+ফজলু পাগলাম হয়ত ডায়রিয়া হয়েছে তাই...,সিলেট,Sylhet,,Sarcastic_negative,0.4097711193784962,model_autofill,False
+ক্রীড়া বিষয়ক মন্ত্রী উপমন্ত্রী দেয়নি শুকরিয়া।,Chittagong,,,Sarcastic_negative,1.0,manual_second_pass,False
+ঠোটে লিপস্টিক কম হয়েছে আরএকটু হলে সুন্দর লাগতো,Dhaka,Gazipur,Sirajganj,Negative,0.4920956532660605,model_autofill,False
+"""বিগত ১৬ বছরে আওয়ামী লীগের অত্যাচারে বিএনপির সাধারণ সমর্থক, নেতা কর্মী ও তাদের পরিবার অনেক কষ্ট করেছে। এমনকি বিএনপি জাসাস যুবদ…""",Dhaka,,,Negative,0.6670981683470396,model_autofill,False
+Tar birodde j kico bolbe ee.. Akta rajakar,Narayanganj,,,Negative,1.0,manual_second_pass,False
+বিষয়টা হচ্ছে কিছু না কিছু তো দিতেই হবে না হলে তো নিজে নিজেই বা মন্ত্রী হয়ে যাবে,Sylhet,,,Neutral,0.6870658964833728,model_autofill,False
+লাগারে লাগা সোয়াবিন লাগা......,Dhaka,,,Sarcastic_negative,0.4310572899964417,model_autofill,False
+এখন হালা হুমন্দি সব হয়ে যাবে মুক্তিযোদ্ধা,Dhaka,Chittagong,Noakhali,Sarcastic_negative,1.0,manual_second_pass,False
+"""মাথায় গিলু,ই পদে এর থাইকা ফজা পাগলাই ভালো ছিল""",Sylhet,Habiganj,,Sarcastic_negative,0.562800241581149,model_autofill,False
+ফজু পাগল কে দিলো না কে,Dhaka,,,Sarcastic_negative,0.5247862842707111,model_autofill,False
+মুক্তিযোদ্ধা ইশরাক হোসেন,Dhaka,Narsingdi,,Sarcastic_negative,1.0,manual_second_pass,False
+ব্রেইন ছাড়া ইশরাক,Sylhet,,,Sarcastic_negative,0.3990302465834044,model_autofill,False
+ভাবছিলাম বিএনপি ২ বছর টিকবে এখন দেখি ১ বছর ও পারবে না,Dhaka,,,Negative,0.6640263548712968,model_autofill,False
+বাবার মুক্তিযুদ্ধের কোটায় ছেলে নিয়োগ।,Dhaka,Barisal,,Sarcastic_negative,1.0,manual_second_pass,False
+স্যালুট বীর মুক্তিযোদ্ধা ইশরাক হোসেন কে,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+শুভ বুধবার। …,Chittagong,Chandpur,,Neutral,1.0,manual_second_pass,False
+গেয়ি ভ্যাস তেল লেনে,Dinajpur,,,Sarcastic_negative,0.429337150391435,model_autofill,False
+নগর ড্যাডি বিষয়ক মন্ত্রনালয় দিলে ভাল হবে,বরিশাল,Dhaka,Barisal,Neutral,0.7333142340174057,model_autofill,False
+Akhon r dhakka dhakki korte hbe nahh.....amni seat raikha dbe,Mymensingh,Sherpur,,Sarcastic_negative,0.445103431554638,model_autofill,False
+বীর মুক্তিযোদ্ধা ইশরাক ভাই,Dhaka,Tangail,,Sarcastic_negative,1.0,manual_second_pass,False
+এই পোস্ট দেখার পর জিবন যুদ্ধেই হেরে গেলাম,Dhaka,Sylhet,Gazipur,Negative,0.7179924079224353,model_autofill,False
+নতুন চেতনা লোডিং....,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+ধাক্কাধাক্কি মন্ত্রি দিলে ভাল হইত,Dhaka,,,Sarcastic_negative,0.485602262265623,model_autofill,False
+আহ্,Dhaka,Kishoreganj,,Sarcastic_negative,0.5285297492858061,model_autofill,False
+জনতার মুক্তিযোদ্ধা,Dhaka,,,Sarcastic_negative,0.4200703811609932,model_autofill,False
+উস্তাদ,Chittagong,Chandpur,,Sarcastic_negative,1.0,manual_second_pass,False
+ধাক্কায় কাজ হয়েছে,Khulna,,,Sarcastic_negative,1.0,manual_second_pass,False
+নগর ডেন্ডি,Chittagong,,,Sarcastic_negative,0.4723357883879323,model_autofill,False
+Fojlur rohman ke banano drkar chilo,Dhaka,Barisal,,Sarcastic_negative,1.0,manual_second_pass,False
+মালঞ্চি,Dhaka,Jamalpur,,Sarcastic_negative,0.382130011136221,model_autofill,False
+যারা মুক্তিযোদ্ধা তাদের কে মুক্তিযোদ্ধা বিষয়ক মন্ত্রী না দিয়ে শিশু কে দেই,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+অভিনন্দন আমাদের গর্ব বাংলাদেশের মাটি মানুষের নেতা শুভকামনা রইল,Jamalpur,,,Positive,0.4618437648874919,model_autofill,False
+তারেক রহমান জামাতের আমিরকে মন্ত্রী বানাবেন আর জামাতের আমি এর সাথে তা....See,Mymensingh,,,Negative,0.6692039990870041,model_autofill,False
+"""হইছে, এইবার পুরাদমে স্বাধীনতার চেতনা পাইকারী হারে বিক্রি হবে।""",Dhaka,,,Neutral,0.4512854810838397,model_autofill,False
+সমস্যা নাই ভাই। পুরো পৃথিবী আপনার বিপক্ষে থাকলেও আমি পৃথিবীর পক্ষে।,Dhaka,Kishoreganj,,Sarcastic_negative,1.0,manual_second_pass,False
+"""হইতে চাইছিলাম মেয়র, বানাইলেন প্রতিমন্ত্রী।""",Tangail,,,Sarcastic_negative,0.4287584543483798,model_autofill,False
+পাগলারে দিছে আরো চেতাইয়া,Chittagong,Lakshmipur,,Sarcastic_negative,0.400024614909642,model_autofill,False
+Onake amar protimonti dile valo hoy.,Dhaka,Barisal,Bhola,Sarcastic_negative,1.0,manual_second_pass,False
+মুক্তিযুদ্ধ বিষয়ে ইশরাক কী জানে? ওর বয়স কত? বিএনপি নাকি স্বাধীনতার দল? একজন মুক্তি যোদ্ধা নেই এই মন্ত্রণালয়ের জন্য???,Chittagong,,,Negative,0.7927491703310734,model_autofill,False
+মুক্তিযুদ্ধ মানেই জাতির ড্যাডি বঙ্গবলটু আর নগর ড্যাডি ইশরাক,Dhaka,,,Positive,0.7757669818519822,model_autofill,False
+Muktijuddho bishoyok montri Thela-theli bishoyok montri️,Sylhet,Sunamganj,,Sarcastic_negative,0.3893777360990947,model_autofill,False
+আরো বেশি করে ভোট দেও বাঙালি জাতি,Dhaka,Narsingdi,,Positive,0.8824007551258989,model_autofill,False
+সামলাতে পারবে গায়ের জোর আসে না,Panchagarh,,,Negative,0.5060723744168842,model_autofill,False
+মেথর,Chittagong,Sylhet,,Sarcastic_negative,0.4709501558964462,model_autofill,False
+ওর জন্য এটা অতিরিক্ত হয়ে গেছে!,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+How,Dhaka,Netrokona,,Sarcastic_negative,0.4504351670949323,model_autofill,False
+সাওয়া মন্এী,Chittagong,Comilla,,Sarcastic_negative,0.4065528968536145,model_autofill,False
+"""দুঃখের বিষয় হচ্ছে তার বাবার সাথে যে রাজনীতি করেছে সে কিন্তু মন্ত্রীর মর্যাদা পেল না, বাংলাদেশে ছয়বার এমপি জয়নাল আবদীন ফারু…""",Chittagong,Noakhali,,Positive,0.6781243650777179,model_autofill,False
+ভাই তার আব্বা যুদ্ধ করছে নি আমার কাছে সন্দেহ হয়,Dhaka,,,Negative,0.8270608222507063,model_autofill,False
+আরে তোমরা তো জানোই না আমি আর ও এক সাথে যুদ্ধের মালামাল সরবরাহ করছি।,Dhaka,,,Negative,0.4775167422773692,model_autofill,False
+একদম ঠিক আছে,Dhaka,,,Negative,0.474578341407978,model_autofill,False
+"""মন্ত্রণালয় যদি না দিত, তিনি পাঁচ ে সংসদ ঘেরাও কর্মসূচি দিয়ে নিজে নিজেই মন্ত্রীর শপথ পড়ে ফেলতেন!""",Dhaka,Chittagong,Gopalganj,Sarcastic_negative,0.3899616338399678,model_autofill,False
+দেশটা চাঁন্দের দেশে চলে গেছে মনে করেন আর কিছু বাকি নাই।,Dhaka,Barisal,Pirojpur,Sarcastic_negative,0.4155677182538627,model_autofill,False
+বয়স কম,Chittagong,,,Negative,0.5922184352610939,model_autofill,False
+এই দেশ তাইলে শেস কটি মানুষের প্রান চলে গেলেও এই দেশ কখোনো ঠিক হবে না,Dhaka,Noakhali,,Neutral,0.4393700742321976,model_autofill,False
+সুধু মন্ত্রী পদ দিলে হবে না ঠেলাঠেলি জন্য ওকে নোবেল দিতে হবে তারেক ভাই,Dhaka,,,Neutral,0.8910827955609916,model_autofill,False
+মেয়র সাহেব,Feni,,,Sarcastic_negative,0.3789021538952421,model_autofill,False
+কামড়াকামড়ি করে সমনে এগিয়ে যাবে,Dhaka,,,Positive,0.4850795328444556,model_autofill,False
+ইতা মুক্তযুদ্ধের ইতিহাসও জানে না।তারে একটা GK বই গিফ্ট করতে চাই,চট্টগ্রাম,কক্সবাজার,Chittagong,Negative,0.6216232866123425,model_autofill,False
+কেমনে কি? সে কি মুক্তি যুদ্ধ বিয়ষ কিছু বুঝে।,Chittagong,Bandarban,Cox's Bazar,Sarcastic_negative,0.5268243069873958,model_autofill,False
+আর জাকে ধর্ম মন্ত্রী করা হয়েছে তার সর্বোচ্চ শিক্ষাগত যোগ্যতা SSC সব আমাদের হাতের কামাই,Dhaka,,,Positive,0.3930369576618465,model_autofill,False
+Rifat Hossain Rahat Rayhan Islam ei dek hala baji dhorsili nh,Dhaka,Patuakhali,,Sarcastic_negative,0.4863123190735179,model_autofill,False
+খেলার সময় বাচ্চাদের দুধভাত করে রাখার যে ব্যাপারটা,Dhaka,Gazipur,,Negative,0.404819736149538,model_autofill,False
+Keno?,Dhaka,Khulna,Jessore,Sarcastic_negative,0.4093940743400722,model_autofill,False
+Ekhon oi bolbe tarek rahaman ow juddo korse,Cumilla,Comilla,,Sarcastic_negative,1.0,manual_second_pass,False
+দেশটার হোগামারা কমপ্লিট,Dhaka,,,Sarcastic_negative,0.3945365893337268,model_autofill,False
+hagar montri.khusir thelay haha astase,Narayanganj,,,Sarcastic_negative,1.0,manual_second_pass,False
+সংবিধান অনুযায়ী বাংলাদেশের ১৩তম জাতীয় সংসদ নির্বাচনের যেহেতু কোনো বৈধতা নেই অর্থাৎ ২০২৬ সালের জাতীয় সংসদ নির্বাচন অবৈধ সুতরাং …,Dhaka,,,Sarcastic_negative,0.4750929201226789,model_autofill,False
+"""ভাগ্য ভালো দলের সিদ্ধান্তে হয়েছেন, নয়তো নিজে নিজেই মন্ত্রিত্বের শপথ নিতেন.!""",Gazipur,,,Negative,0.502278792924495,model_autofill,False
+হয়চে না ইয়াং বেডা রে কি দিসে,Dhaka,Mymensingh,,Sarcastic_negative,0.4870208379005967,model_autofill,False
+Ai bar juddho lagboi,Dhaka,Barisal,Bhola,Sarcastic_negative,0.3810975769706963,model_autofill,False
+ঘেরাও কমিটির প্রধান,Dhaka,,,Negative,0.4089415837583771,model_autofill,False
+এসব কিয়া দেখতাহে,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+মুরগি যুদ্ধা,Comilla,,,Negative,0.397259510049161,model_autofill,False
+আস্তা একটা ভ'কলম,Dhaka,,,Sarcastic_negative,0.4113947464742418,model_autofill,False
+যার নাই মেয়র এর কাজ সম্পর্কে ধারনা আজ সে মন্ত্রণালয় চালাইবো,Dhaka,,,Negative,0.5286947407470158,model_autofill,False
+জোকার,Dhaka,Mymensingh,,Sarcastic_negative,0.4705703182220525,model_autofill,False
+রিমিনি এডিট,Barisal,,,Sarcastic_negative,0.4235457213275474,model_autofill,False
+Ei halare keno jeno amr kache neshakhor mone hoy,Chittagong,Chandpur,,Sarcastic_negative,0.4660503183906171,model_autofill,False
+Ore dekhle hashi ahe Amar,Dhaka,,,Sarcastic_negative,0.5055289820129355,model_autofill,False
+মুক্তিযুদ্ধের চেতনায় এখন আর ঘুমানো যাবেনা,Rajshahi,,,Positive,0.7857489223830793,model_autofill,False
+নয়ন রে দৌড়া দৌড়ি মন্ত্রী বানানো হোক,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+1987 সালে জন্ম হওয়া মানুষটা 71 এর মুক্তিযুদ্ধের কি বুঝবে বুঝে আসেনা।,Dhaka,,,Sarcastic_negative,0.4211172828004522,model_autofill,False
+শেষ,Dhaka,,,Sarcastic_negative,0.4621349446981715,model_autofill,False
+একেবারে জায়গা মত দিছে তার মতো যোদ্ধা একটাও নাই বি এন পি তে কয় আগেও হেতারে দেখলাম যুদ্ধ করতে শহিদ মিনারে,Bagerhat,,,Negative,1.0,manual_second_pass,False
+ঘেরাও উপদেষ্টা ।,Dhaka,Faridpur,,Sarcastic_negative,0.4609338305000087,model_autofill,False
+বয়স হয় নাই ৪০ দিয়া দিছে মুক্তিযোদ্ধা বিষয়ক হো***সারা আকাশ ভরা তারা..!,Dhaka,,,Negative,0.4460359241361252,model_autofill,False
+"""২য় পলক ।হোগামা,,,,,,,,রা সারা""",Chittagong,Barisal,,Negative,1.0,manual_second_pass,False
+Chor rey churi korar pod disey,Dhaka,Tangail,,Negative,1.0,manual_second_pass,False
+আলহামদুলিল্লাহ। মুক্তিযুদ্ধের স্বপক্ষের লোক।,ঢাকা,Dhaka,,Positive,0.7279888239956549,model_autofill,False
+Gaja kheye pod dise mone hocche,Dhaka,Cox's Bazar,,Sarcastic_negative,0.4210048798824209,model_autofill,False
+"""কিছু পর হবে """"বীর মুক্তিযোদ্ধা ইসরাক হোসেন """"""",Dhaka,,,Neutral,0.9055646585731798,model_autofill,False
+আমার মনে হয় তার জন্ম আগে যুদ্ধ হয়েছে,লালমনিরহাট,Lalmonirhat,,Negative,0.5531814962171818,model_autofill,False
+"""ঠেলঠেলি যোদ্ধা,,,""",Dhaka,Rangpur,,Sarcastic_negative,0.3986726885473745,model_autofill,False
+Kon sector লড়ায় করচে সে শেখ হাসিনা তো বলতো বি এন পি কে রাজাকার,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+২ বছর ও টিকবে নাকি সন্দেহ,Dhaka,,,Sarcastic_negative,0.5433878256202251,model_autofill,False
+আচ্ছা এ মন্ত্রনালয়ের কাজ কি?,Khulna,,,Neutral,1.0,manual_second_pass,False
+প্রধানমন্ত্রী - লন্ডন | স্বরাষ্ট্র - ভারত | পররাষ্ট্র - আমেরিকা |…,Dhaka,,,Negative,1.0,manual_second_pass,False
+"""কয়েক পরে মনে হয় নতুন করে মিডিয়া প্রকাশ করবে, বীর মুক্তিযোদ্ধা """"ইশরাক হোসেন """"""",Dhaka,,,Negative,0.481592684252596,model_autofill,False
+না ঠিক ই আছে সব জায়গায় তো যুদ্ধ ই করে হালায়,Chittagong,,,Negative,1.0,manual_second_pass,False
+সবারই খাওয়ার অধিকার আছে। বেচারাকে দেওয়ার জায়গা ছিল না তাই সেখানে দেওয়া হয়েছে,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+এই পুষ্ট দেখার পর আধা হাসছি,Sylhet,,,Negative,0.9058292102803914,model_autofill,False
+ওওমাকালো,Dhaka,,,Sarcastic_negative,0.3933539077174128,model_autofill,False
+শেষ যুদ্ধ টা রে ও খাইয়া দিবে,Dhaka,Kishoreganj,,Sarcastic_negative,0.6421749879902161,model_autofill,False
+ওর দাদা দেখেছে মুক্তিযুদ্ধ? ওকে দিছে মুক্তিযুদ্ধ মন্ত্রনালয় এর দায়িত্ব,Dhaka,,,Sarcastic_negative,0.3779422119363061,model_autofill,False
+মুক্তিযোদ্ধার হোগামারা সারা,Khulna,Bagerhat,,Sarcastic_negative,0.3852597127744623,model_autofill,False
+Or vhason er speech sunle jei freedom fighters ra becha ase shock kheye more jba,Dhaka,,,Neutral,0.4144693403410807,model_autofill,False
+"""কয় পরে সেও জাতির কাছে বলবে, সেও ৭১ রে যুদ্ধ করেছে""",ময়মনসিংহ,Dhaka,Mymensingh,Negative,0.3903414656076197,model_autofill,False
+খেলা হবে নিরাপদে,Rangpur,,,Neutral,0.853817882587205,model_autofill,False
+nogor daddy,Rajshahi,,,Sarcastic_negative,0.4106200398245463,model_autofill,False
+এই কি মুক্তিযোদ্ধা? না,Dhaka,Naogaon,,Negative,0.7554961698403132,model_autofill,False
+Does he know anything about liberation war????!,Dhaka,,,Neutral,0.3921530610018726,model_autofill,False
+"""ও মুক্তিযুদ্ধের সময় জন্মেছিলো,???""",Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+শান্তি চুক্তির পুরো পুরী ওলঙন করছে বিএমপি,Dhaka,,,Negative,0.4517773709886281,model_autofill,False
+নতুন ভাবে নাতি পুত্রের সৃষ্টি হবে,Chittagong,Rajshahi,,Neutral,0.933719988556032,model_autofill,False
+কাউকে খাওন থেকে দূরে রাখা যাবে না,Dhaka,,,Sarcastic_negative,0.4593542465155907,model_autofill,False
+রাম পাঠা,Dhaka,,,Sarcastic_negative,0.5860019216390298,model_autofill,False
+মেয়র হতে পারে না এখন এক ঠেলায় থাকবো মন্ত্রী জয় বাংলা খেলা হবে রাজপথে।,Dhaka,Chandpur,,Neutral,0.4154673436799152,model_autofill,False
+কারে কি দিছে রে ভাই,Narayanganj,,,Sarcastic_negative,1.0,manual_second_pass,False
+কিন্তু ইশরাক শপথ ই তো নিলো রাজাকার দের সাথে।,Tangail,,,Negative,1.0,manual_second_pass,False
+১৯৭১ সালে জিয়াউর রহমানের সাথে থেকে মুক্তিযুদ্ধ করছে কমান্ডো ইসরাক হোসেন,Dhaka,,,Negative,0.5160528343063114,model_autofill,False
+"""বাবার নাম টা ডুবাইলো,,""",Dhaka,Khulna,Satkhira,Negative,0.4141118458156528,model_autofill,False
+দুইজন বীরশ্রেষ্ঠদের নাম জানে কি না সন্দেহ,Khulna,,,Negative,1.0,manual_second_pass,False
+অথচ প্রশ্ন করেন ৭ জন বীরশ্রেষ্ঠের নাম কি তার উত্তর কি দেয় দেখেন৷,Dhaka,,,Positive,0.3840580637683355,model_autofill,False
+মানে কোনোরকম একটা পতাকাবাহী গাড়ী পেলেই হলো!,Dhaka,Kishoreganj,,Sarcastic_negative,0.3921945886912128,model_autofill,False
+এবারে এই মন্ত্রনালয় হবে হজবরল,Barisal,,,Neutral,0.78742884605891,model_autofill,False
+"""কমেন্ট পড়ার অভ্যাস টা ছাড়তে পারলাম না, এমন ভাবে কমেন্ট পড়ছি যেন কমেন্ট পরীক্ষায় আসবে""",Dhaka,,,Negative,0.6900328157117521,model_autofill,False
+৭১ সালের সেক্টর কমান্ডার ছিল মনে হয়।,Chittagong,Lakshmipur,,Negative,1.0,manual_second_pass,False
+এটা হওয়ার কথা ছিল ভাগ্য ভাল হলে সে তার নাম মুক্তিযুদ্ধের কোনো এক সেক্টরে লিখে নিবে,Chittagong,,,Positive,0.5590263523203163,model_autofill,False
+ঠ্যালার জোর আছে মানতে হবে,Dhaka,,,Neutral,0.8655695326176968,model_autofill,False
+নগর ড্যান্ডি এইবার স্বাধীনতার বারোটা বাজাবে,Dhaka,Rangpur,,Positive,0.4096611790786117,model_autofill,False
+যোগ্যতা কোন বিষয় নয় দলের ভিতরে সব মন্ত্রী রাখতে হবে,Chandpur,,,Neutral,0.4540303430260507,model_autofill,False
+অভিনন্দন,Dhaka,,,Negative,0.3759255274060409,model_autofill,False
+চেতনা,Dhaka,Chittagong,Lakshmipur,Sarcastic_negative,1.0,manual_second_pass,False
+লেদা পোলারে দিছে কি এটা,Dhaka,,,Negative,0.4538727311244548,model_autofill,False
+অনুষ্ঠানে ধাক্কাধাক্কি নিয়ন্ত্রণ বিষয়ক মন্ত্রী দিলে নিজেই কিছুটা সংশোধন হতো আর কি।,Chittagong,,,Sarcastic_negative,1.0,manual_second_pass,False
+ALHAMDULILLAH BLESS YOU DEAR UNCLE,Dhaka,,,Sarcastic_negative,0.4581258390488321,model_autofill,False
+এখানে ফজলুর হলকে দিলে ভালো হত,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+মুক্তি যুদ্ধ ভাতা পাবে বহু দলীয় মুক্তি যুদ্ধা।,Dhaka,Chittagong,,Negative,0.5351714032980375,model_autofill,False
+২৪ বছরের ছেলেরা এবার ভাতা নিবে,Dhaka,Dinajpur,,Sarcastic_negative,0.4879939421043824,model_autofill,False
+মাননীয় মন্ত্রী মহোদয় লীগ সরকারের আমলে দেওয়া ভুয়া মুক্তি যোদ্ধাদের সনদ বাতিল করবেন কি?,Comilla,,,Negative,1.0,manual_second_pass,False
+এটা কোন কথা অনেকের পদ গুলো তাদের ক্যারেক্টার এর সাথে যায় না যেমন সালকুম একজন আর একজন ইনি কোনো কথা এটা,Dhaka,,,Positive,0.5643572902760463,model_autofill,False
+ইনকাম শুরু,Dhaka,,,Sarcastic_negative,0.4181174500470819,model_autofill,False
+বয়স কি হয়ছে তার মুক্তিযুদ্ধ বিষয়ক প্রতিমন্ত্রী দিসে??,Dhaka,Mymensingh,,Negative,0.4743217871083581,model_autofill,False
+এখন সে বলবে যুদ্ধের ঘোষণা আমি দিছিলাম …,Dhaka,Gazipur,,Sarcastic_negative,1.0,manual_second_pass,False
+ফজু কই,সুনামগঞ্জ,Dhaka,Sunamganj,Sarcastic_negative,1.0,manual_second_pass,False
+সবাই দেকে জান,Dhaka,,,Neutral,1.0,manual_second_pass,False
+জয় বাংলা,মানিকগঞ্জ,Dhaka,,Positive,0.4988513475571202,model_autofill,False
+পাদ হাগু বিষয়ক মন্ত্রনালয় দিলে ভালো হতো,Dhaka,,,Negative,0.4068787863407693,model_autofill,False
+ফি আমানিল্লাহ্,Dhaka,,,Negative,0.773573034352294,model_autofill,False
+Asif mahmud er khobor ase,Dhaka,,,Neutral,0.5023777569008127,model_autofill,False
+ওকে নিজে নিজেই ঘোষণা দিয়ে দিল। না এই অভ্যস্ত তারা আছে।,Dhaka,,,Negative,0.7721017565836666,model_autofill,False
+"""“ফলো মানে নতুন সম্পর্কের শুরু, আর কমেন্ট মানে সেই সম্পর্ককে সুন্দরভাবে ধরে রাখা।…""",Dhaka,,,Negative,0.4830226640726895,model_autofill,False
+হাসুন প্রাণ খুলে,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+এতে মুক্তি যোদ্ধার কী বুঝে!!,Dhaka,Comilla,,Sarcastic_negative,0.523884885236683,model_autofill,False
+Bangladesh is planning to go back 50 yrs..,Dhaka,,,Neutral,0.4138595201194885,model_autofill,False
+ইশরাক ভাইকে এই মুহুর্তে শিশু বিষয়ক মন্ত্রনালয়ের দায়িত্ব দিলে ভালো হত।,Dhaka,Faridpur,Rajbari,Negative,0.713389254114115,model_autofill,False
+গেরাও বিষয়ক প্রতিমন্ত্রী হলে ঠিক আছে,Comilla,,,Negative,0.5013368213254519,model_autofill,False
+তালা বাবা।,Brahmanbaria,,,Sarcastic_negative,0.4423086128581942,model_autofill,False
+এর বয়স কতো জানি,Chittagong,,,Negative,0.4893756098837262,model_autofill,False
+"""কাম সারছে মন্ত্রণালয় আর মন্ত্রণালয় থাকবে না, হবে হজবরল""",Dhaka,,,Neutral,0.38702311220404,model_autofill,False
+খতম টা টা বাই বাই,Dhaka,Bagerhat,,Sarcastic_negative,1.0,manual_second_pass,False
+যেখানে মুক্তি যুদ্ধের ক টাও বুঝে না,Panchagarh,,,Sarcastic_negative,0.4158957833438291,model_autofill,False
+এবার কি আরো মুক্তিযোদ্ধা বাড়বে?,Rangpur,Dinajpur,,Positive,0.7459630693215447,model_autofill,False
+ঠেলাঠেলি বিষয়ক মন্ত্রী,Dhaka,,,Sarcastic_negative,0.3979140357627672,model_autofill,False
+শিশু মুক্তিযুদ্ধা,সিলেট,Dhaka,Sylhet,Sarcastic_negative,1.0,manual_second_pass,False
+"""Vai, hasar ki hoylo bujlam na , badar ki rop nai , na Gon nai.bujlam na""",Dhaka,,,Neutral,0.4489154575846039,model_autofill,False
+হে মুক্তিযুদ্ধের কিতা বুঝে,সিলেট,Sylhet,Sunamganj,Sarcastic_negative,0.4368197409759187,model_autofill,False
+ওর বয়স কত,Chittagong,,,Negative,0.4938905421020154,model_autofill,False
+"""নিজের চ্যানেল বলে কথা, সব কিছু অ্যাডভান্স লেখে দেওয়া যায়,""",Dhaka,Chandpur,,Positive,0.6609883424394084,model_autofill,False
+হাসি পায়,শরীয়তপুর,Dhaka,Shariatpur,Sarcastic_negative,0.427147487793232,model_autofill,False
+এতো হাহাহা রিয়েক্ট কেন..?,Dhaka,Jamalpur,,Sarcastic_negative,0.591582803048894,model_autofill,False
+Faaaahhhh,Dhaka,,,Sarcastic_negative,0.4093940743400722,model_autofill,False
+crickete thaka ta bhalo,Dhaka,,,Neutral,1.0,manual_second_pass,False
+what the heeellllll,Dhaka,,,Neutral,0.3884843274039437,model_autofill,False
+পৌতৃক কোটা,Feni,,,Sarcastic_negative,0.4070002507739768,model_autofill,False
+ডাইপার,সিলেট,Sylhet,,Negative,1.0,manual_second_pass,False
+ইশরাক জন্মের আগে কি কখনো মুক্তিযুদ্ধ দেখছে?,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+এই কি মন্ত্রনালয় চালাতে পারবে?,Chittagong,,,Negative,0.7873068744598959,model_autofill,False
+ok,Dhaka,,,Sarcastic_negative,0.4841748434104555,model_autofill,False
+দুই পর দেখবো মুক্তিযোদ্ধার লিস্টে হেতার নাম হেতে মুক্তিযুদ্ধ বিষয়ক পুরস্কার পাইবো,Comilla,,,Negative,0.4369244277734874,model_autofill,False
+মেতর,Dhaka,Chittagong,,Negative,0.3811989561956999,model_autofill,False
+হালা,Dhaka,,,Negative,0.4775052730597817,model_autofill,False
+উনি না মেথর স্যারি মেথর হবে,Dhaka,,,Neutral,0.9601227551443944,model_autofill,False
+এবার কাকে ঘেরাও দিবে?,Dhaka,Rajshahi,,Sarcastic_negative,0.392160739541196,model_autofill,False
+যাইহোক এই মন্ত্রণালয়ের কেও ঘেরাও দিতো না তিনি,Rajshahi,,,Negative,0.5991319332102157,model_autofill,False
+অযোগ্য লোকজন কে এই সব কাজ দিচ্ছে কেনো,Chittagong,Lakshmipur,,Negative,0.5242118933087971,model_autofill,False
+হাদা মোখ মাফি,Sylhet,,,Negative,0.4304708658988229,model_autofill,False
+তার জন্ম ১৮০০ সালে সেজন্য সে মুক্তিযুদ্ধ বিষয়ক মন্ত্রী,Lalmonirhat,,,Positive,0.5235222766469604,model_autofill,False
+Joker of the ministry,Dhaka,Pabna,,Sarcastic_negative,1.0,manual_second_pass,False
+এইবার অরজিনাল মুক্তিযুদ্ধা দের খবর আছে,ঢাকা,Dhaka,Munshiganj,Sarcastic_negative,0.38602900899063,model_autofill,False
+মুক্তিযুদ্ধের ***,Dhaka,Sirajganj,,Sarcastic_negative,1.0,manual_second_pass,False
+হো*-/গা মারছে,Dhaka,,,Negative,1.0,manual_second_pass,False
+এইসব রাজাকারকে কী সব দায়িত্ব দেওয়া হইছে মুক্তিযুদ্ধ কী সে কী তা বোঝে,রাজশাহী,Rajshahi,,Negative,0.4700310904425619,model_autofill,False
+কাদেরের হোগামারা সারা,Dhaka,Bagerhat,,Sarcastic_negative,0.4573960217382342,model_autofill,False
+ঠেলা ঠেলি যুদ্দা,Chittagong,,,Sarcastic_negative,0.526095002237205,model_autofill,False
+সার্কাস,Habiganj,,,Sarcastic_negative,0.4015252609949458,model_autofill,False
+"""কুছ ভি,,,,""",Feni,,,Sarcastic_negative,0.3908745381068211,model_autofill,False
+তখন তো ওর জন্মই হয়নি ও মুক্তি যুদ্ধের কি বুঝবে ? আর মুক্তি যুদ্ধ বিষয়ক মন্ত্রণালয়ের কি দরকার বুঝি না ?,Dhaka,Meherpur,,Positive,0.5320541379374363,model_autofill,False
+me,Dhaka,,,Sarcastic_negative,0.4093940743400722,model_autofill,False
+এবার মুক্তি যোদ্ধার সংখ্যা বাড়বে,Dhaka,,,Positive,0.496551536426015,model_autofill,False
+দেশের হোগা মারা শেষ,Dhaka,,,Sarcastic_negative,0.4165476822682254,model_autofill,False
+কেন ওর ঘেরাও বিষয়ক মন্ত্রিত্ব কই???,Dhaka,,,Sarcastic_negative,0.4362590635052569,model_autofill,False
+তিনশো কোটি লোডিং,Dhaka,,,Sarcastic_negative,0.392275271365779,model_autofill,False
+চেতনা,Dhaka,Munshiganj,,Sarcastic_negative,1.0,manual_second_pass,False
+জনতার মেথর এখন চেতনা বেঁচে খাবে।,Khulna,Jessore,,Positive,0.4556348413965654,model_autofill,False
+এই লোক মুক্তিযুদ্ধের চেতনা ভালো বিক্রি করতে পারে তাই উনাকে মুক্তিযুদ্ধ বিষয়ক প্রতিরক্ষা মন্ত্রী করা হয়েছে।,Narayanganj,Comilla,,Negative,0.5892388926113277,model_autofill,False
+বেশি মানুষ হা হা দেয় কেন !! বুঝিনা ব্যাপারটা,Chittagong,,,Negative,0.448508419780487,model_autofill,False
+Best wishes,Dhaka,Chittagong,Noakhali,Sarcastic_negative,0.3976042629514902,model_autofill,False
+এখন থেকে ঘেরাও কর্মসূচি মিস করব,Dhaka,Kushtia,,Positive,0.8038825148399867,model_autofill,False
+বাচ্চা পোলা মুক্তিযুদ্ধের কী বোঝে!!,Dhaka,,,Negative,1.0,manual_second_pass,False
+Chudse* re,Sylhet,,,Neutral,0.4464936806735815,model_autofill,False
+শুভ কামনা রইল,Dhaka,,,Sarcastic_negative,0.557777616001944,model_autofill,False
+অভিনন্দন,Bagerhat,,,Negative,0.3759255274060409,model_autofill,False
+হেতে কি মুক্তিযুদ্ধ করছিল নাকি,Chittagong,,,Negative,0.4647510895177256,model_autofill,False
+oi babi,Dhaka,,,Sarcastic_negative,0.3788509213465028,model_autofill,False
+কানা হায়দার,Barisal,,,Sarcastic_negative,1.0,manual_second_pass,False
+ঘেরাউ মন্ত্রী করলে সব থেকে ভালো হইতো,Dhaka,Barisal,,Sarcastic_negative,1.0,manual_second_pass,False
+Md Sarour Hossain Mahi Md. Forhad Hossain,Rajshahi,,,Neutral,0.381463300063165,model_autofill,False
+দুই পর দেখবে জাতি মুক্তিযোদ্ধার লিস্টে হেতার নাম,Dhaka,,,Negative,0.5355688974819428,model_autofill,False
+এলকোহল বিষয়ক,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+বাপের নাম কি করে ডুবাতে হয় তা ইশরাক থেকে শিখে নেন সবাই।,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+Hahaha,Dhaka,Khulna,,Sarcastic_negative,0.4292552627003075,model_autofill,False
+"""আবার দেশে যুদ্ধ হোক,,আমাদের মুক্তিযুদ্ধা হতে হবে""",Dhaka,,,Neutral,0.6175087043568848,model_autofill,False
+বিপ বিপ,Dhaka,Sirajganj,,Sarcastic_negative,1.0,manual_second_pass,False
+"""এখন থেকে জামাতের নতুন নতুন রাজকারদের নাম শুনতে পাবে জাতি,,১৯৯৬ সালে যারা জন্ম হয়ছে,২০১৬ সালে যারা হয়ছে তাদের নাম ও চলে আসতে প…""",Dhaka,,,Negative,1.0,manual_second_pass,False
+ঠেলাঠেলি মন্ত্রীত্ব পেলে খারাপ হতোনা,Dhaka,Faridpur,,Sarcastic_negative,1.0,manual_second_pass,False
+আওয়ামী লীগ এর আমলে মেয়র গতে পারে না এখন প্রতিমন্ত্রী,Dhaka,Kishoreganj,,Sarcastic_negative,0.3865218924452821,model_autofill,False
+ফজলুর রহমান উনি কই,Dhaka,Faridpur,,Neutral,1.0,manual_second_pass,False
+দেশের হো+গা মারা শেষ,Dhaka,Barisal,,Sarcastic_negative,0.4194562960870597,model_autofill,False
+Chota vim,Dhaka,Rangpur,,Sarcastic_negative,1.0,manual_second_pass,False
+আমার মনে হয় পাতি মন্ত্রী..,Cox's Bazar,,,Negative,0.3882376160536862,model_autofill,False
+হেয় মুক্তি যোদ্ধার কি জানে?,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+Nice,Dhaka,,,Sarcastic_negative,0.4208136742021403,model_autofill,False
+হাসালো রে,Dhaka,Chittagong,Noakhali,Sarcastic_negative,0.4363231337439459,model_autofill,False
+দেশের সাংগামারা সারা,Natore,,,Sarcastic_negative,0.4721967371048002,model_autofill,False
+বা বা বা বাহ্! যতো যাচ্ছে শুধু সারপ্রাইজড আর সারপ্রাইজড,Dhaka,Rajbari,Pabna,Sarcastic_negative,1.0,manual_second_pass,False
+বাঁদরের গলায় মুক্তার মালা,Narayanganj,,,Sarcastic_negative,0.4262589288569405,model_autofill,False
+রেন্ডিয়ান প্রদেশ হতে যাচ্ছে এই দেশ। দেশের আকাম শারা।,Dhaka,Chittagong,,Negative,0.6201186005644487,model_autofill,False
+Metro Rail baica gese..,ঢাকা,Dhaka,Barisal,Sarcastic_negative,0.3788157713711488,model_autofill,False
+হাস্যকর,Dhaka,,,Sarcastic_negative,0.4374083358821872,model_autofill,False
+দেখা যাচ্ছে দুই পর উত্তর সিটির মেয়র দাবি করার মতো করে নিজেরেও মুক্তিযোদ্ধা দাবি করে বসছে জনতার মেথর মহোদয়,Dhaka,Jhenaidah,,Positive,0.5924078558520943,model_autofill,False
+লে চোদন,Chittagong,Noakhali,,Negative,1.0,manual_second_pass,False
+"""নতুন কিছু শিখলাম,,,,, এবং দেখলাম ছাগল দিয়েও হাল চাষ করানো যায়,,,,""",Dhaka,Barisal,,Negative,0.461876183108146,model_autofill,False
+এই মাধ্যমেই বি এন পি বুঝিয়ে দিলো যে তারা 71 এ মুক্তিযুদ্ধকে দুচে না,Dhaka,Gazipur,,Negative,0.4142109159640886,model_autofill,False
+Redwan Ahmed,Dhaka,Sirajganj,,Neutral,0.377755958136502,model_autofill,False
+ও যুদ্ধ করতে করতে মন্ত্রী হয়ে গেলো,Dhaka,Narsingdi,,Sarcastic_negative,0.6666163400658089,model_autofill,False
+আল্লাহ তাঁকে সবই দিছে শুধু ব্রেইনটা ছাড়া।,Chittagong,Sylhet,,Negative,0.6014313249380044,model_autofill,False
+ঝাড়ু আর ব্যাট পেলো না,Dhaka,,,Positive,0.7622677438902034,model_autofill,False
+হোগামারা সারা,Dhaka,,,Sarcastic_negative,0.4777768920520244,model_autofill,False
+400কোটির মন্ত্রী,Dhaka,Rangpur,Nilphamari,Sarcastic_negative,0.4102032182773948,model_autofill,False
+ঢাকা সিটির কি হবে?সিটির জনগণ ত তাদের নগর ডেডি কে হাড়িয়ে ফেলেছে,চট্টগ্রাম,Chattogram,Chittagong,Neutral,0.8617416413951982,model_autofill,False
+Take history porte bolen abar,Dhaka,,,Sarcastic_negative,0.3870791453395814,model_autofill,False
+Cdsere ছলিম,ঢাকা,Dhaka,Chittagong,Sarcastic_negative,0.3831177591773838,model_autofill,False
+ধৈর্য মধুর চেয়ে মিষ্টি এটা প্রমাণ আজকে কোকা সাহেব এর জমিদার পুত্র চেয়েছে ঢাকা সিটির মেয়র হবে। কিন্তু জমিদার পুত্র ধৈর্য ধরার ক…,Dhaka,,,Neutral,1.0,manual_second_pass,False
+মুক্তি যুদ্ধ কত সালে হয় জানে?,Dhaka,Feni,,Sarcastic_negative,1.0,manual_second_pass,False
+নগর ডেডি,Dhaka,Gazipur,,Sarcastic_negative,0.4490410885282977,model_autofill,False
+ফজু পাগলা কই?,Mymensingh,Sherpur,,Sarcastic_negative,0.5716412839664434,model_autofill,False
+একটা বেয়াদব,Dhaka,,,Sarcastic_negative,0.4894006611612617,model_autofill,False
+প্রতিমন্ত্রী ঠেলাঠেলি মন্ত্রী,Dhaka,Barisal,,Sarcastic_negative,0.3817215941467697,model_autofill,False
+ফজু চাচাকে দেওয়া দরকার ছিলো।।।,Rangpur,,,Sarcastic_negative,1.0,manual_second_pass,False
+সেরা,Dhaka,,,Sarcastic_negative,0.4573724322217124,model_autofill,False
+কমান্ড,Dhaka,,,Negative,0.4150122998503833,model_autofill,False
+মুক্তিযুদ্ধাকে দেওয়া উচিত ছিল,Dhaka,,,Neutral,0.4357984213981757,model_autofill,False
+যার নেতৃত্বে ধানমন্ডি ৩২ বুলডোজার দিয়ে ভাঙ্গা হয়েছে তাকে মুক্তিযুদ্ধে বিষয়ক প্রতিমন্ত্রী করা হয়েছে বিষয়টা হাস্যকর,Tangail,Sunamganj,,Negative,0.4001772956983324,model_autofill,False
+বাপের কোটায়।।। উনি মেয়র হলে ভালো হতো।।। বয়স্ক কেউ দরকার।।।,Dhaka,,,Negative,0.4417134986232748,model_autofill,False
+ঘেরাও মন্ত্রী,Dhaka,,,Sarcastic_negative,0.4266832694881998,model_autofill,False
+মুক্তিযোদ্ধা ইসরাক হোসেন,Dhaka,Tangail,,Sarcastic_negative,1.0,manual_second_pass,False
+ঠেলাঠেলি বিষয়ক মন্ত্রী দিলে ভালো হতো এরথেকে,Dhaka,Narsingdi,,Sarcastic_negative,1.0,manual_second_pass,False
+ইশরাক বাইন্সুদ,Dhaka,Khulna,Kushtia,Sarcastic_negative,0.3806481029742389,model_autofill,False
+Dhokkho manush bole Kotha,Dhaka,,,Sarcastic_negative,0.4075514836327217,model_autofill,False
+মুক্তি যোদ্ধাদের অভিজ্ঞতা নাই ছেলেদের আছে,Barisal,,,Negative,1.0,manual_second_pass,False
+এক ঠেলাতেই ফকাত,Chittagong,Chandpur,,Sarcastic_negative,0.4716921720264667,model_autofill,False
+ঘেরাও মন্ত্রী,Chittagong,Comilla,,Sarcastic_negative,0.4266832694881998,model_autofill,False
+বিএনপির সব পোষ্টে সবাই হা হা রিয়েক্ট দেয়। অথচ এই বিএনপিই নাকি বিপুল আসনে জয়ী। সমাধান কি,ঢাকা,কিশোরগঞ্জ,Dhaka,Negative,0.8697542782736871,model_autofill,False
+এই মন্ত্রণালয়ের দায়িত্ব দেওয়া উচিত ছিল জনাব ফজলুর রহমানকে,Chittagong,Noakhali,,Negative,0.4287681033563078,model_autofill,False
+ঠেলি ধাক্কাইয়া মুক্তিযোদ্ধা হইয়া গেছে,Barisal,,,Sarcastic_negative,0.5270389363008331,model_autofill,False
+ফজলুর রহমান কে প্রয়োজন ছিল,Rajshahi,Pabna,,Positive,1.0,manual_second_pass,False
+কোথায় কি মন্ত্রী,Rajshahi,,,Sarcastic_negative,0.3770644166035645,model_autofill,False
+অপাত্রে দান,Barisal,,,Sarcastic_negative,1.0,manual_second_pass,False
+উনাকে দরকার ছিলো যুব ও ক্রীড়া মন্ত্রণালয়।,Dhaka,,,Neutral,1.0,manual_second_pass,False
+চেতনা ব্যবসা জমজমাট হবে,Dhaka,Gazipur,,Neutral,0.7743010897170862,model_autofill,False
+তোরা যে বিকৃত মাল বুঝা যায়,Dhaka,,,Sarcastic_negative,0.3869845794844961,model_autofill,False
+"""মুক্তি যোদ্ধার ছেলে মুক্তি যোদ্ধা মন্ত্রনালয়ের দায়িত্ব পেয়েছে, এতে রাজনীতি করার কিছু নেই।""",Chittagong,Sylhet,,Positive,0.596035107730719,model_autofill,False
+সুইপার,নীলফামারী,Rangpur,Nilphamari,Negative,1.0,manual_second_pass,False
+CADA,Dhaka,,,Sarcastic_negative,0.4650415805010913,model_autofill,False
+এবার ঘেরাও করতে সুবিধা হবে,Dhaka,Rangpur,,Neutral,0.7459070399862995,model_autofill,False
+অন্তত মুক্তিযোদ্ধা পরিবারের সন্তান। দেখা যাক কতটুকু করতে পারে,Dhaka,,,Negative,0.3921412515182253,model_autofill,False
+ইশরাক তো মুক্তিযোদ্ধা,কিশোরগঞ্জ,Dhaka,Kishoreganj,Sarcastic_negative,1.0,manual_second_pass,False
+সেও এখন মুক্তিযোদ্ধা,Dhaka,,,Positive,0.6490558148036144,model_autofill,False
+গপ গপ গপ,ঢাকা,Khulna,,Sarcastic_negative,0.4093940743400722,model_autofill,False
+মুক্তিযুদ্ধের হোমাসা,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+চলিতেছে সার্কাস,Dhaka,,,Sarcastic_negative,0.4161267173612502,model_autofill,False
+মুক্তি যুদ্ধের সময় যার জন্মই হয়নি সে নাকি মুক্তি যুদ্ধা বিষয়ক মন্ত্রী,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+মুক্তি যুদ্ধ সম্পর্ক ও কি জানে ওকে যে ঐ পদ দিলো,Dhaka,,,Negative,0.4886281753038429,model_autofill,False
+শিশু মুক্তিযোদ্ধা মন্ত্রী,চট্টগ্রাম,Dhaka,Chittagong,Sarcastic_negative,1.0,manual_second_pass,False
+হায়রে অন্দের দেশ,Dhaka,,,Sarcastic_negative,0.4011708764378135,model_autofill,False
+ওর বয়স কত,ফরিদপুর,Dhaka,Faridpur,Negative,0.4938905421020154,model_autofill,False
+ঘেরাও হবে,Sylhet,,,Neutral,0.9960197097566316,model_autofill,False
+এডা বেশি হয়া গেলো,Bhola,,,Sarcastic_negative,1.0,manual_second_pass,False
+কোটা না মেধা?,Dhaka,Naogaon,,Sarcastic_negative,0.4020920204115349,model_autofill,False
+thela theli bisoyok protimontri,ঢাকা,,,Neutral,1.0,manual_second_pass,False
+Unare valo lagto liger amole..kintu uni akhon kotha batra bolen liger motoi,Thakurgaon,,,Sarcastic_negative,1.0,manual_second_pass,False
+ফজলুর রহমানকে দেওয়া উচিত ছিল,Naogaon,,,Neutral,1.0,manual_second_pass,False
+জন্ম সালটা??,Nilphamari,,,Sarcastic_negative,1.0,manual_second_pass,False
+জন্ম ২০০০ সালে পড়ছে বঙ্গবন্ধুর ইতিহাস এ মুক্তিযুদ্ধ মন্ত্রণালয় এ কি করবে,Sirajganj,,,Negative,0.4620846221481732,model_autofill,False
+"""সে মুক্তিযোদ্ধা বিষয় সম্পর্কে কি বুজবে,তার কি সে বিষয়ে নলেজ আছে,,তার কি জন্ম মুক্তিযুদ্ধের সময়,,,, পাগল ছুদা কথা, শুক্কুরে শু…""",Chittagong,,,Negative,1.0,manual_second_pass,False
+Right,Dhaka,,,Sarcastic_negative,0.4093940743400722,model_autofill,False
+দুই পর দেখবো মুক্তিযোদ্ধার লিস্টে হেতার নাম,Dhaka,Barisal,Bhola,Negative,0.4981253634958316,model_autofill,False
+প্রতিমন্ত্রী প্রতিবন্ধী,Dhaka,Chittagong,,Negative,0.4067862172356343,model_autofill,False
+এই মাল কিন্তু নিজে নিজেই শপত পরে মেয়রের চেয়ারে বসে।,Dhaka,,,Negative,0.7698920471675905,model_autofill,False
+মাতাল ইশরাক,Barisal,,,Sarcastic_negative,0.4007890902234527,model_autofill,False
+দেশের পু****কি মারা শেষ,Dhaka,,,Sarcastic_negative,0.4322033423336063,model_autofill,False
+আচ্ছা ওনার জন্ম কত সালে? ওনি মুক্তিযোদ্ধ বিষয়ে কতটুকু জানেন? কসমেটিক দোকানদার রে ডাক্তারের চেয়ারে বসাইয়া দিলো।,Comilla,,,Sarcastic_negative,0.3956442238683718,model_autofill,False
+joker,Dhaka,,,Neutral,1.0,manual_second_pass,False
+এর থেকে দেশ গোয়া মারা খাওয়ার জন্য প্রস্তুত,Barishal,Barisal,Bandarban,Sarcastic_negative,0.3912085259548691,model_autofill,False
+"""আপনি জেনে খুশি হবেন যে—(!!!) (!)আওয়ামী লীগকে আইনিভাবে নিষিদ্ধ হতে না দেওয়া আসাদুজ্জামান পেল আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণাল…""",Dhaka,Rajshahi,,Neutral,0.4989473946650567,model_autofill,False
+চার চোখ নিয়েও প্রতিমন্ত্রী কে দুই দুইবার!!প্রতিবন্ধী পড়লাম,Barisal,,,Negative,0.5351043916670051,model_autofill,False
+দুই পর দেখবো মুক্তিযোদ্ধার লিস্টে হেতার নাম,Chittagong,Noakhali,,Negative,0.4981253634958316,model_autofill,False
+বলদ কীভাবে প্রতিমন্ত্রী হয়,Gazipur,,,Negative,1.0,manual_second_pass,False
+"""মেয়র পদের জন্য তখন ঠিকই আ* ত্ন - হ* ত্যা করলে আজকে আর """" শিশু মুক্তিযোদ্ধা """" হওয়া লাগতো না ইশরাক ভাই ।""",Dhaka,,,Positive,0.430290740488208,model_autofill,False
+মুক্তিযুদ্ধ বিষয়ক ঠেলাঠেলি মন্ত্রী,কুমিল্লা,Dhaka,Comilla,Sarcastic_negative,1.0,manual_second_pass,False
+"""রাম পাঠার বাইচ্চা,,,,,,""",Dhaka,,,Sarcastic_negative,0.4249366226796225,model_autofill,False
+এই একটা নাদান পোলা। কোন কি মুক্তিযুদ্ধ দেখছে। মুক্তিযুদ্ধের বই ও ইতিহাস ও ভালো করে জানেনা সম্ভবত। আর তাকে দিছে মুক্তিযুদ্ধ …,Dhaka,Rangpur,,Negative,0.5093871319611205,model_autofill,False
+প্রতিমন্ত্রী লেখলো না প্রতিবন্ধী লেখলো?,Dhaka,Barisal,Bhola,Negative,0.5315241755420177,model_autofill,False
+দেশের হোগাম্রা শেষ...,ঠাকুরগাঁও,Dhaka,Rangpur,Sarcastic_negative,0.3898722782636917,model_autofill,False
+সে নিজে মুক্তিযুদ্ধের সঠিক ইতিহাস জানে না,Dhaka,,,Negative,0.4892769903179889,model_autofill,False
+Kihhh,Khulna,,,Sarcastic_negative,0.4496552212254751,model_autofill,False
+জামাত এর আমিরকে দেওয়ার দরকার ছিলো,Rajshahi,,,Negative,0.7094303119212833,model_autofill,False
+যত বড় মূর্খ তত বড় নেতা,Dhaka,Tangail,,Sarcastic_negative,0.396954438362773,model_autofill,False
+দেশের হোগা মারা সারা,Dhaka,,,Sarcastic_negative,0.4476729445406747,model_autofill,False
+"""প্রতিবন্ধী মন্ত্রী,""",Dhaka,,,Sarcastic_negative,0.5362419290810417,model_autofill,False
+প্রতি মন্ত্রী পড়তে গিয়ে প্রতিবন্ধী পড়ে ফেলেছিলাম,Dhaka,Munshiganj,,Negative,0.4740928196254023,model_autofill,False
+দেশের হো* মারা সারা,ফেনী,Feni,,Sarcastic_negative,0.4478084580424422,model_autofill,False
+Boka cda,Comilla,,,Sarcastic_negative,0.3958893667952216,model_autofill,False
+MARA NEWS …,Dhaka,,,Sarcastic_negative,0.419682204123761,model_autofill,False
+Joker,Dhaka,Chittagong,,Neutral,1.0,manual_second_pass,False
+ভোটে চোরদের কেমনে মন্ত্রী মানি,Chittagong,,,Sarcastic_negative,0.4103669386828777,model_autofill,False
+উচিত ছিলো মাদকদ্রব্য আমদানি প্রতিমন্ত্রী করা তারেক সরকার কাজটা কি করলো?,Dhaka,Barisal,,Negative,0.5433257674759847,model_autofill,False
+Faltu,Dhaka,,,Sarcastic_negative,0.4093940743400722,model_autofill,False
+প্রতিবন্ধী,Dhaka,,,Sarcastic_negative,0.5122767893902601,model_autofill,False
+কুনুইমন্ত্রী,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+শালায় প্রতিমন্ত্রী না প্রতিবন্ধী,Dhaka,,,Negative,0.4398481683191503,model_autofill,False
+দেশের হুগা মারা সারা,Chittagong,,,Sarcastic_negative,0.4517944661643662,model_autofill,False
+ওকি মুক্তিযুদ্ধ করছে যে ওরে মুক্তিযোদ্ধা মন্ত্রণালয়ের দায়িত্ব দিছস,গাইবান্ধা,Dhaka,,Negative,1.0,manual_second_pass,False
+ম*খোর রে দিসে মুক্তিযুদ্ধের মন্ত্রিত্ব,Dhaka,,,Sarcastic_negative,0.4585135954578304,model_autofill,False
+"""সামান্য মেয়র হতে পারে নাই সেই নাকি হচ্ছে মন্ত্রী,,,বলার কিছু নেই""",Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+"""Sorry ইশরাক, প্রতিবন্ধী পড়ে ফেলছিলাম প্রথমে।""",চাঁদপুর,Chittagong,Chandpur,Negative,0.3934091290944007,model_autofill,False
+জুলাই যুদ্ধাদের গোয়া মারা শেষ,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+মুক্তিযুদ্বে হোগা মারা সারা,Dhaka,,,Sarcastic_negative,0.3967088006398708,model_autofill,False
+এত হাস্যকর এই লোক,Dhaka,,,Negative,0.5946365828133953,model_autofill,False
+মুক্তিযুদ্ধের ইতিহাসে ফেইল করা স্টুডেন্ট যখন মুক্তিযুদ্ধা বিষয়ক মন্ত্রী হয়,Dhaka,,,Negative,0.4582600354056618,model_autofill,False
+এরে ঠেলাঠেলি যুদ্ধা হিসেবে ঘোষণা করা হোক,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+কয় পর দেখা যাবে সংসদে তালা মেরে দিছে আমাদের নগর ডাকাত,Dhaka,,,Negative,0.6638844158598721,model_autofill,False
+একটা ঘেরাও বিষয়ক মন্ত্রণালায় খোলা উচিৎ ছিলো। বিম্পি র যে কোন কাজের বিরোধিতা কারিদের কার্যালয় ঘেরাও করার জন্য। আর তার মন্ত্রী …,Dhaka,,,Positive,0.5418413661735348,model_autofill,False
+প্রতিবন্ধী,Dhaka,,,Sarcastic_negative,0.5122767893902601,model_autofill,False
+ঠেলাঠেলি মন্ত্রী,Chittagong,,,Sarcastic_negative,0.4258010458861674,model_autofill,False
+ও ৭১ সালে শিশু মুক্তিযোদ্ধা ছিল আমি কিন্তু নিজে দেখেছি ওকে যুদ্ধ করতে,Dhaka,,,Negative,0.5186766215051789,model_autofill,False
+হতভাগা জাতি আমরা,Dhaka,,,Negative,0.7825578087920516,model_autofill,False
+R lok paylo na.ajob.isjraq er moton chele re proti montri banayche.ajaira,কিশোরগঞ্জ,Dhaka,Kishoreganj,Neutral,0.7144782040326,model_autofill,False
+"""ফজু পাগলারে দিলেও মানা যেত,এর তো মুক্তিযুদ্ধের সময় জন্মও হয়নি এবার সব উল্টাপাল্টা হচ্ছে কেন""",Dhaka,Mymensingh,,Sarcastic_negative,0.4821725823393958,model_autofill,False
+এই মাল ডা,Dhaka,Gazipur,,Negative,0.7875338455858929,model_autofill,False
+হেতে তো খারা বলদ হেতে মুক্তি যুদ্ধের বুজে কি ওরে বানানো উচি ঠেলাঠেলি প্রতিমনএি,Chittagong,,,Negative,1.0,manual_second_pass,False
+যতসব চোর বাটপাররাই মনত্রি,Rangpur,,,Negative,0.8767369776993639,model_autofill,False
+হোগা মারা শেষ দেশের,Dhaka,,,Sarcastic_negative,0.4165476822682254,model_autofill,False
+যে সকল মায়েদের সন্তান গর্বে তাদের কেউ রাজাকার বলতে পারে,Dhaka,,,Negative,0.3773508300492266,model_autofill,False
+ডেন্ডি খোর,Dhaka,,,Sarcastic_negative,0.4640890252458828,model_autofill,False
+দেশের মারা শেষ,Shariatpur,,,Sarcastic_negative,0.4255083013493866,model_autofill,False
+Faltu akta montronaloy. Juddo ki akono roye gese je muktijuddo montronaloy takte hobe.,Sylhet,,,Sarcastic_negative,0.4587899189254386,model_autofill,False
+Okay,Dhaka,,,Sarcastic_negative,0.3932161268269279,model_autofill,False
+এই গন্ড মুর্খ গুলোরে নাকি মন্ত্রী বলে ওয়াক থু,Khulna,Jessore,,Negative,0.3920394654779492,model_autofill,False
+Pathetic,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+আফিল উদ্ অনিক এসব পাগল দেখতাহে প্রতিবন্ধী পাগল,Mymensingh,Sherpur,,Sarcastic_negative,0.4842591085933495,model_autofill,False
+কনুই দিয়েই রাজাকারদের বিচার করবেন। নিউক্লিয়ার পাওয়ার্ড এলবো (কনুই),Jessore,,,Negative,0.5289747103429983,model_autofill,False
+এরে দেখতে ভাইরাল হওয়া এক সমকামীর মতো,ঢাকা,Khulna,Magura,Sarcastic_negative,0.4730255622336216,model_autofill,False
+এই কুত্তার বাচ্চা পুটপুটে সুন্দর....,Dhaka,,,Negative,0.7901809216265155,model_autofill,False
+খোঁজ নিয়ে দেখেন ওর দাদা মুক্তিযুদ্ধের সময় রাজাকার ছিলো,Dhaka,Sirajganj,,Negative,1.0,manual_second_pass,False
+এই পাঁচ বছরে দেশের হ*** মারা শেষ,Dhaka,,,Negative,0.5318953991144424,model_autofill,False
+Desh ta chuide saira dibe,Khulna,Jessore,,Sarcastic_negative,0.398072501847839,model_autofill,False
+চোর,Dhaka,,,Negative,0.5453549736941338,model_autofill,False
+দেশের হোগা মারা শেষ,ঢাকা,Chittagong,Noakhali,Sarcastic_negative,0.4165476822682254,model_autofill,False
+টাকলা মুরাদের কথা মনে পড়ে গেল।,Dhaka,Chittagong,Pirojpur,Sarcastic_negative,1.0,manual_second_pass,False
+ইশরাক হোসেন এর নিছে লেখা প্রতিমন্ত্রী …,Dhaka,Chandpur,,Sarcastic_negative,0.4678267682794048,model_autofill,False
+দেশের হোগা মারা সারা,Dhaka,,,Sarcastic_negative,0.4476729445406747,model_autofill,False
+এটা দেখার পর নিজেকে বাঙ্গালী পরিচয় দিতে লজ্জা লাগতেছে ।,Comilla,,,Negative,0.6531861260189792,model_autofill,False
+------- যোগ্যতা বিষয় না নিজ দলের ভিতরেই সব মন্ত্রী রাখতে হবে,Dhaka,Mymensingh,,Neutral,0.5323725234067994,model_autofill,False
+এরে মন্ত্রী না বানাইলে তারেক রহমান সাহেবের বাসা ঘেড়াও করতো আবার দিছে মুক্তিযুদ্ধ বিষয়ক মন্ত্রী যুদ্ধের সময় কি দুনিয়াত ছিলো ?,Sylhet,,,Negative,1.0,manual_second_pass,False
+পতিবন্ধি মন্ত্রী হলে ভালো হয়,Dhaka,,,Sarcastic_negative,0.49757373609214,model_autofill,False
+চুদলিং পং,রংপুর,Chittagong,Rangpur,Negative,0.6922715446725731,model_autofill,False
+আমেরিকা ঘেরাও করা হবে।,Dhaka,,,Neutral,0.876653053366201,model_autofill,False
+কামড়াকামড়ি করে সমনে এগিয়ে যাবে,Rangpur,,,Positive,0.4850795328444556,model_autofill,False
+এক ধাক্কায় এতদুর,Dhaka,,,Sarcastic_negative,0.5258857136289743,model_autofill,False
+ওই কি বাল জানে মুক্তিযুদ্দ সম্পর্কে আগে ওর ইন্টারভিউ নিয়ে তারপর ওরে এই পোস্ট দেয়া দরকার ছিলো কলেজ ঠিক মতো শেষ করসে নাকি,Dhaka,Brahmanbaria,,Negative,0.547521127424858,model_autofill,False
+মুক্তিযুদ্ধ মন্ত্রণালয়ের কাজটা কি? ৫৩ বছরের মুক্তিযুদ্ধের কোন সঠিক ইতিহাস জাতিকে জানানো হয় নাই।সুতরাং এসব ফালতু মন্ত্রণালয়ে…,Chittagong,Noakhali,,Negative,0.3908269188437858,model_autofill,False
+দেশের মানুষ এর রুচির উপ্রে কুত্তা মুইতা দিলো বুঝি,Noakhali,,,Negative,0.4614749416918838,model_autofill,False
+হোগা মারা সারা,Feni,,,Sarcastic_negative,0.4610378779801635,model_autofill,False
+দেশের আরো গুয়া মারা শারা এবার তো সবায় রাজাকার এ আর এর নেতা বাদে,Khulna,Jessore,,Positive,0.739062789193678,model_autofill,False
+প্রতিবন্ধী,Dhaka,,,Sarcastic_negative,0.5122767893902601,model_autofill,False
+সবচাইতে ফালতু টা কে বিম্পি তাদের অপ্রয়োজনীয় মন্ত্রণালয় দিয়েছে আর কি,চট্টগ্রাম,Chittagong,Chandpur,Negative,1.0,manual_second_pass,False
+এই মন্ত্রণয়ের কাজ কি? কোন আচুদা এই মন্ত্রণয় বানাইছে??,Rangpur,,,Negative,0.546353261509475,model_autofill,False
+দেশের হোগামারা সারা,কুমিল্লা,Comilla,,Sarcastic_negative,0.4596640481477326,model_autofill,False
+দেশের হোগা মারা শেষ,Dhaka,Rangpur,,Sarcastic_negative,0.4165476822682254,model_autofill,False
+খাৎ*12কির পোলা একটা এইটা নয়ন,Dhaka,Mymensingh,,Sarcastic_negative,0.4077927486001508,model_autofill,False
+Brainless,Dhaka,,,Sarcastic_negative,0.4093940743400722,model_autofill,False
+"""পাতিনেতা ও মন্ত্রী,, হায়রে দেশ""",Sylhet,,,Sarcastic_negative,1.0,manual_second_pass,False
+হের গলার আওয়াজ হাঁসা গলার মত লাগে। হে কি সংসদে যাওয়ার আগে লাল চা খাবে।,Dhaka,Netrokona,,Negative,0.4208466032796298,model_autofill,False
+তারেক রহমান মানুষকে হাসাই তাছে,Dhaka,,,Positive,0.621665801543986,model_autofill,False
+"""ফানি পোস্ট? উনার তো আবার ধাক্কানোর অভ্যাস, ধাক্কিয়ে পদ পেয়ে গেল, wwe দেখে মনে হয় রোজ""",Barisal,Bhola,,Sarcastic_negative,0.3778118981432243,model_autofill,False
+এই নরপিশাচ দের কে আওয়ামীলীগ ভালো ঠিক করে রাখতে পারছে। ১৭ বছর রাস্তায় থাকতে পারে নাই । ঘরে থাকতে পারে নাই । ধান ক্ষেত গম ক্ষে…,Dhaka,,,Negative,0.5083330741695912,model_autofill,False
+প্রতিবন্ধী,Dhaka,,,Sarcastic_negative,0.5122767893902601,model_autofill,False
+এদেরকে জনগণ ভোট দেয়নি। তারা টাকার খেলায় এম.পি হয়েগেছে।,Dhaka,Sylhet,,Sarcastic_negative,1.0,manual_second_pass,False
+জমিদার পুত্র ইশহাক ত ফদানমন্ত্রী হয়ে গেছে।,Dhaka,,,Sarcastic_negative,0.3955796061421173,model_autofill,False
+আবার একটা হাস্যকর মন্ত্রী সভা,Dhaka,,,Sarcastic_negative,0.3790074564555012,model_autofill,False
+পাকিস্তান ঘেরাও কর্মসূচি দেন ওস্তাদ,Dhaka,Barisal,Bhola,Positive,0.5687316996432284,model_autofill,False
+ভাবলাম (প্রতিবন্ধী),Khulna,Jessore,,Sarcastic_negative,0.4024737560652554,model_autofill,False
+প্রতিমন্ত্রী প্রতিবন্ধী,Dhaka,Kishoreganj,,Negative,0.4067862172356343,model_autofill,False
+দেশের পু**ন মারতে সেই একাই যতেস্ট আর কারো লাগবে না,Dhaka,,,Positive,0.4061219036350829,model_autofill,False
+ওয় কি ঠিকমতো নিজের নাম নিজে লিখতে পারে তো?,Dhaka,,,Sarcastic_negative,0.41125727877898,model_autofill,False
+এ সিফাত উল্লাহ দাদার শিষ্য মদ খেয়ে চেতনা উড়িয়ে দিবে,Chittagong,Noakhali,,Sarcastic_negative,0.3990629170092878,model_autofill,False
+দেখেন আসিফ মাহমুদ রে কোন ভাবে ডুকান যায় কি না রাজাকার লিস্টে,Sylhet,,,Negative,0.4249183199180946,model_autofill,False
+প্রতিমন্ত্রী। প্রতিবন্ধী।,Chittagong,Cox's Bazar,,Negative,0.4067862172356343,model_autofill,False
+"""কুঁচি কুঁচি বাচ্চা'রা মুক্তিযুদ্ধার কি বুঝবে""""""",Dhaka,,,Negative,0.3912844077947535,model_autofill,False
+মুক্তিযুদ্ধের চোদনাবাজরা কোথায় এখন??,Dhaka,,,Negative,1.0,manual_second_pass,False
+দেশটারে হোন* মারি দিলো,Chittagong,Noakhali,,Negative,1.0,manual_second_pass,False
+কোনাই মেরে একাত্তরের চেতনাকে শেষ করে দেওয়ার জন্য এই মন্ত্রী যথেষ্ট,Dhaka,,,Positive,1.0,manual_second_pass,False
+"""গণঅধিকার পরিষদের নেতা নূর ডাকসুর ভিপি হবার পর শেখ হাসিনার সাথে দেখা করে তাকে মা বলে ডেকেছেন, আজকে তো উনি প্রতিমন্ত্রী হয়েছেন, …""",Dhaka,Gazipur,,Negative,1.0,manual_second_pass,False
+দেশের হোগা মারা সারা!,সিলেট,Dhaka,Barisal,Sarcastic_negative,0.4354935313698935,model_autofill,False
+রংপুর পারল আমরা কেন পারলাম না মূখ্য ভন্ড মুসলিম নামধারী মুনাফেক মাজার পূজারীর জন্য বাংলাদেশ বদলাতে পারলাম না,ফরিদপুর,Dhaka,Faridpur,Negative,0.5335836969371163,model_autofill,False
+চুদলিং পং দেশের... …,Dhaka,Manikganj,,Negative,0.6585914253719752,model_autofill,False
+"""হালায় মাল খোর, সারা রাত জাগে আর ে ঘুমায়""",Dhaka,Rajbari,,Positive,0.7692116686521181,model_autofill,False
+মাথামোডা গুলো যখন বাবার কোটায় প্রতিমন্ত্রী। স…,Dhaka,,,Negative,1.0,manual_second_pass,False
+ওনাকে দখল যোদ্দা দিলে ভালো হয়,Dhaka,,,Sarcastic_negative,0.4559486047129062,model_autofill,False
+"""আল্লাহর ওয়াস্তে একে মন্ত্রনালয় থেকে বাদ । বিশ্বাস করেন, এর ঘটে কিচ্ছু নেই..!""",Dhaka,Narail,,Negative,1.0,manual_second_pass,False
+"""এ তো মেয়র হতে পারে নাই, চুরি করে এমপি, এখন আবার মুক্তিযুদ্ধ বিষয়ক মন্ত্রী, বিষয়টা চুদলিং পং হয়ে গেলো""",Mymensingh,Sherpur,,Negative,0.5074253149985909,model_autofill,False
+চাঁদাবাজির মন্ত্রী বানানো হোক,Dhaka,,,Sarcastic_negative,0.4737464946672653,model_autofill,False
+পুরান ঢাকার ডাকাত,Dhaka,,,Negative,1.0,manual_second_pass,False
+হোগা মারা শেষ,Dhaka,,,Sarcastic_negative,0.4246994018977948,model_autofill,False
+"""মুক্তিযোদ্দের, ম তো বুজে না এই লোক""",Chittagong,,,Negative,0.7944595147317294,model_autofill,False
+একে তো মন্ত্রী হিসেবে ভালো লাগে না আর দিয়েছে মুক্তিযুদ্ধ বিষয়ক চু...দেছে রে,Mymensingh,,,Positive,0.4416909913181067,model_autofill,False
+এইবার সব মুক্তিযোদ্ধা তার পরিবার থেকে বের হবে,Dhaka,,,Neutral,0.5748402245367599,model_autofill,False
+মুক্তিযুদ্ধের পুরো গোয়াটাই মাইর দিলো।,Barisal,Bhola,,Sarcastic_negative,0.5105013167413872,model_autofill,False
+Shamiul Hassan Nihan Hasibul Alam এতে ও বুঝি মন্ত্রী ব্যপারটা হজম হইলো না,Comilla,,,Sarcastic_negative,0.5309404422762058,model_autofill,False
+হু** গা মারা সারা,Dhaka,Gazipur,,Sarcastic_negative,0.46108292699348,model_autofill,False
+প্রতিমন্ত্রী না প্রতিবন্ধী,Sylhet,,,Negative,0.4235924853822955,model_autofill,False
+ও ৭১ সালে শিশু মুক্তিযোদ্ধা ছিল আমি কিন্তু নিজে দেখেছি ওকে যুদ্ধ করতে,Narayanganj,,,Negative,0.5186766215051789,model_autofill,False
+জাতির জন্য লজ্জার বিষয় এরকম মানুষের কাছ থেকেও মুক্তিযুদ্ধ সম্পর্কে জানতে হবে,Narayanganj,,,Neutral,1.0,manual_second_pass,False
+৭১ সালে ঘেরাও ইশরাকের জন্মই হয় নাই সো কিভাবে ও মুক্তিযুদ্ধ বিষয়ক মন্ত্রী হয়!,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+এই মুক্তি জুদদো বলতে কি বোঝে,Dhaka,,,Negative,0.5934216886908976,model_autofill,False
+প্রতিবন্ধী মন্ত্রী,Dhaka,,,Sarcastic_negative,0.5175267073867691,model_autofill,False
+হয়ছে মুক্তিযোদ্ধের হো … মারা শেষ,Chittagong,,,Sarcastic_negative,1.0,manual_second_pass,False
+"""বাংলাদেশের প্রত্যেকটা বিএনপি শিশু কর্মীকে মুক্তিযোদ্ধার সার্টিফিকেট দিয়ে দিবে কথাটা মিলিয়ে নিয়েন,""",Dhaka,Sylhet,Habiganj,Negative,0.5590272382283585,model_autofill,False
+সে তো একটা পাগল,Dhaka,,,Sarcastic_negative,0.6353174310756977,model_autofill,False
+Mohammad Sohag o to gherao montronaloyer daitto pawar kotha..o to se kaje dokkho,Dhaka,,,Neutral,1.0,manual_second_pass,False
+boka choda sala,Dhaka,Barisal,,Sarcastic_negative,1.0,manual_second_pass,False
+এইসব আবালও এমপি মন্ত্রী হয়,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+"""ভাইয়ার বউ যে কুখ্যাত রাজাকারের মেয়ে, সেটা জানেন আপনারা?""",নোয়াখালী,Chittagong,Noakhali,Sarcastic_negative,0.7309031084885553,model_autofill,False
+প্রতিবন্ধি,চাঁদপুর,ঝিনাইদহ,Dhaka,Sarcastic_negative,0.5151317989690922,model_autofill,False
+চোদনা,Dhaka,,,Negative,0.4045810934549458,model_autofill,False
+এই পাগল,Dhaka,,,Negative,0.6096356811201398,model_autofill,False
+ও নিজেই তো হলো একটা সন্ত্রাস,Dhaka,,,Negative,1.0,manual_second_pass,False
+"""ওই সারাজীবন বিদেশে থেকে ফস্টিনস্টি করে বেড়াইছে, তাও বাচ্চা একটা ছেলে, ও মুক্তিযুদ্ধের কি বুঝবে?""",Dhaka,Chittagong,Noakhali,Sarcastic_negative,0.4841668760122632,model_autofill,False
+প্রতিমন্ত্রী না প্রতিবন্ধী,Bandarban,,,Negative,0.4235924853822955,model_autofill,False
+প্রতিমন্ত্রী প্রতিবন্ধী ( ),Dhaka,Gazipur,,Negative,0.4067862172356343,model_autofill,False
+অভদ্র একটা,Dhaka,Netrokona,,Sarcastic_negative,0.5437250388365062,model_autofill,False
+ঘেরাও বিষয়ক মন্ত্রী,Barisal,,,Sarcastic_negative,0.397410922878836,model_autofill,False
+মুক্তিযোদ্ধাদের গোয়া মারছে এইবার,Dhaka,Rangpur,,Positive,0.5361840833662163,model_autofill,False
+"""বসে, ইচ্ছেমতো লুটপাট করে বাংলাদেশকে দুর্নীতিতে চ্যাম্পিয়ন করিস। কেমন!""",Dhaka,,,Positive,0.6671740399308582,model_autofill,False
+ভুয়া প্রতিমন্ত্রী,Rajshahi,,,Negative,0.5521978814697421,model_autofill,False
+Mehran Ahmed এই ধইঞ্চা রে না দিলেও পারতো,Dhaka,,,Negative,0.8873176997329277,model_autofill,False
+চোর সালা,Sirajganj,,,Negative,0.4264367900169872,model_autofill,False
+ভুয়া,Dhaka,Jashore,,Negative,0.4578382817773006,model_autofill,False
+এবার তারেক রহমানের মেয়ে মুক্তিযোদ্ধ হয়ে যাবে,Barisal,,,Positive,0.4286238680621492,model_autofill,False
+অয় তো নিজেই একটা রাজাকার,Dhaka,,,Negative,0.4104008984306498,model_autofill,False
+খাইছেরে,Dhaka,,,Sarcastic_negative,0.6230797736536412,model_autofill,False
+ফজু পাগলা রে দেন জামাতের পুটকি মারা সারা,Cumilla,Comilla,,Sarcastic_negative,0.7272375160522646,model_autofill,False
+রুমিন আর ইশরাক দুজনে পালিয়েছে? পোলাপানে বিবাহের গুঞ্জন উঠাইছে।,Dhaka,,,Positive,0.4362898054291894,model_autofill,False
+ইশরাক হোসেন প্রতি মন্ত্রী …,কিশোরগঞ্জ,Dhaka,Kishoreganj,Negative,0.41722376093598,model_autofill,False
+"""এখন বলবে সে ৭১ এর মুক্তিযুদ্ধা,,,লোক আর পাইল না""",Dhaka,Mymensingh,,Positive,0.4170736094104764,model_autofill,False
+ভোট চোর মন্ত্রণালয়ের দায়িত্ব কে নেবে??,Dhaka,,,Sarcastic_negative,0.4027863776746324,model_autofill,False
+"""বেডা যেইভাবে যুদ্ধ করে জিয়ার কবরে সবার সামনে জায়গা করে নিছে,এতে করে এই পদ দেওয়াটাই স্বাভাবিক""",Dhaka,Chandpur,,Positive,0.4091838098342821,model_autofill,False
+সে তো ব্যারিস্টার পাস করে দেশে আসছে মুক্তিযোদ্ধা মন্ত্রী পদে দায়িত্ব পালন করবে কিভাব পরা তো টাকা টুকা সবকিছুই লুট করে খাবে,Dhaka,Naogaon,,Positive,0.4659077377380532,model_autofill,False
+ইশরাক আছে না ইশরাক এর আব্বায় মুক্তি যুদ্ধ দেখছে কি না সন্দেহ আর এই বাচ্চা কে দিছে মুক্তি যুদ্ধ বিষয় মন্ত্রী,Dhaka,,,Negative,0.6754163873594611,model_autofill,False
+জামাত শিবিরকে সরাসরি রাজাকার বলার পাশ পেয়ে গেল,Dhaka,Jamalpur,,Negative,0.6378000198372203,model_autofill,False
+লেইট প্রতিমন্ত্রী,Mymensingh,,,Sarcastic_negative,1.0,manual_second_pass,False
+তোদের মত মিডিয়া দেখলে হাসি পায়,Dhaka,,,Negative,0.5519933752192847,model_autofill,False
+৭১ এর বিরোধীতাকারী পেতাত্বাদের গায়ে জ্বলা তঙ্ক শুরু হয়ে গেছে,বগুড়া,Dhaka,Rangpur,Sarcastic_negative,0.5328345327569404,model_autofill,False
+ভোট চোর,Dhaka,,,Negative,0.3763623924818718,model_autofill,False
+এ ভোট চোর কি মন্ত্রী হবার যোগ্য?,ভোলা,Barisal,Bhola,Neutral,0.936638240937475,model_autofill,False
+"""আমি নতুন এই কনসেপ্ট নিয়ে কাজ করছি যেখানে কোনো ডিজাইনই রিপিট হবে না। যারা ইউনিক কিছু পরতে ভালোবাসেন, তারা চাইলে আমার ল্যাব ঘুরে আসতে পারেন:""",Dhaka,,,Negative,0.811865909573868,model_autofill,False
+"""ইশরাকের মধ্যে এমন কি পাইছে তারেক সাহেব, বুজলাম না! একবার মেয়র পদে আবার সংসদ সদস্য এখন মন্ত্রী, ওর যোগ্যতাটা কি? ওর বাবা বড় রাজ…""",Dhaka,Chittagong,Chandpur,Negative,1.0,manual_second_pass,False
+মারছেরে,Sylhet,Habiganj,,Sarcastic_negative,1.0,manual_second_pass,False
+মুক্তিযোদ্ধের সময় কি ওর জন্ম হয়েছিল,Dhaka,Rajshahi,,Negative,1.0,manual_second_pass,False
+টাহি পোলাপান এগুলো,Dhaka,,,Sarcastic_negative,1.0,manual_second_pass,False
+"""সার্কাসের মতো,,দেশ এখন পুরো বিএনপির বাকীসব রোহিঙ্গা""",Dhaka,Chittagong,Sylhet,Negative,0.4770319885256676,model_autofill,False
+টোকাই সালা,ঢাকা,Dhaka,Khulna,Sarcastic_negative,0.4571288704452396,model_autofill,False
+প্রতিমন্ত্রী প্রতিবন্ধী,চট্টগ্রাম,জামালপুর,Mymensingh,Negative,0.4067862172356343,model_autofill,False
+দুচে দিয়েছে ভাগিনারে,Thakurgaon,,,Negative,0.4376610302822976,model_autofill,False
+উনি তো সব মুক্তিযোদ্ধাকে ঘেরাও করবে,Dhaka,Mymensingh,,Positive,1.0,manual_second_pass,False
+মদ খেয়ে মাতলামি করা লোক হলো মুক্তিযুদ্ধ বিষয়ক প্রতিমন্ত্রী। বুঝলাম কেমন হলো মন্ত্রীসভা,Dhaka,Gazipur,Madaripur,Negative,1.0,manual_second_pass,False
+ওয় মুক্তিযুদ্ধের কোন বাল বুজে,Dhaka,,,Sarcastic_negative,0.4343185474549117,model_autofill,False
+ওয়ারিশ মনএি,Dhaka,,,Sarcastic_negative,0.4457433449431235,model_autofill,False
+পুংটা মারা সারা,Dhaka,Rajshahi,Kushtia,Sarcastic_negative,0.4771169620571418,model_autofill,False
+আবার নতুন করে রাজাকার তৈয়ার করার কারিগর পেয়েছে,Dhaka,Brahmanbaria,,Positive,0.496553264681161,model_autofill,False
+ইসরাকের জায়গায় অ্যাডভোকেট ফজলুল হক কে দিলো ভালো হইতো।,Dhaka,,,Negative,1.0,manual_second_pass,False
+সেকি ভালো করে মুক্তি যুদ্ধের ইতিহাস জানে হায় জাতি,Dhaka,,,Negative,0.513224647802983,model_autofill,False
+"""নিজের চেয়ারের খুঁটি খুজে পাবেনি,,বিএনপির সবচেয়ে অযোগ্য ব্যাক্তি প্রতি মন্ত্রী""",Chittagong,Rangamati,,Negative,0.8533664703310616,model_autofill,False
+এর চাইতো ঘেরাও উপদেষ্টা ই ভালো ছিলো,Dhaka,,,Negative,0.4309817413292449,model_autofill,False
+প্রতিমন্ত্রী প্রতিবন্ধী,Chittagong,Chandpur,,Negative,0.4067862172356343,model_autofill,False
+ধাক্কাধাক্কি মন্ত্রলায় দেওয়ার দরকার ছিলো তাকে,Dhaka,Mymensingh,,Neutral,1.0,manual_second_pass,False
+মাইরাহালছে রে,Dhaka,Pabna,Jamalpur,Sarcastic_negative,0.5348908811406147,model_autofill,False
+বাল,Chittagong,,,Sarcastic_negative,0.5329467335713193,model_autofill,False
+বিএনপির যত রাজাকার ছিল সব এবার মুক্তিযোদ্বা হয়ে যাবে,Dhaka,,,Negative,0.5907701432686329,model_autofill,False
+কেন বিএনপিতে কি কোনো নির্বাচিত মুক্তিযোদ্ধা ছিলোনা?,Dhaka,,,Negative,0.9100302332297656,model_autofill,False
+এগুলো বাল,Dhaka,Chittagong,Lakshmipur,Sarcastic_negative,1.0,manual_second_pass,False
+ঘেরাও মন্ত্রী দেওয়া দরকার ছিলো,Dhaka,Chandpur,,Neutral,1.0,manual_second_pass,False

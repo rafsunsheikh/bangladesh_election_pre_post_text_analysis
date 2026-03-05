@@ -1,0 +1,415 @@
+Comment,Location 1,Location 2,Location 3,Sentiment,sentiment_confidence,sentiment_source,needs_review,auto_review_predicted,auto_review_pred_confidence,auto_review_action
+এটা আরো আনন্দের বিষয় এখানে কষ্টের কিছু নেই,Dhaka,Chittagong,Patuakhali,Negative,0.3519575157588473,model_autofill,True,Negative,0.3240408566786777,keep
+এগিয়ে জান লিডার পুরা পৃথিবী আপনার বিপক্ষে থাকলেও আমি পৃথিবীর পক্ষে আছি।,Dhaka,,,Negative,0.3293106866961357,model_autofill,True,Positive,0.6641798515866328,change
+"""খনিকের ছেলে বলে কি, যে দৌড়ায় সে কষ্ট পায় না খনিকের ছেলে সার্ভিস মলম কষ্ট পায়",Dhaka,Pabna,,Sarcastic_negative,0.302059533024222,model_autofill,True,Sarcastic_negative,0.362698109343315,keep
+ছাপ্রীদের কাজ তো দৌড়ানোই...,Rangpur,,,Sarcastic_negative,0.3560937053974806,model_autofill,True,Sarcastic_negative,0.3459371680198754,keep
+আর কি কি তোমাকে কষ্ট দেয় মনি,Dhaka,Pabna,,Negative,0.3130327530966685,model_autofill,True,Negative,0.31133151209408005,keep
+তুমি এক সময় এক দল থেকে অন্য দলে যাওয়ার জন্য অনেক দৌড়াদৌড়ি করেছ তা জনগন জানে।,Sylhet,Moulvibazar,,Negative,0.3817501110065445,model_autofill,True,Negative,0.3777666757555173,keep
+বরবরা হইলে যা হয়,কুমিল্লা,Chittagong,Cumilla,Sarcastic_negative,0.35105557123705,model_autofill,True,Sarcastic_negative,0.471373604267152,keep
+"""Same,chamcahr din akhno ase nakii",Tangail,,,Neutral,0.3390955093539328,model_autofill,True,Sarcastic_negative,0.3541352081161825,keep
+Amkeww...boyos hoise dorte pare naa,Mymensingh,,,Sarcastic_negative,0.3496686253634464,model_autofill,True,Sarcastic_negative,0.3586139580524873,keep
+"""গুটি কয়েকজন মিলে জুলাই আন্দোলন হয়নি, পুরো দেশের মানুষ কাজ করছে,ফায়দা নিচ্ছে বালচাল পুলা গুলো, ফ্যাসিস্ট তাড়াতে যারা শহীদ হয়েছে…",Dhaka,Chittagong,,Negative,0.371185071316251,model_autofill,True,Negative,0.3579682148315348,keep
+প্রধানমন্ত্রীর চেয়ারের নিচে পায়ের কাছে ছাত্রদল সভাপতিকে বসিয়ে রাখা কষ্ট দেয় না,Dhaka,,,Negative,0.3070009059137794,model_autofill,True,Negative,0.301446677447447,keep
+তাহলে উনাকে একটি গাড়ি উপহার হিসাবে দিয়ে ! আপনাদের তো এখন টাকার কোনো অভাব নেই।,Sylhet,,,Sarcastic_negative,0.3430821143194194,model_autofill,True,Negative,0.37144193304007683,keep
+"""উপজেলা স্বাস্থ্য কমপ্লেক্সে যোগাযোগ করুন, ভ্যাকসিনের ব্যবস্থা হয়ে যাবে",Rajshahi,Sirajganj,,Sarcastic_negative,0.3254800747997105,model_autofill,True,Sarcastic_negative,0.33203886639180025,keep
+ভাই তোদের মুখে এর চেয়ে ভালো মন্তব্য আশা করা যায় না!,Dhaka,Narayanganj,,Negative,0.2785932432582657,model_autofill,True,Negative,0.34846060351093816,keep
+হাহাহাহহাহা,Dhaka,,,Sarcastic_negative,0.3676786563147927,model_autofill,True,Sarcastic_negative,0.4369940225331959,keep
+মহাসুখের শেষ হলে সবকিছুতেই কষ্ট হয় সার্ভিস ভাই!,Dhaka,Khulna,Jessore,Neutral,0.3321799860617445,model_autofill,True,Sarcastic_negative,0.36931729471145175,keep
+আপনার কষ্ট লাগলেও আমাদের ভালো লাগে কারণ হাড্ডি দেখলে যেমন কুত্তা দৌড় দেয় প্রধানমন্ত্রীর গাড়ি পেছনে তেমন ছাত্রদল দৌড়ায়,Dhaka,Rangpur,Nilphamari,Negative,0.3508010526513417,model_autofill,True,Negative,0.41988682494124074,keep
+এত তো তোমাদের গাড়ির পেছনে দৌড়াইছে তখন কষ্ট লাগে নাই,Khulna,Jessore,,Sarcastic_negative,0.3733594651636655,model_autofill,True,Negative,0.39884812950664345,keep
+বাচা একটা চাটাচাটি না করলে উপরে উঠা যায় না।উপরে উঠতে হলে নেতার জুতা চাটতে হয়। সেই জন্য প্রধানমন্ত্রী গাড়ি পিছনে দৌড়ানো লাগে।বুঝছো সারজিস,Dhaka,,,Positive,0.3487491923725255,model_autofill,True,Sarcastic_negative,0.38606511431856483,keep
+আমার বঙ্গবন্ধু বলে তেলবাজী করা সারজিদ আলমের কষ্ট হওয়াটাই স্বাভাবিক,সিলেট,Sylhet,,Negative,0.3308537081374629,model_autofill,True,Negative,0.3195430233666795,keep
+পোদ পেতে হবে ত চা-টা চাটি করলে তো ভালো ফলন আসতে পারে সেটি হোক না মান ইজ্জত এর লড়াই,Chandpur,,,Neutral,0.3676947448640196,model_autofill,True,Neutral,0.36485137509868254,keep
+Amar chotobelar kotha mone pore. Cinemar liflet dito rickshaw te. Peson peson douratam ekta liflet paoar jonno. R pele monta h…,Dhaka,,,Sarcastic_negative,0.3536682790373641,model_autofill,True,Neutral,0.33073602562435295,keep
+Jole,Dhaka,,,Sarcastic_negative,0.3697623071457577,model_autofill,True,Sarcastic_negative,0.377049154831719,keep
+জলে নাকি চলে সাজিস মলম,Dhaka,,,Sarcastic_negative,0.385242010621116,model_autofill,True,Negative,0.39362658707149173,keep
+Jamater lungir tale dukle vlo lage,Barisal,Patuakhali,,Sarcastic_negative,0.3506142168685314,model_autofill,True,Sarcastic_negative,0.36478700396573777,keep
+Tor bada oii joggota nai Togo any koyta kormi acy ncp …,কিশোরগঞ্জ,Dhaka,Kishoreganj,Sarcastic_negative,0.3791833318167687,model_autofill,True,Sarcastic_negative,0.5313643613830656,keep
+পা চেটে যখন বেশি চাটে তখন ওইকাজ করে,Rangpur,Nilphamari,,Positive,0.3728733362165656,model_autofill,True,Sarcastic_negative,0.3154688341875627,keep
+বেশি কষ্ট পেলে বুড়িগঙ্গার পানি খান কষ্ট দূর হয়ে যাবে,Cox's Bazar,,,Sarcastic_negative,0.3207824351676874,model_autofill,True,Sarcastic_negative,0.4014577949261546,keep
+Vai tumi je kono np na taw amn vab koro tumi np theke boro kico Np der pico pico goro,Dhaka,Khulna,Kushtia,Neutral,0.3592234209419568,model_autofill,True,Sarcastic_negative,0.5555355697299699,keep
+তোহ তুরা দৌড়া,Dhaka,Comilla,,Sarcastic_negative,0.3753994981227525,model_autofill,True,Sarcastic_negative,0.4368395816543891,keep
+"""সেটাই তো দৌড়ানোর কি আছে রে ভাই,, মানে ব্যক্তিত্ব বইলা কিছু নাই",Dhaka,Khulna,Magura,Negative,0.3794386086964679,model_autofill,True,Negative,0.4296927582468721,keep
+সারা জীবন মন্ত্রীর পিছনে দাঁড়িয়ে থাকা মানুষ আজ কি বলে,Dhaka,Gazipur,,Sarcastic_negative,0.3016541356131491,model_autofill,True,Sarcastic_negative,0.48384084831595464,keep
+একটু চাটা চাটি না করলে কি আর হয়,Rajshahi,Pabna,,Positive,0.3043877460508923,model_autofill,True,Sarcastic_negative,0.42728469371147637,keep
+উড়িষ্যার তেল মারে,গাজীপুর,Mymensingh,,Sarcastic_negative,0.3185752061450689,model_autofill,True,Sarcastic_negative,0.38468022310137184,keep
+আসলেই তার কোন মূল্যেই নাই,Dhaka,Jamalpur,,Negative,0.3629058761505773,model_autofill,True,Negative,0.46429730312365514,keep
+"""কষ্টের কি আছে বাড়া,",Thakurgaon,,,Negative,0.3612159262182089,model_autofill,True,Negative,0.42241113762200766,keep
+কতবড় মায়াশীল ব্যক্তি রে,Dhaka,,,Negative,0.2910274016700619,model_autofill,True,Negative,0.3504326050932742,keep
+Botder sob kichutei JOLE,Dhaka,Chittagong,Lakshmipur,Sarcastic_negative,0.3242376439196158,model_autofill,True,Sarcastic_negative,0.3523031409398594,keep
+"""এক সময় তিনিও আওয়ামী লীগের নেতাকর্মীদের পিছনে ঠিক এই ভাবেই দৌড়ে বেরাতেন, তাই সে কষ্টটা বুঝতে পারছেন",Dhaka,,,Negative,0.3804839476562135,model_autofill,True,Negative,0.4124040506555898,keep
+যারা দৌড়ায় তাদের কষ্ট লাগে না,Dhaka,Tangail,,Sarcastic_negative,0.3506762500052108,model_autofill,True,Negative,0.32986241809989236,keep
+মুলদলের উপরের আওয়ামী ঘেঁষা নেতাদের থেকে ছাত্রদল অনেক অনেক ভালো।,Dhaka,Pabna,,Sarcastic_negative,0.3844031317819956,model_autofill,True,Sarcastic_negative,0.3941206741052276,keep
+এসব বলে ফর্মে উঠতে চাও বাপু,Chittagong,Cox's Bazar,,Positive,0.3781862846676072,model_autofill,True,Sarcastic_negative,0.42346681080165577,keep
+নয়ন lite,Dhaka,Munshiganj,,Negative,0.3846068958954441,model_autofill,True,Negative,0.3544265765935405,keep
+সাবেক ছাএলীগ নাকি?,ময়মনসিংহ,,,Sarcastic_negative,0.3416055150017286,model_autofill,True,Sarcastic_negative,0.3949134414980742,keep
+দৌড়ায় ক্যান,Tangail,,,Sarcastic_negative,0.3881710005509613,model_autofill,True,Sarcastic_negative,0.4488582196268448,keep
+ও্যার বিচার আগোত হওয়া লাগবে,Dhaka,,,Negative,0.3696598066266887,model_autofill,True,Negative,0.38129156963898236,keep
+প্রধানমন্ত্রী যে উনার ভাই.......,Dhaka,,,Neutral,0.3500866865827698,model_autofill,True,Neutral,0.33772191016661246,keep
+তাহলে তুমি প্রধানমন্ত্রীর গাড়ির পেছনে দৌড়াও শান্তি পাবা,Dhaka,,,Sarcastic_negative,0.2963652350769043,model_autofill,True,Sarcastic_negative,0.35096912462111535,keep
+বুকটা ফাইট্টা যায় এখানে তো দৌড়ানোর কথা ছিল তার খেলা যে চলছে কোন লেবেলে।,Dhaka,,,Positive,0.3244424676325066,model_autofill,True,Positive,0.40505990403771164,keep
+জমিদারের নাতিকে নেওয়া দরকার,Dhaka,,,Sarcastic_negative,0.3575974632809526,model_autofill,True,Neutral,0.6630672877117486,change
+"""Amk o kosto dey,,,ei bura boyoshe dour jhap korte hoy tar",Dhaka,,,Sarcastic_negative,0.3398050936253068,model_autofill,True,Sarcastic_negative,0.40493844533331347,keep
+ইউনুস কে রাষ্ট্রপতি হিসেবে দেখতে চাই,Dhaka,,,Positive,0.3225068650418672,model_autofill,True,Positive,0.3739318729659455,keep
+প্রধানমন্ত্রী এটা সবার। চাইলে আপনিও দৌড়াতে পারেন।,Dhaka,,,Sarcastic_negative,0.3176487905065824,model_autofill,True,Sarcastic_negative,0.3615952112731854,keep
+"""আইসো আবার মব করতে, তুমার অপেক্ষায় বাংলাদেশ, …",Tangail,,,Negative,0.3267967596229257,model_autofill,True,Sarcastic_negative,0.37380008144070276,keep
+জাতির আউব্বার গুনগান করো তখন??,Sirajganj,,,Positive,0.3837670077293666,model_autofill,True,Positive,0.35569266321544907,keep
+আন্দুলনের ডাক লিদার,Dhaka,Feni,,Sarcastic_negative,0.382904801856734,model_autofill,True,Sarcastic_negative,0.4312929700534379,keep
+কুকুর তো অনিবার পিছনে দৌড়াবেই।,Dhaka,Rangpur,Faridpur,Sarcastic_negative,0.3193337568914724,model_autofill,True,Negative,0.4023695752153454,keep
+এটা ওদের প্রাপ্য,চট্টগ্রাম,Chittagong,,Negative,0.3749252075250414,model_autofill,True,Negative,0.4016550058459946,keep
+কেনো তোমারও কি ইচ্ছা করে নাকি!!,Dhaka,Faridpur,,Sarcastic_negative,0.3637404271628994,model_autofill,True,Sarcastic_negative,0.374688665232966,keep
+তোমার পিছনে যখন মেধাবী নামক ছাত্ররা দৌড়ায় তখন ভালো লাগে?,Chittagong,Brahmanbaria,,Negative,0.3632371888226252,model_autofill,True,Negative,0.4648610783654991,keep
+চাচায় ভালো দৌড়ে,কিশোরগঞ্জ,Dhaka,Kishoreganj,Sarcastic_negative,0.3114981173115587,model_autofill,True,Sarcastic_negative,0.37423041398444074,keep
+"""আসলেই লজ্জাও এবং সাথে দলের ভাব মুর্তি নষ্ট হলো,কিন্তু ছাত্রদল সভাপতি উনার নিজেরই'ত ব্যাক্তিত্য নেই।",Sylhet,,,Negative,0.3783319061440778,model_autofill,True,Negative,0.41708148502589815,keep
+এতে তুর কি সমস্যা। এটা যার যার ব্যাক্তিগত বিষয়।,Brahmanbaria,,,Sarcastic_negative,0.3598907811089225,model_autofill,True,Sarcastic_negative,0.40002132593306405,keep
+এখন যদি একটা মার্সিডিজ গাড়ি নিয়ে ঘুরতো তাইলে বলতেন যে এত টাকা কই পাইসে আর এখন দেওরা তারপর আপনাদের সমস্যা,Dhaka,,,Sarcastic_negative,0.3661505586640736,model_autofill,True,Sarcastic_negative,0.37303821107311347,keep
+লুঙ্গির নিচে থাকতে পারলে আরাম লাগে,Chittagong,,,Negative,0.3779648674565549,model_autofill,True,Negative,0.39263458106682075,keep
+প্রধানমন্ত্রী পিছে দৌড়াবে না ছাত্রদলের পোলা তাহলে তুমি দৌড়াবে তার পিছে,Dhaka,,,Sarcastic_negative,0.2928673593765594,model_autofill,True,Sarcastic_negative,0.3155345853774136,keep
+ভালো,Dhaka,,,Sarcastic_negative,0.3633850741123154,model_autofill,True,Sarcastic_negative,0.4429275142032633,keep
+সেই কষ্টও কি তুমার পেছন দিকে নাকি ভাতিজা।,Sylhet,,,Negative,0.362151248552561,model_autofill,True,Sarcastic_negative,0.3919942254177663,keep
+বাগবাটোরা কমে গেছে তাই অন্যের দৌড়ানি দেখে কষ্ট হয়,Dhaka,Comilla,,Negative,0.3211214449282952,model_autofill,True,Sarcastic_negative,0.35030613108706093,keep
+যাক ছাত্রদল যে কষ্ট করছে তা মার্কেটিং করে দিল।,Chittagong,,,Negative,0.3629821695882103,model_autofill,True,Negative,0.43776771486921917,keep
+তোমার ও ইচ্ছে করে বুঝি,Dhaka,Kushtia,,Negative,0.3317113561528361,model_autofill,True,Negative,0.36783289654572265,keep
+Bat 'par',Chittagong,Noakhali,Habiganj,Sarcastic_negative,0.3805224663607692,model_autofill,True,Sarcastic_negative,0.39161068570913055,keep
+"""আহারে,,,নেত্রী আজ দেশে নাই বিদায় দৌড়াতে পারে না",Dhaka,Narsingdi,,Sarcastic_negative,0.3826425186930439,model_autofill,True,Sarcastic_negative,0.49163155041142226,keep
+তোমারে কষ্ট দেয় কেন যে দৌড়ায় তার কোন কষ্ট হয় নাহ।,Dhaka,,,Negative,0.3419355745691181,model_autofill,True,Sarcastic_negative,0.3431068515584835,keep
+আমি ও কষ্ট পেয়েছি MD Oliullah ভাই আপনি কষ্ট পাইছেন নাকি,Dhaka,,,Sarcastic_negative,0.3830391020334969,model_autofill,True,Sarcastic_negative,0.3432685566360776,keep
+কারাও পিছনে না লাগাই ভালো,Mymensingh,,,Negative,0.371186235706414,model_autofill,True,Negative,0.4350034346081214,keep
+সে দৌড়াবে না কি করবে তার ব্যক্তিগত ব্যাপার তোর কষ্ট লাগলে তাকে গিয়ে একটা গাড়ি কিনে দে,Chittagong,Noakhali,,Negative,0.3739981958690019,model_autofill,True,Negative,0.4244914102834066,keep
+SB Belal,Dhaka,,,Sarcastic_negative,0.3402443961494509,model_autofill,True,Sarcastic_negative,0.4357577641916746,keep
+মানবিক মানুষ,Dhaka,,,Sarcastic_negative,0.3110558495858556,model_autofill,True,Neutral,0.31965450651217164,keep
+Vai toder goyar modde eto jole keno,Dhaka,,,Sarcastic_negative,0.3443547990013412,model_autofill,True,Neutral,0.47623146382775816,keep
+"""আসলেই লজ্জাও এবং সাথে দলের ভাব মুর্তি নষ্ট হলো,কিন্তু ছাত্রদল সভাপতি উনার নিজেরই'ত ব্যাক্তিত্য নেই।",Sylhet,,,Negative,0.3783319061440778,model_autofill,True,Negative,0.41708148502589815,keep
+সত্যি অনেক হাসি পায়,Dhaka,,,Neutral,0.383404367539793,model_autofill,True,Sarcastic_negative,0.4617908818168796,keep
+সাদ্দামের এক কলে ২০০ বার আব্বা বলা সারভিজ মলম রাকিব ভাইকে নিয়া সমালোচনা করে হাই খালিদ,Dhaka,,,Negative,0.3852955341383909,model_autofill,True,Negative,0.3452984577724333,keep
+মায়াকান্না,Dhaka,Barisal,,Sarcastic_negative,0.3760531334430922,model_autofill,True,Sarcastic_negative,0.38627244832021634,keep
+একে আইনের আওতায় আনা হোক,Jessore,,,Negative,0.3571666591670264,model_autofill,True,Neutral,0.44454754507094385,keep
+তুইও দৌড়া তাহলে কষ্ট ভুলে খুশি খুশি লাগবে,Khulna,Satkhira,,Negative,0.3522226464541099,model_autofill,True,Negative,0.3619379410302065,keep
+"""অ্যায়ও তো বিনোদনের বস্তু হয়ে যাচ্ছে ে ে,,,,",Rangpur,,,Sarcastic_negative,0.3737176231194686,model_autofill,True,Sarcastic_negative,0.4853486209253446,keep
+যুবদল নেতা,Dhaka,,,Positive,0.3237727614776254,model_autofill,True,Sarcastic_negative,0.3408042831827428,keep
+কষ্ট ফেলে বলতে হয় না!,নরসিংদী,Dhaka,Chattogram,Sarcastic_negative,0.3450769660359329,model_autofill,True,Sarcastic_negative,0.473937551073656,keep
+কিন্তু তুই যে একসময় সিংগারার প্লেট আর চায়ের কাপ টানতি? মনে নাই?,Dhaka,,,Sarcastic_negative,0.3547786369293217,model_autofill,True,Sarcastic_negative,0.39699895040265704,keep
+আস্তাগফিরুল্লাহ,জামালপুর,Dhaka,Jamalpur,Negative,0.3721038937780634,model_autofill,True,Negative,0.5894292555027454,keep
+আদু ভাই দৌড়াতে পেরে খুশি,Dhaka,,,Sarcastic_negative,0.352711168301637,model_autofill,True,Sarcastic_negative,0.39738397624593663,keep
+উনার ব্যাক্তিত্ব নেই।,Dhaka,Tangail,,Sarcastic_negative,0.3336845000795281,model_autofill,True,Positive,0.32152587537866545,keep
+তুই ও দৌঁড়া......,Chittagong,Jhenaidah,,Sarcastic_negative,0.3857954353915138,model_autofill,True,Sarcastic_negative,0.35398761317967725,keep
+আর কিছুতে কষ্ট হয়না,Barisal,,,Positive,0.2846928069111438,model_autofill,True,Sarcastic_negative,0.327642206721281,keep
+তয় কি তোর পিছের দৌঁড়াবে?,Dhaka,Faridpur,,Sarcastic_negative,0.375324230885544,model_autofill,True,Sarcastic_negative,0.39173745697601187,keep
+"""একে বলে, পরস্রি কাতর,,,",Chittagong,Noakhali,,Sarcastic_negative,0.3540883980840896,model_autofill,True,Sarcastic_negative,0.43745945423182453,keep
+প্রধানমন্ত্রীর গাড়ির পেছনে ছাত্রদল সভাপতি দৌড়াবে না তো আপনি দৌড়াবেন।,Dhaka,,,Sarcastic_negative,0.3861506577247253,model_autofill,True,Sarcastic_negative,0.401333810968032,keep
+এবার তুই দৌড়াইশ,Comilla,,,Positive,0.3713566450738722,model_autofill,True,Positive,0.3605723195257959,keep
+Tui ja taila,Dhaka,,,Negative,0.3334681724137753,model_autofill,True,Neutral,0.4759043487867326,keep
+প্রধানমন্ত্রীর দৌড়াবে না তোর পিছনে দৌড়াবে।,Dhaka,Gazipur,Sirajganj,Positive,0.3422606500612343,model_autofill,True,Negative,0.3057123444422291,keep
+Tui pate k tar,Dhaka,Rangpur,,Sarcastic_negative,0.3148068045792292,model_autofill,True,Neutral,0.41968626448454993,keep
+"""ছাত্রদল ভাইয়েরা তোমরা দৌড়াদৌড়ি, হুড়োহুড়ি, ঠেলাঠেলি কইরো না।তারে একটু সুযোগ করে দেও। আহারে বেচারা!",Dhaka,Faridpur,,Negative,0.3794966580478733,model_autofill,True,Sarcastic_negative,0.5291619516632984,keep
+"""কারণ, সবাইতো জুলাইবিক্রেতা না। জুলাইবিক্রির চেয়ে প্রয়োজনে ৩০ প্রধানমন্ত্রীর গাড়ির পেছনে দৌড়ানো বেটার।",Barisal,Bhola,,Negative,0.3111302046928445,model_autofill,True,Negative,0.3871846240362165,keep
+যদি তোর কষ্ট হয় তাড়াতাড়ি সুইসাইড কর,Dhaka,Khulna,Jessore,Negative,0.3236551478946515,model_autofill,True,Negative,0.370498207321525,keep
+"""কষ্ট তো লাগবেই, তুমি যে এমপিই হতে পারোনাই।",ঢাকা,,,Sarcastic_negative,0.3624143852527182,model_autofill,True,Sarcastic_negative,0.39522069175015173,keep
+এই কষ্ট কষ্ট না আরো কষ্ট আছে,Dhaka,,,Negative,0.3768954358767274,model_autofill,True,Negative,0.4040124210305132,keep
+রাকিব ভাইকে এবার একটা বড় পদ দেওয়া হোক সে অনেক কষ্ট করেছে।,Dhaka,Chittagong,Noakhali,Sarcastic_negative,0.3384077308420719,model_autofill,True,Negative,0.33319986055236495,keep
+"""উনি একজন সেক্টর কমান্ডার,,, দৌঁড়ানোর ট্রেনিং আছে উনার",Dhaka,,,Negative,0.3668737025383579,model_autofill,True,Negative,0.5135125781397502,keep
+মাসীর দরদ।,কক্সবাজার,Cox's Bazar,,Sarcastic_negative,0.3450447232061158,model_autofill,True,Sarcastic_negative,0.3856134942049162,keep
+তোমার তো হিংসা হয় তুমি তার যোগ্য নও,Bogra,,,Sarcastic_negative,0.3124703591731948,model_autofill,True,Sarcastic_negative,0.4920110288468438,keep
+আসলেই কষ্টের দুঃখজনক,Khulna,,,Sarcastic_negative,0.3418913081915073,model_autofill,True,Sarcastic_negative,0.3734465912191249,keep
+"""খান,,,র ছেলে তোর সমস্যা কি",Dhaka,Noakhali,Jessore,Sarcastic_negative,0.3843933988167571,model_autofill,True,Sarcastic_negative,0.39110463195992023,keep
+নিজের বেলায় নাই তো তাই কষ্ট লাগে,Dhaka,,,Sarcastic_negative,0.3620624449147674,model_autofill,True,Sarcastic_negative,0.33595601562154925,keep
+"""আহারে খুব জালা,,,১৭bochor Chatro lig er lungir nice douraiso tokhon mone chilo na?",Dhaka,Munshiganj,,Neutral,0.3755818654302318,model_autofill,True,Sarcastic_negative,0.5812418439147293,keep
+এটা সত্যিই খারাপ লাগার বিষয় যে নেতাকর্মীরা এতো এতো পরিশ্রম করেছে তাদের এসব মানায় না,Rangpur,,,Negative,0.331264825467251,model_autofill,True,Negative,0.37077925143916024,keep
+ওসব চাটা পার্টি,Dhaka,Mymensingh,Pabna,Sarcastic_negative,0.384720880200669,model_autofill,True,Sarcastic_negative,0.40184742453516087,keep
+ওরে তেল,ঢাকা,,,Sarcastic_negative,0.3323040308202212,model_autofill,True,Sarcastic_negative,0.5320516981106862,keep
+বেডা তুই ও একসময় দৌড়াতি ভুলে গেছিস,Dhaka,Sylhet,,Negative,0.3777513160762705,model_autofill,True,Sarcastic_negative,0.3659342843955122,keep
+"""ছাত্রদল তাদের নেতার গাড়ির পিছনে দৌড়াবে নাকি সামনে দৌড়াবে নাকি হেঁটে যাবে সেটা তাদের ব্যাপার তোর কষ্টের কারনতো বুঝলাম না,,নাকি তোদের জ্বলছে?",Dhaka,Gazipur,Naogaon,Negative,0.3863762437797288,model_autofill,True,Negative,0.474972397975913,keep
+যা এবার ওকে দুলাভাই বানা এতো কষ্ট হলে।,Dhaka,Chandpur,,Sarcastic_negative,0.334959474143955,model_autofill,True,Sarcastic_negative,0.35817429882886637,keep
+গুপ্ত,ঢাকা,Chattogram,Chittagong,Sarcastic_negative,0.3498199018386619,model_autofill,True,Sarcastic_negative,0.3460230160968011,keep
+তেল কোম মারো পিও,Dhaka,Jhenaidah,,Sarcastic_negative,0.3359741563280713,model_autofill,True,Sarcastic_negative,0.44383926772562554,keep
+সাবেক ছাত্রলীগ নেতা কয় কি,Dhaka,Rangpur,,Neutral,0.3726287822507441,model_autofill,True,Neutral,0.445653763445063,keep
+উস্কানিমূলক বক্তব্য দিয়ে ছাত্রদল নেতা রাকিবকে বিদ্রোহ করে তুলতে চায়।,Dhaka,Barisal,Bhola,Negative,0.3699894013586451,model_autofill,True,Negative,0.36651997163277333,keep
+আহারে চান্দুর কত মায়া। তুমি যে ছাত্রলীগ করা অবস্থায় বঙ্গবন্ধুকে চাটতে চাটতে মহাকাশ পর্যন্ত নিয়ে গেছিলা সেটার কি হবে? হাসিনা…,Dhaka,Sirajganj,,Neutral,0.3476295083283654,model_autofill,True,Negative,0.3570708920676535,keep
+"""তুড়া তুই বাকশালি,বেশি নাটক করিস না,পরে প্যান্ট খুলে পড়বে",চট্টগ্রাম,Chittagong,,Negative,0.3868392731191985,model_autofill,True,Sarcastic_negative,0.43240202610106376,keep
+ভিপি সাদিকের দাঁড়িপাল্লার পিছনে দৌড়ানো কষ্ট দেয় না?,বরগুনা,Dhaka,,Neutral,0.3217243045281475,model_autofill,True,Neutral,0.43132937665375565,keep
+"""First you need to go the parliament to make the changes , then people vote will happen then passed by the parliament, then sig…""",Dhaka,,,Neutral,0.3762898024363954,model_autofill,True,Sarcastic_negative,0.4478259734980583,keep
+Awesome! Congratulations!!,Dhaka,,,Sarcastic_negative,0.3356465969166037,model_autofill,True,Positive,0.2904076486062014,keep
+"""আন্নে কথা বললেও কি না বললেও কি,""",Noakhali,,,Positive,0.3696123507898981,model_autofill,True,Positive,0.41909375768550455,keep
+সংস্কার চাই,Dhaka,Narsingdi,,Sarcastic_negative,0.3042845748635149,model_autofill,True,Sarcastic_negative,0.313055632047433,keep
+"""এনসিপির সকল দূর্নীতি,অনিয়মের বিচার দাবি করছি।""",চট্টগ্রাম,Chittagong,,Negative,0.3338972995243809,model_autofill,True,Negative,0.4957314860495545,keep
+ঠিক,Dhaka,Bagerhat,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+জুলাই বিক্রি করে দুই বছরে সবাই নিজেদের আখের গুছিয়ে নিছে,Barisal,,,Positive,0.2808451092473995,model_autofill,True,Sarcastic_negative,0.31610833308851133,keep
+তাহলে বলিস না তাহলেই চলে,Dhaka,,,Negative,0.3394082354328407,model_autofill,True,Negative,0.356373637752448,keep
+ক্লিয়ার,Sylhet,,,Sarcastic_negative,0.3383645020424251,model_autofill,True,Sarcastic_negative,0.34885587391061024,keep
+ঠিক,Dhaka,,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+যা বেডা ফুট,Barisal,,,Sarcastic_negative,0.3736006375453376,model_autofill,True,Sarcastic_negative,0.4055658293010314,keep
+কোটা নেতা,চট্টগ্রাম,নড়াইল,Dhaka,Positive,0.3555885283841829,model_autofill,True,Sarcastic_negative,0.31641686253172663,keep
+Kotha boilo jail a,Dhaka,,,Sarcastic_negative,0.3726216233139015,model_autofill,True,Positive,0.37591047445984316,keep
+দরকার নেই,কুমিল্লা,Comilla,,Negative,0.3282707421215076,model_autofill,True,Neutral,0.2986861997661335,keep
+খাল কেটে কুমির আনতেছে বি এন পি,Dhaka,,,Sarcastic_negative,0.3617814265789897,model_autofill,True,Sarcastic_negative,0.5162730998175482,keep
+"""বিপদ কেটে গেলে মানুষ বিএনপি হয়ে যায়! NCP জিন্দাবাদ, ইনকিলাব জিন্দাবাদ।""",Dhaka,,,Sarcastic_negative,0.287894655843338,model_autofill,True,Sarcastic_negative,0.3493494023823447,keep
+বিপদ কেটে গেলে মানুষ বিম্পি হয়,Bagerhat,,,Neutral,0.3529580436536866,model_autofill,True,Sarcastic_negative,0.4371825506309603,keep
+সংসদে তোমি কথা না বললেও সংসদ তোমাকে অনুরোধ করবেনা।,Dhaka,Brahmanbaria,,Positive,0.3545652288237216,model_autofill,True,Positive,0.39846750264943265,keep
+তোদের মত ছাগল এর কথায় কি আসে ষায়,Chittagong,Brahmanbaria,,Sarcastic_negative,0.3798895878692955,model_autofill,True,Positive,0.4883453140206051,keep
+তোর সংসদে যাওয়ারটা দরকার কি,Dhaka,,,Negative,0.3527640118400628,model_autofill,True,Neutral,0.3035825800036212,keep
+দরকার নেই,পিরোজপুর,Dhaka,Gazipur,Negative,0.3282707421215076,model_autofill,True,Neutral,0.2986861997661335,keep
+হালার পুতে যে ভাব দেখাচ্ছে মনেহয় সংসদের পুরান লোক।,Dhaka,,,Negative,0.3582524243770619,model_autofill,True,Sarcastic_negative,0.4853653554464442,keep
+ঠিক,Khulna,Sylhet,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+যাকাত ফিতরায় এমপি হওয়া একজন গোপাল ভার বলে কি।,পাবনা,Dhaka,,Negative,0.3837865013873636,model_autofill,True,Sarcastic_negative,0.3014381145754239,keep
+জুলাই জঙ্গিদের কপালে অনেক দুঃখ আছে,Dhaka,,,Sarcastic_negative,0.3649609310253753,model_autofill,True,Negative,0.368539056796276,keep
+"""কোটার জায়গা কোটা রইল, জুলাই গেল জলে।…""",Jamalpur,,,Sarcastic_negative,0.3107797911073018,model_autofill,True,Neutral,0.39107363490065594,keep
+শালা টোকাই,Sylhet,,,Sarcastic_negative,0.3881852015252767,model_autofill,True,Sarcastic_negative,0.39805791003407454,keep
+জামাত এর তার জোট গুলার উচিৎ । বি এন পি আর আওয়ামী মত দেশ টুলে পুটে খাওয়া।কারন এই দেশ হছে নষ্ট জনগণের দেশ।,Chittagong,Noakhali,,Negative,0.3666035553654831,model_autofill,True,Negative,0.373979698886401,keep
+ঠিক,Dhaka,Cox's Bazar,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+তোর কপালে শনি আছে,Dhaka,,,Negative,0.3696041864864685,model_autofill,True,Negative,0.4534829168536735,keep
+তুই কোন চেটের বাল যে তোকে সংসদে কথা বলতে হবে।,Dhaka,,,Neutral,0.3662195514655751,model_autofill,True,Neutral,0.37539038399750474,keep
+Thik bolcen,Dhaka,,,Sarcastic_negative,0.3541089548483488,model_autofill,True,Sarcastic_negative,0.3899802478864718,keep
+পদত্যাগ করে রাজপথে আসো হ্যাডম থাকলে,Narayanganj,,,Positive,0.2743038444270489,model_autofill,True,Positive,0.33020252779152304,keep
+তোর ঘরে গিয়ে সংস্কার কর না হলে পাকিস্তানে গিয়ে কর,খুলনা,Khulna,,Negative,0.3299384315591778,model_autofill,True,Negative,0.4508528563963056,keep
+তোর দরকার আছে বলে মনে হয় না,Tangail,,,Sarcastic_negative,0.3202146815689293,model_autofill,True,Sarcastic_negative,0.438942597553652,keep
+Jara sahwa haowa baltepare tader sagsode katha balar darkar nay,Dhaka,,,Neutral,0.3153265105560606,model_autofill,True,Neutral,0.41259926159704663,keep
+আচ্ছা হেতে বলে প্রথান মন্ত্রী সপ্ন দেখতো ইউনুসের কোলে শুয়ে।,Chittagong,,,Sarcastic_negative,0.3853300484185206,model_autofill,True,Sarcastic_negative,0.481972658462297,keep
+বাপের জন্মের সংসদ কি বোঝো,Dhaka,,,Sarcastic_negative,0.3739725261106452,model_autofill,True,Sarcastic_negative,0.45254269130468794,keep
+মোহাম্মাদ কাসীম-এর নেতৃত্বে মুসলিম উম্মাহর ঐক্যের আহ্বান তুলে ধরা হয়। প্রায় ১৮০ কোটি মুসলিম থাকা সত্ত্বেও আজ উম্মাহ বিভক্ত ও ন…,Dhaka,,,Sarcastic_negative,0.3780943238488511,model_autofill,True,Sarcastic_negative,0.5190139802523673,keep
+গোপালভার,Chittagong,Barisal,Patuakhali,Sarcastic_negative,0.3879269912483249,model_autofill,True,Sarcastic_negative,0.41745570744579935,keep
+আগে সংবিধান রচৈয়তার পায়ে সালাম করে এসো,চট্টগ্রাম,Chittagong,,Positive,0.3147105762202593,model_autofill,True,Positive,0.323727904686781,keep
+তোমরা দুর্নীতি বন্ধ করে আগে নিজেরা সংস্কার তৈরি কর! দেশের সংস্কার নিয়ে বসে থাকলে হবে না প্রিয়,Chittagong,Noakhali,,Neutral,0.3556414830230466,model_autofill,True,Positive,0.27880688641082546,keep
+"""কোটার জায়গা কোটা রইল, জুলাই গেল জলে। ফকিন্নির পোলারা নেতা হইল, লীগের লুঙ্গির তলে।""",Jamalpur,,,Sarcastic_negative,0.2755958415448671,model_autofill,True,Positive,0.281579793876606,keep
+"""সমঝোতা বলেও তো একটা ব্যাপার থাকে। সব তো বুঝলাম, রাতের বেলায় সানগ্লাস কি কাজে আসে ?""",Khulna,Bagerhat,Jhenaidah,Sarcastic_negative,0.3570804518497208,model_autofill,True,Positive,0.31211448271483816,keep
+হাট ঘাট খাওয়া শেষ হলে মানচিত্রটাও খেয়ে নিও,Dhaka,,,Negative,0.3865969703971737,model_autofill,True,Negative,0.38034024948040285,keep
+খেতে খেতে ব্লাস্ট না হয়ে যায়,Dhaka,Narsingdi,,Negative,0.3314571522755907,model_autofill,True,Sarcastic_negative,0.5318839211996643,keep
+হা হা জয়যুক্ত হয়েছে ভাই।,Barisal,,,Negative,0.3468272310654177,model_autofill,True,Sarcastic_negative,0.41367362811557123,keep
+"""মাদক মুক্ত বাংলাদেশ চাই, এতে ছাত্র জনতা সহ সাধারণ জনগন সবাই কে এগিয়ে এসে পুলিশ কে সহযোগিতা করা উচিত, পুলিশের বিরুদ্ধে অবস্থান নয়।""",Bogra,,,Positive,0.3821811835588851,model_autofill,True,Positive,0.3751085031852655,keep
+এবার মনে হয়। বাংলাদেশ চেম্পিয়ন হতে পারে বিশ্বে। তাহলে জুলাই যোদ্ধারা সবাই এ কাজ করতে পাড়বে।,Dhaka,Kishoreganj,,Sarcastic_negative,0.3393954402262554,model_autofill,True,Sarcastic_negative,0.6034185941809215,keep
+"""হাট ঘাট ওর বাবা তৈরি করেছে, তাই সমঝোতার মাধ্যমে খাবে ।""",চাঁদপুর,Chittagong,Chandpur,Positive,0.3521991575136429,model_autofill,True,Positive,0.31395731719045983,keep
+অন্যের ঘরের রান্না করা ভাতও নিবেন,Dhaka,,,Sarcastic_negative,0.3825302142156482,model_autofill,True,Negative,0.372323967202511,keep
+অলরেডি খাওয়া শুরু হয়েছে গুরু।,Dhaka,Narsingdi,Lalmonirhat,Sarcastic_negative,0.3816183356615414,model_autofill,True,Neutral,0.44195226189270237,keep
+বাহ! এই এতো তাদের মনের কথা!,Dhaka,Chittagong,Lakshmipur,Negative,0.3312148213636021,model_autofill,True,Negative,0.32082007961958087,keep
+বাহ! কি চমৎকার তাদের প্লান,Bogura,Patuakhali,,Negative,0.3479295173156734,model_autofill,True,Negative,0.3662125283721885,keep
+সবকিছুই সমঝোতা,Khulna,Jessore,,Sarcastic_negative,0.3451228972884328,model_autofill,True,Sarcastic_negative,0.35949414682272235,keep
+"""সবে তো শুরু, এখনো তো অনেক কিছু বাকি।""",সুনামগঞ্জ,Dhaka,,Positive,0.3488746122666875,model_autofill,True,Sarcastic_negative,0.3646611028558883,keep
+সবে খেলা শুরু গুরু পিকচার আবি বাকি হে মেরি দোস্ত।,Dhaka,Chittagong,,Sarcastic_negative,0.2878306874240838,model_autofill,True,Sarcastic_negative,0.3383597618539384,keep
+স্বাস্থ্য দেখে তো অন্য খাদক মনে হচ্ছে,Dhaka,,,Sarcastic_negative,0.347109938540354,model_autofill,True,Sarcastic_negative,0.4218982724138606,keep
+অবশ্যই আমি একমত তারাই সব খাবে দেখবে অন্যেরা শুধু চাইয়া দেখ,Dhaka,,,Sarcastic_negative,0.3748644335842797,model_autofill,True,Neutral,0.34878210408163923,keep
+তবে মিলেমিশে খাওয়াটা ভালো।,নরসিংদী,Narsingdi,,Sarcastic_negative,0.368446684059814,model_autofill,True,Neutral,0.3791069610575099,keep
+ঠিক ভাই ঠিক,Thakurgaon,,,Negative,0.300663370255548,model_autofill,True,Negative,0.3156205037198594,keep
+বাহ চমৎকার,Dhaka,,,Negative,0.3459291957527671,model_autofill,True,Negative,0.35998432424872895,keep
+দরকার আছে কথায় যুক্তি ও আছে।,Dhaka,Chittagong,Noakhali,Positive,0.3882713634142117,model_autofill,True,Positive,0.34709185191911857,keep
+Md Kajol ভাই দেওয়ান বাজার আজকে ই দখল দেন,Dhaka,,,Sarcastic_negative,0.3743569979688557,model_autofill,True,Neutral,0.6359651685280181,change
+চারদিকে শুধু খাইয়া আর খাইয়া,Chittagong,Comilla,,Sarcastic_negative,0.3687272331392603,model_autofill,True,Sarcastic_negative,0.3866466255910165,keep
+কালা চশমা না লাগালে মনে হয় নেতা হওয়া যায় না,Natore,,,Sarcastic_negative,0.3648307585193454,model_autofill,True,Sarcastic_negative,0.5891631994505138,keep
+সুন্দর বলছে,Dhaka,,,Negative,0.3774593567715812,model_autofill,True,Sarcastic_negative,0.40158674477854783,keep
+বেশি দেরি না জয়বাংলা হয়ে যাবেন,Sylhet,,,Sarcastic_negative,0.3341756436700819,model_autofill,True,Sarcastic_negative,0.5157352633640587,keep
+তাহলে রেডি হয়ে যাও গোয়াল ঘরের ভাত খাওয়ার জন্য নেতার অর্ডার,Dhaka,,,Sarcastic_negative,0.3813711911004654,model_autofill,True,Negative,0.33915320467955284,keep
+ঠিিিিিিিিিিিিিিিিিিিিিিিিিিিিক।,Dhaka,,,Sarcastic_negative,0.3283477983464745,model_autofill,True,Negative,0.33173770167092786,keep
+ঘাটখেকো। আফসোস দেশটায় ব্যবসা করে শান্তি নেই।,Dhaka,Chittagong,Noakhali,Positive,0.3780011149487505,model_autofill,True,Positive,0.32518344710847386,keep
+এইবার ঠিক আছে,Dhaka,,,Negative,0.3246910909796198,model_autofill,True,Negative,0.3726950930517287,keep
+সমঝোতায় চলবে সব,ঝিনাইদহ,Dhaka,Patuakhali,Neutral,0.2966171249170735,model_autofill,True,Neutral,0.3564165624353371,keep
+ভাই এখন তো চামচাদেরই ডিমান্ড বেশি।।।,যশোর,,,Positive,0.3076081507449592,model_autofill,True,Positive,0.3550493384069855,keep
+হুম তাই তো,Dhaka,,,Sarcastic_negative,0.3641356939104107,model_autofill,True,Sarcastic_negative,0.3808797369246197,keep
+দেশে হচ্ছেটা কি,Dhaka,,,Sarcastic_negative,0.3856444466095957,model_autofill,True,Sarcastic_negative,0.41873716118858056,keep
+বিশ্বের সব দেশই চাদাবাজি আছে কিন্তু বাংলাদেশে কোন চাদাবাজি নাই। আছে সমঝোতা,Dhaka,Gazipur,,Sarcastic_negative,0.3743008590189505,model_autofill,True,Sarcastic_negative,0.29233478582643774,keep
+মানে কি আন্দোলন করলেই কি অন্যায় ভাবে সব করা যাবে? তাহলে সত্যের পথে আন্দোলন করেছেন? নাকি একজন কে তাড়িয়ে অন্য জন দখল নিয়েছেন?,Mymensingh,Sherpur,,Positive,0.3709537940310606,model_autofill,True,Negative,0.3480095559759583,keep
+মানচিত্র খাবি!,Dhaka,Gazipur,Cox's Bazar,Sarcastic_negative,0.3623004555527571,model_autofill,True,Sarcastic_negative,0.392645175214671,keep
+খা খা ইচ্ছা মতো খা,Feni,,,Sarcastic_negative,0.3853939474434082,model_autofill,True,Sarcastic_negative,0.3377018553562537,keep
+"""এটা যৌক্তিক দাবি, সমর্থন জানাই।""",Chandpur,,,Negative,0.3260624885110124,model_autofill,True,Negative,0.4030934815976977,keep
+হ ভাই মিলেমিশে খা,Dhaka,Kushtia,,Sarcastic_negative,0.3070481345851384,model_autofill,True,Sarcastic_negative,0.38280955655405047,keep
+ঠিক।,Dhaka,Narsingdi,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+খা খা খা সব চুসে চুসে খা,রংপুর,রাঙ্গামাটি,Rangamati,Sarcastic_negative,0.3521052447497879,model_autofill,True,Sarcastic_negative,0.4225930010540657,keep
+গু খাবে না?,Khulna,,,Sarcastic_negative,0.3791101272562013,model_autofill,True,Sarcastic_negative,0.376227085765092,keep
+একটু অপেক্ষা কর,Dhaka,Mymensingh,,Sarcastic_negative,0.3607305572253935,model_autofill,True,Sarcastic_negative,0.36369110981421915,keep
+এটাও খাবি,ফেনী,Dhaka,Sylhet,Negative,0.3818752725949272,model_autofill,True,Negative,0.4051823913993225,keep
+খোঁজ নিলে দেখা যাবে ৫ই আগস্টের আগে সে ছাত্রলীগের লুংগির তলে ছিলো,Chittagong,,,Negative,0.3798053836738847,model_autofill,True,Negative,0.34883457365896336,keep
+ঠিক,Dhaka,Mymensingh,Jamalpur,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+পুরানো কথা গুলো আস্তে আস্তে সত্যি হচ্ছে!,Feni,,,Neutral,0.2974432955765762,model_autofill,True,Negative,0.40346972983212,keep
+ওর আব্বায় রাইখা গেছে তো gando,Dhaka,,,Sarcastic_negative,0.3868650248862983,model_autofill,True,Negative,0.45513945032593706,keep
+Md. Mahmudul Islam Hope Less Munarul টিক আছে,Dhaka,Mymensingh,Gazipur,Negative,0.3750161802281576,model_autofill,True,Neutral,0.5845455682791735,keep
+ঠিক ঠিক,Dhaka,Rangpur,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+"""ঐ সময়গুলোই ভালোই ছিলো। যখন আপসহীন নেত্রী জেলে ছিলেন, ছেলে লন্ডনে আর নেতারা গর্তে।…""",কুমিল্লা,পঞ্চগড়,Comilla,Positive,0.333942923825121,model_autofill,True,Positive,0.3276722622874108,keep
+খাওয়ার সময় এসেছে খান ভাই আপনারা সময় শেষ হলে পালাবার জাগাও পাবেন না ইনশাআল্লাহ,Dhaka,,,Negative,0.335306856842271,model_autofill,True,Positive,0.43944733786333223,keep
+আয় হায়,Chittagong,Noakhali,,Negative,0.347255756084787,model_autofill,True,Sarcastic_negative,0.3844961410834632,keep
+Ai to Asol kota,Dhaka,Narayanganj,,Sarcastic_negative,0.3593752413705644,model_autofill,True,Sarcastic_negative,0.4303141929898115,keep
+খেতে খেতে এগিয়ে যাও,Dhaka,Gazipur,Sirajganj,Sarcastic_negative,0.3296471652112832,model_autofill,True,Positive,0.3497529773696798,keep
+চমেৎকার,Dhaka,,,Negative,0.3279829859250908,model_autofill,True,Negative,0.34676448434117957,keep
+মারহাবা,Rangpur,,,Neutral,0.3167357788320523,model_autofill,True,Neutral,0.359357781836863,keep
+ঠিক ঠিক,Dhaka,Faridpur,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+বি এন পি খাবে না তো কে খাবে?,রংপুর,,,Sarcastic_negative,0.3136810231209568,model_autofill,True,Sarcastic_negative,0.5654163173362581,keep
+"""হাটও খাবি, ঘাটও খাবি তাহলে মাঠ টা আর বাকি রাখবি কেন ভাই? তোরা সব ই খা।""",Dhaka,Khulna,Satkhira,Sarcastic_negative,0.3489884888447005,model_autofill,True,Sarcastic_negative,0.3768479387434783,keep
+জ্বি স্যার,Dhaka,Mymensingh,,Sarcastic_negative,0.3856257429489367,model_autofill,True,Sarcastic_negative,0.36811498502526857,keep
+ঠিকহে,Tangail,,,Sarcastic_negative,0.3690232350172041,model_autofill,True,Sarcastic_negative,0.3370578459606143,keep
+আনোয়ার টিভির সংবাদ,Dhaka,Barisal,,Sarcastic_negative,0.3253449839811953,model_autofill,True,Negative,0.3051669550157083,keep
+Sob seshe mancitro ta khabe,Chittagong,Noakhali,,Neutral,0.3856567904952315,model_autofill,True,Neutral,0.584694542139029,keep
+মাশাল্লাহ,Chittagong,Noakhali,,Negative,0.349636455690206,model_autofill,True,Negative,0.37559005158038244,keep
+খা খা বাবা খা ছিলাইয়া। কয়া লাগবেনা,Dhaka,Chittagong,,Negative,0.3091358862456713,model_autofill,True,Negative,0.36812429942192637,keep
+অয়,Sylhet,,,Sarcastic_negative,0.3196399401594809,model_autofill,True,Sarcastic_negative,0.31959411399060556,keep
+"""খারে খা, খাওয়ার জন্যেই এ দুনিয়া""",Chittagong,,,Sarcastic_negative,0.3394943549340561,model_autofill,True,Positive,0.3136478015916909,keep
+হ দরকার হইলে রাস্তা ইট খুলে বাড়ি করবো তারপর ও খাবো,Dhaka,Barguna,,Positive,0.3698390718659988,model_autofill,True,Positive,0.3808007353154636,keep
+দলকানারা এসব দেখে না?,Dhaka,Cox's Bazar,,Sarcastic_negative,0.3828727741053299,model_autofill,True,Sarcastic_negative,0.39145845394103057,keep
+জ্বী ভাই,Tangail,,,Neutral,0.3356353871559093,model_autofill,True,Sarcastic_negative,0.30200099247614315,keep
+বাহ,Chittagong,Brahmanbaria,,Sarcastic_negative,0.364670059862047,model_autofill,True,Sarcastic_negative,0.3782731818145049,keep
+ঠিক,Dhaka,Narayanganj,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+"""হাট ঘাটের মালিকদের ও মাকে ইজাড়া দিয়ে থাকলে খাবে, অসুবিধা নাই।""",খুলনা,,,Sarcastic_negative,0.3849537126655161,model_autofill,True,Sarcastic_negative,0.43317621612970286,keep
+বরি দে,Dhaka,,,Sarcastic_negative,0.351329520817479,model_autofill,True,Sarcastic_negative,0.36574489223392703,keep
+সহমত ভাই,Dhaka,Dinajpur,,Neutral,0.3217493175354463,model_autofill,True,Sarcastic_negative,0.3079175101001481,keep
+সমঝোতা করে খাইয়েন,Dhaka,,,Sarcastic_negative,0.3607780804928834,model_autofill,True,Sarcastic_negative,0.3442174577799193,keep
+হাট ঘাটের পায়খানা কে খাবে আপনি না তারাই? কেননা হাট ঘাটে পাবলিক টয়লেট থাকে যা কি না টাকা দিয়ে ব্যবহার করা লাগে........,Dhaka,Munshiganj,,Sarcastic_negative,0.3855313593457135,model_autofill,True,Sarcastic_negative,0.37555147193481414,keep
+মারো তালি,Dhaka,Rangpur,,Sarcastic_negative,0.3758648081006704,model_autofill,True,Sarcastic_negative,0.4323459126910028,keep
+হাট ঘাট মাঠ সব খা।,বরিশাল,Dhaka,Gazipur,Sarcastic_negative,0.2956759670847192,model_autofill,True,Sarcastic_negative,0.3519912901231324,keep
+ঠিক,Dhaka,Sherpur,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+হাট ঘাট খায় কি ভাবে??,Dhaka,Magura,Pirojpur,Sarcastic_negative,0.3750239377835651,model_autofill,True,Sarcastic_negative,0.3865937626297396,keep
+কাজ নাই যত আকাইম্ম চিন্তা,Dhaka,Chittagong,,Sarcastic_negative,0.3309065006050367,model_autofill,True,Negative,0.33009068511176554,keep
+কত খাবেন সময় থাকতে ভালো হয়ে যান,Rajshahi,,,Negative,0.3699592181178178,model_autofill,True,Sarcastic_negative,0.370250264994162,keep
+হাট ঘাট কি চিবিয়ে খাবে নাকি,Dhaka,Sylhet,Gazipur,Sarcastic_negative,0.3673178675086648,model_autofill,True,Sarcastic_negative,0.37658086365036914,keep
+"""সাবাস বেটা, এগিয়ে যাও।""",Dhaka,,,Sarcastic_negative,0.2924818240111098,model_autofill,True,Positive,0.37827554306868016,keep
+ঠিকই তো,Chittagong,,,Negative,0.3551214076318068,model_autofill,True,Sarcastic_negative,0.3435270008132841,keep
+খেতে খেতে একসময় পেট ফেড়ে যাবে আ. লীগের মতো,Dhaka,Lakshmipur,,Negative,0.3478300902729695,model_autofill,True,Positive,0.3750407596423436,keep
+খাবার মানুষের মৌলিক অধিকার,Dhaka,,,Positive,0.3181452919733314,model_autofill,True,Positive,0.30506351479623595,keep
+হাট ঘাটের গু খাবে??,মাগুরা,,,Sarcastic_negative,0.3705272063932916,model_autofill,True,Sarcastic_negative,0.3630808611772665,keep
+চাকরি মনে হয় নাই গেছে।,Dhaka,,,Sarcastic_negative,0.384551551442396,model_autofill,True,Sarcastic_negative,0.612891675053889,keep
+হাট খাট আবার খায় কেমনে??,Dhaka,,,Negative,0.380360733986587,model_autofill,True,Negative,0.4120991407908626,keep
+বেশি খেতে যাইও না বাতিজা.. মুখ পুড়ে যাবে। মিলে মিশে খাও,ঢাকা,Dhaka,Chittagong,Negative,0.360070033508352,model_autofill,True,Sarcastic_negative,0.40342206160251737,keep
+Amio tai boli ustad. …,কিশোরগঞ্জ,Dhaka,Kishoreganj,Sarcastic_negative,0.3273771056799878,model_autofill,True,Sarcastic_negative,0.37047906952580323,keep
+সাবাস বাগিনা,Dhaka,Tangail,,Sarcastic_negative,0.3733666636989552,model_autofill,True,Sarcastic_negative,0.3722227588255354,keep
+ঠিক ঠিক।,Comilla,,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+Only Love react,Narayanganj,,,Neutral,0.3811514528909488,model_autofill,True,Sarcastic_negative,0.3520209642261376,keep
+চালিয়ে যেতে পার,Khulna,Jessore,,Negative,0.3767971219279545,model_autofill,True,Negative,0.38112812791602185,keep
+ঠিক হে,Sylhet,Sunamganj,,Sarcastic_negative,0.324435795577072,model_autofill,True,Negative,0.3231729260754836,keep
+মারহাবা!,Chittagong,Noakhali,,Neutral,0.317207543896891,model_autofill,True,Neutral,0.3769859917758971,keep
+চেটেপুটে সব খেয়ে দেশটা পরিস্কার করে ফেল!,Dhaka,,,Negative,0.3781877639465594,model_autofill,True,Negative,0.4511146689961543,keep
+যারা না ছিলো তারা খায় যারা ছিলো তারা পায় না,Dhaka,Patuakhali,,Sarcastic_negative,0.3205805863755744,model_autofill,True,Negative,0.38263422491494464,keep
+"""হ ভাই,খাও খাও তোমরাই তো খাবা®তবে সমঝোতা করে খাও""",Rajshahi,,,Negative,0.3209093389639696,model_autofill,True,Negative,0.323607791597278,keep
+ভালো ডিসিশন।,Khulna,Kushtia,,Sarcastic_negative,0.338246254735005,model_autofill,True,Sarcastic_negative,0.39858731322792595,keep
+যেমন কর্ম তেমন ফল।,Dhaka,Jamalpur,,Sarcastic_negative,0.3742939293740275,model_autofill,True,Sarcastic_negative,0.4911847474330082,keep
+মারহাবা মারহাবা,Chittagong,,,Neutral,0.3167357788320523,model_autofill,True,Neutral,0.359357781836863,keep
+"""আমিও মনে হয় ছিলাম,, তবে রোজা তো খাবো না""",Khulna,,,Negative,0.3727955833615653,model_autofill,True,Sarcastic_negative,0.41464445713583514,keep
+Tik ase,সিলেট,নরসিংদী,Sylhet,Neutral,0.3247965685346086,model_autofill,True,Sarcastic_negative,0.4651976968885615,keep
+বাংলাদেশের সাধারণ মানুষদের মা বোন বউ সন্তানদের মেয়েদের নিরাপত্তা কোথায়??????????,Dhaka,,,Positive,0.3735695825282256,model_autofill,True,Negative,0.34088626990859494,keep
+না ঠিক আছে রমযান মাস দেইখা কিছু বললাম না,Barisal,,,Negative,0.3706959863341124,model_autofill,True,Negative,0.4070406108891202,keep
+আল্লাহ অনেক বড় করুক আপনাদের,Narsingdi,,,Sarcastic_negative,0.3190505856233158,model_autofill,True,Positive,0.37874916239721007,keep
+হাচা কতা কইছেন।,Dhaka,Faridpur,,Negative,0.3846499576733722,model_autofill,True,Negative,0.3815576982414987,keep
+আস্তাগফিরুল্লাহ,Chittagong,,,Negative,0.3721038937780634,model_autofill,True,Negative,0.5894292555027454,keep
+ভাইয়া বলে কি,Dhaka,,,Sarcastic_negative,0.3800175491490404,model_autofill,True,Sarcastic_negative,0.4512113076224573,keep
+জি,Barisal,,,Sarcastic_negative,0.3833144392183468,model_autofill,True,Sarcastic_negative,0.40699114921266716,keep
+বাহ বাহ,Khulna,,,Sarcastic_negative,0.364670059862047,model_autofill,True,Sarcastic_negative,0.3782731818145049,keep
+"""উত্তম বলিয়াছেন, সহমত লেতা""",Dhaka,Chittagong,Brahmanbaria,Sarcastic_negative,0.3310486420940263,model_autofill,True,Positive,0.43003948771521033,keep
+ওমা তাই,Dhaka,,,Sarcastic_negative,0.3709628399080403,model_autofill,True,Sarcastic_negative,0.3719139469868775,keep
+খাবে,ঢাকা,বরিশাল,Dhaka,Sarcastic_negative,0.3857682709249711,model_autofill,True,Sarcastic_negative,0.38265636590717794,keep
+ইট পাথর বালু সিমেন্ট এগুলাও খাবে তারা,Rangpur,Lalmonirhat,,Positive,0.3646874430696095,model_autofill,True,Positive,0.3694427929233287,keep
+খা রে ভাই খা,Comilla,,,Sarcastic_negative,0.312997955083573,model_autofill,True,Sarcastic_negative,0.35557995633622963,keep
+এটাই তারেক রহমানের আই হ্যাভ এ প্ল্যান এর অংশবিশেষ।,Dhaka,Lakshmipur,,Negative,0.3285925711094545,model_autofill,True,Positive,0.3725624525415609,keep
+চমৎকার,Dhaka,,,Negative,0.3279829859250908,model_autofill,True,Negative,0.34676448434117957,keep
+নৈতিকতা নিদারুণ অবক্ষয়,Cumilla,Comilla,,Negative,0.3793483550355142,model_autofill,True,Negative,0.4023253370452486,keep
+একদম ঠিক এভাবেই চালিয়ে যান,Dhaka,Khulna,Jessore,Sarcastic_negative,0.302642845776536,model_autofill,True,Negative,0.3766482055099625,keep
+"""ঠিক ই তো, এত আন্দোলন এ কত কষ্ট করছেন ।""",রাজশাহী,Rajshahi,,Sarcastic_negative,0.3754104778637225,model_autofill,True,Negative,0.3697812644399187,keep
+বাহ..,Patuakhali,,,Sarcastic_negative,0.3738479922069077,model_autofill,True,Sarcastic_negative,0.36370779324069313,keep
+মন মত খা,Gazipur,,,Sarcastic_negative,0.311462688558224,model_autofill,True,Sarcastic_negative,0.35577308566210053,keep
+আসেন সবাই মিলে মিশে খাই,Barisal,Bhola,,Neutral,0.3751846263969928,model_autofill,True,Sarcastic_negative,0.3553903647333604,keep
+Ahare ruti ruji,Rajshahi,,,Sarcastic_negative,0.3573291352408815,model_autofill,True,Sarcastic_negative,0.3798735385476702,keep
+খোঁজ নিয়ে দেখেন হ্লায় গুপ্ত,Dhaka,,,Sarcastic_negative,0.3487225721872171,model_autofill,True,Negative,0.34395686558836186,keep
+হাঁটের টয়লেট সহ খেয়ে ফেলো ।,Dhaka,Gazipur,,Sarcastic_negative,0.38461425184278,model_autofill,True,Sarcastic_negative,0.3779489596975436,keep
+ঠিক আছে বস,ফরিদপুর,Dhaka,Faridpur,Negative,0.3869284682462061,model_autofill,True,Negative,0.4973561882339009,keep
+"""এবার বুঝতে পারবে সাধারণ মানুষ কাকে ভোট দিলাম,,,,""",Dhaka,Dinajpur,,Negative,0.3278423998223774,model_autofill,True,Sarcastic_negative,0.3735841453114667,keep
+ঠিক,Dhaka,Barguna,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+"""ঠিকই বলেছে সে,,,""",Chittagong,,,Sarcastic_negative,0.3397287957888215,model_autofill,True,Sarcastic_negative,0.5119862154070558,keep
+উওম প্রস্তাব,Bogra,Dinajpur,,Sarcastic_negative,0.3023573046457703,model_autofill,True,Sarcastic_negative,0.3400830746450586,keep
+হুমমম খাবি এমন খাওয়া খাবি দেখিস বিচি দুইটা যেনো বাদ না যায়,Cumilla,Comilla,,Sarcastic_negative,0.3794995843418396,model_autofill,True,Sarcastic_negative,0.29001021505718416,keep
+লগে গু গোবর সহ সব খা,Dhaka,,,Sarcastic_negative,0.3515094977444525,model_autofill,True,Sarcastic_negative,0.42153208129490316,keep
+Somojotar mode khabe to...ta hole somusa ki...?,Dhaka,,,Sarcastic_negative,0.3847747270512455,model_autofill,True,Neutral,0.5251262940081615,keep
+কেউ তাকে বাঁধা দিয়েছে!,Dhaka,,,Sarcastic_negative,0.3569271065876366,model_autofill,True,Sarcastic_negative,0.4375311516651116,keep
+পিলার খা,Dhaka,Kishoreganj,,Sarcastic_negative,0.3387523746306399,model_autofill,True,Sarcastic_negative,0.3465185233654512,keep
+সমঝোতায় খেয়ে নিও,Dhaka,Rajshahi,,Sarcastic_negative,0.3778740179558607,model_autofill,True,Negative,0.3655190574914841,keep
+"""কি যুগ আইলো বাহে, ঘোষণা দিয়ে চাঁদাবাজি করে.....""",Sirajganj,,,Positive,0.3655690821617405,model_autofill,True,Sarcastic_negative,0.41429683009646523,keep
+খাব খাব খাব খাব খাব খাব খাব খাব খাব খাব সব খাবো,Dhaka,,,Sarcastic_negative,0.3237805365114305,model_autofill,True,Sarcastic_negative,0.40914908268850425,keep
+ঠিক,Dhaka,,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+আমি পয়লা ভাবছি ইমরান খান এখন দেখি পাতলা খান,Dhaka,,,Negative,0.3843098183776905,model_autofill,True,Negative,0.3632134851593449,keep
+সমঝোতার মাধ্যমে সব নিজের করে নিবেন,Rajshahi,Natore,Pabna,Sarcastic_negative,0.335614279455612,model_autofill,True,Sarcastic_negative,0.3873393518003244,keep
+ডিম পাড়ে হাসে খায় বাগডাসে,Chittagong,,,Sarcastic_negative,0.3327251913712847,model_autofill,True,Sarcastic_negative,0.4533496841783283,keep
+বিম্পি মানেই বিনোদন।,Dhaka,,,Sarcastic_negative,0.3302002692042534,model_autofill,True,Sarcastic_negative,0.3998296820841748,keep
+দোয়া এবং আশীর্বাদ রইল ১…,Sirajganj,,,Positive,0.3038031396406346,model_autofill,True,Positive,0.3789568545931323,keep
+আগেই বলেছিলাম এরা মালটা বেশি সুবিধা নয় গরিবের কথা বাসি হলে মিষ্টি হয়।,Dhaka,,,Sarcastic_negative,0.3534695142358574,model_autofill,True,Sarcastic_negative,0.441946040825184,keep
+Well- done boy,ময়মনসিংহ,Dhaka,Khulna,Sarcastic_negative,0.3309985530519814,model_autofill,True,Sarcastic_negative,0.3176694388806781,keep
+এখন ঠিক আছে,Dhaka,Kishoreganj,,Positive,0.366041197573301,model_autofill,True,Negative,0.39055907469670026,keep
+বাহ,কিশোরগঞ্জ,Dhaka,Kishoreganj,Sarcastic_negative,0.364670059862047,model_autofill,True,Sarcastic_negative,0.3782731818145049,keep
+কত সুন্দর বক্তব্য এটা কি অযৌক্তিক কথা।,Dhaka,,,Negative,0.3760689968437586,model_autofill,True,Positive,0.397966091510856,keep
+Taholey AJ theika Ami amar molteg gula tader jonno joma korthe thakbo ai gulain tader jonno favourite,Dhaka,Chandpur,,Sarcastic_negative,0.3299389046477317,model_autofill,True,Sarcastic_negative,0.34174971285041433,keep
+"""Nazrul Islam, তুর জন্য কোন টা লাগবে,তুই তো আন্দোলনে ছিলি""",Chittagong,,,Negative,0.3332829602305622,model_autofill,True,Sarcastic_negative,0.3481750306611726,keep
+খাও পেট ভর্তি করে খাও,Dhaka,Naogaon,,Positive,0.3408867523203166,model_autofill,True,Positive,0.35538975015042645,keep
+বাজার সহ খেয়ে পেলো বাঁচা.....,Dhaka,,,Sarcastic_negative,0.3841161454728282,model_autofill,True,Sarcastic_negative,0.35783703464139094,keep
+চাদা তোলা মৌলিক অধিকার। ইচ্ছে মতো খা।,Khulna,Jessore,,Sarcastic_negative,0.3626408272198375,model_autofill,True,Sarcastic_negative,0.3447662935580235,keep
+সতেরোটা বছর উপবাস করছেন এখন তো খাবেন? আপনাদের অনেক খিদে লাগছে এটা আমরাও বুঝি।,Chittagong,,,Negative,0.3810198812518893,model_autofill,True,Negative,0.42452766009465387,keep
+কথায় যুক্তি আছে। ন্যায্য অধিকারও বটে।,Khulna,,,Positive,0.3776977401737573,model_autofill,True,Positive,0.36876157016658656,keep
+সব ঠিক আছে।,Khulna,Jessore,,Negative,0.3462176089456892,model_autofill,True,Negative,0.37180717089106463,keep
+বিলকুল বস,খুলনা,Dhaka,Chittagong,Sarcastic_negative,0.3333618089133313,model_autofill,True,Sarcastic_negative,0.305102395497039,keep
+Azizur Rahman আমাগো জন্য কিছু রেখে দিস,Dhaka,Bhola,,Negative,0.3820256764664432,model_autofill,True,Sarcastic_negative,0.32813157564036377,keep
+Ahare koto je khida or,Dhaka,,,Sarcastic_negative,0.3649139042566518,model_autofill,True,Sarcastic_negative,0.4576345752364334,keep
+ওই অঞ্চলে মানুষ নাই ওরে জুতা মেরে ঐখান থেকে বের করে না কেন,Dhaka,,,Positive,0.3375930447513749,model_autofill,True,Negative,0.3385813077951,keep
+তাহলে আন্দোলনের দরকার কি ছিল???? তারাও তো খাচ্ছিলই।,Dhaka,Mymensingh,Narayanganj,Negative,0.3542761062079877,model_autofill,True,Sarcastic_negative,0.33505280582230745,keep
+এটা ভালো ছিল,Lalmonirhat,,,Positive,0.3805419696964398,model_autofill,True,Negative,0.4287272201621076,keep
+সহমত ভাই সহমত,গাজীপুর,Dhaka,Gazipur,Sarcastic_negative,0.297016150036813,model_autofill,True,Sarcastic_negative,0.3384462494025442,keep
+বাজার ঘাটের ইট ও খান,Barisal,Bhola,,Negative,0.3295900442620888,model_autofill,True,Positive,0.3125835435461597,keep
+Miraj Hossain Hannan Badsha তোমরা তো আন্দোলনে ছিলা এখন কি সিদ্ধান্ত নিবা??,ঢাকা,ফরিদপুর,Barisal,Negative,0.321628165465629,model_autofill,True,Sarcastic_negative,0.39041581259201363,keep
+বাশ,Dhaka,,,Sarcastic_negative,0.3634372179758903,model_autofill,True,Sarcastic_negative,0.38551849488917067,keep
+বেশি খাইস না বমি হয়ে যাবে,Dhaka,,,Sarcastic_negative,0.3723631440645634,model_autofill,True,Sarcastic_negative,0.542734002739685,keep
+অয়েট এন সি,Barisal,,,Sarcastic_negative,0.3728426457096461,model_autofill,True,Sarcastic_negative,0.6099724295376914,keep
+হুম খান পোনমারা খাওয়ার জন্য ও প্রস্তুতি নেন,চট্টগ্রাম,Chittagong,Noakhali,Sarcastic_negative,0.3697156470986543,model_autofill,True,Sarcastic_negative,0.39183769255288714,keep
+আপাই বেস্ট ছিলো ওদের জন্যই।,নরসিংদী,Dhaka,Rangpur,Negative,0.3685567488976544,model_autofill,True,Negative,0.4850102523476981,keep
+"""প্রয়োজন এ রাস্তার ইট, লাইট খাবে।""",Dhaka,Jamalpur,,Positive,0.3723578144943333,model_autofill,True,Sarcastic_negative,0.3596620456189285,keep
+রোজার মাস ইফতারে টাকা তো লাগবে,Barisal,Bhola,,Negative,0.3467035653775631,model_autofill,True,Negative,0.4096898236091721,keep
+কাও ভাই,Dhaka,,,Neutral,0.3346285258735831,model_autofill,True,Sarcastic_negative,0.36178650612671837,keep
+ভাইগনা দে রে ভাইগনা দে,Dhaka,,,Sarcastic_negative,0.3276328370165772,model_autofill,True,Sarcastic_negative,0.3746634970760011,keep
+আশীর্বাদ রইল খাও খাও পুরা বাংলাদেশ খাও খাও,Dhaka,Manikganj,,Sarcastic_negative,0.3231837357353805,model_autofill,True,Positive,0.4405801202864383,keep
+খেটে খাও চেটে নয়,Dhaka,Gazipur,,Sarcastic_negative,0.3835416667896771,model_autofill,True,Sarcastic_negative,0.39416196650408586,keep
+সুবহানাল্লাহ,Dhaka,,,Positive,0.3512646448753592,model_autofill,True,Positive,0.34351062235373764,keep
+"""যারা সামনে ছিল তারাই যদি সব চাটে,,,, পিছনে যারা ছিল তারা কি চাটবে""",Dhaka,Rangpur,Gaibandha,Sarcastic_negative,0.3645778948745564,model_autofill,True,Negative,0.4095814411356594,keep
+অবশ্যই সমঝোতা করে খেয়ে নিয়েন।কিন্তু জোর করে মেরে না।,Barishal,Bogura,Bagerhat,Sarcastic_negative,0.3441218330872789,model_autofill,True,Sarcastic_negative,0.30008890085118856,keep
+এরকম নেতা থাকলে দলকে ডোবাতে বেশি সময় লাগবে না,Dhaka,Gazipur,,Negative,0.354421155085255,model_autofill,True,Negative,0.3560569433039882,keep
+খা ভাই তোরাই খা দরকার হলে .. . ‌,Rajshahi,,,Negative,0.3248679494656516,model_autofill,True,Neutral,0.3379895534697434,keep
+ঠিক বলছো মামা,Dhaka,Mymensingh,,Negative,0.3870965801276544,model_autofill,True,Negative,0.3880011969608302,keep
+নक दिও आमिও তোमाকে भाলোপাसि!,Tangail,,,Sarcastic_negative,0.3856198106070245,model_autofill,True,Sarcastic_negative,0.3879288099599498,keep
+আন্দোলনের মাস্টারমাইন্ড না তোদের ডেস ন্যেতা?,Chattogram,Khulna,Barisal,Sarcastic_negative,0.376298165220263,model_autofill,True,Sarcastic_negative,0.39899260859252483,keep
+Kulaggar bnp er 12 bajaba ok police a daoya hok,রাজশাহী,নাটোর,Rajshahi,Sarcastic_negative,0.3718329977457949,model_autofill,True,Sarcastic_negative,0.43523913618579907,keep
+"""এগুলো সমঝোতা ভিত্তিতে হয়েছে, সমস্যা নেই""",Barisal,,,Sarcastic_negative,0.2957998737719153,model_autofill,True,Sarcastic_negative,0.4435413606456228,keep
+সব খাওয়া বেশি করে খাও ছায়া বেঁচে ফেলে দাও,Dhaka,Chuadanga,,Positive,0.3028719393949666,model_autofill,True,Neutral,0.3404609617339661,keep
+এখন আবার বহিষ্কার নাটক চলবে।,Dhaka,,,Sarcastic_negative,0.3513879757267957,model_autofill,True,Sarcastic_negative,0.39315309778264423,keep
+হ খা তোরা খা -দরকার হয়লে রাস্তার ইট বালু সিমেন্ট খুলে খা,Dhaka,Gopalganj,,Negative,0.375254343687833,model_autofill,True,Sarcastic_negative,0.3156258704831067,keep
+"""হ রে ভাই খা, কম খাইস না বেশি করেই খাইস""",Rangpur,,,Negative,0.3363663224917967,model_autofill,True,Negative,0.32569519874344294,keep
+হাট মাঠ ঘাট রাস্তা খাল বিল সব খাও।,Dhaka,Faridpur,,Sarcastic_negative,0.2990017139058504,model_autofill,True,Sarcastic_negative,0.3873273612068632,keep
+ঠিক বলছেন,Comilla,,,Positive,0.3336788491378427,model_autofill,True,Negative,0.31196663359549703,keep
+Masallah,বগুড়া,Bogura,,Positive,0.3713914341078177,model_autofill,True,Positive,0.3984850381374166,keep
+"""আবশ্যই খাবেন,,,,, তবে লিমিট,,ফুড পয়োজন যেন৷ না হয়""",Rangpur,Kushtia,,Sarcastic_negative,0.3101493979064768,model_autofill,True,Sarcastic_negative,0.4200770080558246,keep
+"""চাঁদাবাজ বিষয়ক একটি মন্ত্রণালয় করলে ভালো হয়। এখানে মন্ত্রী, প্রতিমন্ত্রী সহ পূর্ণাঙ্গ মন্ত্রণালয় গঠন করলে জাতি উপকৃত হবে। এ…""",Patuakhali,,,Neutral,0.3247721898560652,model_autofill,True,Sarcastic_negative,0.47287736986769335,keep
+"""মারহাবা, ফজিলত পূর্ণ আলোচনা""",Sylhet,Sunamganj,,Sarcastic_negative,0.3154353807207817,model_autofill,True,Sarcastic_negative,0.41854508629212833,keep
+হাট -ঘাট - মাঠ - নদী নালা'' সব খেয়ে ফেলো।,Barisal,,,Sarcastic_negative,0.3133533593615689,model_autofill,True,Sarcastic_negative,0.3303653381506243,keep
+"""আরো দাও ভোট, টিকি আছে চালিয়ে যান বিনপি ভায়েরা""",কিশোরগঞ্জ,Dhaka,Kishoreganj,Negative,0.346991679569645,model_autofill,True,Negative,0.3608171309729397,keep
+Desh tar upor khub drutto Allaher gojob najil hoibo,Dhaka,,,Sarcastic_negative,0.3103159779407363,model_autofill,True,Sarcastic_negative,0.3153172067228861,keep
+উনি ঠিকই বলছে,চাঁদপুর,Dhaka,Chandpur,Negative,0.3788842664746017,model_autofill,True,Negative,0.34644818714604586,keep
+পাচায় গরম ডিম ও খাবে,Chittagong,,,Sarcastic_negative,0.3585764231179037,model_autofill,True,Sarcastic_negative,0.3524707522003579,keep
+মির্জা ফখরুল ইসলাম সাহেব এর কথা অনুযায়ীত তোমরা আন্দোলনে ছিলেনা বাবু।,Comilla,,,Negative,0.3444709705196264,model_autofill,True,Positive,0.37991083116328533,keep
+চালিয়ে যাও ভাতিজা।।।।,Dhaka,Narail,,Negative,0.3539359035494958,model_autofill,True,Sarcastic_negative,0.36673793433725643,keep
+Safi Abdullah Rafsan tumi jaiyo na,Sylhet,,,Neutral,0.3786160575955543,model_autofill,True,Sarcastic_negative,0.3531041841518703,keep
+হাট-ঘাট কি ওর বাপের পৈতৃক ভিটা-মাটি না-কি???,Dhaka,,,Sarcastic_negative,0.3705493754931934,model_autofill,True,Sarcastic_negative,0.440683462603097,keep
+আস্তাগফিরুল্লাহ,Dinajpur,,,Negative,0.3721038937780634,model_autofill,True,Negative,0.5894292555027454,keep
+তাহলে পাবলিক টয়লেটও তারাই যেন খায়!,Dhaka,Faridpur,,Sarcastic_negative,0.3729611426004831,model_autofill,True,Sarcastic_negative,0.4592513396597005,keep
+মারহাপা,Dhaka,,,Neutral,0.3215923581192349,model_autofill,True,Neutral,0.39282710627468154,keep
+হাগুখাও,Khulna,Kushtia,,Sarcastic_negative,0.3752485942855029,model_autofill,True,Sarcastic_negative,0.41356404494411575,keep
+Bah baaler dol,Dhaka,,,Neutral,0.3473340500455631,model_autofill,True,Sarcastic_negative,0.3844329062065672,keep
+সাবাস বি এন পি সৈনিক,Dhaka,,,Positive,0.2893119854819903,model_autofill,True,Sarcastic_negative,0.5064377495964214,keep
+হয়তো বেচারা সরকারি হাট ঘাট ইজারা বলতে গিয়ে একটু বেশী বলে ফেলছে।,Chittagong,Chandpur,,Sarcastic_negative,0.3834310285227307,model_autofill,True,Sarcastic_negative,0.5212016134145001,keep
+বাবুরা খাবে,Dhaka,Rangpur,Thakurgaon,Sarcastic_negative,0.3759561389654247,model_autofill,True,Sarcastic_negative,0.3900819039497832,keep
+go ahead boys,Cox's Bazar,,,Sarcastic_negative,0.3439657999153744,model_autofill,True,Sarcastic_negative,0.36037891307214087,keep
+তাহলে মেরাথোন দৌড়ানি খাওয়ার জন্য প্রস্তুত থেকো !,Dhaka,,,Sarcastic_negative,0.3226166562604614,model_autofill,True,Sarcastic_negative,0.29262912927259077,keep
+ঠিক বলেছে ক্ষুধা লাগলে খাবেই তো না খেয়ে কি মারা যাবে।,Dhaka,Pabna,,Positive,0.3355950495143083,model_autofill,True,Sarcastic_negative,0.4084742904223203,keep
+দেশটা যেন গণিতের মাল। সবাই খেতে চায়।,Dhaka,,,Sarcastic_negative,0.3011704127547765,model_autofill,True,Sarcastic_negative,0.3774385898942242,keep
+আপনি ঠিক ই বলছেন ভাই অনেক কষ্ট করে অন্দোলন করছেন,Dhaka,Sirajganj,,Sarcastic_negative,0.3802202224868553,model_autofill,True,Sarcastic_negative,0.37665779193699744,keep
+"""ঠিক উস্তাত ঠিক,,""",Dhaka,,,Negative,0.3289753522649398,model_autofill,True,Negative,0.36896357807644353,keep
+"""Kheye dao,,,jara vote diche tmdr tader ghor bari age khao""",Dhaka,Manikganj,,Sarcastic_negative,0.3426423738784478,model_autofill,True,Sarcastic_negative,0.3899698947902113,keep
+ঠিক।,Barisal,,,Negative,0.3128186017725519,model_autofill,True,Negative,0.33548283638624743,keep
+হ ভাই সব ঠিক,Dhaka,,,Neutral,0.373075932833427,model_autofill,True,Positive,0.3380616469326734,keep
+Bnp তো আন্দোলন করে নি তাই তারা খেতে পারবো না কারণ তাঁদের নেতা তো স্বীকার করে না,Khulna,Kushtia,,Positive,0.3678881224336909,model_autofill,True,Negative,0.4460722888009634,keep
+"""সাথে যেন মানুষ্য বজ্যও খায়,,,""",Dhaka,,,Sarcastic_negative,0.3558779093212745,model_autofill,True,Sarcastic_negative,0.376703734769072,keep
+বাহ,পিরোজপুর,Barisal,Pirojpur,Sarcastic_negative,0.364670059862047,model_autofill,True,Sarcastic_negative,0.3782731818145049,keep
+হ ভাই ঠিক আনাম গিল্লা লান,Dhaka,Munshiganj,,Negative,0.3795883357936183,model_autofill,True,Negative,0.40657288780622014,keep
+সমঝোতা,Dhaka,Mymensingh,,Sarcastic_negative,0.3761403687479077,model_autofill,True,Sarcastic_negative,0.3771732970009573,keep
+খা টয়লেটের ট্যাংকির ভিতরের গুলাও খা,নীলফামারী,,,Negative,0.3606512092115979,model_autofill,True,Negative,0.34198433090230124,keep
+হাট খাবে ঘাট ও খাবে,যশোর,Dhaka,Khulna,Sarcastic_negative,0.3725808272788937,model_autofill,True,Sarcastic_negative,0.3623883366663277,keep
+"""ঠিক আছে,,সুন্দর কথা""",Chittagong,,,Positive,0.3810120117020948,model_autofill,True,Positive,0.4459805483395931,keep
+সহমত ভাই,Dhaka,,,Neutral,0.3217493175354463,model_autofill,True,Sarcastic_negative,0.3079175101001481,keep
+আয় হায় কাম সারছে,Dhaka,,,Sarcastic_negative,0.3401462704980421,model_autofill,True,Negative,0.45513110319804667,keep
+মারহাবা,Dhaka,,,Neutral,0.3167357788320523,model_autofill,True,Neutral,0.359357781836863,keep
+এখানে কোনো মুক্তিযোদ্ধাদের খুজি পাওয়া যাচ্ছে না। তাদের কোনো খোজ থাকলে জানাবেন।,ঢাকা,বগুড়া,Dhaka,Negative,0.3843012549678428,model_autofill,True,Sarcastic_negative,0.4326119726744542,keep
+একদম ঠিক …,Dhaka,,,Negative,0.3188516420486702,model_autofill,True,Negative,0.331538468524173,keep

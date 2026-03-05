@@ -1,0 +1,188 @@
+Comment,Location 1,Location 2,Location 3,Sentiment,sentiment_confidence,sentiment_source,needs_review
+"""ওখানে ধরা খাবে তারপর সরকারিভাবে দেশের কারাগারে আসবে, দেশের আদালত মুক্ত করে দিবে। এটাই পলিটিক্স।""",Dhaka,Gazipur,,Positive,0.33130757780980896,model_autofill,True
+"""এভাবেই ফেরত আসবে,এটাই পলিটিক্স""",Dhaka,,,Negative,0.3267902335773661,model_autofill,True
+আরও কিছু দেখার অপেক্ষায় রইলাম,ঢাকা,ব্রাহ্মণবাড়িয়া,Chittagong,Neutral,0.3616502789178571,model_autofill,True
+শুরু হয়েছে একে একে সবাই ধরা পড়বে,Dhaka,Mymensingh,,Sarcastic_negative,0.35658501656381814,model_autofill,True
+Beimani korlo,Chandpur,,,Sarcastic_negative,0.35062357725480287,model_autofill,True
+"""এভাবেই নিরপেক্ষ, সহজ সরল, সঙ্গিত-মনা, সুশীল, ছেতনাবাজ.. মানুষ গুলো দেশে ফিরে আসবে""",গাজীপুর,Dhaka,Gazipur,Sarcastic_negative,0.3303100783299646,model_autofill,True
+আওয়ামী লীগ ভারত গ্রেফতার হবে? এটা মিছা কথা।,Dhaka,,,Negative,0.3571332901785708,model_autofill,True
+ধরা দিয়েছে দেশে আসার জন্য,Dhaka,Mymensingh,,Sarcastic_negative,0.37554179517264824,model_autofill,True
+দ্রুত দেশে পাঠিয়ে দেওয়া হোক,Dhaka,,,Neutral,0.3537068901332483,model_autofill,True
+এত সেইফ ছিল। এখন দেখা যাবে ?,Chittagong,Comilla,,Positive,0.33861943675722855,model_autofill,True
+কলিকাতায় ও শুরু করেছে গ্রেপ্তার।,Dhaka,Chittagong,,Negative,0.3158892777235092,model_autofill,True
+মোহাম্মদ মনির হোসাইন সব দিকে অন্ধকার,Dhaka,,,Sarcastic_negative,0.32017873883130243,model_autofill,True
+সবাই ধোকাবাজ,Dhaka,Pabna,,Negative,0.287089513614185,model_autofill,True
+বাংলাদেশ শিল্পকলা একাডেমিতে বাউল দলে কিছু ভন্ড আছে ওই ভন্ডদের কে আইনের আওতায় আনতে হবে,Lalmonirhat,,,Neutral,0.31419288097972153,model_autofill,True
+------- যোগ্যতা বিষয় না …,Dhaka,Mymensingh,,Sarcastic_negative,0.32775882797415423,model_autofill,True
+সে যুদ্ধের সময় তার বাবার পেটে লিকুইড ফর্মে ছিলো। তাই তাকে একজন লিকুইড মুক্তিযুদ্ধা বলা যায়।,Chittagong,Brahmanbaria,,Sarcastic_negative,0.30697050986555946,model_autofill,True
+মানুষ এত পরিমাণ হাসি কেমনে হাসতে পারে,Chittagong,,,Sarcastic_negative,0.3619117046615697,model_autofill,True
+"""সময়মত সংসদে পৌছাতে না পারা ছেলেটাও এখন মন্ত্রনালয় চালাবে, ভাবা যায়""",নীলফামারী,Dhaka,Nilphamari,Sarcastic_negative,0.3297972716283687,model_autofill,True
+Oke sweeper banano hok,Dhaka,,,Sarcastic_negative,0.3595038366150169,model_autofill,True
+"""ভাগ্যভালো, চুমু শপি হয় নাই। …""",Dhaka,,,Sarcastic_negative,0.3598599523150803,model_autofill,True
+কবে জানি নামের আগে বীর মুক্তিযোদ্ধা লাগায় দেয়,Narayanganj,,,Sarcastic_negative,0.3671000075235789,model_autofill,True
+Follo tu follo bak 100% garente,Dhaka,,,Sarcastic_negative,0.34399451768995293,model_autofill,True
+যুদ্ধ নিয়ে সে কি বুঝে? তার কি তখন জন্ম হয়েছিল?!!!!!,Dhaka,,,Sarcastic_negative,0.3214785054836205,model_autofill,True
+গোয়া মারছে,Dhaka,Narsingdi,,Negative,0.3075786789010265,model_autofill,True
+কিছু পর দেখবো ওর নাম মুক্তিযোদ্ধা লিস্টে সবার উপরে,Chittagong,Chandpur,,Sarcastic_negative,0.33550529959868974,model_autofill,True
+ওরে ল্যাওড়া,Dhaka,,,Sarcastic_negative,0.3501628431198437,model_autofill,True
+সবাই হাসে ক্যা,Dhaka,,,Sarcastic_negative,0.2825677354011114,model_autofill,True
+দেশের বারোটা বাজাইবে,Dhaka,,,Sarcastic_negative,0.3699564410246835,model_autofill,True
+আস্তাগফিরুল্লাহ!,Dhaka,,,Negative,0.3305859483287293,model_autofill,True
+স্বাধীনতার 53 বছর । দেশ প্রেমিক মুক্তিযোদ্ধারা দেশ চালানো দেশের মানুষের উচ্চ ও নিম্ন মান সেবা গুলো …,Narayanganj,,,Sarcastic_negative,0.3251274415499622,model_autofill,True
+মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয় তো আগেই ছিল। এবার এটা জুলাই বিষয়ক মন্ত্রণালয় না বানায়!,Dhaka,,,Sarcastic_negative,0.3005784291048974,model_autofill,True
+Masahallah,Dhaka,,,Positive,0.35331425350007983,model_autofill,True
+কামার কে দিলো কুমারের কাজ,Dinajpur,,,Sarcastic_negative,0.3707029335018834,model_autofill,True
+"""পজিটিভ রিপ্লাই (কারো খারাপ সময়ে কমেন্ট করার জন্য) খারাপ সময় শেষ হয়, শক্ত মানুষ শেষ হয় না।…""",Dhaka,,,Positive,0.29849093724826997,model_autofill,True
+United States of Bagura,Dhaka,,,Sarcastic_negative,0.35691754320080377,model_autofill,True
+Fozu pagla k asha korchilam,Khulna,Magura,,Sarcastic_negative,0.3493845775317,model_autofill,True
+ফজলুর রহমান কি দোষ করলো?,ব্রাহ্মণবাড়িয়া,,,NegSarcastic_negativeative,0.3460475256833744,model_autofill,True
+ইশরাক ভাইকে দেওয়া দরকার ছিলো ঘেরাও ও নিজে নিজে শপথ নেওয়া বিষয়ক মন্ত্রী,Dhaka,Madaripur,,Sarcastic_negative,0.3671843927789273,model_autofill,True
+একে তো তালা আর ঘেরাও বিষয়ক মন্ত্রী বানানো উচিত ছিল,Rajshahi,Dinajpur,,Sarcastic_negative,0.3258253051862444,model_autofill,True
+কি যে বিনোদন,নরসিংদী,Dhaka,Jamalpur,Sarcastic_negative,0.34314184467106235,model_autofill,True
+Des ta ses,Dhaka,,,Negative,0.37459016786963817,model_autofill,True
+মেয়রের আশাও শেষ,Dhaka,,,Negative,0.3647001619456134,model_autofill,True
+মুক্তিযুদ্ধের সময়ের ২য় শিশু মুক্তিযোদ্ধা,Jessore,,,Sarcastic_negative,0.28148901590430286,model_autofill,True
+ইশরাক হোসেন কে প্রধান মন্ত্রী করার জোর দাবি জানাচ্ছি,Dhaka,Tangail,,Sarcastic_negative,0.3547287088318828,model_autofill,True
+যাক মেয়রের তো দামটা পায়নি এবার গোয়া মেরে দিবে নে,নরসিংদী,Dhaka,Narsingdi,Sarcastic_negative,0.3546733631243543,model_autofill,True
+আহারে এইভাবেও দেশটাকে ধ্বংস করে দেয়,Dhaka,Madaripur,,Sarcastic_negative,0.3091481649132648,model_autofill,True
+এখন এদেরকে এখন মুখস্থ করা লাগবে কারন ভাইবা বোডে এদের কে নিয়ে প্রশ্ন করা হবে,Dhaka,,,Negative,0.3262304393407176,model_autofill,True
+হোগাই মারছে,বরিশাল,Barishal,,Negative,0.2991985158585543,model_autofill,True
+Congratulations,Dhaka,Gazipur,,Positive,0.3593529423860853,model_autofill,True
+দেয়া ও ভালোবাসা রইল ভাই,Dhaka,Manikganj,,Positive,0.2857351933630721,model_autofill,True
+তিনি কি ছিলেন মুক্তিযুদ্ধের সময়?,Dhaka,,,Sarcastic_negative,0.36199388083699174,model_autofill,True
+হাসবো না কাদবো?? সবাই একটু বলে যান।,Dhaka,,,Sarcastic_negative,0.33491615577545797,model_autofill,True
+"""বাহের কোটায় মুক্তি যুদ্ধ মন্ত্রী, মুক্তিযোদ্ধা লিস্টে হেতার নাম জানি চলে আসে না আবার।""",Dhaka,,,Negative,0.3574580194886673,model_autofill,True
+উনি মুক্তিযোদ্ধা,Dhaka,,,Neutral,0.36914849347962414,model_autofill,True
+ওনার চেহারা টা দেখলেই ঐযে ঠেলাঠেলি করেছিলো এটার কথা মনে পড়ে । ওনাকে প্রতিমন্ত্রী দিছে কারন উনি ঠেইললা যুদ্ধ করতে পারে তাই,Comilla,,,Negative,0.3587670472024326,model_autofill,True
+এগিয়ে যান ভাই,Dhaka,,,Positive,0.28393331448928627,model_autofill,True
+মাত্র ২০০ টাকা কেজি,Dhaka,,,Sarcastic_negative,0.35034758142423283,model_autofill,True
+সবাই হাহাহা দিচ্ছে কেন,Dhaka,,,Sarcastic_negative,0.3437990538004001,model_autofill,True
+Kopal,Chittagong,,,Sarcastic_negative,0.3381608025736374,model_autofill,True
+মুক্তিযোদ্ধা সার্টিফিকেটটাও দিয়ে দেওয়া হোক,Dhaka,Barguna,,Sarcastic_negative,0.3162548289761057,model_autofill,True
+একে মন্ত্রনালয়ে মানায় না একে মানাই জোর করে ক্ষমতা নেওয়ার আন্দোলনে,Dhaka,,,Sarcastic_negative,0.36890185324858804,model_autofill,True
+মুক্তিযুদ্ধ কি উনি কি এটা জানে.?,Dhaka,,,Negative,0.2920951203143215,model_autofill,True
+ক্রীড়া বিষয়ক মন্ত্রী উপমন্ত্রী দেয়নি শুকরিয়া।,Chittagong,,,Sarcastic_negative,0.27491351517758283,model_autofill,True
+Tar birodde j kico bolbe ee.. Akta rajakar,Narayanganj,,,Negative,0.3508501894842557,model_autofill,True
+এখন হালা হুমন্দি সব হয়ে যাবে মুক্তিযোদ্ধা,Dhaka,Chittagong,Noakhali,Sarcastic_negative,0.3588804728844314,model_autofill,True
+মুক্তিযোদ্ধা ইশরাক হোসেন,Dhaka,Narsingdi,,Sarcastic_negative,0.3462644542452987,model_autofill,True
+বাবার মুক্তিযুদ্ধের কোটায় ছেলে নিয়োগ।,Dhaka,Barisal,,Sarcastic_negative,0.314631595820503,model_autofill,True
+স্যালুট বীর মুক্তিযোদ্ধা ইশরাক হোসেন কে,Dhaka,,,Sarcastic_negative,0.34855543728630556,model_autofill,True
+শুভ বুধবার। …,Chittagong,Chandpur,,Neutral,0.37234172749112254,model_autofill,True
+বীর মুক্তিযোদ্ধা ইশরাক ভাই,Dhaka,Tangail,,Sarcastic_negative,0.26950066069735074,model_autofill,True
+নতুন চেতনা লোডিং....,Dhaka,,,Sarcastic_negative,0.34534171540737807,model_autofill,True
+উস্তাদ,Chittagong,Chandpur,,Sarcastic_negative,0.3737718110462937,model_autofill,True
+ধাক্কায় কাজ হয়েছে,Khulna,,,Sarcastic_negative,0.35156312376310833,model_autofill,True
+Fojlur rohman ke banano drkar chilo,Dhaka,Barisal,,Sarcastic_negative,0.3318342461382301,model_autofill,True
+যারা মুক্তিযোদ্ধা তাদের কে মুক্তিযোদ্ধা বিষয়ক মন্ত্রী না দিয়ে শিশু কে দেই,Dhaka,,,Sarcastic_negative,0.32109655281076394,model_autofill,True
+সমস্যা নাই ভাই। পুরো পৃথিবী আপনার বিপক্ষে থাকলেও আমি পৃথিবীর পক্ষে।,Dhaka,Kishoreganj,,Sarcastic_negative,0.3280122251207028,model_autofill,True
+Onake amar protimonti dile valo hoy.,Dhaka,Barisal,Bhola,Sarcastic_negative,0.37537845497730205,model_autofill,True
+ওর জন্য এটা অতিরিক্ত হয়ে গেছে!,Dhaka,,,Sarcastic_negative,0.33986005352077997,model_autofill,True
+Ekhon oi bolbe tarek rahaman ow juddo korse,Cumilla,Comilla,,Sarcastic_negative,0.3548573541167054,model_autofill,True
+hagar montri.khusir thelay haha astase,Narayanganj,,,Sarcastic_negative,0.342569142651578,model_autofill,True
+এসব কিয়া দেখতাহে,Dhaka,,,Sarcastic_negative,0.34999797434180363,model_autofill,True
+নয়ন রে দৌড়া দৌড়ি মন্ত্রী বানানো হোক,Dhaka,,,Sarcastic_negative,0.3483149960068359,model_autofill,True
+একেবারে জায়গা মত দিছে তার মতো যোদ্ধা একটাও নাই বি এন পি তে কয় আগেও হেতারে দেখলাম যুদ্ধ করতে শহিদ মিনারে,Bagerhat,,,Negative,0.33498804296337065,model_autofill,True
+"""২য় পলক ।হোগামা,,,,,,,,রা সারা""",Chittagong,Barisal,,Negative,0.3262385385896589,model_autofill,True
+Chor rey churi korar pod disey,Dhaka,Tangail,,Negative,0.35511881416016383,model_autofill,True
+Kon sector লড়ায় করচে সে শেখ হাসিনা তো বলতো বি এন পি কে রাজাকার,Dhaka,,,Sarcastic_negative,0.3379403423851666,model_autofill,True
+আচ্ছা এ মন্ত্রনালয়ের কাজ কি?,Khulna,,,Neutral,0.331649413244097,model_autofill,True
+প্রধানমন্ত্রী - লন্ডন | স্বরাষ্ট্র - ভারত | পররাষ্ট্র - আমেরিকা |…,Dhaka,,,Negative,0.3552024544262356,model_autofill,True
+না ঠিক ই আছে সব জায়গায় তো যুদ্ধ ই করে হালায়,Chittagong,,,Negative,0.31479633422038283,model_autofill,True
+সবারই খাওয়ার অধিকার আছে। বেচারাকে দেওয়ার জায়গা ছিল না তাই সেখানে দেওয়া হয়েছে,Dhaka,,,Sarcastic_negative,0.35274251816143254,model_autofill,True
+"""ও মুক্তিযুদ্ধের সময় জন্মেছিলো,???""",Dhaka,,,Sarcastic_negative,0.3521978041513288,model_autofill,True
+কারে কি দিছে রে ভাই,Narayanganj,,,Sarcastic_negative,0.33372351053354704,model_autofill,True
+কিন্তু ইশরাক শপথ ই তো নিলো রাজাকার দের সাথে।,Tangail,,,Negative,0.3718994916555243,model_autofill,True
+দুইজন বীরশ্রেষ্ঠদের নাম জানে কি না সন্দেহ,Khulna,,,Negative,0.3329926103362887,model_autofill,True
+৭১ সালের সেক্টর কমান্ডার ছিল মনে হয়।,Chittagong,Lakshmipur,,Negative,0.36195721080418897,model_autofill,True
+চেতনা,Dhaka,Chittagong,Lakshmipur,Sarcastic_negative,0.3283615650325396,model_autofill,True
+অনুষ্ঠানে ধাক্কাধাক্কি নিয়ন্ত্রণ বিষয়ক মন্ত্রী দিলে নিজেই কিছুটা সংশোধন হতো আর কি।,Chittagong,,,Sarcastic_negative,0.3498163816021902,model_autofill,True
+এখানে ফজলুর হলকে দিলে ভালো হত,Dhaka,,,Sarcastic_negative,0.3386552350361964,model_autofill,True
+মাননীয় মন্ত্রী মহোদয় লীগ সরকারের আমলে দেওয়া ভুয়া মুক্তি যোদ্ধাদের সনদ বাতিল করবেন কি?,Comilla,,,Negative,0.3493872073478865,model_autofill,True
+এখন সে বলবে যুদ্ধের ঘোষণা আমি দিছিলাম …,Dhaka,Gazipur,,Sarcastic_negative,0.36420149829165344,model_autofill,True
+ফজু কই,সুনামগঞ্জ,Dhaka,Sunamganj,Sarcastic_negative,0.3579915529084904,model_autofill,True
+সবাই দেকে জান,Dhaka,,,Neutral,0.3259299734239623,model_autofill,True
+হাসুন প্রাণ খুলে,Dhaka,,,Sarcastic_negative,0.3330908985499376,model_autofill,True
+খতম টা টা বাই বাই,Dhaka,Bagerhat,,Sarcastic_negative,0.3507258104164478,model_autofill,True
+শিশু মুক্তিযুদ্ধা,সিলেট,Dhaka,Sylhet,Sarcastic_negative,0.34951057580217276,model_autofill,True
+crickete thaka ta bhalo,Dhaka,,,Neutral,0.3650638212010256,model_autofill,True
+ডাইপার,সিলেট,Sylhet,,Negative,0.37137542109903693,model_autofill,True
+ইশরাক জন্মের আগে কি কখনো মুক্তিযুদ্ধ দেখছে?,Dhaka,,,Sarcastic_negative,0.35697787237975337,model_autofill,True
+Joker of the ministry,Dhaka,Pabna,,Sarcastic_negative,0.3423359483427164,model_autofill,True
+মুক্তিযুদ্ধের ***,Dhaka,Sirajganj,,Sarcastic_negative,0.3378270519740251,model_autofill,True
+হো*-/গা মারছে,Dhaka,,,Negative,0.2925206980876499,model_autofill,True
+চেতনা,Dhaka,Munshiganj,,Sarcastic_negative,0.3283615650325396,model_autofill,True
+বাচ্চা পোলা মুক্তিযুদ্ধের কী বোঝে!!,Dhaka,,,Negative,0.35777294661592834,model_autofill,True
+কানা হায়দার,Barisal,,,Sarcastic_negative,0.37463807589775566,model_autofill,True
+ঘেরাউ মন্ত্রী করলে সব থেকে ভালো হইতো,Dhaka,Barisal,,Sarcastic_negative,0.29949614069080605,model_autofill,True
+এলকোহল বিষয়ক,Dhaka,,,Sarcastic_negative,0.3683220692089238,model_autofill,True
+বাপের নাম কি করে ডুবাতে হয় তা ইশরাক থেকে শিখে নেন সবাই।,Dhaka,,,Sarcastic_negative,0.35855133394531247,model_autofill,True
+বিপ বিপ,Dhaka,Sirajganj,,Sarcastic_negative,0.3694007510096489,model_autofill,True
+"""এখন থেকে জামাতের নতুন নতুন রাজকারদের নাম শুনতে পাবে জাতি,,১৯৯৬ সালে যারা জন্ম হয়ছে,২০১৬ সালে যারা হয়ছে তাদের নাম ও চলে আসতে প…""",Dhaka,,,Negative,0.37481652682296157,model_autofill,True
+ঠেলাঠেলি মন্ত্রীত্ব পেলে খারাপ হতোনা,Dhaka,Faridpur,,Sarcastic_negative,0.3713670605289096,model_autofill,True
+ফজলুর রহমান উনি কই,Dhaka,Faridpur,,Neutral,0.32855948077037866,model_autofill,True
+Chota vim,Dhaka,Rangpur,,Sarcastic_negative,0.35791564071298626,model_autofill,True
+হেয় মুক্তি যোদ্ধার কি জানে?,Dhaka,,,Sarcastic_negative,0.3158499999892117,model_autofill,True
+বা বা বা বাহ্! যতো যাচ্ছে শুধু সারপ্রাইজড আর সারপ্রাইজড,Dhaka,Rajbari,Pabna,Sarcastic_negative,0.3255918510336256,model_autofill,True
+লে চোদন,Chittagong,Noakhali,,Negative,0.3587352027635633,model_autofill,True
+ধৈর্য মধুর চেয়ে মিষ্টি এটা প্রমাণ আজকে কোকা সাহেব এর জমিদার পুত্র চেয়েছে ঢাকা সিটির মেয়র হবে। কিন্তু জমিদার পুত্র ধৈর্য ধরার ক…,Dhaka,,,Neutral,0.3358238136428046,model_autofill,True
+মুক্তি যুদ্ধ কত সালে হয় জানে?,Dhaka,Feni,,Sarcastic_negative,0.335588451005946,model_autofill,True
+ফজু চাচাকে দেওয়া দরকার ছিলো।।।,Rangpur,,,Sarcastic_negative,0.3347527369389088,model_autofill,True
+মুক্তিযোদ্ধা ইসরাক হোসেন,Dhaka,Tangail,,Sarcastic_negative,0.3452555171007048,model_autofill,True
+ঠেলাঠেলি বিষয়ক মন্ত্রী দিলে ভালো হতো এরথেকে,Dhaka,Narsingdi,,Sarcastic_negative,0.32633455212618484,model_autofill,True
+মুক্তি যোদ্ধাদের অভিজ্ঞতা নাই ছেলেদের আছে,Barisal,,,Negative,0.34647705368863985,model_autofill,True
+ফজলুর রহমান কে প্রয়োজন ছিল,Rajshahi,Pabna,,Positive,0.37258749925146667,model_autofill,True
+অপাত্রে দান,Barisal,,,Sarcastic_negative,0.3735497098319491,model_autofill,True
+উনাকে দরকার ছিলো যুব ও ক্রীড়া মন্ত্রণালয়।,Dhaka,,,Neutral,0.2765413701463182,model_autofill,True
+সুইপার,নীলফামারী,Rangpur,Nilphamari,Negative,0.3673233642012497,model_autofill,True
+ইশরাক তো মুক্তিযোদ্ধা,কিশোরগঞ্জ,Dhaka,Kishoreganj,Sarcastic_negative,0.32519868679929537,model_autofill,True
+মুক্তিযুদ্ধের হোমাসা,Dhaka,,,Sarcastic_negative,0.3221093443794699,model_autofill,True
+মুক্তি যুদ্ধের সময় যার জন্মই হয়নি সে নাকি মুক্তি যুদ্ধা বিষয়ক মন্ত্রী,Dhaka,,,Sarcastic_negative,0.26829878422995723,model_autofill,True
+শিশু মুক্তিযোদ্ধা মন্ত্রী,চট্টগ্রাম,Dhaka,Chittagong,Sarcastic_negative,0.37439303972563864,model_autofill,True
+এডা বেশি হয়া গেলো,Bhola,,,Sarcastic_negative,0.36513553575086233,model_autofill,True
+thela theli bisoyok protimontri,ঢাকা,,,Neutral,0.3583471963694804,model_autofill,True
+Unare valo lagto liger amole..kintu uni akhon kotha batra bolen liger motoi,Thakurgaon,,,Sarcastic_negative,0.3292589230924513,model_autofill,True
+ফজলুর রহমানকে দেওয়া উচিত ছিল,Naogaon,,,Neutral,0.3745537749537655,model_autofill,True
+জন্ম সালটা??,Nilphamari,,,Sarcastic_negative,0.37337391811904624,model_autofill,True
+"""সে মুক্তিযোদ্ধা বিষয় সম্পর্কে কি বুজবে,তার কি সে বিষয়ে নলেজ আছে,,তার কি জন্ম মুক্তিযুদ্ধের সময়,,,, পাগল ছুদা কথা, শুক্কুরে শু…""",Chittagong,,,Negative,0.3392816308125136,model_autofill,True
+joker,Dhaka,,,Neutral,0.35759693162940703,model_autofill,True
+বলদ কীভাবে প্রতিমন্ত্রী হয়,Gazipur,,,Negative,0.3410777084820907,model_autofill,True
+মুক্তিযুদ্ধ বিষয়ক ঠেলাঠেলি মন্ত্রী,কুমিল্লা,Dhaka,Comilla,Sarcastic_negative,0.3738036062972182,model_autofill,True
+Joker,Dhaka,Chittagong,,Neutral,0.35759693162940703,model_autofill,True
+কুনুইমন্ত্রী,Dhaka,,,Sarcastic_negative,0.32120397907350284,model_autofill,True
+ওকি মুক্তিযুদ্ধ করছে যে ওরে মুক্তিযোদ্ধা মন্ত্রণালয়ের দায়িত্ব দিছস,গাইবান্ধা,Dhaka,,Negative,0.36606522940388575,model_autofill,True
+"""সামান্য মেয়র হতে পারে নাই সেই নাকি হচ্ছে মন্ত্রী,,,বলার কিছু নেই""",Dhaka,,,Sarcastic_negative,0.30630622694426374,model_autofill,True
+জুলাই যুদ্ধাদের গোয়া মারা শেষ,Dhaka,,,Sarcastic_negative,0.33567654196145985,model_autofill,True
+এরে ঠেলাঠেলি যুদ্ধা হিসেবে ঘোষণা করা হোক,Dhaka,,,Sarcastic_negative,0.37505903767925336,model_autofill,True
+হেতে তো খারা বলদ হেতে মুক্তি যুদ্ধের বুজে কি ওরে বানানো উচি ঠেলাঠেলি প্রতিমনএি,Chittagong,,,Negative,0.34365991684779923,model_autofill,True
+Pathetic,Dhaka,,,Sarcastic_negative,0.3710892069264484,model_autofill,True
+খোঁজ নিয়ে দেখেন ওর দাদা মুক্তিযুদ্ধের সময় রাজাকার ছিলো,Dhaka,Sirajganj,,Negative,0.36488983465434777,model_autofill,True
+টাকলা মুরাদের কথা মনে পড়ে গেল।,Dhaka,Chittagong,Pirojpur,Sarcastic_negative,0.3464688523265252,model_autofill,True
+এরে মন্ত্রী না বানাইলে তারেক রহমান সাহেবের বাসা ঘেড়াও করতো আবার দিছে মুক্তিযুদ্ধ বিষয়ক মন্ত্রী যুদ্ধের সময় কি দুনিয়াত ছিলো ?,Sylhet,,,Negative,0.37570036798781464,model_autofill,True
+সবচাইতে ফালতু টা কে বিম্পি তাদের অপ্রয়োজনীয় মন্ত্রণালয় দিয়েছে আর কি,চট্টগ্রাম,Chittagong,Chandpur,Negative,0.35297462360494397,model_autofill,True
+"""পাতিনেতা ও মন্ত্রী,, হায়রে দেশ""",Sylhet,,,Sarcastic_negative,0.3571055329918734,model_autofill,True
+এদেরকে জনগণ ভোট দেয়নি। তারা টাকার খেলায় এম.পি হয়েগেছে।,Dhaka,Sylhet,,Sarcastic_negative,0.3704305315788734,model_autofill,True
+মুক্তিযুদ্ধের চোদনাবাজরা কোথায় এখন??,Dhaka,,,Negative,0.34790505805328514,model_autofill,True
+দেশটারে হোন* মারি দিলো,Chittagong,Noakhali,,Negative,0.3355535873527939,model_autofill,True
+কোনাই মেরে একাত্তরের চেতনাকে শেষ করে দেওয়ার জন্য এই মন্ত্রী যথেষ্ট,Dhaka,,,Positive,0.34937997780205776,model_autofill,True
+"""গণঅধিকার পরিষদের নেতা নূর ডাকসুর ভিপি হবার পর শেখ হাসিনার সাথে দেখা করে তাকে মা বলে ডেকেছেন, আজকে তো উনি প্রতিমন্ত্রী হয়েছেন, …""",Dhaka,Gazipur,,Negative,0.3552135038696078,model_autofill,True
+মাথামোডা গুলো যখন বাবার কোটায় প্রতিমন্ত্রী। স…,Dhaka,,,Negative,0.34346113870552725,model_autofill,True
+"""আল্লাহর ওয়াস্তে একে মন্ত্রনালয় থেকে বাদ । বিশ্বাস করেন, এর ঘটে কিচ্ছু নেই..!""",Dhaka,Narail,,Negative,0.3693822213059967,model_autofill,True
+পুরান ঢাকার ডাকাত,Dhaka,,,Negative,0.35678256869587754,model_autofill,True
+জাতির জন্য লজ্জার বিষয় এরকম মানুষের কাছ থেকেও মুক্তিযুদ্ধ সম্পর্কে জানতে হবে,Narayanganj,,,Neutral,0.3036797128755634,model_autofill,True
+৭১ সালে ঘেরাও ইশরাকের জন্মই হয় নাই সো কিভাবে ও মুক্তিযুদ্ধ বিষয়ক মন্ত্রী হয়!,Dhaka,,,Sarcastic_negative,0.3220092984022132,model_autofill,True
+হয়ছে মুক্তিযোদ্ধের হো … মারা শেষ,Chittagong,,,Sarcastic_negative,0.32812129073388957,model_autofill,True
+Mohammad Sohag o to gherao montronaloyer daitto pawar kotha..o to se kaje dokkho,Dhaka,,,Neutral,0.3534033246454083,model_autofill,True
+boka choda sala,Dhaka,Barisal,,Sarcastic_negative,0.35604401117741546,model_autofill,True
+এইসব আবালও এমপি মন্ত্রী হয়,Dhaka,,,Sarcastic_negative,0.37536448136773437,model_autofill,True
+ও নিজেই তো হলো একটা সন্ত্রাস,Dhaka,,,Negative,0.37221474673574423,model_autofill,True
+লেইট প্রতিমন্ত্রী,Mymensingh,,,Sarcastic_negative,0.35147799837246113,model_autofill,True
+"""ইশরাকের মধ্যে এমন কি পাইছে তারেক সাহেব, বুজলাম না! একবার মেয়র পদে আবার সংসদ সদস্য এখন মন্ত্রী, ওর যোগ্যতাটা কি? ওর বাবা বড় রাজ…""",Dhaka,Chittagong,Chandpur,Negative,0.35907831672939167,model_autofill,True
+মারছেরে,Sylhet,Habiganj,,Sarcastic_negative,0.3069928508078053,model_autofill,True
+মুক্তিযোদ্ধের সময় কি ওর জন্ম হয়েছিল,Dhaka,Rajshahi,,Negative,0.2692041298641177,model_autofill,True
+টাহি পোলাপান এগুলো,Dhaka,,,Sarcastic_negative,0.32990533107329867,model_autofill,True
+উনি তো সব মুক্তিযোদ্ধাকে ঘেরাও করবে,Dhaka,Mymensingh,,Positive,0.3442008793574538,model_autofill,True
+মদ খেয়ে মাতলামি করা লোক হলো মুক্তিযুদ্ধ বিষয়ক প্রতিমন্ত্রী। বুঝলাম কেমন হলো মন্ত্রীসভা,Dhaka,Gazipur,Madaripur,Negative,0.3068577940447976,model_autofill,True
+ইসরাকের জায়গায় অ্যাডভোকেট ফজলুল হক কে দিলো ভালো হইতো।,Dhaka,,,Negative,0.3483243572148091,model_autofill,True
+ধাক্কাধাক্কি মন্ত্রলায় দেওয়ার দরকার ছিলো তাকে,Dhaka,Mymensingh,,Neutral,0.26557944398193617,model_autofill,True
+এগুলো বাল,Dhaka,Chittagong,Lakshmipur,Sarcastic_negative,0.35081817738407317,model_autofill,True
+ঘেরাও মন্ত্রী দেওয়া দরকার ছিলো,Dhaka,Chandpur,,Neutral,0.3043327197019268,model_autofill,True

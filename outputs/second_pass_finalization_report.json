@@ -1,0 +1,49 @@
+{
+  "After Election": {
+    "review_rows": 484,
+    "kept": 483,
+    "changed": 1,
+    "mode": "auto_adjudicated",
+    "final_rows": 1935,
+    "remaining_needs_review": 0,
+    "label_negative": 445,
+    "label_neutral": 114,
+    "label_positive": 491,
+    "label_sarcastic_negative": 885
+  },
+  "After Forming Government": {
+    "review_rows": 630,
+    "kept": 629,
+    "changed": 1,
+    "mode": "auto_adjudicated",
+    "final_rows": 2517,
+    "remaining_needs_review": 0,
+    "label_negative": 806,
+    "label_neutral": 265,
+    "label_positive": 560,
+    "label_sarcastic_negative": 886
+  },
+  "12.02.26 —- 17.02.26 - Sheet1": {
+    "review_rows": 187,
+    "changed_vs_autofill": 55,
+    "mode": "trusted_manual_merge",
+    "final_rows": 747,
+    "remaining_needs_review": 0,
+    "label_negative": 260,
+    "label_neutral": 65,
+    "label_positive": 78,
+    "label_sarcastic_negative": 344
+  },
+  "18.02.26 —--- 01.03.26 - Sheet1": {
+    "review_rows": 414,
+    "kept": 411,
+    "changed": 3,
+    "mode": "auto_adjudicated",
+    "final_rows": 1655,
+    "remaining_needs_review": 0,
+    "label_negative": 559,
+    "label_neutral": 144,
+    "label_positive": 260,
+    "label_sarcastic_negative": 692
+  }
+}

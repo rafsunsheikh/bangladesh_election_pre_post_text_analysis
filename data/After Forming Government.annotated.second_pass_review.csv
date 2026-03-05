@@ -1,0 +1,631 @@
+Comment,Sentiment,sentiment_confidence,sentiment_source,needs_review,auto_review_predicted,auto_review_pred_confidence,auto_review_action
+মূল গনতন্ত্র ফিরে পেয়েছে বাংলাদেশ।,Positive,0.3464153765939562,model_autofill,True,Positive,0.33088508923100385,keep
+"নবনির্বাচিত সকল সম্মানিত এমপি মহোদয়দের জানাই আন্তরিক অভিনন্দন ও শুভেচ্ছা। আশা করি, আপনারা দেশের মানুষের প্রত্যাশা ও আস্থার প্রতিফলন ঘটিয়ে সংসদে নতুন দৃষ্টান্ত স্থাপন করবেন। আপনাদের সৎ নেতৃত্ব, দূরদর্শিতা ও জনকল্যাণমূলক কার্যক্রমের মাধ্যমে দেশ এগিয়ে যাবে উন্নয়ন ও সমৃদ্ধির পথে—এই প্রত্যাশাই রইল।",Negative,0.3846125950278465,model_autofill,True,Negative,0.42427116094488804,keep
+বাংলাদেশের স্বরাষ্ট্রমন্ত্রী কিন্তু ভারত,Positive,0.3793833616304457,model_autofill,True,Negative,0.40674908135757837,keep
+ব্রেকিং,Sarcastic_negative,0.3810018476138929,model_autofill,True,Sarcastic_negative,0.38292797369191006,keep
+বাংলাদেশের জাতি চুটিয়া জাতি এই জাতির ভাগ্য পরিবর্তন হবে না,Negative,0.391925651000832,model_autofill,True,Negative,0.3952494011970287,keep
+জুলাইয়ের সাথে বিম্পির গাদ্দারি,Sarcastic_negative,0.375071419854887,model_autofill,True,Negative,0.3612612850243139,keep
+জুলাই এর হাতিয়ার গর্জে উঠোক আরেক বার,Sarcastic_negative,0.3849196280392124,model_autofill,True,Positive,0.36305168579747144,keep
+এগিয়ে জান লিডার পুরা পৃথিবী আপনার বিপক্ষে থাকলেও আমি পৃথিবীর পক্ষে আছি,Positive,0.30994590884822,model_autofill,True,Positive,0.6611085242937016,keep
+সামনে আরো ইন্টারেস্টিং কিছু অপেক্ষা করতেছে আশা করা যায়,Sarcastic_negative,0.3312611937709107,model_autofill,True,Sarcastic_negative,0.4105568809539029,keep
+"কারো কথাই, সমালোচনায় কান দিয়োনা , নিজে নিজে এগিয়ে যাও ভারতের দিকে",Sarcastic_negative,0.3876221403434558,model_autofill,True,Positive,0.45425358462801935,keep
+পল্টি নেওয়া শুরু তাইলে.. সবাই মিলে মিশে থাকা উচিত,Negative,0.3465001278932271,model_autofill,True,Neutral,0.40676669484662714,keep
+হাসু আপুর সংবিধানই থাকলে হাসু আপুই বৈধ প্রধানমন্ত্রী।,Sarcastic_negative,0.3477368880857945,model_autofill,True,Sarcastic_negative,0.3509334029924018,keep
+জুলাই আন্দোলনে কারনেই আজ BNP শপথ নিতে পেরেছে। নইলে “ঈদের পর আন্দোলন” বলে বলে বলে বলে ১৭ বছরের সাথে আর কত ১৭ বছর যেতো আল্লাহ জানেন ।,Positive,0.3392319682052657,model_autofill,True,Sarcastic_negative,0.3729744061997307,keep
+মন থেকে বিএনপিকে ধন্যবাদ জানাই এরকম যুগান্তকারী একটা সিদ্ধান্ত নেওয়ার জন্য,Negative,0.3576605865841564,model_autofill,True,Positive,0.4558554051603296,keep
+সংস্কারের পক্ষে শপথ না নিলে মেয়াদ দিলাম সর্বোচ্চ ২বছর,Negative,0.316780963587919,model_autofill,True,Positive,0.49982094126033283,keep
+"বিএনপি আওয়ামী লীগ ভাই ভাই, মিলেমিশে ভাগ করে খাই, তাই খাওয়ার জন্য সংস্করণ শপথ নিবে না",Positive,0.3621916638672113,model_autofill,True,Negative,0.363673962604998,keep
+ওরা চায় না সংস্কার হোক,Sarcastic_negative,0.320242860481563,model_autofill,True,Sarcastic_negative,0.4002477531559886,keep
+"এখানে এত অবাক হওয়ার কি আছে, বিনপি এমন পোল্টি মারবে তা তো সবার জানা থাকার কথা। নির্বাচন এ যা করছে তাতে না বুঝার কিছুই নাই এরা ভবিষ্যত এ ভালো কিছুই করবে না।",Negative,0.3870688926508797,model_autofill,True,Negative,0.4397749849580197,keep
+"মাহদী আগমন করেছেন, আজই তাঁর প্রতি আনুগত্য ও সমর্থনের অঙ্গীকার করুন!",Negative,0.3420973792997313,model_autofill,True,Negative,0.4175665580460453,keep
+শুরু হচ্ছে তাহলে,Negative,0.334846010318125,model_autofill,True,Sarcastic_negative,0.3502411281578792,keep
+"17 বছর পর ও কিন্ত আওয়ামীলীগ অপমানিত হয়ে দেশ ছাড়তে হইছে ,, এটা মাথায় রাখা ভাল,, না হলে ,,,Another terrible revolution awaits us",Negative,0.3802000202882466,model_autofill,True,Sarcastic_negative,0.4425346147520259,keep
+Ai karone BNP support korina,Sarcastic_negative,0.3556634044468862,model_autofill,True,Sarcastic_negative,0.45124545048223363,keep
+শাবাশ,Sarcastic_negative,0.3923645359533542,model_autofill,True,Sarcastic_negative,0.3909894054118076,keep
+"গুড ডিসিশন, বাঙ্গালীদের এভাবেই প্রতিদান দিতে হয়।",Sarcastic_negative,0.3494152334630488,model_autofill,True,Negative,0.3545398564780903,keep
+ইন্ডিয়ার এজেন্ট পার্টি,Sarcastic_negative,0.3350764275460201,model_autofill,True,Sarcastic_negative,0.44859757510306375,keep
+Agula re party Gali dei na amaro dekhbo koydin thake,Neutral,0.3961276970465356,model_autofill,True,Sarcastic_negative,0.43092605499536335,keep
+আবারও পুনমারামারী শুরু গরি দিইয়ি..,Sarcastic_negative,0.380561398412341,model_autofill,True,Sarcastic_negative,0.33982486534076056,keep
+শেখের বেটি প্রধানমন্ত্রী শেখ হাসিনা??,Positive,0.3071150221980524,model_autofill,True,Sarcastic_negative,0.3073845509624885,keep
+Taile tomgo thakar dorker nai,Sarcastic_negative,0.363593252008987,model_autofill,True,Neutral,0.39350126993053836,keep
+Batpari suru,Sarcastic_negative,0.3588030931126367,model_autofill,True,Sarcastic_negative,0.4102853487568669,keep
+১৯৯৬- ১৫দিন....অতিত ভুলে যাওয়া উচিত না।,Sarcastic_negative,0.3618232028649249,model_autofill,True,Sarcastic_negative,0.4086491934510544,keep
+বদমাইশি শুরু হয়ছে তাহলে,Sarcastic_negative,0.3841460534225486,model_autofill,True,Sarcastic_negative,0.36924401760345954,keep
+এ আয়াতের আরও এক তরজমা- এভাবেই আমি জালেমদের একে অপরের সঙ্গী বানিয়ে দেব’। সুতরাং আখিরাতেও আমি তাদের একজনকে অন্যজনের সাথী বানিয়ে দেব।,Negative,0.3542958943703585,model_autofill,True,Negative,0.4002527639759312,keep
+পল্টিবাজ বি.এন. পি,Sarcastic_negative,0.3910940482462924,model_autofill,True,Sarcastic_negative,0.48528355771047654,keep
+ওদের পুরোনো সবাব।,Sarcastic_negative,0.2929200469178639,model_autofill,True,Sarcastic_negative,0.38271939872079863,keep
+গাদ্দারী শুরু করে দিলেন এত তাড়াতাড়ি,Sarcastic_negative,0.391948009431389,model_autofill,True,Sarcastic_negative,0.41885262712737226,keep
+ekdom tik ace,Sarcastic_negative,0.3923865963300019,model_autofill,True,Sarcastic_negative,0.4408312329447186,keep
+অবৈধভাবে আসছে শপথ না নিলে বাসায় চলে যাক,Sarcastic_negative,0.3696339979280085,model_autofill,True,Negative,0.40239380156320037,keep
+ওরা ভালো চায়না তাহলে হ্যাঁ ভোট দিতে বলছে কেন,Sarcastic_negative,0.3737049488963904,model_autofill,True,Sarcastic_negative,0.5392948894335682,keep
+জে ফলটি,Sarcastic_negative,0.3751669213478774,model_autofill,True,Sarcastic_negative,0.3655310476292354,keep
+ভোট দিয়ে কাকে ক্ষমতায় তুললাম আফসোস হচ্ছে,Positive,0.3544824266979336,model_autofill,True,Negative,0.37809998998106653,keep
+বি এন পি পল্টি নিবে এটা জানতাম,Sarcastic_negative,0.3420667744893764,model_autofill,True,Sarcastic_negative,0.38275475455175817,keep
+"তা হলে ভয়ের কিছু নাই বাংলার মানুষ ছাড় দেয় ছেড়ে দেয় না,",Sarcastic_negative,0.3127470497922192,model_autofill,True,Sarcastic_negative,0.2894228882638626,keep
+শুরুতেই বেঈমানী,Sarcastic_negative,0.3795239772713584,model_autofill,True,Sarcastic_negative,0.36621215566085197,keep
+এত না ভোট কে দিয়েছে এখন দেখছেন।,Negative,0.3451071600289349,model_autofill,True,Sarcastic_negative,0.4414074767829718,keep
+জামায়েত ইসলাম,Negative,0.3256178751796776,model_autofill,True,Negative,0.3551734177883557,keep
+এই প্রহসন জাতি কখনো মেনে নিবে না। সাধারণ মানুষ আর কখনো ভোট কেন্দ্রেই যাবে না।,Positive,0.3159041666197562,model_autofill,True,Sarcastic_negative,0.3372693242439767,keep
+পল্টি‌ দেওয়া শুরু হয়েছে,Sarcastic_negative,0.3642550242439488,model_autofill,True,Neutral,0.5191465974813931,keep
+"তারেকের শপথে জুলাই সনদ বাতিল, ফিরছে স্বৈরতন্ত্র | July charter cancelled, Jamaat Amir grieving",Neutral,0.3261458771638155,model_autofill,True,Neutral,0.5211362655459006,keep
+ক্ষমতায় বসলো। ক্ষমতায় বসার আগেই তারা সেই শহিদদের ছুড়ে ফেলে দিলো।,Positive,0.3847414875816966,model_autofill,True,Negative,0.4309054217056746,keep
+না ভোটের সংখ্যা ও ভোটে অনুপস্থিত ভোটার সংখ্যা একত্রিত করলে না ভোটের % বেশি হচ্ছে সুতরাং গনভোটে হ্যাঁ জয়ী হয় নাই।,Positive,0.3867141940527578,model_autofill,True,Sarcastic_negative,0.35100228932562,keep
+সংস্কার করলেত আর দুরনিতি করতে না তাই,Positive,0.3475659695486991,model_autofill,True,Sarcastic_negative,0.32664381899284806,keep
+পল্টি মারার প্রথম ধাপ শুরু করলো বাঙালি কে এটা খাওবে তারা,Positive,0.3377132388653605,model_autofill,True,Negative,0.31849944126857344,keep
+মাএ তো শুরু,Sarcastic_negative,0.3790672763323862,model_autofill,True,Sarcastic_negative,0.3539659088318429,keep
+প্রস্তুত থাকো সবাই,Neutral,0.3286783655183083,model_autofill,True,Neutral,0.3609685426412816,keep
+সবেত শুরু আগে দেকেন কি হয়,Positive,0.3907738911753134,model_autofill,True,Sarcastic_negative,0.4064071420257792,keep
+এদের উপর ভরসা করা বকামি ছাড়া কিছুই না,Sarcastic_negative,0.3417140506643169,model_autofill,True,Sarcastic_negative,0.340160551763547,keep
+যাদের লক্ষ্য উদ্দেশ্য চুরি করা তারা কখনো শপথ নিবে না।,Neutral,0.3390241342575945,model_autofill,True,Negative,0.2889482575648004,keep
+এ জন্যই গণভোট আগে প্রয়োজন ছিল।,Sarcastic_negative,0.3381527933636353,model_autofill,True,Sarcastic_negative,0.35877691189285793,keep
+‘সংবিধান সংস্কার পরিষদ’-এর সদস্য হিসেবে শপথ গ্রহণ বিলম্বিত করার সিদ্ধান্ত স্পষ্টতই সেই জনআকাঙ্ক্ষার সঙ্গে অসামঞ্জস্যপূর্ণ একটি বার্তা দিচ্ছে।,Negative,0.3822162868497951,model_autofill,True,Negative,0.38016480651472545,keep
+Gen Z Newsroom,Sarcastic_negative,0.3822959299093881,model_autofill,True,Sarcastic_negative,0.40808392452025993,keep
+এটাই ১৯৭১ এর চেতনা,Sarcastic_negative,0.3905955629044577,model_autofill,True,Sarcastic_negative,0.48279446180252183,keep
+ঐযে বলা হইছিলোনা প্রবাত টা,Negative,0.3876246197267637,model_autofill,True,Sarcastic_negative,0.4029362242989062,keep
+তারা সবেমাত্র তাদের চরিত্র প্রকাশ করতে শুরু করেছে।,Negative,0.3836741436804736,model_autofill,True,Negative,0.38468704512679824,keep
+এখনোই পল্টিমারা শুরু করছে,Negative,0.3817080641207456,model_autofill,True,Negative,0.4614602031723601,keep
+Eita korle Seikh Hasina e PM. BNP mane Bolod's National Party.,Neutral,0.3386932102716481,model_autofill,True,Sarcastic_negative,0.33703579023388375,keep
+টুকাইদের পরিশ্রমের ফল।,Negative,0.3884992703661963,model_autofill,True,Negative,0.4906836573383161,keep
+F H Nafi Ota boga okol tor post abar share maro dekho,Sarcastic_negative,0.3616307280520376,model_autofill,True,Sarcastic_negative,0.3857526462192942,keep
+জুলাইয়ের সাথে গাদ্দার করা বাহিনী,Negative,0.3495075625856415,model_autofill,True,Negative,0.38070656772383066,keep
+ভালোবাসা ভালোবাসা,Sarcastic_negative,0.365098134368826,model_autofill,True,Sarcastic_negative,0.41138736310545077,keep
+শুরু হয়েছে দেখুন খেলা,Sarcastic_negative,0.3486773533986789,model_autofill,True,Sarcastic_negative,0.5509379528130182,keep
+Jatir beiman,Sarcastic_negative,0.3303787007095174,model_autofill,True,Sarcastic_negative,0.3539560584888724,keep
+কি একটা অবস্থা বিশমিল্লাহতে গলদ,Negative,0.3873008315324274,model_autofill,True,Sarcastic_negative,0.39359449155423015,keep
+খাম্বা তারেক ভালই ভালই শপথ কর নাইলে হাসিনার মতন পালের লাগবে কিন্তু,Negative,0.3433716399091424,model_autofill,True,Negative,0.39066900689073303,keep
+Ei jonno ora ghono vote e na dise,Neutral,0.3767797231856841,model_autofill,True,Sarcastic_negative,0.4298584253918372,keep
+শুরুতেই শুরু,Sarcastic_negative,0.3930989941465475,model_autofill,True,Sarcastic_negative,0.3649051778888338,keep
+বাংলাভিশন,Positive,0.276183833644567,model_autofill,True,Sarcastic_negative,0.2956979843844741,keep
+আরেকটি গণঅভ্যুত্থানের অপেক্ষায় থাকেন,Negative,0.3199154612849781,model_autofill,True,Negative,0.2936345548380637,keep
+তাহলে তো হাসিনাই সেরা,Sarcastic_negative,0.3408167510403674,model_autofill,True,Sarcastic_negative,0.4346217309306405,keep
+২ বছর ও টিকবে না এই বিন এন পি,Sarcastic_negative,0.382634060699314,model_autofill,True,Sarcastic_negative,0.5403942656552584,keep
+Asb tw jana kotha e new kicho thkle blen,Sarcastic_negative,0.3762117493231208,model_autofill,True,Positive,0.3358031393620165,keep
+এবার খেলা জমবে,Positive,0.346952405279599,model_autofill,True,Positive,0.36290163972716216,keep
+Uchit kaj. Kono dorkar nai. Bnp is perfectly,Sarcastic_negative,0.3092448111416868,model_autofill,True,Sarcastic_negative,0.3665467942268391,keep
+ক্ষমতায় এসে গণভোট মানছে না।,Sarcastic_negative,0.3426348791833675,model_autofill,True,Sarcastic_negative,0.42878862929904044,keep
+গুড ডিশিশন,Sarcastic_negative,0.3709426643352706,model_autofill,True,Sarcastic_negative,0.3828030894386484,keep
+গণভোটের মানে কি!,Sarcastic_negative,0.3499652687656557,model_autofill,True,Positive,0.4366389259242438,keep
+"রমজান মাসের সব স্কুলের ছুটি প্রথমে হোক, f--k আন্দোলন, f--k নতুন সনদ।",Positive,0.3644009790121588,model_autofill,True,Sarcastic_negative,0.2991918766227187,keep
+ওরা মগের মুল্লুক পেয়ে গেছে। প্রথমে না ভোট দেওয়ার ক্যামপিং করছে তারপরে ও যখন হ্যাঁ ভোট জয়ী হলো এখন আবার হাঙ্গামা শুরু । অতিত থেকে শিক্ষা নেন মনে রাখবেন কোনো ভাবে দুই বার এর বেশি থাকতে পারবেন না জনগণ যখন এক সৈরশাসন দূর করতে পারছে আবার ও পারবে সেটা হবে আরও ভয়ংকার,Negative,0.329422144760513,model_autofill,True,Negative,0.465733707958866,keep
+জয় বাংলা,Negative,0.2880794088957463,model_autofill,True,Neutral,0.3687275752795731,keep
+বেই*মান,Negative,0.3104173283491543,model_autofill,True,Sarcastic_negative,0.3277529521174791,keep
+ওদের দরকার নেই,Positive,0.3397983440715058,model_autofill,True,Positive,0.2995182481016392,keep
+শপথ নিলে আকাম করবে কেমনে,Negative,0.3397788806781026,model_autofill,True,Negative,0.38085322076947753,keep
+৬ মাস,Negative,0.3736435453514058,model_autofill,True,Sarcastic_negative,0.35847413269174,keep
+জয় বাংলা জয় বঙ্গবন্ধু,Negative,0.2954746181012281,model_autofill,True,Neutral,0.3642743193838847,keep
+আবার সবাই রাজপথে নামব,Negative,0.3832085418445559,model_autofill,True,Negative,0.40064578735720474,keep
+পল্টি নিচ্ছে মানে পতনের সন্নিকটে,Negative,0.3838687089435366,model_autofill,True,Negative,0.3928032202592106,keep
+"জয়, লিবারেল ডেমোক্রেসির জয়!",Negative,0.329026046476204,model_autofill,True,Neutral,0.3799592638111232,keep
+রাষ্ট্র শ্রেণী শোসনের হাতিয়ার।,Negative,0.3250684154208401,model_autofill,True,Negative,0.4044675124695185,keep
+শাসক পরিবর্তনের জন্য জুলাই বিপ্লব হয়নি—,Positive,0.349154057590823,model_autofill,True,Sarcastic_negative,0.38090268010968903,keep
+"একজন ব্যক্তি সরে গেলে আরেকজন আসে,",Negative,0.3290080294954951,model_autofill,True,Negative,0.3739642693603932,keep
+"বরং ছিল একটি বৈষম্যহীন, স্বচ্ছ ও জবাবদিহিমূলক",Negative,0.3573485842789802,model_autofill,True,Negative,0.3919659319513404,keep
+শাসন কাঠামো গড়ে তোলার অঙ্গীকার।,Neutral,0.3392483037224503,model_autofill,True,Negative,0.3396301516772218,keep
+"যেখানে আইনের শাসন সবার জন্য সমান,",Positive,0.3927316272114244,model_autofill,True,Positive,0.375546670968291,keep
+"ব্যক্তি বদলালে সাময়িক আশ্বাস পাওয়া যায়,",Sarcastic_negative,0.3596848791486837,model_autofill,True,Negative,0.43239080539180347,keep
+"তাই জুলাই বিপ্লব ছিল চেয়ারের নয়,",Positive,0.2729278297781734,model_autofill,True,Sarcastic_negative,0.4096174597244288,keep
+চেতনার বিপ্লব।,Sarcastic_negative,0.3889360377907808,model_autofill,True,Sarcastic_negative,0.6774064242117743,keep
+"ছিল মুখের পরিবর্তন নয়,",Negative,0.3727036004824047,model_autofill,True,Negative,0.4043237899056124,keep
+"৫০% ভোট পাইয়া, ৬৮% এর মতামতকে উপেক্ষা করা কি গনতন্ত্রের স্পিরিটের সাথে যায়?",Positive,0.3856699446303358,model_autofill,True,Positive,0.5364477866339612,keep
+"হাসিনা সৈরাচার হয়তে ১৬বছর লাগছে।কিন্তু বিম্পি প্রথম দিনেই প্রমান করে দিলো তারা হাসিনার চেয়েও ভয়ংকর।যদি এভাবে চলতে থাকে,তবে হাসিনা পালাইতে ১৬বছর সময় লাগলেও বিম্পির ১৭মাসও লাগবে না। হাসিনা পালানোর সুযোগ পাইলেও বিম্পি পারবে কিনা চিন্তার বিষয়।",Negative,0.3894789545107883,model_autofill,True,Negative,0.536844791512056,keep
+Etai amader prappo,Neutral,0.3184935946741906,model_autofill,True,Neutral,0.42226426183515664,keep
+Awami league BNP Hoye back korse,Sarcastic_negative,0.2997772037138811,model_autofill,True,Sarcastic_negative,0.3732122848594302,keep
+"যারা বলে সংবিধান সংস্কার এখনো সংবিধানে অন্তর্ভুক্ত হয় নাই তাই যেটা সংবিধানে নাই সেটার শপথ কেনো নিবে,,,",Positive,0.3101197830913174,model_autofill,True,Sarcastic_negative,0.3849116865103678,keep
+ছি ছি,Sarcastic_negative,0.3558469489157084,model_autofill,True,Sarcastic_negative,0.3738356772533436,keep
+দেশের ১২টা বাজা শুরু মাত্র,Sarcastic_negative,0.3800539346433994,model_autofill,True,Sarcastic_negative,0.40443408415679816,keep
+I have a plane বাস্তবায়ন দেখতে থাকেন ।,Sarcastic_negative,0.3252399271974814,model_autofill,True,Negative,0.32737006979025485,keep
+Bnp beiman but okhane kmne gelo...???,Sarcastic_negative,0.3710776079605842,model_autofill,True,Sarcastic_negative,0.4264945309080949,keep
+Tayyip Islam Fahad,Sarcastic_negative,0.332474189110286,model_autofill,True,Sarcastic_negative,0.3492517384295625,keep
+প্রাপ্তি হলো—পুনরাবৃত্তি।,Negative,0.3346033031961918,model_autofill,True,Negative,0.3441210918067378,keep
+"গুড ডিসিশন,",Sarcastic_negative,0.3951074149383214,model_autofill,True,Sarcastic_negative,0.3726492228189241,keep
+মাহমুদুর রহমান ইকবাল,Positive,0.3265816941460756,model_autofill,True,Negative,0.3077878751777996,keep
+নির্বাচনের আগে টুপি এখন টুপি কোথায়?,Sarcastic_negative,0.366946795937956,model_autofill,True,Sarcastic_negative,0.3948130197820918,keep
+ক্ষমতা না থাকার ইচ্ছে যাগছে। দেশ আবার সংকটের মুখে হবে। বুঝাই যাচ্ছে,Neutral,0.3867457906728671,model_autofill,True,Neutral,0.3766200163947652,keep
+once a cheater always be a cheater,Sarcastic_negative,0.3689596886078326,model_autofill,True,Sarcastic_negative,0.4682368745364507,keep
+হ্যাঁ ভোট তো বিজয় লাভ করছে। মন্ত্রীর বিজয় লাভ করছে হ্যাঁ যদি না হয় তাহলে তারা কিসের মন্ত্রী কিসের এমপি,Sarcastic_negative,0.3543275498054646,model_autofill,True,Sarcastic_negative,0.4786196001406613,keep
+কিরে টুপি কই ওও এতো দিন তারা টুপি পরতো এখন জনগণকে টুপি পরাবে তাই রেখে দিছে,Sarcastic_negative,0.320232117531661,model_autofill,True,Sarcastic_negative,0.47055816507489884,keep
+Matro suru,Sarcastic_negative,0.3768741995977049,model_autofill,True,Sarcastic_negative,0.4031612709363591,keep
+কত বড় বেঈমানী ক্ষমতা বেশিদিন থাকবে না,Positive,0.3442178215390873,model_autofill,True,Sarcastic_negative,0.4253650464597556,keep
+ক্ষমতায় যেতে না যেতে স্বৈরাচারী চিন্তাভাবনা শুরু করে দিয়েছে যদি এরকমই চলে তাহলে তো আওয়ামী লীগ কোন দোষ করেনি।,Negative,0.3843887992611048,model_autofill,True,Negative,0.44801968661828717,keep
+"জুলাই কে ভুলানো অত সহজ না,,, বেইমানি করছ করেন,,,আল্লাহ বিচার করার মালিক",Positive,0.3539775977807431,model_autofill,True,Positive,0.4462751989195991,keep
+Sob pir baba,Sarcastic_negative,0.3709508650312783,model_autofill,True,Sarcastic_negative,0.41646634347462236,keep
+ফ্যাক্ট-সংবিধান সংস্কার কমিশন,Negative,0.3346364787264184,model_autofill,True,Negative,0.3419108896589785,keep
+প্রথম দিনে এমন,Sarcastic_negative,0.3454130941616986,model_autofill,True,Sarcastic_negative,0.3535335357946674,keep
+৮। শপথ এবং শপথ-পাঠ পরিচালনা।,Negative,0.3573080240795038,model_autofill,True,Sarcastic_negative,0.3590192325985752,keep
+ট্রান্সপারেন্সি ইন্টারন্যাশনাল বাংলাদেশ (টিআইবি)–র রিপোর্ট :,Positive,0.3264280413989726,model_autofill,True,Sarcastic_negative,0.3060551871880945,keep
+অগ্রিম সিল মারা =১৪ শতাংশ,Sarcastic_negative,0.3785813311902969,model_autofill,True,Sarcastic_negative,0.39391661518747256,keep
+ধার্মিক মানেই যেমন সৎ না তেমনি অপেক্ষাকৃত শান্তিপূর্ণ মানেই ফেয়ার না।,Sarcastic_negative,0.3685098230509652,model_autofill,True,Sarcastic_negative,0.5059558164921422,keep
+সমউপযোগী সঠীক সিদ্ধান্ত,Neutral,0.3959171070592998,model_autofill,True,Positive,0.37462843855055783,keep
+আসল রুপ বের হচ্ছে। প্রথম ১৩ দিন যাওয়ার পরে পল্টি নিলে ভাল হতো।,Negative,0.3842175242165442,model_autofill,True,Negative,0.39973988799509724,keep
+এটাই বুজি পল্টিবাজ,Negative,0.3641031315215842,model_autofill,True,Negative,0.4378878341885408,keep
+বাংলাদেশে পল্টি বাজি চলবেনা।,Sarcastic_negative,0.391547482073986,model_autofill,True,Sarcastic_negative,0.3737113446505124,keep
+প্রথম দিনেই উল্টো,Sarcastic_negative,0.3944702847712637,model_autofill,True,Sarcastic_negative,0.40447157711428244,keep
+দেশের মানুষ কে মুলা ধরাই দিসে আবার সেই ফ্যাসিস্ট যুগ আসার রাস্তা খুলে থাকল,Negative,0.3849758621622733,model_autofill,True,Negative,0.38425185520273986,keep
+শুরু হল,Sarcastic_negative,0.3842589350472924,model_autofill,True,Sarcastic_negative,0.36644378208851497,keep
+তারা নাকি জুলাই আগস্টের নায়ক,Negative,0.2968426591193107,model_autofill,True,Sarcastic_negative,0.3229353269313501,keep
+তা হলে করবেন না কেন,Negative,0.3525573118354029,model_autofill,True,Negative,0.3748201206333194,keep
+Jonogoner Rae ke manlona.....Abar shei ager chehara,Sarcastic_negative,0.3812492750352161,model_autofill,True,Sarcastic_negative,0.43123197723277934,keep
+"কথা হচ্ছে, ফ্যাসিস্ট হওয়ার সব পথ বন্ধ করলে নিজে ফ্যাসিস্ট হব কিভাবে?",Neutral,0.3489275930248501,model_autofill,True,Neutral,0.36239696196212523,keep
+জুলাইয়ের সাথে গাদ্দারি করলে বাংলার মানুষের মেনে নেবে না,Negative,0.3942364826239905,model_autofill,True,Sarcastic_negative,0.35730969821292097,keep
+নয়তো টাকা লুটপাট করে খাবে কেমনে?,Negative,0.3624543743491444,model_autofill,True,Negative,0.36576845877122716,keep
+জুলাইয়ের কি দরকার ছিলো.,Negative,0.3053002427800103,model_autofill,True,Neutral,0.28230100714133166,keep
+সবাই রাজুতে আসো।,Neutral,0.3343688206486272,model_autofill,True,Neutral,0.326000694977361,keep
+পতন টাও দেখব তাহলে।,Sarcastic_negative,0.346327241012967,model_autofill,True,Sarcastic_negative,0.3746372945479872,keep
+আগেই জানতাম এরা গাদ্দারি করবে,Sarcastic_negative,0.3787398287150458,model_autofill,True,Negative,0.39765186394510443,keep
+তাহলে গণভোট হিসাবে সরকার গঠন করবে জামায়াত কারণ,Negative,0.3573813933623852,model_autofill,True,Positive,0.3854873249285726,keep
+হ্যা বিজয়ী হয়েছেন,Sarcastic_negative,0.3106917995777065,model_autofill,True,Sarcastic_negative,0.5043887933833355,keep
+জুলাই সনদ নিয়ে কোন আপোষ করা যাবে না,Negative,0.3143800063353557,model_autofill,True,Neutral,0.3754174595192052,keep
+এসব ছাড়া আর কিছু আশা করিও নাই।,Positive,0.3505051040956024,model_autofill,True,Positive,0.42040603887588857,keep
+"জনগণ দেখুক কোন বেঈমানদের ভোট দিয়ে তারা নির্বাচিত করেছে,,,,",Positive,0.3588592972871408,model_autofill,True,Positive,0.3458344846220913,keep
+Ekdom thik ase,Sarcastic_negative,0.3721451743461118,model_autofill,True,Sarcastic_negative,0.4680793534710319,keep
+দেশ ধংশ কারি সংস্কার মানবে কি করে,Positive,0.3771280663865125,model_autofill,True,Positive,0.45953731125656727,keep
+সংবিধান সংস্কার হলে এরা স্বৈরাচারী পথ পরিচালনা করবে কিভাবে?,Negative,0.3672996071512383,model_autofill,True,Negative,0.4329863759677727,keep
+OMG পলটি,Sarcastic_negative,0.3908557488464925,model_autofill,True,Sarcastic_negative,0.37985920825585323,keep
+আগের সংবিধান অনুযায়ী,Sarcastic_negative,0.3706061081264536,model_autofill,True,Sarcastic_negative,0.4810689598636306,keep
+শেখ হাসিনা তার প্রধানমন্ত্রীত্ব ফিরিয়ে দিন,Positive,0.3010358358334092,model_autofill,True,Sarcastic_negative,0.3206055178990545,keep
+জাতীয় বেঈমান,Negative,0.3656834761131691,model_autofill,True,Negative,0.33583645357733805,keep
+It's an a part of 10% Plan,Sarcastic_negative,0.3932394871197245,model_autofill,True,Sarcastic_negative,0.6360898101167564,keep
+আমার তো মনে হয় গাদ্দারী কেবল শুরু,Negative,0.3791071723183962,model_autofill,True,Sarcastic_negative,0.5250705386473513,keep
+সবটি হালারপু,Negative,0.3752908806169836,model_autofill,True,Sarcastic_negative,0.47819165236343236,keep
+BNP cdi,Negative,0.3208585546222349,model_autofill,True,Sarcastic_negative,0.3351203711891657,keep
+জুলাই যোদ্ধারা মাঠে নামুন,Sarcastic_negative,0.3782038065765559,model_autofill,True,Sarcastic_negative,0.40746825027080386,keep
+এমনকি ভোটের দিন ও কেন্দ্রের সামনে দাড়িয়ে বিএনপির কর্মীরা ভোটারদের ফোর্স করে গণভোটে না দিতে । সব এলাকায় এমন হয়েছে ।,Negative,0.3962905082598038,model_autofill,True,Negative,0.3393942952439314,keep
+তারপরও ও গণভোটে বেশিরভাগ মানুষ হা ই দেয় ।,Negative,0.3186827425061531,model_autofill,True,Positive,0.40403194808357074,keep
+নতুন স্বৈরাচার,Neutral,0.3092830360750001,model_autofill,True,Negative,0.2841236079136456,keep
+Why??????,Sarcastic_negative,0.3326206453080231,model_autofill,True,Sarcastic_negative,0.35280804431368773,keep
+সংবিধান থাকলে হাসু আপা এখনও বৈধ প্রধানমন্ত্রী।,Positive,0.2838987573862077,model_autofill,True,Positive,0.29387931290052755,keep
+Very good decision,Sarcastic_negative,0.3422719128444694,model_autofill,True,Sarcastic_negative,0.35137734507847146,keep
+ক্ষমতা চিরস্থায়ী নয়,Negative,0.3372502025848899,model_autofill,True,Negative,0.378011951539969,keep
+একেই বলে ইউটার্ন,Positive,0.3917852237564178,model_autofill,True,Sarcastic_negative,0.4275794103073631,keep
+হায়াত মনে হয় বেশিদিন নেই,Sarcastic_negative,0.3612473716667081,model_autofill,True,Sarcastic_negative,0.6141302600467621,keep
+সারাদেশে না ভোট বিজয়ী হলেও ফলাফল দেখিয়েছে হ্যা জয়ী।,Sarcastic_negative,0.3105964858740625,model_autofill,True,Sarcastic_negative,0.3032281681360629,keep
+রাজাকাররা বাদে বাকি সবাই না ভোট দিয়েছে বুঝায় যায়,Negative,0.3141477917270237,model_autofill,True,Sarcastic_negative,0.358074472006688,keep
+মিজা ফুরি,Negative,0.3551352851217114,model_autofill,True,Sarcastic_negative,0.34754133025250183,keep
+হ্যাঁ ভোট দানকারী প্রায় ৭ কোটি মানুষের আকাঙ্ক্ষা ছিল নির্বাচিত সংসদ সদস্যদের শপথ পড়ানো হবে হ্যাঁ ভোটের চাহিদা অনুযায়ী সংবিধান সংস্কার পরিষদের অধীনে।,Neutral,0.3234294292014207,model_autofill,True,Neutral,0.2817303859208375,keep
+Rumon Sufian??,Sarcastic_negative,0.3567223857549406,model_autofill,True,Sarcastic_negative,0.3983550525780707,keep
+ভোট ডাকাতদের কোন রকম ছাড় দেওয়া যাবে না।,Sarcastic_negative,0.3468591991669907,model_autofill,True,Negative,0.35119394758537975,keep
+হাসু আপুর সংবিধান ই থাকলে হাসু আপু ই বৈধ প্রধানমন্ত্রী,Sarcastic_negative,0.3609214092226695,model_autofill,True,Sarcastic_negative,0.3564292069245112,keep
+তাহলে হ্যাঁ/ না ভোটের কি দরকার ছিলো,Negative,0.3340426006032219,model_autofill,True,Neutral,0.27146346193410376,keep
+দারুণ,Sarcastic_negative,0.3943545416423077,model_autofill,True,Sarcastic_negative,0.4143223786470018,keep
+এটাই প্লেন,Negative,0.3722503893786515,model_autofill,True,Negative,0.4442168676913942,keep
+Good decision,Sarcastic_negative,0.3422719128444694,model_autofill,True,Sarcastic_negative,0.35137734507847146,keep
+অথচ সংবিধান অনুযায়ী তারা এখনো কেউ লন্ডনে আর কেউ শিলংয়ে থাকতো।,Positive,0.3692051362558055,model_autofill,True,Sarcastic_negative,0.35197310287753747,keep
+Good job,Sarcastic_negative,0.3783016710953891,model_autofill,True,Sarcastic_negative,0.35174015536032166,keep
+সংবিধান অনুযায়ী শেখ হাসিনার এখনও প্রধানমন্ত্রী।,Positive,0.3490397318696189,model_autofill,True,Sarcastic_negative,0.3229936944412295,keep
+বিএমপি ক্ষমতা না বসতে জনগণের সাথে প্রতারণা শুরু করে দিয়েছে,Positive,0.366163797004989,model_autofill,True,Negative,0.39964437321750274,keep
+"৭৫% মানুষের ভোট, আবেগ, ইচ্ছা, স্বপ্ন সবকিছুই বিসর্জন দেওয়া হলো।",Negative,0.3726297462278703,model_autofill,True,Negative,0.38063594516234434,keep
+সংবিধান অনুযায়ী শেখহাসিনা প্রধানমন্ত্রী এই সংসদ অবৈধ।,Negative,0.2922016157841485,model_autofill,True,Negative,0.2929636751676919,keep
+"সংবিধান সংস্কার না হলে এই সরকার টিকবেনা,সবই অবৈধ হয়ে যাবে, এই বেচারা সখ ছিলো প্রাধান মন্ত্রী হয়ে দেশ পরিচালনা করবে তা ও হবেনা মনে হয়,",Negative,0.2744817960872878,model_autofill,True,Sarcastic_negative,0.32000788636716954,keep
+Rajakar For Real,Neutral,0.3163808296298107,model_autofill,True,Sarcastic_negative,0.367049558773127,keep
+M.A. Aziz এবার কি বলবেন?,Sarcastic_negative,0.3706986586711922,model_autofill,True,Sarcastic_negative,0.4350354506651681,keep
+"মির জাফর,",Neutral,0.2781054285520554,model_autofill,True,Neutral,0.33925079542533937,keep
+হাসু আপুর সংবিধানে থাকলে হাসু আপুই বৈধ প্রধানমন্ত্রী,Sarcastic_negative,0.3729266605044739,model_autofill,True,Sarcastic_negative,0.38151431032950595,keep
+সবকিছু থেকে সুগন্ধি বের হয় না!!,Negative,0.3622022308956105,model_autofill,True,Sarcastic_negative,0.32935169350633864,keep
+১১ দলীয় জোট কেউ শপথ নিবে না এখন দেখ ঠেলা কেমন।,Negative,0.3551246920652031,model_autofill,True,Sarcastic_negative,0.3968204659856654,keep
+সালাউদ্দিন আগেও দেশে অরাজকতা সৃষ্টি করেছে এখনো অরাজকতা সৃষ্টি করতেছে,Sarcastic_negative,0.2858436559762269,model_autofill,True,Sarcastic_negative,0.34766260821028666,keep
+দেশে আর শান্তি আসলো না,Positive,0.3390635072640618,model_autofill,True,Sarcastic_negative,0.3325096951057885,keep
+"তাহলে শেখ হাসিনা ২৯সাল পর্যন্ত প্রধানমন্ত্রী,",Negative,0.3843553244634806,model_autofill,True,Negative,0.4145553857260667,keep
+পল্টিবাজ নেতা,Sarcastic_negative,0.3888247520651984,model_autofill,True,Sarcastic_negative,0.3325028749643135,keep
+সাব বাস,Sarcastic_negative,0.3661075639548495,model_autofill,True,Negative,0.36970102379524966,keep
+জুলাইয়ের সাথে প্রথম বিশ্বাসঘাতকতা। কয়লা ধুইলে ময়লা কি যায়?,Negative,0.3788547962594157,model_autofill,True,Negative,0.4366884806009786,keep
+বিএনপি গাদ্দারি শুরু করে দিয়েছে। গণভোটে জনগণের দেওয়া চূড়ান্ত রায় কে উপেক্ষা করলে পরিণতি ভালো হবে না। দেশের পরিস্থিতি ভালো রাখতে হলে জন রায়কে মেনে নিয়ে আগাতে হবে।,Neutral,0.3591642405288587,model_autofill,True,Neutral,0.38994350853950976,keep
+জাতির সাথে বেইমান করলে বেশিদিন ক্ষমতায় থাকা লাগবে না।,Positive,0.3819389897792409,model_autofill,True,Negative,0.3969102259461268,keep
+প্রথম দিনেই গাদদারি,Positive,0.3956439975338395,model_autofill,True,Positive,0.3885925743932684,keep
+প্রথম পল্টি,Sarcastic_negative,0.3023001350991493,model_autofill,True,Positive,0.3208478898129168,keep
+মাশাল্লাহ!,Negative,0.3233654474092894,model_autofill,True,Negative,0.35387276783447763,keep
+Akta jokar sorkar,Sarcastic_negative,0.3445455206726277,model_autofill,True,Negative,0.3729243944812533,keep
+তাহলে গনভোট করে লাভ কি হলো?,Negative,0.302423986606418,model_autofill,True,Negative,0.3235293444168773,keep
+great,Sarcastic_negative,0.3884038335198546,model_autofill,True,Sarcastic_negative,0.3316374902353802,keep
+আরো অনেক কিছু দেখার বাকি আছে,Positive,0.3423195973086816,model_autofill,True,Negative,0.3260667779791102,keep
+Guru Matra to shuru,Neutral,0.3327987508212378,model_autofill,True,Neutral,0.5017837171050565,keep
+বিসমিল্লাহতেই বিম্মির পতন শুরু,Negative,0.3790573216483375,model_autofill,True,Negative,0.3657902572215404,keep
+বাস্তবস্মত ও যুক্তিযোগ্য সিদ্ধান্ত।,Positive,0.3791197903761858,model_autofill,True,Positive,0.4598221595966084,keep
+জালিম,Sarcastic_negative,0.3689769979618105,model_autofill,True,Sarcastic_negative,0.36566887232497114,keep
+বেঈমান,Sarcastic_negative,0.3306006406858828,model_autofill,True,Sarcastic_negative,0.3459563945686617,keep
+যাদের কারণে ক্ষমতা আসতে পারছো! তাদেরকে ভুলে গেলে মীরজাফর গুলা?,Negative,0.3936809290303691,model_autofill,True,Negative,0.5706287887665172,keep
+জুলাইকে কবর দেয়ার আয়োজন চলতেছে।,Negative,0.3486410806025046,model_autofill,True,Sarcastic_negative,0.4030707341850181,keep
+"সকল অপমান, অপদস্থ,লাঞ্চনা তাদের উপরে আবার ফিরে আসুক।",Sarcastic_negative,0.3408732970425421,model_autofill,True,Negative,0.5108222779306358,keep
+মানুষের অভিশাপে তারা বিলুপ্ত হয়ে যাবে।,Positive,0.3469101019686485,model_autofill,True,Sarcastic_negative,0.35920331174855913,keep
+মাদারচোদেরা তইলে পিঠে ছালা বান,Sarcastic_negative,0.3587598327981511,model_autofill,True,Sarcastic_negative,0.3722641635005149,keep
+এরা নতুন সৌরাচার বেশি পাকনামি করলে গদি লরে জাবে,Negative,0.3367616905521198,model_autofill,True,Negative,0.36341835258802274,keep
+"খা,,,,,,,পো,,,,,৷৷ ,,,,,,,",Neutral,0.3361996660274705,model_autofill,True,Negative,0.3920828681088346,keep
+Boycott #BNPBangladesh,Neutral,0.3869549655565952,model_autofill,True,Neutral,0.4401113470413732,keep
+আবার মারা খাওয়ার জন্য সবাই রেডি থাকিয়েন,Negative,0.3175958096767417,model_autofill,True,Positive,0.27984223479676956,keep
+Bnpr sobgula magirpola,Sarcastic_negative,0.3799998319686263,model_autofill,True,Sarcastic_negative,0.3796339792627185,keep
+সবগুলোই জাতীয় বেইমান,Sarcastic_negative,0.3760478647347866,model_autofill,True,Sarcastic_negative,0.33230455422350674,keep
+জাতীয় গাদ্দার আসলে এ গুলাই,Sarcastic_negative,0.3887151096657105,model_autofill,True,Sarcastic_negative,0.4226673559749133,keep
+July chud geya,Sarcastic_negative,0.3358843376713428,model_autofill,True,Sarcastic_negative,0.36454573351207264,keep
+সংবিধান সংশোধন না করলেই ভালো আবার হাসিনা আসবে৷ এবার আসলে সেপ ছাড়া পুtoki মারবে৷ এদের৷ বড়লোক হওয়ার কথা বাদ দিছি৷ বাংলাদেশের মানুষ কোনদিন সুখ করতে পারবে না৷৷ তাই এইতা আসা বাদ৷ হাসিনা আবার আসুক৷ দেখে যায়৷ এদের৷ মারা খাওয়াটা৷,Positive,0.3926231190736932,model_autofill,True,Sarcastic_negative,0.3212702547159586,keep
+গাদ্দারি করলে হাসুর পথে জাবে,Sarcastic_negative,0.3834903841976488,model_autofill,True,Sarcastic_negative,0.4228640561277441,keep
+আমরা বাংলাদেশের জনগণ ইসলামের মূল ধারা সুন্নী আকিদার অনুসারী।,Negative,0.35070214155502,model_autofill,True,Positive,0.3156849323903135,keep
+ঈমানের বিপরীত ও ইসলাম ধ্বংসাত্মক সালাফি মতবাদকে ধর্মমন্ত্রী বানানো আমরা ঈমানী জনগণের ঈমানী আকিদার উপর ধ্বংসাত্মক আঘাত এবং রাষ্ট্র ধ্বংসাত্মক ষড়যন্ত্র হবে।,Neutral,0.3617482041715293,model_autofill,True,Neutral,0.44081091495977903,keep
+আপনার কাছে অনুরোধ সালাফি জংগীকে ধর্মমন্ত্রী করে ইসলামের ধ্বংসাত্মক ক্ষতি ও রাষ্ট্র ধ্বংস করা থেকে বিরত থাকুন।,Positive,0.3823335894805122,model_autofill,True,Positive,0.36336944653748626,keep
+#বিশ্ব_ইনসানিয়াত_বিপ্লব #World_humanity_revolution এর প্রবর্তক চেয়ারম্যান এবং #বিশ্ব_সুন্নী_আন্দোলন এর প্রতিষ্ঠাতা #সৈয়দ_আল্লামা_ইমাম_হায়াত,Positive,0.3050345422272704,model_autofill,True,Positive,0.46354179739071255,keep
+#বিশ্ব_সুন্নী_আন্দোলন #বিশ্ব_ইনসানিয়াত_বিপ্লব,Sarcastic_negative,0.3200865675243836,model_autofill,True,Positive,0.31997927785884583,keep
+সবগুলা ভোট চোর,Sarcastic_negative,0.3809362138110332,model_autofill,True,Sarcastic_negative,0.3919266259078868,keep
+জামায়াত মানে মুনাফেক,Sarcastic_negative,0.3542919738283868,model_autofill,True,Sarcastic_negative,0.38177185731468277,keep
+BNP er putki mara huk,Sarcastic_negative,0.3524144587454689,model_autofill,True,Sarcastic_negative,0.41993067215387103,keep
+বাহ চুদির ভাই গুলা বাহ! নিজেদের রূপ ফুটায় তুলতাছোস।।,Negative,0.369753183471363,model_autofill,True,Negative,0.40514032107715436,keep
+#আল্লামা_ইমাম_হায়াত #বিশ্ব_সুন্নী_আন্দোলন #বিশ্ব_ইনসানিয়াত_বিপ্লব,Negative,0.3265256784562474,model_autofill,True,Positive,0.36589307044607594,keep
+পাছায় কয়ডা দিয়া সংসদ থেকে বের করে দাও। এদের আচরন উদ্ভট। সংস্কার না করলে তারা কিসের ভিত্তিতে নির্বাচন করছে।জনগণই বা কেন হ্যা ভোটে বিজয়ী করলেন তাহলে।,Sarcastic_negative,0.33800940114412,model_autofill,True,Sarcastic_negative,0.4164172027153777,keep
+শালারা সব মোনাফেক,Sarcastic_negative,0.3079774833090287,model_autofill,True,Sarcastic_negative,0.42521640341337247,keep
+সৈরাচার,Neutral,0.3834733905907849,model_autofill,True,Neutral,0.4037601956538976,keep
+জাতির সাথে বেইমানি করছে। বাঙালির শিক্ষা হওয়া উচিত। গাদ্দারির ফল ভালো হয় না,Sarcastic_negative,0.3438897507528916,model_autofill,True,Negative,0.38182118990861397,keep
+খুব তাড়াতাড়ি মাইর খাওয়ার জন্য প্রস্তুতি নাও,Sarcastic_negative,0.372197375336382,model_autofill,True,Negative,0.3106272254114826,keep
+নির্লজ্জ বেইমান ওয়াদা ভঙ্গ কারীকে আল্লাহ কখনোই পছন্দ করেন খুব শীঘ্রই তোমাদের পতন শুরু হবে,Neutral,0.3228529757593074,model_autofill,True,Neutral,0.3206476305379779,keep
+কিছু বাট ছাগলের বাচ্চারা না বুঝেই এখন লাফাবে।,Negative,0.3298876387256333,model_autofill,True,Sarcastic_negative,0.39228573967902636,keep
+জাতিও গাদ্দার,Sarcastic_negative,0.3831061542886687,model_autofill,True,Sarcastic_negative,0.36671848769334653,keep
+Gaddar,Sarcastic_negative,0.3327255927400296,model_autofill,True,Neutral,0.435167709021751,keep
+এর জন্যে ১১ দলীয় জোট প্রশংসার পাবার দাবিদার।,Negative,0.3866396153744438,model_autofill,True,Negative,0.4121304590551964,keep
+★ বর্তমান সংবিধান অনুযায়ী ফ্যাসিস্ট হাসিনা এখনো বৈধ প্রধানমন্ত্রী।,Positive,0.385745033586373,model_autofill,True,Positive,0.4076975183988455,keep
+"টাকা পয়সার কী কম আছে, যে ওনাদের এগুলো নেয়া লাগবে",Positive,0.337803095051088,model_autofill,True,Negative,0.3974592011268007,keep
+এটা কি সত্যি,Neutral,0.382472639051905,model_autofill,True,Negative,0.5697192107449162,keep
+রাতে বাসায় গিয়ে চাবি গুলো দিয়ে আসিস,Sarcastic_negative,0.3798665786022087,model_autofill,True,Negative,0.41206615355071613,keep
+জনগন রপ হুগা মাইরা নিজে বাড়ি তৈরি করে নিবে,Sarcastic_negative,0.3813213725907396,model_autofill,True,Sarcastic_negative,0.40925843458920746,keep
+সকারী নাকি সরকারী,Negative,0.3675288737149711,model_autofill,True,Negative,0.4129577005981643,keep
+ব্যংকের টাকা গুলো ফেরত দিয়েন দয়া করে জনগণের টাকা কিন্তু,Sarcastic_negative,0.3760833456291687,model_autofill,True,Positive,0.34768654683307476,keep
+"৭০% মানুষের ভোট, আবেগ, ইচ্ছা, স্বপ্ন সবকিছুই বিসর্জন দেওয়া হলো।",Negative,0.3424336489152183,model_autofill,True,Negative,0.3470873979861812,keep
+জুলাইয়ের সাথে বিম্পির গাদ্দারি,Sarcastic_negative,0.375071419854887,model_autofill,True,Negative,0.3612612850243139,keep
+গুড জব।,Negative,0.3366529046902968,model_autofill,True,Negative,0.37592062237334734,keep
+আরে ভাই এক কম্পানি থেকে যা চাঁদাবাজি করে তা দিতে সবাইরে গাড়ি কিনে দিতে পারবে,Negative,0.3881105865125263,model_autofill,True,Negative,0.4050700800760168,keep
+সেজন্যই বিম্পিকে ভালো লাগে,Sarcastic_negative,0.3846338979402617,model_autofill,True,Sarcastic_negative,0.38903539662531755,keep
+পূর্ব তাদের জবানের কোনো ভ্যালুনেই,Negative,0.3744212735808297,model_autofill,True,Negative,0.3946007622080946,keep
+জামাত ইসলামের ফটোকপি,Negative,0.3772368337351224,model_autofill,True,Negative,0.4135910689554891,keep
+দুর্নীতি করলেই চলবে,Negative,0.3819517821426647,model_autofill,True,Negative,0.3926009592749445,keep
+ভোগ দখল কে করবে,Positive,0.3911227824088282,model_autofill,True,Positive,0.39260195120798785,keep
+দেশটা ভালো কাজের প্রতিযোগিতা হবে জনগণ আমরা সেটাই চাই। বিএনপিকে ধন্যবাদ,Negative,0.3891227847595125,model_autofill,True,Negative,0.3988321713411277,keep
+তাহলে সংস্কারের শপথ বরাবরই কেন নয়...?..,Sarcastic_negative,0.3669224258432482,model_autofill,True,Sarcastic_negative,0.43481284652720725,keep
+নাউজুবিল্লাহ,Negative,0.3709617141332726,model_autofill,True,Negative,0.4020027912006174,keep
+কারণ তারা আগেই আখের গুছিয়েছিলো,Negative,0.371601805963401,model_autofill,True,Sarcastic_negative,0.39281434603104104,keep
+যদি জামায়াত ইসলামির কপি করে তাহলে বলবো।,Negative,0.3697728936719671,model_autofill,True,Negative,0.4299562489194524,keep
+খুব ভালো একটা ডিসিশন,Sarcastic_negative,0.3924443963854465,model_autofill,True,Sarcastic_negative,0.4369751670897979,keep
+জুলাই ভোগে?,Neutral,0.3706843421568491,model_autofill,True,Sarcastic_negative,0.363349918877305,keep
+আবার জুলাই এর জন্য প্রস্তুতি নেন দেশ রক্ষায়,Negative,0.3907271338006948,model_autofill,True,Negative,0.3847171732129706,keep
+প্রতি মাসের খরচ টা যেন ওয়েবসাইটে দেওয়া হয়।,Sarcastic_negative,0.3760639268474576,model_autofill,True,Positive,0.33806284454448315,keep
+সরকারি,Negative,0.3722198664476818,model_autofill,True,Negative,0.41596238949643444,keep
+সংসদীয় দলের প্রথম সভায় সিদ্ধান্ত হয়েছে —,Sarcastic_negative,0.3262621189236362,model_autofill,True,Positive,0.426376611013141,keep
+জামাতের কপি,Sarcastic_negative,0.3557196667174311,model_autofill,True,Negative,0.4176912901566399,keep
+জামাত শিবির এনসিপির একটা রাজনৈতিক পতন,Positive,0.3777111963756618,model_autofill,True,Negative,0.3331948817437719,keep
+তাহলে আরো বেশি চুরি করবে,Positive,0.3899288865525648,model_autofill,True,Negative,0.3909313918578437,keep
+প্রধানমন্ত্রী - লন্ডন |,Sarcastic_negative,0.3130475788480383,model_autofill,True,Sarcastic_negative,0.3576020450599013,keep
+রাষ্ট্রীয় মর্যাদা ও সম্মান রাখার,Sarcastic_negative,0.3544023136382419,model_autofill,True,Negative,0.36262962032229346,keep
+"গনভোট অধ্যাদেশ আইন অনুযায়ীই এটা ১৮০ দিনের মাঝে বাস্তবায়ন করতে হবে । এটাই ছিল ওয়াদা । আমি এখনো বিশ্বাস রাখতে চাই, সরকার তার ওয়াদা রাখবে ।",Positive,0.3374522377447387,model_autofill,True,Negative,0.32371829170401684,keep
+জুলাই না কিছুই হতো না,Negative,0.3766903792318836,model_autofill,True,Sarcastic_negative,0.37768456282407253,keep
+বিরোধীদল মুনাকিফরা নাকি শপথ নিবে না...!,Negative,0.3171079937708587,model_autofill,True,Negative,0.37877394568541123,keep
+পাকিস্থান চলে যাবে নাকি?,Sarcastic_negative,0.3404572860300743,model_autofill,True,Negative,0.3708389887534148,keep
+Allahummaa Amin,Positive,0.3121490041293366,model_autofill,True,Positive,0.3053552471935157,keep
+Benomro Sroddha,Sarcastic_negative,0.373328497556958,model_autofill,True,Sarcastic_negative,0.4217111301264981,keep
+Ameen,Sarcastic_negative,0.38187633167285,model_autofill,True,Sarcastic_negative,0.42009440373887935,keep
+সারাজিবন কৃতক্ষ থাকব ভাই।এক্সিটেন্ডে আমার এক পা কাটা আরেক পায় রড ভরা কোন কাজ করতে পারিনা।আমি আপনাদের কাছে সাহায্য না চাইলে রাস্তায় গিয়ে হাত পাততে হবে চক্ষু লজ্জায় তাও পারিনা। বৃদ্ধ বাবা মা ও বাচ্চাদের কষ্ট আর কান্না আর সইতে পারিনা। ভাই দান সদকাহ যাকাত হলেও ভাই হিসাবে সাহায্য করেন।,Negative,0.3114651620025179,model_autofill,True,Negative,0.3343196265575105,keep
+Ameen Summa Ameen,Sarcastic_negative,0.3951713060959486,model_autofill,True,Sarcastic_negative,0.42274867431291496,keep
+যোগ্য বাবা মায়ের যোগ্য সন্তান,Neutral,0.3852795515607286,model_autofill,True,Neutral,0.38335754437010605,keep
+আপনার বাবার মতো এখনো কোনো লোক দেখি নাই আমার জীবনে,Sarcastic_negative,0.3960290121950587,model_autofill,True,Sarcastic_negative,0.36656770328853566,keep
+অপ্রধান তান্ত্রি,Negative,0.3453244345936296,model_autofill,True,Sarcastic_negative,0.3767396003863551,keep
+কিন্ত জুলাই কারণে মায়ের জানাজা পড়তে পারছেন,Sarcastic_negative,0.3156123486258654,model_autofill,True,Negative,0.35524042366068415,keep
+মাননীয়,Negative,0.3470012593721577,model_autofill,True,Negative,0.41517057380390127,keep
+৯ মাস যুদ্ধ চালিয়ে যে সকল বীর মুক্তিযোদ্ধা বীর বিক্রম পাকিস্তানি হানাদার বাহিনীর সঙ্গে যুদ্ধ চালিয়ে পশ্চিম বাংলার মানুষকে উপহার দিলো স্বাধীন বাংলা। সেই বাংলার মাটিতে রক্ত ঝড়ে বীর বিক্রম আব্দুল হামিদ।,Negative,0.3947133508496963,model_autofill,True,Negative,0.3898343057864176,keep
+তিনি দীর্ঘদিন চিকিৎসায় থাকা কালীন আইসিইউতে ইন্তেকাল করেন।,Positive,0.3814705741280518,model_autofill,True,Positive,0.3666361513559157,keep
+মহিলারাও,Sarcastic_negative,0.3871142282649581,model_autofill,True,Sarcastic_negative,0.3976438833511371,keep
+খাম্বা তারেক ওনার নামের সাথে এটাই মানায়,Negative,0.3587483295734252,model_autofill,True,Negative,0.48375389450130807,keep
+বেপর্দায় কবর জিয়ারত করা কি ভালো,Negative,0.3911760599580588,model_autofill,True,Negative,0.5903804028887564,keep
+জিয়াউর রহমান এবং খালেদা জিয়ার নামটা মাটির সাথে মিশিয়ে দিবেন না হাসিনার মতো।,Positive,0.3396593443875708,model_autofill,True,Positive,0.3635048314040377,keep
+বাবা মায়ের অযোগ্য সন্তান,Neutral,0.3527611505698043,model_autofill,True,Neutral,0.3481722892417247,keep
+Areh chuppu smile dicchen rare case,Sarcastic_negative,0.3750197884535231,model_autofill,True,Sarcastic_negative,0.44803478259320206,keep
+এমনি বললাম আর কি,Positive,0.376719130843789,model_autofill,True,Positive,0.3107023699229796,keep
+কি জানি কি হয়ে যায় বুঝাই মুশকিল,Negative,0.322918943490712,model_autofill,True,Sarcastic_negative,0.42647902222677964,keep
+রাষ্ট্রপতি খুশি ওনি চেয়েছিলেন স্বাধীনতার পক্ষের বিজয়,Positive,0.383215375586634,model_autofill,True,Positive,0.46414897953428025,keep
+যে হেরে গিয়েও কোটি মানুষের হৃদয় জিতেছে তার নামই ডা:শফিকুর রহমান,Positive,0.2856437215691448,model_autofill,True,Negative,0.2722737954181888,keep
+উনি তখন কি বলছিলেন?,Sarcastic_negative,0.3094023964657174,model_autofill,True,Negative,0.3058090529879531,keep
+অনেক কষ্ট করে হাসিটা দিছে।,Sarcastic_negative,0.3192907113063609,model_autofill,True,Sarcastic_negative,0.3490114587146549,keep
+"Congratulations, good luck in your journey, be a strong national hero like your parents",Sarcastic_negative,0.3427214766884118,model_autofill,True,Sarcastic_negative,0.3103696033422809,keep
+জয় বাংলা,Negative,0.2880794088957463,model_autofill,True,Neutral,0.3687275752795731,keep
+"স্বাগতম প্রধানমন্ত্রীকে,,,দলীয় প্রধান কে হবে যা আছে বর্তমান সংবিধানে।",Neutral,0.3579605426917343,model_autofill,True,Neutral,0.4387566781221777,keep
+গরিব ও অসহায় মানুষের পাশে দাঁড়াতে,Sarcastic_negative,0.341543162076375,model_autofill,True,Sarcastic_negative,0.32573551518332017,keep
+খারাপ অভ্যাস ত্যাগ করি,Negative,0.2933940592009892,model_autofill,True,Positive,0.37332413069441084,keep
+সময়ের মূল্য বুঝি,Sarcastic_negative,0.3585874182421635,model_autofill,True,Sarcastic_negative,0.4009550618846665,keep
+হাসতাছে আবার কবে শপথ পরাবেন এটার জন্য,Negative,0.3865964499503659,model_autofill,True,Negative,0.45210897902141894,keep
+Congratulations,Neutral,0.3593529423860853,model_autofill,True,Positive,0.3364035523644873,keep
+অভিনন্দন,Negative,0.3759255274060409,model_autofill,True,Negative,0.42756813279933065,keep
+বাংলাদেশে কি রাষ্ট্রপতি জীবিত আছে?,Negative,0.3125916252002,model_autofill,True,Negative,0.3705859503249931,keep
+Chuppu,Negative,0.3723573984724316,model_autofill,True,Negative,0.3712508190294359,keep
+সারাজিবন কৃতক্ষ থাকব ভাই।এক্সিটেন্ডে আমার এক পা কাটা আরেক পায় রড ভরা কোন কাজ করতে পারিনা।আমি আপনাদের কাছে সাহায্য না চাইলে রাস্তায় গিয়ে হাত পাততে হবে চক্ষু লজ্জায় তাও পারিনা। বৃদ্ধ বাবা মা ও বাচ্চাদের কষ্ট আর কান্না আর সইতে পারিনা। ভাই দান সদকাহ যাকাত হলেও ভাই হিসাবে সাহায্য করেন।,Negative,0.3114651620025179,model_autofill,True,Negative,0.3343196265575105,keep
+কেনযে হাতটাকে ময়লা করলেন,Negative,0.3765083370316031,model_autofill,True,Sarcastic_negative,0.4535430953753236,keep
+সংবিধান অনুযায়ী আমার প্রধানমন্ত্রী তো শেখ হাসিনা,Negative,0.3122098103369621,model_autofill,True,Negative,0.3138824548270628,keep
+সালাম শুভেচ্ছা ও অভিনন্দন।।,Negative,0.366295141866522,model_autofill,True,Negative,0.4263273844245966,keep
+ও মোর খোদা!!! খালা ! দেখতেছেন এটা কি হইতে আছে!,Sarcastic_negative,0.3878286862891503,model_autofill,True,Negative,0.47615689841002573,keep
+বুকে পাথর চাপা,Sarcastic_negative,0.3790051960034683,model_autofill,True,Sarcastic_negative,0.36176863953358,keep
+চুপ্পুর সাথে দেখা করা মানে তারেকের ভবিষ্যৎ অন্ধকার,Positive,0.3800406935187755,model_autofill,True,Positive,0.3095063450989056,keep
+হালায় একটা কুফা দেখা যাক এই প্রধানমন্ত্রী কতদিন লাস্টিং করে ।,Positive,0.3565563087818005,model_autofill,True,Positive,0.38934776128581666,keep
+"Asad Haidari গাদ্দারের বিচার ভয়াবহ হওয়া উচিত ভাই, কিন্তু এ গাদ্দারের সাথে হাত মিলানো টা মোটেও ঠিক করেনি, জনাব তারেক রহমান ভাই",Positive,0.368127212299022,model_autofill,True,Positive,0.3729922436296753,keep
+মাননীয় প্রধানমন্ত্রী,Positive,0.3517962568882063,model_autofill,True,Positive,0.32164557578147834,keep
+ধীরে ধীরে বুঝেশুনে এগিয়ে যান।,Sarcastic_negative,0.3321339434280657,model_autofill,True,Positive,0.38310429913819477,keep
+৫. ব্যাংকিং খাতে সুশাসন নিশ্চিত করে বিনিয়োগ বান্ধব করা।,Positive,0.3902484542509714,model_autofill,True,Positive,0.5256253655641262,keep
+"৭. অগ্রাধিকার ও বিশ্ব বাজারের চাহিদার সাথে সামঞ্জস্য রেখে শিল্পায়ন,",Sarcastic_negative,0.3427616711233114,model_autofill,True,Negative,0.30562953090859357,keep
+"৮. মূলধনী যন্ত্রপাতি আমদানিতে নীতি সহায়তা,",Sarcastic_negative,0.3040282132659136,model_autofill,True,Sarcastic_negative,0.41695601797535764,keep
+১১. নিস্তেজ বিদেশি দূতাবাস ও মিশন গুলোতে ট্রেড বেইসড ডিপ্লোম্যাসি প্রণয়ন।,Sarcastic_negative,0.3371225985726523,model_autofill,True,Sarcastic_negative,0.33544286068069257,keep
+"Before, everyone thought Donald Trump would listen only to India, but Mr. Khalilur and the interim government proved that wrong.",Neutral,0.3640846622210197,model_autofill,True,Neutral,0.4580815324783597,keep
+He is a suitable person to handle someone like Donald Trump—he has already proven it.,Neutral,0.3943213899281735,model_autofill,True,Neutral,0.5358676002897738,keep
+Also need to explore our new market in South America and ASEAN countries.,Sarcastic_negative,0.3726783046032432,model_autofill,True,Neutral,0.5207922016917249,keep
+মাননীয় শিক্ষামন্ত্রী,Sarcastic_negative,0.3305199010009258,model_autofill,True,Sarcastic_negative,0.48740430583916333,keep
+ফেক আইডির অভাব নাই এখন অরজিনালটাই খুঁজে পেলাম না,Negative,0.3720748808367979,model_autofill,True,Negative,0.35177448323357796,keep
+দরকার নাই,Negative,0.3383792663587789,model_autofill,True,Neutral,0.35079340808059367,keep
+আসসালামু আলাইকুম নতুন প্রধানমন্ত্রী জনাব তারেক রহমানকে জানাই ফুলেল শুভেচছা,Positive,0.3811686835200046,model_autofill,True,Negative,0.3804713581054715,keep
+আসলামোয়াকুম আমরা চাই আপনার মাধ্যমে নতুন স্বপ্ন দেখতে আসা করি আপনি স্বপ্ন বাস্তবায়ন করবেন।,Negative,0.3954444913181148,model_autofill,True,Negative,0.43788732020559423,keep
+টাকা ছাড়া চাকরির আপডেট আছে নাকি সেই টা বলো,Positive,0.3607279842881711,model_autofill,True,Positive,0.3808072804417009,keep
+রমজানে কাঁচামালের দাম আগুন দাম বাড়ছে,Negative,0.381044027146628,model_autofill,True,Sarcastic_negative,0.3947712003134091,keep
+এই দেশ ওলি আওলিয়ার দেশ এই দেশে কোন চাঁদাবাজি করা দেওয়া যাবেনা এদিকে খিয়াল রাখতে হবে এবং কোন মাজার শরীফ দরবার শরীফ খানকা শরীপ,Neutral,0.3687348954211082,model_autofill,True,Neutral,0.4352246111534652,keep
+সংবিধান সংশোধন না করলে,Negative,0.3240236487856608,model_autofill,True,Sarcastic_negative,0.3813784521799384,keep
+মরহুম হাদি বলে গিয়েছিল বি এন পি মেয়াদকাল তিন বছর,Sarcastic_negative,0.2789973526635985,model_autofill,True,Sarcastic_negative,0.4755968918596687,keep
+এখন কিতা কোন পুরস্কার পাইমু নি,Positive,0.3102116388636198,model_autofill,True,Positive,0.389251478619787,keep
+Done লিখুন,Sarcastic_negative,0.3527571108173877,model_autofill,True,Sarcastic_negative,0.3425763116856667,keep
+ইন্ডিয়ার কপি,Sarcastic_negative,0.3788781198629848,model_autofill,True,Sarcastic_negative,0.47667497794627284,keep
+SB Khan Sunamganj er vobisost,Neutral,0.3897691187094917,model_autofill,True,Sarcastic_negative,0.42975924488840517,keep
+Batpari charo,Sarcastic_negative,0.3617372983350487,model_autofill,True,Sarcastic_negative,0.4155748278041266,keep
+আই লাভ ইউ,Sarcastic_negative,0.3798767565549419,model_autofill,True,Sarcastic_negative,0.386341717377351,keep
+Romjane khabarer mullo koman,Sarcastic_negative,0.3877120489422758,model_autofill,True,Sarcastic_negative,0.45911257397511057,keep
+মাননীয় প্রধানমন্ত্রী আসসালামুয়ালাইকুম রমজানের শুভেচ্ছা রইল,Negative,0.2996844348996347,model_autofill,True,Negative,0.27589851536755927,keep
+"এছাড়াও আদালতে রাষ্ট্র পক্ষের আইনজীবী সহ বিভিন্ন অফিস, সরকারি - বেসরকারি প্রতিষ্ঠানে সরকার কর্তৃক বিভিন্ন পদে নিয়োগের ক্ষেত্রে অবশ্যই NSI, DGFI সহ অন্যান্য গোয়েন্দা সংস্থার মাধ্যমে ঐ সকল পেশাজীবী সংস্থা বা প্রতিষ্ঠানের যোগ্য ব্যক্তিদের শিক্ষা, পেশাগত দক্ষতা, যোগ্যতা, সামাজিক অবস্থান, ব্যাক্তিত্ব সর্বোপরি তার বিগত বছর গুলো ও বর্তমান কর্মকান্ড বিবেচনায় এনে নিয়োগ দেয়া উচিৎ হবে।",Positive,0.3585050386666137,model_autofill,True,Negative,0.3372689930993036,keep
+ফেসবুক আইডির নাম যদি দেওয়া হতো নতুন খাম্বা সরকার,Sarcastic_negative,0.366305586514849,model_autofill,True,Negative,0.37817847965951906,keep
+সৃজনশীল চেতনার জয়গানে বিকশিত বিজয়ের মহান।,Positive,0.3244290612606411,model_autofill,True,Sarcastic_negative,0.4499234844362002,keep
+সাধারণ মানুষের মুক্তির দাবিতে এগিয়ে যাওয়া অসাধারন জীবনের জয়গান।,Sarcastic_negative,0.379872989057242,model_autofill,True,Sarcastic_negative,0.3576933407600387,keep
+দরিদ্র নিষ্পেষিত গণমানুষের অধিকার আদায়ের লক্ষ্যে এগিয়ে যাওয়া,Negative,0.3136002945357221,model_autofill,True,Neutral,0.3195057612946153,keep
+জনতার বিজয়ের উচ্ছ্বাস।,Sarcastic_negative,0.310414078767692,model_autofill,True,Sarcastic_negative,0.41860677610145797,keep
+Congratulations,Neutral,0.3593529423860853,model_autofill,True,Positive,0.3364035523644873,keep
+দেশ গণতন্ত্রের দিকে হাঁটছে। এটাই জনগণ চেয়ে ছিল।,Sarcastic_negative,0.3269958839159207,model_autofill,True,Sarcastic_negative,0.3494486882273498,keep
+বেশ ভালো।,Sarcastic_negative,0.3603160420065213,model_autofill,True,Sarcastic_negative,0.4424586587744334,keep
+আমার লেখাটি মাননীয় প্রধানমন্ত্রী বরাবর।,Positive,0.3779768223456813,model_autofill,True,Negative,0.3367928812168072,keep
+পেজের লিংটা দেন আশছেনা সাচ করলে,Negative,0.3545042964710358,model_autofill,True,Sarcastic_negative,0.4368299527473628,keep
+অভিনন্দন,Negative,0.3759255274060409,model_autofill,True,Negative,0.42756813279933065,keep
+"মাননীয় প্রধানমন্ত্রী আমি বলব ,",Positive,0.3207753405390469,model_autofill,True,Negative,0.3139086098938254,keep
+PMO Bangladesh। প্রধানমন্ত্রীর কার্যালয়,Neutral,0.3624487581082597,model_autofill,True,Neutral,0.40573186518301385,keep
+Pmo Bangladesh প্রধানমন্ত্রীর কার্যালয়,Neutral,0.3624487581082597,model_autofill,True,Neutral,0.40573186518301385,keep
+PMO Bangladesh - প্রধানমন্ত্রীর কার্যালয়,Neutral,0.3575941115263737,model_autofill,True,Neutral,0.443652049682427,keep
+Excellent,Sarcastic_negative,0.3704989337789543,model_autofill,True,Sarcastic_negative,0.31944092899412896,keep
+এমন কিছু বলেন কিংবা করেন আমাদের অভিযোগ গুলো যাতে শুনতে পারেন! এবং সেই সকল সমস্যা গুলো নিয়ে যেন কাজ করতে পারেন,Sarcastic_negative,0.3627809229627654,model_autofill,True,Sarcastic_negative,0.4318053637449856,keep
+গাজীপুর জেলা মিলন ভাইকে মন্ত্রী হিসেবে দেখতে চাই,Negative,0.3224429659389815,model_autofill,True,Sarcastic_negative,0.39893539638440534,keep
+মাশাল্লাহ,Negative,0.349636455690206,model_autofill,True,Negative,0.37559005158038244,keep
+দ্রব্যমূল্য নিয়ন্ত্রণের জন্য জোর দাবি করছি।,Negative,0.3850218637945588,model_autofill,True,Sarcastic_negative,0.4504744314404984,keep
+সবাই দোয়া করবেন,Positive,0.3945785591075763,model_autofill,True,Negative,0.28711094368465084,keep
+Md Minhajul Islam yes,Sarcastic_negative,0.3859901350903448,model_autofill,True,Neutral,0.5450580633708775,keep
+Jajakhalla,Sarcastic_negative,0.390234677190373,model_autofill,True,Sarcastic_negative,0.31949252519929167,keep
+"মাননীয় পররাষ্ট্রমন্ত্রী মহোদয় সমীপেষু,",Sarcastic_negative,0.3100287172639235,model_autofill,True,Negative,0.33256339697843323,keep
+​বিষয়: আইনের শাসন প্রতিষ্ঠা ও সন্ত্রাসমুক্ত বাংলাদেশ গড়ার আহ্বান।,Positive,0.3789299673829747,model_autofill,True,Positive,0.35084031804656846,keep
+"​শ্রদ্ধেয় মহোদয়,",Sarcastic_negative,0.3736666073661892,model_autofill,True,Sarcastic_negative,0.4055619314717139,keep
+"​সন্ত্রাস দমনে জিরো টলারেন্স: অতীতের উদাহরণ টেনে বলতে চাই, সাবেক প্রধানমন্ত্রী খালেদা জিয়ার শাসনামলে সন্ত্রাস দমনে কঠোর পদক্ষেপ নেওয়া হয়েছিল। বর্তমান সময়েও প্রত্যাশা করি, দলমত নির্বিশেষে যেকোনো সন্ত্রাসী, চাঁদাবাজ বা বিশৃঙ্খলাকারীকে শুরুতেই আইনের আওতায় আনা হবে। অপরাধীর কোনো রাজনৈতিক পরিচয় থাকা উচিত নয়।",Positive,0.3685151209904029,model_autofill,True,Negative,0.34731881613089566,keep
+"​মব জাস্টিসের বিচার: ২৪-এর গণঅভ্যুত্থান পরবর্তী সময়ে যারা আইন নিজের হাতে তুলে নিয়েছে বা 'মব' তৈরি করে অরাজকতা সৃষ্টি করেছে, তাদের প্রতিটি ঘটনার সুষ্ঠু তদন্ত ও বিচার হতে হবে।",Neutral,0.3858346447655781,model_autofill,True,Neutral,0.3595693996634419,keep
+"​বিনীত,",Sarcastic_negative,0.3558112103183989,model_autofill,True,Sarcastic_negative,0.3964390510208634,keep
+আনোয়ার আলমগির,Negative,0.3910283686117378,model_autofill,True,Negative,0.39284431919524687,keep
+একজন সচেতন নাগরিক।,Sarcastic_negative,0.3099079078135516,model_autofill,True,Sarcastic_negative,0.39333065738821826,keep
+লিংক কই,Negative,0.3531316624600794,model_autofill,True,Sarcastic_negative,0.4185002397128394,keep
+এমপিওভুক্ত সবাই কে প্রশাসনিক পদে আবেদন করার সুযোগ দেওয়া হউক,Negative,0.372533519742957,model_autofill,True,Negative,0.4593963788886829,keep
+Sadia Islam,Sarcastic_negative,0.3963499541362027,model_autofill,True,Sarcastic_negative,0.3850113427815643,keep
+ইতিমধ্যে অনেক গুলো ফেক পেইজ ও খোলা হয়েছে। আরজিনার পেইজ PMO Bangladesh - প্রধানমন্ত্রীর কার্যালয়,Negative,0.3147502651030442,model_autofill,True,Negative,0.33337638743242526,keep
+আমার পেইজটা একটু প্রমোট করে দেন দাদা,Negative,0.3586502828637465,model_autofill,True,Negative,0.3580593943803627,keep
+এই নামে ১০০/২০০ পেইজ খোলা হয়েগেছে দেখেন,Sarcastic_negative,0.3470259195400029,model_autofill,True,Sarcastic_negative,0.3970861919971604,keep
+Congratulation.,Neutral,0.3593529423860853,model_autofill,True,Positive,0.31467519334849336,keep
+এটা অফিসিয়ালি পেজ নয়। এটা একটা মিম পেজ।,Positive,0.3416435813944346,model_autofill,True,Negative,0.38722529545917045,keep
+New content creator,Sarcastic_negative,0.386716327611741,model_autofill,True,Sarcastic_negative,0.35742422466565077,keep
+লাগবে না,Negative,0.3240611732834967,model_autofill,True,Negative,0.3427890573217596,keep
+ব্যক্তিগত পার্সোনাল আইডি,Sarcastic_negative,0.3469918167038752,model_autofill,True,Negative,0.3178776605613667,keep
+খাম্বার মেয়ে জমিলা রহমান,Sarcastic_negative,0.3258641846307761,model_autofill,True,Neutral,0.45912497974453625,keep
+ফাস্ট ফলোয়ার,Sarcastic_negative,0.3759446922568076,model_autofill,True,Sarcastic_negative,0.38644945187671287,keep
+PMO Bangladesh প্রধানমন্ত্রী কার্যালয়,Neutral,0.3662823664248791,model_autofill,True,Neutral,0.41105903614151235,keep
+"৭১এর ঘাতক রাজাকার জামায়াত শিবিরের মব ডিজাইন,ধ্বংস হয়েছে।",Sarcastic_negative,0.3833435763344245,model_autofill,True,Negative,0.4035686128249867,keep
+লিংকঃ,Sarcastic_negative,0.389034562585046,model_autofill,True,Sarcastic_negative,0.39252508066991887,keep
+কথায় না বড়ো হয়ে কাজে বড়ো হবে,Neutral,0.3942922367643656,model_autofill,True,Positive,0.4278793417991734,keep
+যুগ যুগ ধরে মন্ত্রীদের এই কথা শুনে গেলাম তত্ত্বাবধায়ক সরকার বা ইন্টেরিয়িং ছাড়া মোটামুটি ভাবে আর কেউ বাস্তবায়ন করতে পারেনি।,Positive,0.3963477928451911,model_autofill,True,Positive,0.31470261013938056,keep
+আসলে সে নিজেই একজন মাফিয়া,Sarcastic_negative,0.3813878561879361,model_autofill,True,Sarcastic_negative,0.46488511736423443,keep
+Boss kotha ta kaje valo vabe lagayen,Sarcastic_negative,0.3772198117019469,model_autofill,True,Neutral,0.3995982247815058,keep
+হাস্যকর! নিজের বিরুদ্ধে কেউ যুদ্ধ করে?,Neutral,0.3840465332475742,model_autofill,True,Positive,0.4460021542827962,keep
+BNP bole ekta kore arekta proman Julay shonod,Sarcastic_negative,0.2998538850396907,model_autofill,True,Sarcastic_negative,0.39606950433447846,keep
+২০০ টাকা চাদার জন্য যারা রাস্তায় হকার বসিয়ে,Negative,0.3564171744072259,model_autofill,True,Negative,0.37215248912210075,keep
+"আওয়াজ দেওয়া শেষ কামও শেষ, বাসায় যেয়ে খেতা মুড়ি দিয়ে ঘুমায় থাকো গিয়ে।",Negative,0.3817780900368129,model_autofill,True,Negative,0.36576692060848937,keep
+অখেই ভাডি,Sarcastic_negative,0.3796335098346058,model_autofill,True,Sarcastic_negative,0.3996415818847405,keep
+Shame for ishrak,Sarcastic_negative,0.3482888454555723,model_autofill,True,Sarcastic_negative,0.42792622024464594,keep
+গলা না বাজায়া বাস্তবে করে দেখান মিয়া,Negative,0.3589173323947327,model_autofill,True,Negative,0.3973769705219618,keep
+এইগুলা শুধু সোশ্যাল মিডিয়ায় বাস্তবে কার্যকর হয় না,Negative,0.3169744323086951,model_autofill,True,Sarcastic_negative,0.4133885500131363,keep
+Ball falaibo,Sarcastic_negative,0.3492863872814297,model_autofill,True,Sarcastic_negative,0.4221618628108369,keep
+দ্রুত বাস্তবায়ন করুন,Positive,0.3534154289912433,model_autofill,True,Positive,0.4017157851317563,keep
+দেখা যাক দরবেশ সাহেব,Negative,0.3026711884426497,model_autofill,True,Neutral,0.35234191008227106,keep
+দেশের চেয়ে,Sarcastic_negative,0.3588379227054341,model_autofill,True,Sarcastic_negative,0.3320800886572332,keep
+এই কথাটি কাজে প্রমাণ করতে হবে এটাই সাধারণ জনগণের আশা আলো হয়ে আছে।,Negative,0.2924076406817156,model_autofill,True,Positive,0.322978081779558,keep
+চাদা দিয়ে দিলে সব শেষ,Sarcastic_negative,0.3748207400982136,model_autofill,True,Sarcastic_negative,0.5328461674512116,keep
+চেতিল,Sarcastic_negative,0.38300072592129,model_autofill,True,Sarcastic_negative,0.47429313921502425,keep
+সম্ভবত পকেটে কমিশন ঢুকে নাই তাই এমন হুংকার,Negative,0.3577281130039444,model_autofill,True,Negative,0.36952778145913207,keep
+কাজ কর মন দিয়ে,Sarcastic_negative,0.313575918632379,model_autofill,True,Sarcastic_negative,0.480200684352881,keep
+প্রথম দিনেই গাদ্দারি সামনের দিনগুলোতে দেখা বাকি,Sarcastic_negative,0.3354276961676379,model_autofill,True,Sarcastic_negative,0.43464191136934793,keep
+তাদের কে সরকারী মেহমান বানিয়ে কয়েক দিন মেহমানদারী করলে সব সোজা হয়ে যাবে।,Sarcastic_negative,0.3260194575629188,model_autofill,True,Sarcastic_negative,0.41916404478150165,keep
+আগে বাস্তবায়ন করেন।,Positive,0.3877549411696772,model_autofill,True,Positive,0.4059211714770175,keep
+প্রমাণ ছাড়া আর কিছুই বিশ্বাস নেই,Positive,0.3708359070729365,model_autofill,True,Positive,0.44511549546112233,keep
+মাফিয়াদের বিরুদ্ধে যুদ্ধ ঘোষণা করে কেউ যেন নতুন মাহিয়া না হয় ।,Neutral,0.3359471909185569,model_autofill,True,Sarcastic_negative,0.48073118919883395,keep
+ভাতিজা ফেসবুকে যুদ্ধ না করে মাঠে যাও অন্তত রমজান মাসটা একটু জাতিকে শান্তি তো রাখো।,Positive,0.3346789697286562,model_autofill,True,Sarcastic_negative,0.3879073559731276,keep
+ফলাফল দেখার অপেক্ষায়,Negative,0.393692949421132,model_autofill,True,Negative,0.32116814655760595,keep
+দেখা যাইবো মুখ দিয়ে বলছেন না ইয়ে দিযে বলছেন,Negative,0.3459586249271878,model_autofill,True,Negative,0.32689272736355884,keep
+নিজেই বড় মাফিয়া,Sarcastic_negative,0.3210990970770057,model_autofill,True,Negative,0.3378326214425789,keep
+নিজেরাই আবার বড় মাফিয়া হয়ে উইঠেন্না?,Positive,0.3500968281187691,model_autofill,True,Positive,0.34639060072158473,keep
+যুদ্ধ ফেসবুকে।,Sarcastic_negative,0.3509039259263405,model_autofill,True,Sarcastic_negative,0.5005989934271841,keep
+এইবার ঠিক আছে,Negative,0.3246910909796198,model_autofill,True,Negative,0.3726950930517287,keep
+এল পি জি আমদানি কারকদের সিন্ডিকেট ভাংতে কয়দিন লাগবে।,Negative,0.283063740068271,model_autofill,True,Negative,0.3458590579045848,keep
+মাফিয়াদের সাথে যারা সবসময়ের জন্য চলাফেরা একই টেবিলে খায় তারাই নাকি মাফিয়া বিরুদ্ধে বক্তব্য দেয় বিষয়টা কি রকম হাস্যকর হলো না,Negative,0.3848180590976601,model_autofill,True,Negative,0.438497556080207,keep
+"""ঘোষণা করার কি দরকার? উনি নিজেই মাফিয়াগিরি বাদ দিলেই তো হয়।""",Neutral,0.3401862423971859,model_autofill,True,Positive,0.4565787635065396,keep
+এগিয়ে যান বিদ্যুৎ গতির নেয়,Negative,0.3085932658830098,model_autofill,True,Positive,0.3251401109796668,keep
+দোয়া ও শুভকামনা সব সময়,Neutral,0.345214818388438,model_autofill,True,Sarcastic_negative,0.4910517852468231,keep
+best of luck bro,Negative,0.3756807191477374,model_autofill,True,Sarcastic_negative,0.6300519059654741,change
+Vokta adhikar kormo kortader eti modde najehal abostha.Tader avijane bada dewa hoche oy dike ektu nojor din,Neutral,0.3175438244083542,model_autofill,True,Sarcastic_negative,0.3533285857786282,keep
+বীর মুক্তিযোদ্ধার ছেলে হিসাবে ঠিক আছে কিছুদিন গেলে প্রমান পাবে জণগন।,Negative,0.3254542061438035,model_autofill,True,Sarcastic_negative,0.34645526400752524,keep
+সাবাশ। বাস্তবায়ন করবেন আশা করি,Negative,0.3617663019017881,model_autofill,True,Positive,0.39321675116180316,keep
+যুদ্ধের কার্যকারিতা দেখতে চাই,Sarcastic_negative,0.2959549287084845,model_autofill,True,Negative,0.32383252152749703,keep
+"সব ভাঁওতাবাজি,,,,।",Sarcastic_negative,0.3148824951363315,model_autofill,True,Sarcastic_negative,0.4441053919626776,keep
+বাবু চিল্লাইয়ে মার্কেট পাওয়া যায় না কাজ করে দেখাও,Negative,0.3671177736279191,model_autofill,True,Negative,0.3844526607134201,keep
+এতো মুক্তিযুদ্ধের মন্ত্রণালয়ের দায়িত্বে। দ্রব্য মূল্য নিয়ে কথা বলছেন কেন? তবে খুব ভালো পোস্ট দিয়েছেন,Positive,0.3860911043003646,model_autofill,True,Sarcastic_negative,0.5025197121065904,keep
+আগে নিজে ভালো হন,Negative,0.3399825358951726,model_autofill,True,Sarcastic_negative,0.38145595337896404,keep
+দেখা যাবে বাস্তবতায়।,Negative,0.3512318158624283,model_autofill,True,Negative,0.35446279084853266,keep
+দেখতে থাকী,Sarcastic_negative,0.3351579825818507,model_autofill,True,Positive,0.36287706331624237,keep
+ম্যাজিস্ট্রেটকে অপমান করা এই মাফিয়া দের বিচার করতে শুরু করুন । কোন ছাড় নাই।,Negative,0.3418697746704001,model_autofill,True,Negative,0.4551041081003287,keep
+বেটা এইতো সিংহের মত মুভমেন্ট।,Negative,0.3533035876518208,model_autofill,True,Positive,0.41366132855301857,keep
+ফেসবুকে যুদ্ধ বাস্তবে সবি ঠিক,Sarcastic_negative,0.2719433156454439,model_autofill,True,Sarcastic_negative,0.3733103967536886,keep
+"কথা রাখতে পারবেন না, চ্যালেঞ্জ",Positive,0.375794455094443,model_autofill,True,Positive,0.5230460013457364,keep
+আমরাও অপেক্ষায় রইলাম আপনি কি করেন তা দেখার জন্য,Sarcastic_negative,0.3787368704569804,model_autofill,True,Positive,0.3049500236060221,keep
+সত্যি বলছেন,Neutral,0.3079516887812331,model_autofill,True,Negative,0.40453132847479867,keep
+সাধুবাদ জানাই,Sarcastic_negative,0.336780452726659,model_autofill,True,Sarcastic_negative,0.31605377364968573,keep
+মাশাআল্লাহ এগিয়ে যাও দোয়া রহিলো,Negative,0.3960730549216009,model_autofill,True,Positive,0.39273999517206043,keep
+লেবু 25 টাকা পিস,Sarcastic_negative,0.3851405587913862,model_autofill,True,Sarcastic_negative,0.4138383174138483,keep
+ডলারের দাম কমানোর ব্যবস্থা করুন,Sarcastic_negative,0.3224032170141123,model_autofill,True,Positive,0.37852038088163265,keep
+মন থেকে দোয়া রইলো,Sarcastic_negative,0.3590409544177622,model_autofill,True,Sarcastic_negative,0.30771411762452483,keep
+৩২ নম্বর ভাঙার মাস্টার,Negative,0.3181869589381053,model_autofill,True,Sarcastic_negative,0.43121610888487527,keep
+"দেখা যাক কি করে, না নাটক করে",Neutral,0.3303472815354292,model_autofill,True,Positive,0.387640387049711,keep
+"বিশ্বাস করেন ভাই এটা স্ক্রিনশট দিয়ে রাখলাম। এই কথার বিপরীত হলে, স্ক্রিনশট টা দিয়ে আপনাকে ট্যাগ করে,আপনার টাইমলাইনে পোষ্ট করব।।",Negative,0.3240430477576522,model_autofill,True,Positive,0.4376316377636429,keep
+ধমকের কি দরকার-আইন চলেনা?,Negative,0.3497026625413277,model_autofill,True,Neutral,0.3573213972073926,keep
+লিডার কথায় নই কাজে বাস্তবায়ন হলে আমরা মানে জনগণ খুশি হবে,Neutral,0.3547768616239608,model_autofill,True,Neutral,0.38590512172113234,keep
+নেতা যে বলছিল নবীর আদর্শে দেশ চলব---,Positive,0.3500019299831101,model_autofill,True,Sarcastic_negative,0.30268435704199853,keep
+নিজের বিরুদ্ধে কেউ নিজে যুদ্ধ করে,Positive,0.3771787761338127,model_autofill,True,Positive,0.46923265975439343,keep
+বাস্তবতায় বিশ্বাসী।,Sarcastic_negative,0.3821733724972875,model_autofill,True,Negative,0.364360815112301,keep
+ইশরাক যেটা ভেবে বলছে ।,Negative,0.3388178474576689,model_autofill,True,Sarcastic_negative,0.551993071723471,keep
+চাঁদাবাজ = ভালোমানুষ,Negative,0.3612959428304789,model_autofill,True,Negative,0.3862379389080812,keep
+দুর্নীতিবাজ = খুব ভালোমানুষ,Negative,0.3944284325098343,model_autofill,True,Negative,0.4645127891444294,keep
+"ধ*র্ষণ,খু*নি = খুব খুব ভালোমানুষ",Negative,0.2962444354062968,model_autofill,True,Sarcastic_negative,0.36379548219373475,keep
+"জামায়াত,শিবির = মাফিয়া ।",Negative,0.3314422042922017,model_autofill,True,Negative,0.40377297748852203,keep
+বড় বড় কথা না বলে কাজের কাজ করতে হবে। তা নাহলে মাফিয়ারা জিম্মি করে ফেলবে!,Positive,0.3599580594263622,model_autofill,True,Positive,0.39826159851503895,keep
+ওখানে গিয়ে প্রতিবাদ করেন,Sarcastic_negative,0.3885886524241441,model_autofill,True,Positive,0.3459750906399885,keep
+"সুন্দর মতো দেশ চালাতে পারলে ২০ বছর থাকো তাতে জামায়াত আরো বেশি খুশি জামায়াত ক্ষমতা পাওয়ার পাগল নয় দেশের মানুষ সান্তি পাক এটাই তাদের চাওয়া,,, প্রমান যদি করতে চাও তাহলে যে কোন ভালো কাজের উদ্দুদ্ধ নাও দেখ জামায়াত কে পাশে পাও কি না।",Positive,0.3885857449967578,model_autofill,True,Negative,0.44106415360980006,keep
+যুদ্ধের এক দুইটা লাইভ ভিডিও শেয়ার দিয়েন,Sarcastic_negative,0.3492549797870774,model_autofill,True,Sarcastic_negative,0.45351662997466424,keep
+ফেজবুকেই লাফালাফি,Negative,0.3682929293056385,model_autofill,True,Negative,0.3851113303913395,keep
+এমনটা ই চাই,Sarcastic_negative,0.3815137839904602,model_autofill,True,Sarcastic_negative,0.33771168004379254,keep
+বড় বড় ঘোড়ায় পিছনে গেছে,Sarcastic_negative,0.3380466774942069,model_autofill,True,Sarcastic_negative,0.3661691694938321,keep
+বিশেষ করে রমজানে দ্রব্যমূলের লাগামটা খুব ভালোভাবে টেনে ধরতে হবে তাহলে জনগণের কাছে আরও বেশি গ্রহণযোগ্যতা পাওয়া যাবে ।,Neutral,0.3774545935504413,model_autofill,True,Neutral,0.5075428492939622,keep
+ঠিক আছে ভাতিজা দেখব আপনি কি করেন এটা দেখার অপেক্ষায় পুরো জাতি,Negative,0.394520220817276,model_autofill,True,Negative,0.35564712612731003,keep
+Ak mapiya arek mapiyar Kotha bole ha ha ha,Sarcastic_negative,0.3786290280172584,model_autofill,True,Positive,0.3324704269467073,keep
+মুক্তিযুদ্ধ বিষয়ক মন্ত্রীর কাজ যুদ্ধ করা তা যেখানেই হউক,Positive,0.3855021384075712,model_autofill,True,Sarcastic_negative,0.583063277955198,keep
+"তবে আসলেই যদি সদিচ্ছা থাকে, তাহলে আগাম ধন্যবাদ",Positive,0.3739663802951563,model_autofill,True,Positive,0.44088663379817855,keep
+ভালো তো খুব ভালো।।,Sarcastic_negative,0.3563427442262654,model_autofill,True,Sarcastic_negative,0.408107881488728,keep
+সাবাস,Sarcastic_negative,0.3853886167482251,model_autofill,True,Negative,0.3735712437900518,keep
+এটা কি অনলাইনে না বাস্তবে।,Sarcastic_negative,0.3863967296474976,model_autofill,True,Negative,0.49262340356136136,keep
+"OOO vai sodanir powa , juddu nolagibo alrpotala",Sarcastic_negative,0.3657469774059413,model_autofill,True,Sarcastic_negative,0.4276064348899452,keep
+কথায় না বড় হয়ে যদি কাজে বড় হন আর সেটা যদি বাস্তবে করিয়ে দেখাতে পারেন অবশ্যই এর ফল পাবেন একদিন হয়তো আরো বড় মানের নেতা হবেন,Sarcastic_negative,0.3252121323705069,model_autofill,True,Positive,0.3087253439413758,keep
+প্রথমেই এলপিজি গ্যাসের দাম পুনঃ নির্ধারণের আবেদন জানাচ্ছি।,Negative,0.3494176646409664,model_autofill,True,Negative,0.39997713783593847,keep
+"দেখা যাবে , আগে জুলাই সনদে শপথ নিন -- আপনেতো সাহসী বাবার সাহসী বীর সন্তান ! আপনেতো ভয় পাননা -তাহলে শপথ নিন -- তবেইতো সাহসী সত্যবাদী বীর মানবো !!",Negative,0.3121409724375503,model_autofill,True,Negative,0.38584552639378317,keep
+লেবুর হালি ২০০ টাকা।,Negative,0.3742997100956289,model_autofill,True,Sarcastic_negative,0.47287124284339904,keep
+মুখের বয়ান,Sarcastic_negative,0.3005943193040458,model_autofill,True,Sarcastic_negative,0.31483720598200954,keep
+আপনার মতো সাহসী একজন থাকলে 2য় আর কেউ লাগবে নায়,Positive,0.3481785892659887,model_autofill,True,Positive,0.48659419874342064,keep
+গুড জব,Negative,0.3366529046902968,model_autofill,True,Negative,0.37592062237334734,keep
+শাবাশ বীর মুক্তি যোদ্ধার বীর সন্তান,Neutral,0.3220911219670685,model_autofill,True,Negative,0.3542663149777884,keep
+ফেসবুকে এই সীমাবদ্ধ থাকবে বাস্তবে নয়,Negative,0.3518061981800782,model_autofill,True,Sarcastic_negative,0.3667200926014575,keep
+কাজে প্রমাণ দেখতে চাই,Sarcastic_negative,0.3645853468713921,model_autofill,True,Positive,0.419160110800566,keep
+হইছে মুক্তিযুদ্ধ প্রতিমন্ত্রী,Negative,0.3662924379510663,model_autofill,True,Sarcastic_negative,0.4595642511012391,keep
+টেলিভিশনের চারজন সাংবাদিককে চা'কুরীচ্যুত করলো,Sarcastic_negative,0.3725943726435841,model_autofill,True,Sarcastic_negative,0.3889244363741035,keep
+ভাইয়ে ফেইসবুক সীমাবদ্ধ না রেখে কাজে কামে দেখান,Sarcastic_negative,0.3775508783516602,model_autofill,True,Sarcastic_negative,0.3540414065153663,keep
+দেশের মানুষ এটা চাইছে,Negative,0.3170010307796597,model_autofill,True,Negative,0.31371291168481247,keep
+এগিয়ে জাও ইশরাক ভাই,Positive,0.3419537156608035,model_autofill,True,Sarcastic_negative,0.4860408613201053,keep
+সাব্বাশ এগিয়ে যাও,Sarcastic_negative,0.3807373836844392,model_autofill,True,Positive,0.35213172375271057,keep
+"ভাই তুই আগে তোর নিজের অন্যায়ের উপর যুদ্ধ ঘোষণা কর,তারপর অন্যদের।",Sarcastic_negative,0.3527903477301112,model_autofill,True,Sarcastic_negative,0.4346473933749136,keep
+কাজে কোথায় মিল রাখেন,Sarcastic_negative,0.3600429877039979,model_autofill,True,Negative,0.402208336032127,keep
+বীর পূরুষ।,Sarcastic_negative,0.3673335583488858,model_autofill,True,Sarcastic_negative,0.4059669464192367,keep
+তাহলে আগে নিজেই নিজের বিরুদ্ধে যুদ্ধ করো।।,Negative,0.3630734203081769,model_autofill,True,Negative,0.4050428350380704,keep
+প্রমান ছাড়া সাধারণ জনগন বিশ্বাস করে না।,Positive,0.3615317222021707,model_autofill,True,Positive,0.42889830251447714,keep
+অভিনন্দন ভাই,Negative,0.3700781579894105,model_autofill,True,Negative,0.41560382934047924,keep
+হুমকি ধামকি নয়!!,Sarcastic_negative,0.3894080094122988,model_autofill,True,Sarcastic_negative,0.37786998076842365,keep
+কাজে দেখানো উচিত,Negative,0.3219990552981968,model_autofill,True,Sarcastic_negative,0.31312165784303897,keep
+বাস্তবে দেখতে চাই,Negative,0.3056746379003637,model_autofill,True,Positive,0.31929053243071,keep
+দেখা যাবে,Negative,0.2914147190107574,model_autofill,True,Neutral,0.32082969678011125,keep
+"অভিনন্দন,জনতার নেতা",Positive,0.3330294127172206,model_autofill,True,Negative,0.4061865612553889,keep
+father of mafiya,Sarcastic_negative,0.3222373648284741,model_autofill,True,Sarcastic_negative,0.645969740193608,keep
+নিজের বিরুদ্ধে কি যুদ্ধ করা যায়,Neutral,0.379338632546046,model_autofill,True,Positive,0.4505696245314369,keep
+ফেসবুকে মাফিয়া নিধন ঘোষণা...!,Sarcastic_negative,0.3368231447422119,model_autofill,True,Sarcastic_negative,0.3928276504209261,keep
+নিজেদের বিরুদ্ধে নিজেদের যুদ্ধ,Sarcastic_negative,0.3853388190073611,model_autofill,True,Sarcastic_negative,0.41276175622404754,keep
+এগুলো তো মিডিয়ার বয়ান,Positive,0.3419680129275934,model_autofill,True,Sarcastic_negative,0.3202313271238056,keep
+Online,Sarcastic_negative,0.3960683582948007,model_autofill,True,Sarcastic_negative,0.40320602164955416,keep
+"বিকাশ নুর এজেন্সীর বিরুদ্ধে ব্যাবস্থা নিবে বলছে না, সেও টাকা খাওয়ার জন্য বলছে।",Positive,0.366151014148206,model_autofill,True,Sarcastic_negative,0.4373958444759748,keep
+ফেসবুকে যুদ্ধ ঘোষণা করলে কি হয়?,Sarcastic_negative,0.3286200691984349,model_autofill,True,Sarcastic_negative,0.6256215599651329,keep
+নাকি যারা চান্দাবাজির বিরুদ্ধে প্রতিবাদ করে তাদেরকে মাফিয়া বলে ।,Sarcastic_negative,0.3758132851131597,model_autofill,True,Sarcastic_negative,0.3873139077371193,keep
+Facebook পোস্টে নয় বাস্তবায়ন করে দেখান,Positive,0.3381430094113539,model_autofill,True,Neutral,0.3028936860735282,keep
+এগিয়ে যান,Sarcastic_negative,0.3348812287198589,model_autofill,True,Positive,0.4114355767426144,keep
+ও আচ্ছা দেখা যাক,Sarcastic_negative,0.3305998071973568,model_autofill,True,Neutral,0.38522062745724767,keep
+খুব ভালো,Sarcastic_negative,0.3467803442877758,model_autofill,True,Sarcastic_negative,0.3907347117352221,keep
+আছি ভাই,Negative,0.385224013915004,model_autofill,True,Negative,0.45162433227484755,keep
+নেতা তো এমনি হওয়া উচিত,Negative,0.2731480731432832,model_autofill,True,Sarcastic_negative,0.3434348504476897,keep
+"উনি প্রথম ব্যক্তি যে ,নিজের বিরুদ্ধে যুদ্ধ ঘোষণা করল।",Positive,0.2777847919213661,model_autofill,True,Positive,0.30889480740253195,keep
+ফেসবুকে আমি ভাবলাম সরাসরি,Negative,0.3789188515702551,model_autofill,True,Negative,0.3466700500696521,keep
+ফেসবুক যোদ্ধা,Sarcastic_negative,0.3155745941363204,model_autofill,True,Sarcastic_negative,0.48282632791864927,keep
+Nijer biruddhei juddho?,Sarcastic_negative,0.3357006301688246,model_autofill,True,Sarcastic_negative,0.39501970617663373,keep
+দেখি....,Sarcastic_negative,0.3684809484979851,model_autofill,True,Neutral,0.36594045015746884,keep
+দেখা যাক কতটুকু পারো,Neutral,0.3781202326221137,model_autofill,True,Neutral,0.3535414752923474,keep
+আর যাদের ১ :২ লক্ষটাকা দেনার কারনে ঘর চারা বাড়ি চার পাওনা দ্বারেরা তার বাড়ি দখল করে নিয়ে নিতে চাইতেচে তারার কি হবে,Neutral,0.3578051793062067,model_autofill,True,Negative,0.400429045773129,keep
+ভোট চোরদের মুখে অনেক কিছু শুনা যাবে,Sarcastic_negative,0.3573065987236449,model_autofill,True,Sarcastic_negative,0.41140461779796705,keep
+নিজেই মাপিয়া,Sarcastic_negative,0.3928463505777087,model_autofill,True,Sarcastic_negative,0.39984621714081037,keep
+এগিয়ে যাও,Sarcastic_negative,0.343019646940377,model_autofill,True,Positive,0.3568296324828685,keep
+কিছু দিন পর ওরা নিজেরাই সবচেয়ে বড় দুর্নীতিবাজ হয়ে যায়।,Positive,0.3400779498129689,model_autofill,True,Negative,0.47466104419269706,keep
+"ফেসবুকের নির্বাচনী ফলাফল মিথ্যা ছিল, তাহলে এটা যে সত্য তা কিভাবে বুঝবো",Sarcastic_negative,0.3866389571961159,model_autofill,True,Sarcastic_negative,0.36662709884246214,keep
+১৪ তারিখ হইতে বয়লার মুরগি,Negative,0.3790899251722897,model_autofill,True,Negative,0.43357747930379414,keep
+কে জি ২১০ টাকা কেন? জনগন জানতে চায়।,Sarcastic_negative,0.3902283865340387,model_autofill,True,Sarcastic_negative,0.41977431556020717,keep
+সাধুবাদ জানাই এরকম উদ্যোগকে,Neutral,0.3090422086399856,model_autofill,True,Neutral,0.3567667933972132,keep
+সবাই এটাই চাই,Negative,0.3751548198131532,model_autofill,True,Negative,0.3246956308106469,keep
+সাবাস বাপের বেটা ! মানুষের দোয়া পাওয়া যাবে নিশ্চয়ই ।,Sarcastic_negative,0.3100941893028116,model_autofill,True,Neutral,0.5410086713066747,keep
+ফেসবুকেই যুদ্ধ থাক।বাইরে করে পরিবেশে সুড়সুড়ি দিবেন না।,Sarcastic_negative,0.3817974820378789,model_autofill,True,Sarcastic_negative,0.45742402367959384,keep
+শুভ কামনা রইলো। বাস্তবায়ন করার অপেক্ষায় রইলাম,Negative,0.3703287150491636,model_autofill,True,Neutral,0.35579807718690326,keep
+সাবাস এগিয়ে যাও,Sarcastic_negative,0.3348543211537817,model_autofill,True,Positive,0.35046528776533387,keep
+"এলপিজি গ্যাসের দাম কমানো হোক,লেবু কেন ১০০ টাকা হালি",Neutral,0.3272505946312178,model_autofill,True,Sarcastic_negative,0.35118088834973193,keep
+এভাবে দায়িত্ব পালন করলে ত মাশাল্লাহ।,Positive,0.3589602849433617,model_autofill,True,Negative,0.3131210198644839,keep
+কাজ দেখতে চাই,Sarcastic_negative,0.2888106279549715,model_autofill,True,Positive,0.40033838459143883,keep
+কাজে দেখান,Negative,0.3280445764281983,model_autofill,True,Negative,0.30009949020285165,keep
+বাস্তবতায় বিশ্বাসী,Sarcastic_negative,0.3821733724972875,model_autofill,True,Negative,0.364360815112301,keep
+নিজের বিরুদ্ধেই কি যুদ্ধ,Sarcastic_negative,0.3695176739264447,model_autofill,True,Sarcastic_negative,0.44205649817126097,keep
+চিল্লায়া মাঠ পাওয়া যায় না।,Sarcastic_negative,0.3277408593586229,model_autofill,True,Neutral,0.47597336847381677,keep
+মাননীয় প্রতিমন্ত্রী ইশরাক ভাই আশা করি এলপি গ্যাস 12 কেজি এক হাজার টাকা মূল্য করবেন,Negative,0.3828285057560745,model_autofill,True,Negative,0.5500346693681784,keep
+এইটা শুধু ফেসবুকে বাস্তবে ভিন্ন!!!,Sarcastic_negative,0.3108676077024009,model_autofill,True,Sarcastic_negative,0.33715189892096875,keep
+— (সহিহ বুখারি ও সহিহ মুসলিম),Negative,0.3682819099141489,model_autofill,True,Sarcastic_negative,0.3820330880490316,keep
+শয়তান তার উত্তরসূরি বিরুদ্ধে যুদ্ধ ঘোষণা করেছেন 🙋‍😁,Sarcastic_negative,0.2541616814392571,model_autofill,True,Sarcastic_negative,0.3920646253301777,keep
+মাফিয়া করবে মাফিয়ার বিরুদ্ধে যুদ্ধ,Positive,0.3899098358590393,model_autofill,True,Negative,0.4005034347214598,keep
+আপনার চেয়ে বড় মাফিয়া আমি দেখি নাই,Negative,0.3746037448830055,model_autofill,True,Negative,0.3958970552518001,keep
+যারা টাকা পাচার তাদের বিরুদ্ধে অ্যাকশন নেন,Negative,0.3243044936199394,model_autofill,True,Negative,0.4023374904964927,keep
+আমাদের ছোট গ্ৰুপে জয়েন্ট হবার জন্য আপনাকে একটা রিকোয়েস্ট করলাম,Negative,0.2898955703670283,model_autofill,True,Neutral,0.32232212905111124,keep
+জনাব জুলাই সংস্কারে শপথ না নিলে আপনাদের মন্ত্রী সভা কি বৈধ। আর আপনারা যা বলবেন আর যা করবেন তাও কি বৈধ? জুলাই না হলে কি মন্ত্রী হতে পারতেন?,Sarcastic_negative,0.3859705968749246,model_autofill,True,Sarcastic_negative,0.5503905532294809,keep
+MD Juhad Shah,Neutral,0.3680911818850067,model_autofill,True,Neutral,0.6266431138484901,keep
+তাহলে তো যুদ্ধটা নিজেদের বিরুদ্ধেই যাবে,Sarcastic_negative,0.3311035371583328,model_autofill,True,Negative,0.39009628673016733,keep
+ফেইসবুকে না বাস্তবে?,Negative,0.3684841429684794,model_autofill,True,Negative,0.3817932497895644,keep
+নিজেই তো বড় মাফিয়া। এখন কি নিজের বিরুদ্ধে যুদ্ধ করবে,Negative,0.3780775373366558,model_autofill,True,Negative,0.4972903537488376,keep
+ও তো নিজেই বড় মাফিয়া।,Sarcastic_negative,0.3169853303106605,model_autofill,True,Negative,0.3624894126215517,keep
+সুবহানাল্লাহ,Positive,0.3512646448753592,model_autofill,True,Positive,0.34351062235373764,keep
+তারেক রহমান যদি চুর বাটপার চাঁদাবাজদের বিরুদ্ধে দাঁড়ান জনগণ আপনার সাথে থাকবে না হলে পালাতে হবে!!!,Negative,0.3077112334657295,model_autofill,True,Negative,0.33308456768032346,keep
+খোকার ব্যাটা। ডু ইট। ন্যাশন উইল প্রেইজ,Positive,0.366789084494063,model_autofill,True,Positive,0.33702907948225846,keep
+17 BOCOR KOICLE SALA,Sarcastic_negative,0.3877339195561403,model_autofill,True,Sarcastic_negative,0.6470988591867995,keep
+মাফিয়া কি শুধু জামাতের লোক ভাই স্লোগান্টা হওয়া উচিত ছিলো সকল দুর্নীতিবাজ দের,Negative,0.3434244993136735,model_autofill,True,Negative,0.468626087956009,keep
+তুমাকে ই তো অনেকেই মাফিয়া বলে,Positive,0.3845057893721894,model_autofill,True,Sarcastic_negative,0.44913036686298957,keep
+বড় মাফিয়া,Positive,0.3132612039333119,model_autofill,True,Positive,0.3084189353774024,keep
+গুপ্ত চোর,Negative,0.3907857253145554,model_autofill,True,Negative,0.39938038631205464,keep
+শালা বাইনচোদ,Sarcastic_negative,0.3844207443118342,model_autofill,True,Sarcastic_negative,0.41061022989889334,keep
+তুই ই তো বড় মাফিয়া,Negative,0.3651264678833331,model_autofill,True,Negative,0.3964456650627318,keep
+বাবা তোমার মুক্তি যোদ্ধা নিয়ে থাক।,Negative,0.3642394610390103,model_autofill,True,Sarcastic_negative,0.4611965776619086,keep
+নিজেরই মাফিয়া,Negative,0.3738427431311129,model_autofill,True,Sarcastic_negative,0.4485553356879105,keep
+Tui r ek vondo sala,Negative,0.3454187591400933,model_autofill,True,Sarcastic_negative,0.36070457760381275,keep
+ফেসবুকের যোদ্ধা MP,Sarcastic_negative,0.3179674022897121,model_autofill,True,Sarcastic_negative,0.4927427510824217,keep
+সে নিজেই বড় মাফিয়া,Sarcastic_negative,0.35098951809238,model_autofill,True,Sarcastic_negative,0.3526030605837187,keep
+মুনাফেকিরা বলবে কিন্তু করবে না।,Negative,0.377230295924072,model_autofill,True,Sarcastic_negative,0.3562077512625247,keep
+"সকল নেতারাই , এই মাফিয়া অলিগার চক্রের বিরুদ্ধে , যুদ্ধ ঘোষণা করে, দিন শেষে, সকল নেতাই, ওই সকল মাফিয়া অলিগার দের হাথে, তাদের সুন্দরী বউ এবং কুমারী মেয়ে কে তুলে দেয়? এটা চুয়ান্ন বছর যাবত বাঙালী দেখেই আসছে,",Negative,0.3184474683880411,model_autofill,True,Negative,0.39183604341717015,keep
+Tui nejei e mafia baal pakna,Negative,0.3350230318524508,model_autofill,True,Sarcastic_negative,0.3658159350972409,keep
+Ay sala ke bole sey nejeo hanena,Sarcastic_negative,0.3787536522536452,model_autofill,True,Sarcastic_negative,0.40912205749477165,keep
+আসলে সে নিজেই একজন মাফিয়া ...,Sarcastic_negative,0.3748761523979619,model_autofill,True,Sarcastic_negative,0.4269150902474186,keep
+ইসরাক নিজেই একজন মাফিয়া সন্ত্রাসের গডফাদার,Negative,0.3915332353927524,model_autofill,True,Negative,0.39464455855308866,keep
+বাগের বাচ্চা,Negative,0.3908136064859691,model_autofill,True,Negative,0.34178315411455196,keep
+আপনি তো নিজে মাফিয়ার গডফাদার আগে নিজে ভালো হন তারপর মাফিয়া গুজেন কারণ চুর কোনদিন চুর ধরে না কথায় আছে না বৃক্ষ তোমার নাম কি ফলে পরিচয় কথা না বলে কাজ করেন বাহবা দেওয়ার জন্য পাবলিক রেডি আপনাকে কষ্ট করতে হবে না,Positive,0.3947917012128162,model_autofill,True,Positive,0.49646655034668197,keep
+নিজেই তো মাফিয়া,Sarcastic_negative,0.3613991170980996,model_autofill,True,Negative,0.4079557148601369,keep
+দুইদিন পর নিজে মাফিয়া হয়ে যাবি দেখব,Sarcastic_negative,0.350229642317596,model_autofill,True,Sarcastic_negative,0.38500306320695227,keep
+বাপের বেটা কাজে প্রমাণ করো,Positive,0.3545159036507764,model_autofill,True,Positive,0.5080517506725972,keep
+বাস্তব করতে পারলে তোকে ঘেরাও উপদেষ্টা আর বলবো না।,Negative,0.3481196807597814,model_autofill,True,Sarcastic_negative,0.343911143468258,keep
+ফাটাকেষ্ট,Sarcastic_negative,0.3610898372138094,model_autofill,True,Sarcastic_negative,0.34734302555768043,keep
+এখন তো সবচেয়ে বড় ক্ষমতার মালিক আপনি ও আপনার দল।,Sarcastic_negative,0.3642226049134323,model_autofill,True,Negative,0.37098841261158816,keep
+১০%মাফিয়া ব্যাক,Sarcastic_negative,0.2996792847134212,model_autofill,True,Sarcastic_negative,0.3078462786789845,keep
+নিজেই তো মাফিয়া,Sarcastic_negative,0.3846655617580153,model_autofill,True,Sarcastic_negative,0.3822246221385532,keep
+"nizei ak boro mafiya,, r onno mafiya k domon korbe",Sarcastic_negative,0.3624328691955889,model_autofill,True,Sarcastic_negative,0.44141952446737365,keep
+বট বাহিনী এখানেও এসে নুংরা কথা বলবে,Sarcastic_negative,0.389170078050029,model_autofill,True,Sarcastic_negative,0.4329990750794911,keep
+বচকে রহ ভইয়া৷,Neutral,0.3448026122250002,model_autofill,True,Neutral,0.4357965829986558,keep
+নিজের নাম টা বাদ দিলি কেন রে ভাই তুই তো মাফিয়ার কাতারে আছত,Negative,0.3634807008807763,model_autofill,True,Negative,0.41855810981371677,keep
+তুই নিজেই তো একটা সন্ত্রাস এবং মাফিয়া,Negative,0.3479119634575889,model_autofill,True,Negative,0.48935777353239124,keep
+উনার কর্মীরা এই মাফিয়া এক একটা ডন,Negative,0.3673758526831122,model_autofill,True,Negative,0.4506920008604074,keep
+অথচ নাসিরুদ্দিন পাটওয়ারী আপনাদেরকেই মাফিয়া বলে!,Negative,0.3850989022114957,model_autofill,True,Negative,0.3740219166037095,keep
+মাফিয়া কে ইসরাক,Sarcastic_negative,0.3451165388700897,model_autofill,True,Sarcastic_negative,0.42957924639205736,keep
+নিজেই বড়ো মাফিয়া,Sarcastic_negative,0.3284586196586919,model_autofill,True,Negative,0.34281563941585413,keep
+তুই নিজেই তো বড়ো মাফিয়া,Negative,0.3957922951502696,model_autofill,True,Negative,0.43504934843443216,keep
+Chadabaj তোরা readay হইয়া যা gharddar,Sarcastic_negative,0.3657866136617164,model_autofill,True,Negative,0.3506905897848966,keep
+"ঐ নিজেই মাফিয়া লিডার,",Sarcastic_negative,0.3390695276112069,model_autofill,True,Negative,0.34671649573377594,keep
+সে তো নিজেই একজন মাফিয়া,Negative,0.3869214594516676,model_autofill,True,Sarcastic_negative,0.403658580135834,keep
+ওম্মা হেতে নিজেও তো একজন মাফিয়া,Negative,0.3609831799411115,model_autofill,True,Sarcastic_negative,0.38580377979946123,keep

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840">
+<style>text{font-family:Arial,sans-serif;fill:#1f2937} .small{font-size:11px} .axis{stroke:#9ca3af;stroke-width:1}</style>
+<rect x="0" y="0" width="1200" height="840" fill="white"/>
+<text x="110" y="45" font-size="26" font-weight="700">District Bubble Map: Mentions in 2026-02-12_to_2026-02-17</text>
+<text x="110" y="68" class="small">Approximate district coordinates, bubble size reflects metric value.</text>
+<rect x="110.0" y="90.0" width="1010.0" height="660.0" fill="#f9fafb" stroke="#d1d5db"/>
+<circle cx="485.8" cy="528.0" r="6.5" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="997.6" cy="577.4" r="5.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="557.1" cy="581.3" r="5.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="605.2" cy="522.7" r="10.5" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="667.2" cy="524.3" r="7.3" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="399.9" cy="290.5" r="5.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="764.8" cy="386.8" r="6.5" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="672.1" cy="465.1" r="8.2" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="906.0" cy="559.9" r="13.5" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="952.9" cy="660.5" r="6.3" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="779.3" cy="440.5" r="8.6" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="617.6" cy="402.7" r="26.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="243.2" cy="206.0" r="6.3" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="497.8" cy="424.7" r="6.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="824.9" cy="488.6" r="6.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="434.1" cy="238.3" r="5.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="620.6" cy="381.9" r="9.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="494.3" cy="489.8" r="5.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="828.7" cy="341.6" r="6.3" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="517.7" cy="280.7" r="6.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="364.2" cy="472.3" r="6.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="352.8" cy="431.4" r="5.4" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="434.1" cy="507.0" r="8.8" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="694.2" cy="334.0" r="7.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="454.3" cy="186.8" r="5.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="345.8" cy="392.8" r="5.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="705.1" cy="496.3" r="6.1" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="380.3" cy="166.6" r="5.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="570.7" cy="472.6" r="5.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="408.7" cy="437.8" r="5.4" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="530.9" cy="397.1" r="5.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="242.9" cy="407.9" r="5.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="904.8" cy="329.9" r="5.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="642.5" cy="431.7" r="5.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="619.3" cy="301.3" r="9.1" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="306.1" cy="296.3" r="5.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="428.3" cy="471.7" r="5.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="636.0" cy="422.8" r="7.3" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="681.8" cy="390.6" r="7.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="320.5" cy="336.6" r="5.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="684.0" cy="286.5" r="5.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="290.1" cy="173.1" r="6.3" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="762.6" cy="509.3" r="8.2" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="370.3" cy="381.4" r="6.5" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="226.6" cy="128.8" r="6.1" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="600.2" cy="559.6" r="5.4" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="526.4" cy="536.0" r="5.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="456.0" cy="408.4" r="5.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="237.1" cy="341.6" r="8.3" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="1014.5" cy="519.3" r="5.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="378.3" cy="193.4" r="8.6" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="335.3" cy="520.8" r="5.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="622.3" cy="464.1" r="5.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="534.1" cy="271.7" r="6.1" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="467.9" cy="333.1" r="6.5" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="824.4" cy="266.8" r="6.3" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="924.0" cy="285.3" r="10.1" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="513.3" cy="354.9" r="7.6" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<circle cx="207.1" cy="162.1" r="5.9" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
+<text class="small" x="625.6" y="394.7">Dhaka (527)</text>
+<text class="small" x="914.0" y="551.9">Chattogram (98)</text>
+<text class="small" x="613.2" y="514.7">Barishal (46)</text>
+<text class="small" x="932.0" y="277.3">Sylhet (40)</text>
+<text class="small" x="627.3" y="293.3">Mymensingh (28)</text>
+<text class="small" x="628.6" y="373.9">Gazipur (27)</text>
+<text class="small" x="442.1" y="499.0">Khulna (25)</text>
+<text class="small" x="386.3" y="185.4">Rangpur (23)</text>
+<text class="small" x="787.3" y="432.5">Cumilla (23)</text>
+<text class="small" x="245.1" y="333.6">Rajshahi (20)</text>
+<text class="small" x="680.1" y="457.1">Chandpur (19)</text>
+<text class="small" x="770.6" y="501.3">Noakhali (19)</text>
+</svg>

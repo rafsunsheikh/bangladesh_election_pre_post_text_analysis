@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import argparse
-import csv
 import math
 import re
 import unicodedata
@@ -18,6 +17,7 @@ from PIL import features as pil_features
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
 from wordcloud import WordCloud
+from sentiment_inference import predict_sentiment, to_json_probs
 
 
 BANGLA_STOPWORDS = {
@@ -31,18 +31,6 @@ BANGLA_STOPWORDS = {
     "কেন", "কেমন", "অনেক", "খুব", "বেশ", "আরও", "শুধু", "সব", "কেউ", "কিছু",
     "এখন", "তখনও", "এইটা", "ওইটা", "সবার", "একজন",
     "হচ্ছে", "এর", "কে", "এক", "হয়ে", "গুলো", "গেছে", "কথা", "রে", "করেছে", "দিন", "হইছে", "এদের",
-}
-
-BANGLA_POSITIVE_WORDS = {
-    "ভালো", "ভাল", "সেরা", "সফল", "শান্তি", "জয়", "জয়", "সমর্থন", "অভিনন্দন", "ধন্যবাদ",
-    "উন্নতি", "উন্নয়ন", "উন্নয়ন", "নিরাপদ", "খুশি", "আশা", "পজিটিভ", "দারুণ", "চমৎকার",
-    "শক্তিশালী", "ঠিক", "ইতিবাচক", "সমাধান", "শুভেচ্ছা", "অভিনন্দন", "সমৃদ্ধি",
-}
-
-BANGLA_NEGATIVE_WORDS = {
-    "খারাপ", "মন্দ", "দুর্নীতি", "চোর", "বেইমান", "বেইমানি", "দালাল", "ভণ্ড", "ব্যর্থ", "অন্যায়",
-    "অন্যায়", "সমস্যা", "গাদ্দার", "প্রতারণা", "ঘৃণা", "ভয়", "ভয়", "অপমান", "হত্যা", "গুম",
-    "চাঁদাবাজ", "চাঁদাবাজি", "চান্দাবাজ", "সহিংসতা", "বিচারহীনতা", "নাটক", "পতন", "ধ্বংস",
 }
 
 URL_RE = re.compile(r"https?://\S+|www\.\S+", re.IGNORECASE)
@@ -152,6 +140,8 @@ def slugify(name: str) -> str:
 
 
 def normalize_dataset_label(stem: str) -> str:
+    stem = re.sub(r"(\.| )annotated(\.| )final$", "", stem, flags=re.IGNORECASE)
+    stem = re.sub(r"(\.| )annotated(\.| )completed$", "", stem, flags=re.IGNORECASE)
     label = stem.replace("_", " ").replace("-", " ")
     label = re.sub(r"\s+", " ", label).strip()
     if not label:
@@ -223,16 +213,40 @@ def cleanup_legacy_outputs(output_dir: Path) -> None:
             target.unlink()
 
 
-def load_single_column_csv(path: Path) -> list[str]:
-    rows: list[str] = []
-    with path.open("r", encoding="utf-8-sig", newline="") as file:
-        reader = csv.reader(file)
-        for row in reader:
-            if not row:
-                rows.append("")
-                continue
-            rows.append(row[0].strip())
-    return rows
+def detect_text_col(df: pd.DataFrame) -> str:
+    for col in ["Comment", "comment", "text", "Text"]:
+        if col in df.columns:
+            return col
+    obj_cols = [c for c in df.columns if df[c].dtype == "object"]
+    return obj_cols[0] if obj_cols else str(df.columns[0])
+
+
+def load_dataset_rows(path: Path) -> pd.DataFrame:
+    # Annotated files are headered; legacy raw files may be single-column without headers.
+    probe = pd.read_csv(path, nrows=3, encoding="utf-8-sig")
+    if len(probe.columns) == 1 and "Comment" not in probe.columns:
+        df = pd.read_csv(path, header=None, names=["Comment"], encoding="utf-8-sig")
+    else:
+        df = pd.read_csv(path, encoding="utf-8-sig")
+    text_col = detect_text_col(df)
+    work = pd.DataFrame()
+    work["raw_text"] = df[text_col].fillna("").astype(str)
+    work["provided_sentiment_label"] = (
+        df["Sentiment"].astype(str).str.strip().str.lower().replace({"nan": ""}).replace({"": pd.NA})
+        if "Sentiment" in df.columns
+        else pd.Series([pd.NA] * len(df))
+    )
+    work["provided_sentiment_confidence"] = (
+        pd.to_numeric(df["sentiment_confidence"], errors="coerce")
+        if "sentiment_confidence" in df.columns
+        else pd.Series([pd.NA] * len(df))
+    )
+    work["provided_sentiment_source"] = (
+        df["sentiment_source"].astype(str).replace({"nan": ""}).replace({"": "provided"})
+        if "sentiment_source" in df.columns
+        else pd.Series(["provided"] * len(df))
+    )
+    return work
 
 
 def normalize_text(text: str) -> str:
@@ -267,8 +281,9 @@ def tokenize(text: str, stopwords: set[str]) -> list[str]:
 def build_dataframe(dataset_files: dict[str, Path]) -> pd.DataFrame:
     records: list[dict[str, object]] = []
     for dataset, path in dataset_files.items():
-        rows = load_single_column_csv(path)
-        for idx, raw in enumerate(rows):
+        rows_df = load_dataset_rows(path)
+        for idx, row in rows_df.iterrows():
+            raw = str(row["raw_text"])
             clean = normalize_text(raw)
             tokens = tokenize(clean, BANGLA_STOPWORDS)
             records.append(
@@ -284,36 +299,58 @@ def build_dataframe(dataset_files: dict[str, Path]) -> pd.DataFrame:
                     "token_len": len(tokens),
                     "is_empty_raw": int(raw.strip() == ""),
                     "is_empty_tokenized": int(len(tokens) == 0),
+                    "provided_sentiment_label": row["provided_sentiment_label"],
+                    "provided_sentiment_confidence": row["provided_sentiment_confidence"],
+                    "provided_sentiment_source": row["provided_sentiment_source"],
                 }
             )
     return pd.DataFrame(records)
 
 
-def score_sentiment(tokens: list[str]) -> tuple[int, int, float, str]:
-    if not tokens:
-        return 0, 0, 0.0, "neutral"
-
-    pos_hits = sum(1 for token in tokens if token in BANGLA_POSITIVE_WORDS)
-    neg_hits = sum(1 for token in tokens if token in BANGLA_NEGATIVE_WORDS)
-    score = (pos_hits - neg_hits) / max(1, len(tokens))
-
-    if pos_hits > neg_hits and score > 0:
-        label = "positive"
-    elif neg_hits > pos_hits and score < 0:
-        label = "negative"
-    else:
-        label = "neutral"
-    return pos_hits, neg_hits, score, label
-
-
-def add_sentiment_features(df: pd.DataFrame) -> pd.DataFrame:
-    sentiment_rows = df["tokens"].apply(score_sentiment)
-    sentiment_df = pd.DataFrame(
-        sentiment_rows.tolist(),
-        columns=["positive_hits", "negative_hits", "sentiment_score", "sentiment_label"],
-        index=df.index,
+def add_sentiment_features(df: pd.DataFrame, model_path: Path | None) -> pd.DataFrame:
+    provided_map = {
+        "negative": "negative",
+        "neutral": "neutral",
+        "positive": "positive",
+        "sarcastic_negative": "sarcastic_negative",
+        "sarcastic negative": "sarcastic_negative",
+        "sarcastic-negative": "sarcastic_negative",
+    }
+    out = df.copy()
+    out["provided_sentiment_label"] = (
+        out["provided_sentiment_label"]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .map(provided_map)
     )
-    return pd.concat([df, sentiment_df], axis=1)
+    has_provided = out["provided_sentiment_label"].notna()
+
+    sentiment_df = predict_sentiment(out["clean_text"].fillna(""), model_path=model_path)
+    sentiment_df = sentiment_df.drop(columns=["text"]).copy()
+    sentiment_df["sentiment_probabilities_json"] = sentiment_df.apply(to_json_probs, axis=1)
+
+    out = pd.concat([out, sentiment_df], axis=1)
+    out.loc[has_provided, "sentiment_label"] = out.loc[has_provided, "provided_sentiment_label"]
+    out.loc[has_provided, "sentiment_source"] = out.loc[has_provided, "provided_sentiment_source"].fillna("provided")
+    out.loc[has_provided, "sentiment_confidence"] = out.loc[has_provided, "provided_sentiment_confidence"].fillna(
+        out.loc[has_provided, "sentiment_confidence"]
+    )
+    for lbl, col in [
+        ("negative", "prob_negative"),
+        ("neutral", "prob_neutral"),
+        ("positive", "prob_positive"),
+        ("sarcastic_negative", "prob_sarcastic_negative"),
+    ]:
+        out.loc[has_provided & (out["sentiment_label"] == lbl), col] = 1.0
+        out.loc[has_provided & (out["sentiment_label"] != lbl), col] = 0.0
+    out.loc[has_provided, "sentiment_score"] = (
+        out.loc[has_provided, "prob_positive"]
+        - out.loc[has_provided, "prob_negative"]
+        - out.loc[has_provided, "prob_sarcastic_negative"]
+    )
+    out.loc[has_provided, "sentiment_probabilities_json"] = out.loc[has_provided].apply(to_json_probs, axis=1)
+    return out
 
 
 def build_sentiment_summary(df: pd.DataFrame) -> pd.DataFrame:
@@ -324,7 +361,7 @@ def build_sentiment_summary(df: pd.DataFrame) -> pd.DataFrame:
     )
     total_per_dataset = summary.groupby("dataset")["count"].transform("sum")
     summary["percentage"] = summary["count"] / total_per_dataset
-    label_order = {"negative": 0, "neutral": 1, "positive": 2}
+    label_order = {"negative": 0, "sarcastic_negative": 1, "neutral": 2, "positive": 3}
     summary["label_order"] = summary["sentiment_label"].map(label_order).fillna(99)
     summary = summary.sort_values(["dataset", "label_order"]).drop(columns=["label_order"])
     return summary
@@ -611,13 +648,18 @@ def plot_sentiment_distribution(sentiment_summary: pd.DataFrame, output: Path) -
     pivot = (
         sentiment_summary.pivot(index="dataset", columns="sentiment_label", values="count")
         .fillna(0)
-        .reindex(columns=["negative", "neutral", "positive"], fill_value=0)
+        .reindex(columns=["negative", "sarcastic_negative", "neutral", "positive"], fill_value=0)
     )
-    colors = {"negative": "#d62728", "neutral": "#7f7f7f", "positive": "#2ca02c"}
+    colors = {
+        "negative": "#d62728",
+        "sarcastic_negative": "#8b0000",
+        "neutral": "#7f7f7f",
+        "positive": "#2ca02c",
+    }
 
     fig, ax = plt.subplots(figsize=(10, 6), constrained_layout=True)
     cumulative = [0] * len(pivot.index)
-    for label in ["negative", "neutral", "positive"]:
+    for label in ["negative", "sarcastic_negative", "neutral", "positive"]:
         values = pivot[label].values
         ax.bar(pivot.index, values, bottom=cumulative, color=colors[label], label=label.title(), alpha=0.9)
         cumulative = [c + v for c, v in zip(cumulative, values)]
@@ -703,7 +745,7 @@ def write_report(
     lines.append("")
 
     lines.append("## Sentiment Summary")
-    lines.append("Lexicon-based sentiment over cleaned tokens (`positive`, `neutral`, `negative`).")
+    lines.append("Model-based sentiment over cleaned text (`negative`, `sarcastic_negative`, `neutral`, `positive`).")
     lines.append("")
     lines.append(dataframe_to_markdown(sentiment_summary_df))
     lines.append("")
@@ -746,8 +788,12 @@ def main() -> None:
         "--input-files",
         type=Path,
         nargs="*",
-        default=None,
-        help="Optional explicit CSV files to analyze.",
+        default=[
+            Path("data/Before Election some annotated.final.csv"),
+            Path("data/After Election.annotated.final.csv"),
+            Path("data/After Forming Government.annotated.final.csv"),
+        ],
+        help="Explicit CSV files to analyze (defaults to annotated final datasets).",
     )
     parser.add_argument("--topics", type=int, default=5, help="Requested number of LDA topics per dataset.")
     parser.add_argument("--top-words", type=int, default=10, help="Number of top words per topic.")
@@ -762,6 +808,12 @@ def main() -> None:
         type=int,
         default=7,
         help="Random seed for wordcloud layout. Use a different value for a new layout.",
+    )
+    parser.add_argument(
+        "--sentiment-model",
+        type=Path,
+        default=PROJECT_ROOT / "models/sentiment_model.joblib",
+        help="Path to trained sentiment model bundle. Falls back to heuristic if missing.",
     )
     args = parser.parse_args()
 
@@ -791,8 +843,14 @@ def main() -> None:
             "Complex Bangla shaping can appear broken in wordcloud text."
         )
 
+    model_path = resolve_input_path(args.sentiment_model)
+    if model_path.exists():
+        print(f"Using sentiment model: {model_path}")
+    else:
+        print(f"Sentiment model not found at {model_path}; using heuristic fallback.")
+
     data_df = build_dataframe(dataset_files)
-    data_df = add_sentiment_features(data_df)
+    data_df = add_sentiment_features(data_df, model_path=model_path if model_path.exists() else None)
     data_df.to_csv(output_dir / "cleaned_documents.csv", index=False, encoding="utf-8")
 
     summary_df = compute_summary(data_df)
@@ -808,9 +866,14 @@ def main() -> None:
             "raw_text",
             "clean_text",
             "sentiment_label",
+            "sentiment_confidence",
             "sentiment_score",
-            "positive_hits",
-            "negative_hits",
+            "sentiment_source",
+            "prob_negative",
+            "prob_sarcastic_negative",
+            "prob_neutral",
+            "prob_positive",
+            "sentiment_probabilities_json",
         ]
     ].to_csv(output_dir / "document_sentiment.csv", index=False, encoding="utf-8")
 

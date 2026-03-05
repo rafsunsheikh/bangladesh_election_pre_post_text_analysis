@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="760" viewBox="0 0 1300 760">
+<style>text{font-family:Arial,sans-serif;fill:#1f2937} .small{font-size:11px} .axis{stroke:#9ca3af;stroke-width:1}</style>
+<rect x="0" y="0" width="1300" height="760" fill="white"/>
+<text x="120" y="45" font-size="26" font-weight="700">Top Locations by Period</text>
+<text x="120" y="70" class="small">2026-02-12_to_2026-02-17 vs 2026-02-18_to_2026-03-01</text>
+<line class="axis" x1="120" y1="590" x2="1220" y2="590"/>
+<line class="axis" x1="120" y1="90" x2="120" y2="590"/>
+<line class="axis" x1="120" y1="590.0" x2="1220" y2="590.0" stroke="#f3f4f6"/>
+<text class="small" x="112" y="594.0" text-anchor="end">0</text>
+<line class="axis" x1="120" y1="490.0" x2="1220" y2="490.0" stroke="#f3f4f6"/>
+<text class="small" x="112" y="494.0" text-anchor="end">208</text>
+<line class="axis" x1="120" y1="390.0" x2="1220" y2="390.0" stroke="#f3f4f6"/>
+<text class="small" x="112" y="394.0" text-anchor="end">416</text>
+<line class="axis" x1="120" y1="290.0" x2="1220" y2="290.0" stroke="#f3f4f6"/>
+<text class="small" x="112" y="294.0" text-anchor="end">625</text>
+<line class="axis" x1="120" y1="190.0" x2="1220" y2="190.0" stroke="#f3f4f6"/>
+<text class="small" x="112" y="194.0" text-anchor="end">833</text>
+<line class="axis" x1="120" y1="90.0" x2="1220" y2="90.0" stroke="#f3f4f6"/>
+<text class="small" x="112" y="94.0" text-anchor="end">1041</text>
+<rect x="131.9" y="336.9" width="31.2" height="253.1" fill="#1f77b4"/>
+<rect x="170.4" y="90.0" width="31.2" height="500.0" fill="#ff7f0e"/>
+<text class="small" x="165.8" y="608" text-anchor="middle" transform="rotate(30 165.8,608)">Dhaka</text>
+<rect x="223.6" y="542.9" width="31.2" height="47.1" fill="#1f77b4"/>
+<rect x="262.1" y="462.7" width="31.2" height="127.3" fill="#ff7f0e"/>
+<text class="small" x="257.5" y="608" text-anchor="middle" transform="rotate(30 257.5,608)">Chattogram</text>
+<rect x="315.3" y="567.9" width="31.2" height="22.1" fill="#1f77b4"/>
+<rect x="353.8" y="532.4" width="31.2" height="57.6" fill="#ff7f0e"/>
+<text class="small" x="349.2" y="608" text-anchor="middle" transform="rotate(30 349.2,608)">Barishal</text>
+<rect x="406.9" y="578.0" width="31.2" height="12.0" fill="#1f77b4"/>
+<rect x="445.4" y="530.4" width="31.2" height="59.6" fill="#ff7f0e"/>
+<text class="small" x="440.8" y="608" text-anchor="middle" transform="rotate(30 440.8,608)">Khulna</text>
+<rect x="498.6" y="570.8" width="31.2" height="19.2" fill="#1f77b4"/>
+<rect x="537.1" y="552.5" width="31.2" height="37.5" fill="#ff7f0e"/>
+<text class="small" x="532.5" y="608" text-anchor="middle" transform="rotate(30 532.5,608)">Sylhet</text>
+<rect x="590.2" y="579.0" width="31.2" height="11.0" fill="#1f77b4"/>
+<rect x="628.8" y="552.1" width="31.2" height="37.9" fill="#ff7f0e"/>
+<text class="small" x="624.2" y="608" text-anchor="middle" transform="rotate(30 624.2,608)">Cumilla</text>
+<rect x="681.9" y="577.0" width="31.2" height="13.0" fill="#1f77b4"/>
+<rect x="720.4" y="555.4" width="31.2" height="34.6" fill="#ff7f0e"/>
+<text class="small" x="715.8" y="608" text-anchor="middle" transform="rotate(30 715.8,608)">Gazipur</text>
+<rect x="773.6" y="576.6" width="31.2" height="13.4" fill="#1f77b4"/>
+<rect x="812.1" y="561.2" width="31.2" height="28.8" fill="#ff7f0e"/>
+<text class="small" x="807.5" y="608" text-anchor="middle" transform="rotate(30 807.5,608)">Mymensingh</text>
+<rect x="865.2" y="579.0" width="31.2" height="11.0" fill="#1f77b4"/>
+<rect x="903.8" y="562.6" width="31.2" height="27.4" fill="#ff7f0e"/>
+<text class="small" x="899.2" y="608" text-anchor="middle" transform="rotate(30 899.2,608)">Rangpur</text>
+<rect x="956.9" y="580.9" width="31.2" height="9.1" fill="#1f77b4"/>
+<rect x="995.4" y="562.6" width="31.2" height="27.4" fill="#ff7f0e"/>
+<text class="small" x="990.8" y="608" text-anchor="middle" transform="rotate(30 990.8,608)">Noakhali</text>
+<rect x="1048.6" y="580.4" width="31.2" height="9.6" fill="#1f77b4"/>
+<rect x="1087.1" y="565.0" width="31.2" height="25.0" fill="#ff7f0e"/>
+<text class="small" x="1082.5" y="608" text-anchor="middle" transform="rotate(30 1082.5,608)">Rajshahi</text>
+<rect x="1140.3" y="582.8" width="31.2" height="7.2" fill="#1f77b4"/>
+<rect x="1178.8" y="570.8" width="31.2" height="19.2" fill="#ff7f0e"/>
+<text class="small" x="1174.2" y="608" text-anchor="middle" transform="rotate(30 1174.2,608)">Kishoreganj</text>
+<rect x="960" y="40" width="14" height="14" fill="#1f77b4"/><text class="small" x="980" y="52">2026-02-12_to_2026-02-17</text>
+<rect x="960" y="62" width="14" height="14" fill="#ff7f0e"/><text class="small" x="980" y="74">2026-02-18_to_2026-03-01</text>
+</svg>

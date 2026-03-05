@@ -1,0 +1,21 @@
+dataset,Sentiment,count,share
+12.02.26 —- 17.02.26 - Sheet1,Negative,260,0.34805890227576974
+12.02.26 —- 17.02.26 - Sheet1,Neutral,65,0.08701472556894244
+12.02.26 —- 17.02.26 - Sheet1,Positive,78,0.10441767068273092
+12.02.26 —- 17.02.26 - Sheet1,Sarcastic_negative,344,0.4605087014725569
+18.02.26 —--- 01.03.26 - Sheet1,Negative,559,0.3377643504531722
+18.02.26 —--- 01.03.26 - Sheet1,Neutral,144,0.08700906344410876
+18.02.26 —--- 01.03.26 - Sheet1,Positive,260,0.15709969788519637
+18.02.26 —--- 01.03.26 - Sheet1,Sarcastic_negative,692,0.41812688821752264
+After Election,Negative,445,0.22997416020671835
+After Election,Neutral,114,0.05891472868217054
+After Election,Positive,491,0.2537467700258398
+After Election,Sarcastic_negative,885,0.4573643410852713
+After Forming Government,Negative,806,0.32022248708780293
+After Forming Government,Neutral,265,0.10528406833531982
+After Forming Government,Positive,560,0.22248708780294002
+After Forming Government,Sarcastic_negative,886,0.3520063567739372
+Before Election some,Negative,522,0.381021897810219
+Before Election some,Neutral,129,0.09416058394160584
+Before Election some,Positive,266,0.19416058394160585
+Before Election some,Sarcastic_negative,453,0.33065693430656934

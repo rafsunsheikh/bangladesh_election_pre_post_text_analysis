@@ -1,0 +1,1562 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4d2459051a7912c32fde5df034fbb39d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4d2459051a7912c32fde5df034fbb39d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4d2459051a7912c32fde5df034fbb39d = L.map(
+                "map_4d2459051a7912c32fde5df034fbb39d",
+                {
+                    center: [23.7, 90.4],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61b3569a35cbc8caf72f4a9fee6d79d7 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_61b3569a35cbc8caf72f4a9fee6d79d7.addTo(map_4d2459051a7912c32fde5df034fbb39d);
+        
+    
+            var marker_cluster_1b97310d43885b50d64c4bc17bb51e22 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_b525f5da72688bca66eaf0c2f2ce0574 = L.circleMarker(
+                [23.8103, 90.4125],
+                {"bubblingMouseEvents": true, "color": "#c42955", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c42955", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27.0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_c06d901fafd3819f7775ef1934c6c694 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3edd00f904426ddc73931802531e4f33 = $(`<div id="html_3edd00f904426ddc73931802531e4f33" style="width: 100.0%; height: 100.0%;"><b>Dhaka</b><br>Mentions: 1508<br>Neg+Sarcastic Share: 77.1%<br><i>"ওখানে ধরা খাবে তারপর সরকারিভাবে দেশের কারাগারে আসবে, দেশের আদালত মুক্ত করে দিবে। এটাই পলিটিক্স।"</i></div>`)[0];
+                popup_c06d901fafd3819f7775ef1934c6c694.setContent(html_3edd00f904426ddc73931802531e4f33);
+            
+        
+
+        circle_marker_b525f5da72688bca66eaf0c2f2ce0574.bindPopup(popup_c06d901fafd3819f7775ef1934c6c694)
+        ;
+
+        
+    
+    
+            var circle_marker_b601bfe5b6e54225e24543e0a8258a4c = L.circleMarker(
+                [22.3569, 91.7832],
+                {"bubblingMouseEvents": true, "color": "#cb2455", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cb2455", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.793823757118455, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_a9cfe4ba60b7820615e1aee08784159c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4c74d0ac150ab1ad4561df94295c7238 = $(`<div id="html_4c74d0ac150ab1ad4561df94295c7238" style="width: 100.0%; height: 100.0%;"><b>Chattogram</b><br>Mentions: 363<br>Neg+Sarcastic Share: 79.9%<br><i>নিজ দেশেও (ভারত) নিরাপদ নয় আওয়ামীলীগ</i></div>`)[0];
+                popup_a9cfe4ba60b7820615e1aee08784159c.setContent(html_4c74d0ac150ab1ad4561df94295c7238);
+            
+        
+
+        circle_marker_b601bfe5b6e54225e24543e0a8258a4c.bindPopup(popup_a9cfe4ba60b7820615e1aee08784159c)
+        ;
+
+        
+    
+    
+            var circle_marker_f9cf6f943a6891046f28c92b4858d814 = L.circleMarker(
+                [22.701, 90.3535],
+                {"bubblingMouseEvents": true, "color": "#d21f55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d21f55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.299213285612321, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_24063118ed1deaba4d1de4fa76449fb9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0962ef90f32b3929ae3cd8c61e6d042a = $(`<div id="html_0962ef90f32b3929ae3cd8c61e6d042a" style="width: 100.0%; height: 100.0%;"><b>Barishal</b><br>Mentions: 166<br>Neg+Sarcastic Share: 82.5%<br><i>খেলা শুরু এভাবেই চলবে</i></div>`)[0];
+                popup_24063118ed1deaba4d1de4fa76449fb9.setContent(html_0962ef90f32b3929ae3cd8c61e6d042a);
+            
+        
+
+        circle_marker_f9cf6f943a6891046f28c92b4858d814.bindPopup(popup_24063118ed1deaba4d1de4fa76449fb9)
+        ;
+
+        
+    
+    
+            var circle_marker_1bccdb7c1a63cc939e16824d7344c86b = L.circleMarker(
+                [22.8456, 89.5403],
+                {"bubblingMouseEvents": true, "color": "#c52855", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c52855", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.727157045127928, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_5166157d9c74a4e34845148d94463fde = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_722a166070fabb76aac54b6ca036d883 = $(`<div id="html_722a166070fabb76aac54b6ca036d883" style="width: 100.0%; height: 100.0%;"><b>Khulna</b><br>Mentions: 141<br>Neg+Sarcastic Share: 77.3%<br><i>"নাটক কইরে দেশে পাঠাবে, পাকড়াও দেখায় খালাশ। মাঝখানে কিছু টাকার ছড়াছড়ি!"</i></div>`)[0];
+                popup_5166157d9c74a4e34845148d94463fde.setContent(html_722a166070fabb76aac54b6ca036d883);
+            
+        
+
+        circle_marker_1bccdb7c1a63cc939e16824d7344c86b.bindPopup(popup_5166157d9c74a4e34845148d94463fde)
+        ;
+
+        
+    
+    
+            var circle_marker_8cdb0aef781bbdf829062a6ae5b08f70 = L.circleMarker(
+                [23.4607, 91.1809],
+                {"bubblingMouseEvents": true, "color": "#c52855", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c52855", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.721660644472369, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_bd6abc41583cafdbe0c61629ea4b27f8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3c72a6f884b07e7c48036d8f36329d0a = $(`<div id="html_3c72a6f884b07e7c48036d8f36329d0a" style="width: 100.0%; height: 100.0%;"><b>Cumilla</b><br>Mentions: 102<br>Neg+Sarcastic Share: 77.5%<br><i>আল্লাহরে এডা কি হইলো</i></div>`)[0];
+                popup_bd6abc41583cafdbe0c61629ea4b27f8.setContent(html_3c72a6f884b07e7c48036d8f36329d0a);
+            
+        
+
+        circle_marker_8cdb0aef781bbdf829062a6ae5b08f70.bindPopup(popup_bd6abc41583cafdbe0c61629ea4b27f8)
+        ;
+
+        
+    
+    
+            var circle_marker_ca0719f71babc54427c0e86b5707d1ad = L.circleMarker(
+                [24.8949, 91.8687],
+                {"bubblingMouseEvents": true, "color": "#d41d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d41d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.579661817233635, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_01c64eb3ba4f7c34a1733fa35ff25509 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_967e413bad11ec853f95f60038574faf = $(`<div id="html_967e413bad11ec853f95f60038574faf" style="width: 100.0%; height: 100.0%;"><b>Sylhet</b><br>Mentions: 97<br>Neg+Sarcastic Share: 83.5%<br><i>এগুলোকে এখন গ্রেফতার করবে আর আস্তে আস্তে সবগুলোকে বাংলাদেশ প্রেরণ করবে</i></div>`)[0];
+                popup_01c64eb3ba4f7c34a1733fa35ff25509.setContent(html_967e413bad11ec853f95f60038574faf);
+            
+        
+
+        circle_marker_ca0719f71babc54427c0e86b5707d1ad.bindPopup(popup_01c64eb3ba4f7c34a1733fa35ff25509)
+        ;
+
+        
+    
+    
+            var circle_marker_9e9b099035989cc98031b10b210c2a56 = L.circleMarker(
+                [24.0023, 90.4264],
+                {"bubblingMouseEvents": true, "color": "#d81b55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d81b55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.46340611395929, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_ea3c0644d6d11719d525e2f00c50a242 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_00bb33b88f1c54190655f4b1ca3c7075 = $(`<div id="html_00bb33b88f1c54190655f4b1ca3c7075" style="width: 100.0%; height: 100.0%;"><b>Gazipur</b><br>Mentions: 93<br>Neg+Sarcastic Share: 84.9%<br><i>"ভাগ্য ভালো দলের সিদ্ধান্তে হয়েছেন, নয়তো নিজে নিজেই মন্ত্রিত্বের শপথ নিতেন.!"</i></div>`)[0];
+                popup_ea3c0644d6d11719d525e2f00c50a242.setContent(html_00bb33b88f1c54190655f4b1ca3c7075);
+            
+        
+
+        circle_marker_9e9b099035989cc98031b10b210c2a56.bindPopup(popup_ea3c0644d6d11719d525e2f00c50a242)
+        ;
+
+        
+    
+    
+            var circle_marker_81ef7010514c20978659dffc7c03ab42 = L.circleMarker(
+                [24.7471, 90.4203],
+                {"bubblingMouseEvents": true, "color": "#c92555", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c92555", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.098759405983586, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_58adf268b88a7cbd9d8f8995a6c034f3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b558e895b2aae8c90881cd5086fb81bc = $(`<div id="html_b558e895b2aae8c90881cd5086fb81bc" style="width: 100.0%; height: 100.0%;"><b>Mymensingh</b><br>Mentions: 81<br>Neg+Sarcastic Share: 79.0%<br><i>ওরে বাটপার</i></div>`)[0];
+                popup_58adf268b88a7cbd9d8f8995a6c034f3.setContent(html_b558e895b2aae8c90881cd5086fb81bc);
+            
+        
+
+        circle_marker_81ef7010514c20978659dffc7c03ab42.bindPopup(popup_58adf268b88a7cbd9d8f8995a6c034f3)
+        ;
+
+        
+    
+    
+            var circle_marker_04ec26eafad877eba500f6f4a740b6ff = L.circleMarker(
+                [25.7439, 89.2752],
+                {"bubblingMouseEvents": true, "color": "#b93055", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b93055", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.739920199890106, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_4525cd01adacb448900fce0cc97317d6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5dc6621458541f42fba6751891af545e = $(`<div id="html_5dc6621458541f42fba6751891af545e" style="width: 100.0%; height: 100.0%;"><b>Rangpur</b><br>Mentions: 70<br>Neg+Sarcastic Share: 72.9%<br><i>খেলা হবে নিরাপদে</i></div>`)[0];
+                popup_4525cd01adacb448900fce0cc97317d6.setContent(html_5dc6621458541f42fba6751891af545e);
+            
+        
+
+        circle_marker_04ec26eafad877eba500f6f4a740b6ff.bindPopup(popup_4525cd01adacb448900fce0cc97317d6)
+        ;
+
+        
+    
+    
+            var circle_marker_f2c8af7c144fae831566adcc9f0ee80b = L.circleMarker(
+                [22.8246, 91.1017],
+                {"bubblingMouseEvents": true, "color": "#c32955", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c32955", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.705941839224584, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_632b19a99e951996f5cab67f66e2c7fe = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_424448c10a2dfeb72bdbb14dad352b77 = $(`<div id="html_424448c10a2dfeb72bdbb14dad352b77" style="width: 100.0%; height: 100.0%;"><b>Noakhali</b><br>Mentions: 69<br>Neg+Sarcastic Share: 76.8%<br><i>আমার পেইজটিতে আমন্ত্রণ রইলো</i></div>`)[0];
+                popup_632b19a99e951996f5cab67f66e2c7fe.setContent(html_424448c10a2dfeb72bdbb14dad352b77);
+            
+        
+
+        circle_marker_f2c8af7c144fae831566adcc9f0ee80b.bindPopup(popup_632b19a99e951996f5cab67f66e2c7fe)
+        ;
+
+        
+    
+    
+            var circle_marker_65c51fb09e7a2bf9cb4b76f68c908da0 = L.circleMarker(
+                [24.3745, 88.6042],
+                {"bubblingMouseEvents": true, "color": "#ae3955", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ae3955", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.38831339237619, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_c587e5c74c17d40e4de4dba613d2a12f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2c6fca32cdf779322fa93427e6400c57 = $(`<div id="html_2c6fca32cdf779322fa93427e6400c57" style="width: 100.0%; height: 100.0%;"><b>Rajshahi</b><br>Mentions: 60<br>Neg+Sarcastic Share: 68.3%<br><i>একে তো তালা আর ঘেরাও বিষয়ক মন্ত্রী বানানো উচিত ছিল</i></div>`)[0];
+                popup_c587e5c74c17d40e4de4dba613d2a12f.setContent(html_2c6fca32cdf779322fa93427e6400c57);
+            
+        
+
+        circle_marker_65c51fb09e7a2bf9cb4b76f68c908da0.bindPopup(popup_c587e5c74c17d40e4de4dba613d2a12f)
+        ;
+
+        
+    
+    
+            var circle_marker_c0916f7e578f1a1d5e083403225aa305 = L.circleMarker(
+                [24.8465, 89.3776],
+                {"bubblingMouseEvents": true, "color": "#a83d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a83d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.883925930885496, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_87d0d474c3a39311e0087e5af50e3163 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_36753d4644e4d284fbf0361422b0fe22 = $(`<div id="html_36753d4644e4d284fbf0361422b0fe22" style="width: 100.0%; height: 100.0%;"><b>Bogura</b><br>Mentions: 47<br>Neg+Sarcastic Share: 66.0%<br><i>এ কি মন্ত্রী হবার যোগ্য?</i></div>`)[0];
+                popup_87d0d474c3a39311e0087e5af50e3163.setContent(html_36753d4644e4d284fbf0361422b0fe22);
+            
+        
+
+        circle_marker_c0916f7e578f1a1d5e083403225aa305.bindPopup(popup_87d0d474c3a39311e0087e5af50e3163)
+        ;
+
+        
+    
+    
+            var circle_marker_72806118634dd966d8cbfd31b5b38aa7 = L.circleMarker(
+                [23.2333, 90.6713],
+                {"bubblingMouseEvents": true, "color": "#994855", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#994855", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.800390877565249, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_d58629039e81ec3700a80e0e7dd4967a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_320283df15a38cc7410a09344eaf5ca7 = $(`<div id="html_320283df15a38cc7410a09344eaf5ca7" style="width: 100.0%; height: 100.0%;"><b>Chandpur</b><br>Mentions: 45<br>Neg+Sarcastic Share: 60.0%<br><i>Beimani korlo</i></div>`)[0];
+                popup_d58629039e81ec3700a80e0e7dd4967a.setContent(html_320283df15a38cc7410a09344eaf5ca7);
+            
+        
+
+        circle_marker_72806118634dd966d8cbfd31b5b38aa7.bindPopup(popup_d58629039e81ec3700a80e0e7dd4967a)
+        ;
+
+        
+    
+    
+            var circle_marker_f5bec9dc8363bba9e3c3a99bbf609f4e = L.circleMarker(
+                [23.1664, 89.2081],
+                {"bubblingMouseEvents": true, "color": "#ca2455", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ca2455", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.757927076876207, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_fa2b323e23ec27a83bb4bf7737a826ee = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_63d6fb9a5309a303782fe890e146f2c7 = $(`<div id="html_63d6fb9a5309a303782fe890e146f2c7" style="width: 100.0%; height: 100.0%;"><b>Jessore</b><br>Mentions: 44<br>Neg+Sarcastic Share: 79.5%<br><i>মুক্তিযুদ্ধের সময়ের ২য় শিশু মুক্তিযোদ্ধা</i></div>`)[0];
+                popup_fa2b323e23ec27a83bb4bf7737a826ee.setContent(html_63d6fb9a5309a303782fe890e146f2c7);
+            
+        
+
+        circle_marker_f5bec9dc8363bba9e3c3a99bbf609f4e.bindPopup(popup_fa2b323e23ec27a83bb4bf7737a826ee)
+        ;
+
+        
+    
+    
+            var circle_marker_eaf88d8e0bb4786f6a77b2d463574584 = L.circleMarker(
+                [24.2513, 89.9167],
+                {"bubblingMouseEvents": true, "color": "#db1955", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#db1955", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.714977928327107, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_19c999dc6048196d0fdb6dca7e435810 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_602ff0b546a3c8fe16ad84b141a80ed3 = $(`<div id="html_602ff0b546a3c8fe16ad84b141a80ed3" style="width: 100.0%; height: 100.0%;"><b>Tangail</b><br>Mentions: 43<br>Neg+Sarcastic Share: 86.0%<br><i>ধন্যবাদ জানাই</i></div>`)[0];
+                popup_19c999dc6048196d0fdb6dca7e435810.setContent(html_602ff0b546a3c8fe16ad84b141a80ed3);
+            
+        
+
+        circle_marker_eaf88d8e0bb4786f6a77b2d463574584.bindPopup(popup_19c999dc6048196d0fdb6dca7e435810)
+        ;
+
+        
+    
+    
+            var circle_marker_ea690d61acabacf2d6b4c069c0c88cb8 = L.circleMarker(
+                [24.0064, 89.2372],
+                {"bubblingMouseEvents": true, "color": "#cc2355", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc2355", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.58304288091451, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_934b269aec6eca4d2c8e843643b17c04 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_58c670490e5bc6241ff55bc526b670cb = $(`<div id="html_58c670490e5bc6241ff55bc526b670cb" style="width: 100.0%; height: 100.0%;"><b>Pabna</b><br>Mentions: 40<br>Neg+Sarcastic Share: 80.0%<br><i>তোমাদের মত কুলংগারের যায়গা পবিত্র সংসদে হবে না।</i></div>`)[0];
+                popup_934b269aec6eca4d2c8e843643b17c04.setContent(html_58c670490e5bc6241ff55bc526b670cb);
+            
+        
+
+        circle_marker_ea690d61acabacf2d6b4c069c0c88cb8.bindPopup(popup_934b269aec6eca4d2c8e843643b17c04)
+        ;
+
+        
+    
+    
+            var circle_marker_0515c9c921a89920ce9567182db92a56 = L.circleMarker(
+                [24.4449, 90.7766],
+                {"bubblingMouseEvents": true, "color": "#d71b55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d71b55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.537971364964722, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_e68210ac8040bee48bcc9015fdb149d3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2e9314bdec1e303e049c5b7bbf58e382 = $(`<div id="html_2e9314bdec1e303e049c5b7bbf58e382" style="width: 100.0%; height: 100.0%;"><b>Kishoreganj</b><br>Mentions: 39<br>Neg+Sarcastic Share: 84.6%<br><i>"ও মা গো তাই নাকি মোস্তাক, মায়ের চেয়ে মাসির দরদ উপচে পড়তেছি দি</i></div>`)[0];
+                popup_e68210ac8040bee48bcc9015fdb149d3.setContent(html_2e9314bdec1e303e049c5b7bbf58e382);
+            
+        
+
+        circle_marker_0515c9c921a89920ce9567182db92a56.bindPopup(popup_e68210ac8040bee48bcc9015fdb149d3)
+        ;
+
+        
+    
+    
+            var circle_marker_33ef892700e4e98fdd9afd5430a4ad81 = L.circleMarker(
+                [23.6238, 90.5],
+                {"bubblingMouseEvents": true, "color": "#b83255", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b83255", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.39917293732239, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_ca1b93cde1b5ae13d1145c396f4f11b4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e9b48c8dc10f7b642761edf7fbcb074c = $(`<div id="html_e9b48c8dc10f7b642761edf7fbcb074c" style="width: 100.0%; height: 100.0%;"><b>Narayanganj</b><br>Mentions: 36<br>Neg+Sarcastic Share: 72.2%<br><i>কবে জানি নামের আগে বীর মুক্তিযোদ্ধা লাগায় দেয়</i></div>`)[0];
+                popup_ca1b93cde1b5ae13d1145c396f4f11b4.setContent(html_e9b48c8dc10f7b642761edf7fbcb074c);
+            
+        
+
+        circle_marker_33ef892700e4e98fdd9afd5430a4ad81.bindPopup(popup_ca1b93cde1b5ae13d1145c396f4f11b4)
+        ;
+
+        
+    
+    
+            var circle_marker_c819e89e3c524c0e9b91ce54761b2422 = L.circleMarker(
+                [24.4534, 89.7007],
+                {"bubblingMouseEvents": true, "color": "#ae3855", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ae3855", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.35162971562539, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_0865d44a20d0b54ebc1fb8239e119e00 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d20572acbd8af283dbf1c277080ec3d5 = $(`<div id="html_d20572acbd8af283dbf1c277080ec3d5" style="width: 100.0%; height: 100.0%;"><b>Sirajganj</b><br>Mentions: 35<br>Neg+Sarcastic Share: 68.6%<br><i>জন্ম ২০০০ সালে পড়ছে বঙ্গবন্ধুর ইতিহাস এ মুক্তিযুদ্ধ মন্ত্রণালয় এ কি করবে</i></div>`)[0];
+                popup_0865d44a20d0b54ebc1fb8239e119e00.setContent(html_d20572acbd8af283dbf1c277080ec3d5);
+            
+        
+
+        circle_marker_c819e89e3c524c0e9b91ce54761b2422.bindPopup(popup_0865d44a20d0b54ebc1fb8239e119e00)
+        ;
+
+        
+    
+    
+            var circle_marker_27cc85a5cdd168990565c4aad5de9e60 = L.circleMarker(
+                [22.6859, 90.6482],
+                {"bubblingMouseEvents": true, "color": "#b13655", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b13655", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.254460314144193, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_ef849b66cd07a4b5e96e34708af59225 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_105400afc30a4caef13c8d945f796cbd = $(`<div id="html_105400afc30a4caef13c8d945f796cbd" style="width: 100.0%; height: 100.0%;"><b>Bhola</b><br>Mentions: 33<br>Neg+Sarcastic Share: 69.7%<br><i>এডা বেশি হয়া গেলো</i></div>`)[0];
+                popup_ef849b66cd07a4b5e96e34708af59225.setContent(html_105400afc30a4caef13c8d945f796cbd);
+            
+        
+
+        circle_marker_27cc85a5cdd168990565c4aad5de9e60.bindPopup(popup_ef849b66cd07a4b5e96e34708af59225)
+        ;
+
+        
+    
+    
+            var circle_marker_43cd0516a1ba1229476b88364a94be83 = L.circleMarker(
+                [21.4272, 92.0058],
+                {"bubblingMouseEvents": true, "color": "#bf2d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bf2d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.204770979208611, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_1f0c2c12a6032f7ab61f272317fea9c8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_97b00392fbefe2d88a055235e60e2f93 = $(`<div id="html_97b00392fbefe2d88a055235e60e2f93" style="width: 100.0%; height: 100.0%;"><b>Cox's Bazar</b><br>Mentions: 32<br>Neg+Sarcastic Share: 75.0%<br><i>আমার মনে হয় পাতি মন্ত্রী..</i></div>`)[0];
+                popup_1f0c2c12a6032f7ab61f272317fea9c8.setContent(html_97b00392fbefe2d88a055235e60e2f93);
+            
+        
+
+        circle_marker_43cd0516a1ba1229476b88364a94be83.bindPopup(popup_1f0c2c12a6032f7ab61f272317fea9c8)
+        ;
+
+        
+    
+    
+            var circle_marker_33d26049445155a273142545b518863e = L.circleMarker(
+                [23.0159, 91.3976],
+                {"bubblingMouseEvents": true, "color": "#bb3055", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bb3055", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.103006157720946, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_ffd85874f53bd0f3491f596347f9793c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f1eeb273cbe21df8c775559aa30797d5 = $(`<div id="html_f1eeb273cbe21df8c775559aa30797d5" style="width: 100.0%; height: 100.0%;"><b>Feni</b><br>Mentions: 30<br>Neg+Sarcastic Share: 73.3%<br><i>কোন বলে বসে। সে নিজেই মুক্তিযোদ্ধা ।</i></div>`)[0];
+                popup_ffd85874f53bd0f3491f596347f9793c.setContent(html_f1eeb273cbe21df8c775559aa30797d5);
+            
+        
+
+        circle_marker_33d26049445155a273142545b518863e.bindPopup(popup_ffd85874f53bd0f3491f596347f9793c)
+        ;
+
+        
+    
+    
+            var circle_marker_35fcb4dffadfa7c8c64ce32bef8f4c01 = L.circleMarker(
+                [23.9013, 89.1205],
+                {"bubblingMouseEvents": true, "color": "#bf2d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bf2d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.997788751818664, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_e7318403c415dde8f7ba6ed9feb6c59f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_180bd0c79c05b49169f1da488e919f4f = $(`<div id="html_180bd0c79c05b49169f1da488e919f4f" style="width: 100.0%; height: 100.0%;"><b>Kushtia</b><br>Mentions: 28<br>Neg+Sarcastic Share: 75.0%<br><i>এখন থেকে ঘেরাও কর্মসূচি মিস করব</i></div>`)[0];
+                popup_e7318403c415dde8f7ba6ed9feb6c59f.setContent(html_180bd0c79c05b49169f1da488e919f4f);
+            
+        
+
+        circle_marker_35fcb4dffadfa7c8c64ce32bef8f4c01.bindPopup(popup_e7318403c415dde8f7ba6ed9feb6c59f)
+        ;
+
+        
+    
+    
+            var circle_marker_403b493f0d5eb7989ef4b731da0c9647 = L.circleMarker(
+                [24.9375, 89.9378],
+                {"bubblingMouseEvents": true, "color": "#d12055", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d12055", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.997788751818664, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_b041b1b74a3cfcd47fd5cd0e9d4e14a4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3dc01f62ce2f499934e3e91616078fd6 = $(`<div id="html_3dc01f62ce2f499934e3e91616078fd6" style="width: 100.0%; height: 100.0%;"><b>Jamalpur</b><br>Mentions: 28<br>Neg+Sarcastic Share: 82.1%<br><i>বহুত লবা ফালাইছে।</i></div>`)[0];
+                popup_b041b1b74a3cfcd47fd5cd0e9d4e14a4.setContent(html_3dc01f62ce2f499934e3e91616078fd6);
+            
+        
+
+        circle_marker_403b493f0d5eb7989ef4b731da0c9647.bindPopup(popup_b041b1b74a3cfcd47fd5cd0e9d4e14a4)
+        ;
+
+        
+    
+    
+            var circle_marker_b097108e4a175f9b0b21fecf98915b70 = L.circleMarker(
+                [25.6279, 88.6332],
+                {"bubblingMouseEvents": true, "color": "#a34055", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a34055", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.997788751818664, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_e94ed510d124430bc42536b90c4cab33 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a7178dd6f38d61fcc101852bafb5b38b = $(`<div id="html_a7178dd6f38d61fcc101852bafb5b38b" style="width: 100.0%; height: 100.0%;"><b>Dinajpur</b><br>Mentions: 28<br>Neg+Sarcastic Share: 64.3%<br><i>কামার কে দিলো কুমারের কাজ</i></div>`)[0];
+                popup_e94ed510d124430bc42536b90c4cab33.setContent(html_a7178dd6f38d61fcc101852bafb5b38b);
+            
+        
+
+        circle_marker_b097108e4a175f9b0b21fecf98915b70.bindPopup(popup_e94ed510d124430bc42536b90c4cab33)
+        ;
+
+        
+    
+    
+            var circle_marker_4d4211d5b4b18da8e4342f86b3a92340 = L.circleMarker(
+                [22.9447, 90.8282],
+                {"bubblingMouseEvents": true, "color": "#ec0d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ec0d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.94377011557776, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_deff8cecc25aead429ae5a91dbfff794 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c64003d597638ac7bfc216e4292ac866 = $(`<div id="html_c64003d597638ac7bfc216e4292ac866" style="width: 100.0%; height: 100.0%;"><b>Lakshmipur</b><br>Mentions: 27<br>Neg+Sarcastic Share: 92.6%<br><i>পাগলারে দিছে আরো চেতাইয়া</i></div>`)[0];
+                popup_deff8cecc25aead429ae5a91dbfff794.setContent(html_c64003d597638ac7bfc216e4292ac866);
+            
+        
+
+        circle_marker_4d4211d5b4b18da8e4342f86b3a92340.bindPopup(popup_deff8cecc25aead429ae5a91dbfff794)
+        ;
+
+        
+    
+    
+            var circle_marker_7a5e9598714307d9b0a95f4beafa013b = L.circleMarker(
+                [23.922, 90.7177],
+                {"bubblingMouseEvents": true, "color": "#c42955", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c42955", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.888741522913896, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_69671ef026badb29acb40e15ade9ed3b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eea963c5c1accb3865d966e2cdd5f950 = $(`<div id="html_eea963c5c1accb3865d966e2cdd5f950" style="width: 100.0%; height: 100.0%;"><b>Narsingdi</b><br>Mentions: 26<br>Neg+Sarcastic Share: 76.9%<br><i>আল্লাহ অনেক বড় করুক আপনাদের</i></div>`)[0];
+                popup_69671ef026badb29acb40e15ade9ed3b.setContent(html_eea963c5c1accb3865d966e2cdd5f950);
+            
+        
+
+        circle_marker_7a5e9598714307d9b0a95f4beafa013b.bindPopup(popup_69671ef026badb29acb40e15ade9ed3b)
+        ;
+
+        
+    
+    
+            var circle_marker_e5a1293ef7968bec297880a240265390 = L.circleMarker(
+                [23.607, 89.8429],
+                {"bubblingMouseEvents": true, "color": "#d71b55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d71b55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.888741522913896, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_5f4a46fdb8c35e46188c866f55a9f5f7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5240dd1fd54ac7a71b5481c1a5d69816 = $(`<div id="html_5240dd1fd54ac7a71b5481c1a5d69816" style="width: 100.0%; height: 100.0%;"><b>Faridpur</b><br>Mentions: 26<br>Neg+Sarcastic Share: 84.6%<br><i>বিএনপির কাছে ভালো হওয়া আরকি।। তবে এরা ভিতরে ভালোই থাকবে কারণ ভারত হচ্ছে উমিচাঁদ এ…</i></div>`)[0];
+                popup_5f4a46fdb8c35e46188c866f55a9f5f7.setContent(html_5240dd1fd54ac7a71b5481c1a5d69816);
+            
+        
+
+        circle_marker_e5a1293ef7968bec297880a240265390.bindPopup(popup_5f4a46fdb8c35e46188c866f55a9f5f7)
+        ;
+
+        
+    
+    
+            var circle_marker_81d6b6ec56b51b07d8c9131675733f5d = L.circleMarker(
+                [23.9571, 91.1117],
+                {"bubblingMouseEvents": true, "color": "#944b55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#944b55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.775413081305787, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_75c36fdf184d93f87935afb4d510af10 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1f07c4e19fe67297b42b079986428788 = $(`<div id="html_1f07c4e19fe67297b42b079986428788" style="width: 100.0%; height: 100.0%;"><b>Brahmanbaria</b><br>Mentions: 24<br>Neg+Sarcastic Share: 58.3%<br><i>তালা বাবা।</i></div>`)[0];
+                popup_75c36fdf184d93f87935afb4d510af10.setContent(html_1f07c4e19fe67297b42b079986428788);
+            
+        
+
+        circle_marker_81d6b6ec56b51b07d8c9131675733f5d.bindPopup(popup_75c36fdf184d93f87935afb4d510af10)
+        ;
+
+        
+    
+    
+            var circle_marker_1d51c7111a78f2ee586e4c7c6360c61f = L.circleMarker(
+                [22.7185, 89.0705],
+                {"bubblingMouseEvents": true, "color": "#b23655", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b23655", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.533593918376833, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_ccfff93370a207ac4f5bb03eb2cbb4b9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8246376f8e3a5adce4ae8d386105f1ee = $(`<div id="html_8246376f8e3a5adce4ae8d386105f1ee" style="width: 100.0%; height: 100.0%;"><b>Satkhira</b><br>Mentions: 20<br>Neg+Sarcastic Share: 70.0%<br><i>সংসার চালাতে হবে ত</i></div>`)[0];
+                popup_ccfff93370a207ac4f5bb03eb2cbb4b9.setContent(html_8246376f8e3a5adce4ae8d386105f1ee);
+            
+        
+
+        circle_marker_1d51c7111a78f2ee586e4c7c6360c61f.bindPopup(popup_ccfff93370a207ac4f5bb03eb2cbb4b9)
+        ;
+
+        
+    
+    
+            var circle_marker_1cc6e1227e27a9f47e5ae0a2c92cfbd2 = L.circleMarker(
+                [25.0205, 90.0153],
+                {"bubblingMouseEvents": true, "color": "#c62855", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c62855", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.403578234406458, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_d69b1146be6f2a43c03512746917660e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c012d8f4b4e9cc79a1f2d287ffa415b1 = $(`<div id="html_c012d8f4b4e9cc79a1f2d287ffa415b1" style="width: 100.0%; height: 100.0%;"><b>Sherpur</b><br>Mentions: 18<br>Neg+Sarcastic Share: 77.8%<br><i>Akhon r dhakka dhakki korte hbe nahh.....amni seat raikha dbe</i></div>`)[0];
+                popup_d69b1146be6f2a43c03512746917660e.setContent(html_c012d8f4b4e9cc79a1f2d287ffa415b1);
+            
+        
+
+        circle_marker_1cc6e1227e27a9f47e5ae0a2c92cfbd2.bindPopup(popup_d69b1146be6f2a43c03512746917660e)
+        ;
+
+        
+    
+    
+            var circle_marker_e6a271f966f6f92152f0e84ab24a097c = L.circleMarker(
+                [22.6516, 89.7859],
+                {"bubblingMouseEvents": true, "color": "#d21f55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d21f55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.33585817672021, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_745264c2a6ee3f35114a4f9413520aae = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6542a9357a4c3accc8f68053bca475b1 = $(`<div id="html_6542a9357a4c3accc8f68053bca475b1" style="width: 100.0%; height: 100.0%;"><b>Bagerhat</b><br>Mentions: 17<br>Neg+Sarcastic Share: 82.4%<br><i>একেবারে জায়গা মত দিছে তার মতো যোদ্ধা একটাও নাই বি এন পি তে কয় আগেও হেতারে দেখলাম যুদ্ধ করতে শহিদ মিনারে</i></div>`)[0];
+                popup_745264c2a6ee3f35114a4f9413520aae.setContent(html_6542a9357a4c3accc8f68053bca475b1);
+            
+        
+
+        circle_marker_e6a271f966f6f92152f0e84ab24a097c.bindPopup(popup_745264c2a6ee3f35114a4f9413520aae)
+        ;
+
+        
+    
+    
+            var circle_marker_811596eeeb45742e67beecec5037d81b = L.circleMarker(
+                [22.3596, 90.3296],
+                {"bubblingMouseEvents": true, "color": "#bf2d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bf2d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.26611529154826, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_bac8a70f7527f23e41eed366c6f8a8c2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_63ca2669f3be2b2f7fd3b243449228d5 = $(`<div id="html_63ca2669f3be2b2f7fd3b243449228d5" style="width: 100.0%; height: 100.0%;"><b>Patuakhali</b><br>Mentions: 16<br>Neg+Sarcastic Share: 75.0%<br><i>বিষয়টা খুবই দুঃখজনক</i></div>`)[0];
+                popup_bac8a70f7527f23e41eed366c6f8a8c2.setContent(html_63ca2669f3be2b2f7fd3b243449228d5);
+            
+        
+
+        circle_marker_811596eeeb45742e67beecec5037d81b.bindPopup(popup_bac8a70f7527f23e41eed366c6f8a8c2)
+        ;
+
+        
+    
+    
+            var circle_marker_b8235968152b0c5f06ed4d6ed9672968 = L.circleMarker(
+                [24.4206, 89.0003],
+                {"bubblingMouseEvents": true, "color": "#cf2155", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cf2155", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.26611529154826, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_9d4c207d81464655202c9ebb3df1b785 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_28838302f2f61977dc25a4fe18d2161b = $(`<div id="html_28838302f2f61977dc25a4fe18d2161b" style="width: 100.0%; height: 100.0%;"><b>Natore</b><br>Mentions: 16<br>Neg+Sarcastic Share: 81.2%<br><i>দেশের সাংগামারা সারা</i></div>`)[0];
+                popup_9d4c207d81464655202c9ebb3df1b785.setContent(html_28838302f2f61977dc25a4fe18d2161b);
+            
+        
+
+        circle_marker_b8235968152b0c5f06ed4d6ed9672968.bindPopup(popup_9d4c207d81464655202c9ebb3df1b785)
+        ;
+
+        
+    
+    
+            var circle_marker_5b1e983f4d9e1070d8a7b7b58312d26f = L.circleMarker(
+                [23.5422, 90.5305],
+                {"bubblingMouseEvents": true, "color": "#df1655", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#df1655", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.26611529154826, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_af6c1953abe1dbe46a19e0bf0eb2865a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_abe49909980919ddac57f30ce79a69e3 = $(`<div id="html_abe49909980919ddac57f30ce79a69e3" style="width: 100.0%; height: 100.0%;"><b>Munshiganj</b><br>Mentions: 16<br>Neg+Sarcastic Share: 87.5%<br><i>Ai halare muktijuddhobisoyok dilo kon akkel e .onno montri hisebe dile mana jaito . advocate fazlur saheb k dile valo hoito:) …</i></div>`)[0];
+                popup_af6c1953abe1dbe46a19e0bf0eb2865a.setContent(html_abe49909980919ddac57f30ce79a69e3);
+            
+        
+
+        circle_marker_5b1e983f4d9e1070d8a7b7b58312d26f.bindPopup(popup_af6c1953abe1dbe46a19e0bf0eb2865a)
+        ;
+
+        
+    
+    
+            var circle_marker_75f86f6e3b820e25513d474ba2bd96df = L.circleMarker(
+                [24.3745, 91.4155],
+                {"bubblingMouseEvents": true, "color": "#eb0d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb0d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.042648719947571, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_1a2f7cfe6118140a0a63e2b269a9d1ac = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_aa679c013fbfabce5f0ef11f44d66cff = $(`<div id="html_aa679c013fbfabce5f0ef11f44d66cff" style="width: 100.0%; height: 100.0%;"><b>Habiganj</b><br>Mentions: 13<br>Neg+Sarcastic Share: 92.3%<br><i>সার্কাস</i></div>`)[0];
+                popup_1a2f7cfe6118140a0a63e2b269a9d1ac.setContent(html_aa679c013fbfabce5f0ef11f44d66cff);
+            
+        
+
+        circle_marker_75f86f6e3b820e25513d474ba2bd96df.bindPopup(popup_1a2f7cfe6118140a0a63e2b269a9d1ac)
+        ;
+
+        
+    
+    
+            var circle_marker_cf8a289cf7b0fd6f888f1f08fb2958ea = L.circleMarker(
+                [23.8617, 90.0003],
+                {"bubblingMouseEvents": true, "color": "#9c4555", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9c4555", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.042648719947571, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_11e7a878fa2b7743fa8a71a136bf2997 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_590dda0173cde825364ca7cc54a3ede6 = $(`<div id="html_590dda0173cde825364ca7cc54a3ede6" style="width: 100.0%; height: 100.0%;"><b>Manikganj</b><br>Mentions: 13<br>Neg+Sarcastic Share: 61.5%<br><i>সঠিক</i></div>`)[0];
+                popup_11e7a878fa2b7743fa8a71a136bf2997.setContent(html_590dda0173cde825364ca7cc54a3ede6);
+            
+        
+
+        circle_marker_cf8a289cf7b0fd6f888f1f08fb2958ea.bindPopup(popup_11e7a878fa2b7743fa8a71a136bf2997)
+        ;
+
+        
+    
+    
+            var circle_marker_9e8281b888b36c9ad9acf96a46155ed5 = L.circleMarker(
+                [25.0658, 91.395],
+                {"bubblingMouseEvents": true, "color": "#eb0d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb0d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.042648719947571, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_da31d32a80c4de5390dcac2cc3cbc4df = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_31a8d3f3aa1532921ab788c75d294fd1 = $(`<div id="html_31a8d3f3aa1532921ab788c75d294fd1" style="width: 100.0%; height: 100.0%;"><b>Sunamganj</b><br>Mentions: 13<br>Neg+Sarcastic Share: 92.3%<br><i>ওর কি সমস্যা?</i></div>`)[0];
+                popup_da31d32a80c4de5390dcac2cc3cbc4df.setContent(html_31a8d3f3aa1532921ab788c75d294fd1);
+            
+        
+
+        circle_marker_9e8281b888b36c9ad9acf96a46155ed5.bindPopup(popup_da31d32a80c4de5390dcac2cc3cbc4df)
+        ;
+
+        
+    
+    
+            var circle_marker_43f9878a13640d2f75cac106fb7691be = L.circleMarker(
+                [26.3411, 88.5542],
+                {"bubblingMouseEvents": true, "color": "#e90f55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e90f55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.962513410385173, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_ed7fc065cddae1c0f08feb89f19660e8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_10269bc6da977da1f1e538ec2ad3b89f = $(`<div id="html_10269bc6da977da1f1e538ec2ad3b89f" style="width: 100.0%; height: 100.0%;"><b>Panchagarh</b><br>Mentions: 12<br>Neg+Sarcastic Share: 91.7%<br><i>এটা একটা রাজনৈতিক চাল হতে পারে</i></div>`)[0];
+                popup_ed7fc065cddae1c0f08feb89f19660e8.setContent(html_10269bc6da977da1f1e538ec2ad3b89f);
+            
+        
+
+        circle_marker_43f9878a13640d2f75cac106fb7691be.bindPopup(popup_ed7fc065cddae1c0f08feb89f19660e8)
+        ;
+
+        
+    
+    
+            var circle_marker_2d1e6bfc1dbad8817ef657af69ae01b3 = L.circleMarker(
+                [25.9923, 89.2847],
+                {"bubblingMouseEvents": true, "color": "#7f5a55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7f5a55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.962513410385173, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_f8c6ec2d5dc21d985a3574b4c49f55e5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c3a521fbe40e0cc8d4062a229419a5c7 = $(`<div id="html_c3a521fbe40e0cc8d4062a229419a5c7" style="width: 100.0%; height: 100.0%;"><b>Lalmonirhat</b><br>Mentions: 12<br>Neg+Sarcastic Share: 50.0%<br><i>বাংলাদেশ শিল্পকলা একাডেমিতে বাউল দলে কিছু ভন্ড আছে ওই ভন্ডদের কে আইনের আওতায় আনতে হবে</i></div>`)[0];
+                popup_f8c6ec2d5dc21d985a3574b4c49f55e5.setContent(html_c3a521fbe40e0cc8d4062a229419a5c7);
+            
+        
+
+        circle_marker_2d1e6bfc1dbad8817ef657af69ae01b3.bindPopup(popup_f8c6ec2d5dc21d985a3574b4c49f55e5)
+        ;
+
+        
+    
+    
+            var circle_marker_3639b8b7d8a84d625af39cc0e395a0fb = L.circleMarker(
+                [26.0337, 88.4617],
+                {"bubblingMouseEvents": true, "color": "#bf2d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bf2d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.962513410385173, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_878950cea12484a7ba953c0efee04369 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b14903bf6843fc9d79c6661e06edfd56 = $(`<div id="html_b14903bf6843fc9d79c6661e06edfd56" style="width: 100.0%; height: 100.0%;"><b>Thakurgaon</b><br>Mentions: 12<br>Neg+Sarcastic Share: 75.0%<br><i>কাম ছাড়ছে</i></div>`)[0];
+                popup_878950cea12484a7ba953c0efee04369.setContent(html_b14903bf6843fc9d79c6661e06edfd56);
+            
+        
+
+        circle_marker_3639b8b7d8a84d625af39cc0e395a0fb.bindPopup(popup_878950cea12484a7ba953c0efee04369)
+        ;
+
+        
+    
+    
+            var circle_marker_f5dc75996de01cc1a0864613f54c4470 = L.circleMarker(
+                [23.4855, 89.4198],
+                {"bubblingMouseEvents": true, "color": "#ff0055", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0055", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.878963538438104, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_3b9c576907938eb511c22ff09e933eb5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0e373547a73fd66c46f129f6b55d60b7 = $(`<div id="html_0e373547a73fd66c46f129f6b55d60b7" style="width: 100.0%; height: 100.0%;"><b>Magura</b><br>Mentions: 11<br>Neg+Sarcastic Share: 100.0%<br><i>Fozu pagla k asha korchilam</i></div>`)[0];
+                popup_3b9c576907938eb511c22ff09e933eb5.setContent(html_0e373547a73fd66c46f129f6b55d60b7);
+            
+        
+
+        circle_marker_f5dc75996de01cc1a0864613f54c4470.bindPopup(popup_3b9c576907938eb511c22ff09e933eb5)
+        ;
+
+        
+    
+    
+            var circle_marker_b74627a6c2954c797c06f3d5cd4e8f43 = L.circleMarker(
+                [24.7936, 88.9318],
+                {"bubblingMouseEvents": true, "color": "#7f5a55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7f5a55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.791521440457255, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_4f6510f78bcaf5f3c377e6289f705658 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0883419c8a47e28b0c03b769d67cbba2 = $(`<div id="html_0883419c8a47e28b0c03b769d67cbba2" style="width: 100.0%; height: 100.0%;"><b>Naogaon</b><br>Mentions: 10<br>Neg+Sarcastic Share: 50.0%<br><i>ফজলুর রহমানকে দেওয়া উচিত ছিল</i></div>`)[0];
+                popup_4f6510f78bcaf5f3c377e6289f705658.setContent(html_0883419c8a47e28b0c03b769d67cbba2);
+            
+        
+
+        circle_marker_b74627a6c2954c797c06f3d5cd4e8f43.bindPopup(popup_4f6510f78bcaf5f3c377e6289f705658)
+        ;
+
+        
+    
+    
+            var circle_marker_e783bd81ba53baa528daca062cf3fd03 = L.circleMarker(
+                [23.1725, 89.5127],
+                {"bubblingMouseEvents": true, "color": "#716455", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#716455", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.699586468661195, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_a704f21e87898c45ed53429fb8a2d78f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d42dc58c51734daddbff99732d141425 = $(`<div id="html_d42dc58c51734daddbff99732d141425" style="width: 100.0%; height: 100.0%;"><b>Narail</b><br>Mentions: 9<br>Neg+Sarcastic Share: 44.4%<br><i>দৌড় প্রতিযোগিতা প্রথম হইতে ছায় রাকিব চাচা</i></div>`)[0];
+                popup_a704f21e87898c45ed53429fb8a2d78f.setContent(html_d42dc58c51734daddbff99732d141425);
+            
+        
+
+        circle_marker_e783bd81ba53baa528daca062cf3fd03.bindPopup(popup_a704f21e87898c45ed53429fb8a2d78f)
+        ;
+
+        
+    
+    
+            var circle_marker_5036386db754d8f1355e19edc402d63c = L.circleMarker(
+                [25.9318, 88.856],
+                {"bubblingMouseEvents": true, "color": "#df1655", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#df1655", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.6023854896043055, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_9a9e578be2e6456d59333a09018bbfb6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6e2ca5c139e01a51726f1c91e5ba1d83 = $(`<div id="html_6e2ca5c139e01a51726f1c91e5ba1d83" style="width: 100.0%; height: 100.0%;"><b>Nilphamari</b><br>Mentions: 8<br>Neg+Sarcastic Share: 87.5%<br><i>জন্ম সালটা??</i></div>`)[0];
+                popup_9a9e578be2e6456d59333a09018bbfb6.setContent(html_6e2ca5c139e01a51726f1c91e5ba1d83);
+            
+        
+
+        circle_marker_5036386db754d8f1355e19edc402d63c.bindPopup(popup_9a9e578be2e6456d59333a09018bbfb6)
+        ;
+
+        
+    
+    
+            var circle_marker_343255a1690f1d7173a31474445bcb00 = L.circleMarker(
+                [23.1641, 90.1897],
+                {"bubblingMouseEvents": true, "color": "#bf2d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bf2d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.6023854896043055, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_d41bb8d1136272af80fc876c84d25898 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c6844ae9d89509647ab2ca38194a7749 = $(`<div id="html_c6844ae9d89509647ab2ca38194a7749" style="width: 100.0%; height: 100.0%;"><b>Madaripur</b><br>Mentions: 8<br>Neg+Sarcastic Share: 75.0%<br><i>"Bhai vlo korse, oy ar nogor daddyr jonno abedon k9rte parbo na"</i></div>`)[0];
+                popup_d41bb8d1136272af80fc876c84d25898.setContent(html_c6844ae9d89509647ab2ca38194a7749);
+            
+        
+
+        circle_marker_343255a1690f1d7173a31474445bcb00.bindPopup(popup_d41bb8d1136272af80fc876c84d25898)
+        ;
+
+        
+    
+    
+            var circle_marker_b2de655ab1392e5a09c672183c24eb84 = L.circleMarker(
+                [22.5781, 89.9787],
+                {"bubblingMouseEvents": true, "color": "#df1655", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#df1655", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.6023854896043055, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_e96af64f21c0c208863ab66093a79e7a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8c752896cd67de6f46b8b464b9003646 = $(`<div id="html_8c752896cd67de6f46b8b464b9003646" style="width: 100.0%; height: 100.0%;"><b>Pirojpur</b><br>Mentions: 8<br>Neg+Sarcastic Share: 87.5%<br><i>এক ঠ্যালায় এতো দূর</i></div>`)[0];
+                popup_e96af64f21c0c208863ab66093a79e7a.setContent(html_8c752896cd67de6f46b8b464b9003646);
+            
+        
+
+        circle_marker_b2de655ab1392e5a09c672183c24eb84.bindPopup(popup_e96af64f21c0c208863ab66093a79e7a)
+        ;
+
+        
+    
+    
+            var circle_marker_4c88d6afc1671a442386eef0cfd1a1f3 = L.circleMarker(
+                [22.7324, 92.2985],
+                {"bubblingMouseEvents": true, "color": "#da1955", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#da1955", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.498894375909332, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_98fa7ed192a1847dd5f8f81d1bd8c862 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6544231d5d413597f7d66aa35daa1cc3 = $(`<div id="html_6544231d5d413597f7d66aa35daa1cc3" style="width: 100.0%; height: 100.0%;"><b>Rangamati</b><br>Mentions: 7<br>Neg+Sarcastic Share: 85.7%<br><i>"নিজের চেয়ারের খুঁটি খুজে পাবেনি,,বিএনপির সবচেয়ে অযোগ্য ব্যাক্তি প্রতি মন্ত্রী"</i></div>`)[0];
+                popup_98fa7ed192a1847dd5f8f81d1bd8c862.setContent(html_6544231d5d413597f7d66aa35daa1cc3);
+            
+        
+
+        circle_marker_4c88d6afc1671a442386eef0cfd1a1f3.bindPopup(popup_98fa7ed192a1847dd5f8f81d1bd8c862)
+        ;
+
+        
+    
+    
+            var circle_marker_c938114afbfcd8068202f26202ed7b16 = L.circleMarker(
+                [23.0051, 89.8266],
+                {"bubblingMouseEvents": true, "color": "#b63355", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b63355", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.498894375909332, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_bbd0b17cd6ccf1757f5d177e02c81288 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ddd7f0e84607bdc8b626f5b03acccc26 = $(`<div id="html_ddd7f0e84607bdc8b626f5b03acccc26" style="width: 100.0%; height: 100.0%;"><b>Gopalganj</b><br>Mentions: 7<br>Neg+Sarcastic Share: 71.4%<br><i>নাহিদকে আইনের আওতায় আনা হউক</i></div>`)[0];
+                popup_bbd0b17cd6ccf1757f5d177e02c81288.setContent(html_ddd7f0e84607bdc8b626f5b03acccc26);
+            
+        
+
+        circle_marker_c938114afbfcd8068202f26202ed7b16.bindPopup(popup_bbd0b17cd6ccf1757f5d177e02c81288)
+        ;
+
+        
+    
+    
+            var circle_marker_f631351c02f20d67aae97b9692bca3e5 = L.circleMarker(
+                [23.5448, 89.1539],
+                {"bubblingMouseEvents": true, "color": "#b63355", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b63355", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.498894375909332, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_0d85b90078fb00e4a4bbf33edaf0d1cf = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_298de0005cc81e1ed06555ed5600c0bc = $(`<div id="html_298de0005cc81e1ed06555ed5600c0bc" style="width: 100.0%; height: 100.0%;"><b>Jhenaidah</b><br>Mentions: 7<br>Neg+Sarcastic Share: 71.4%<br><i>দেখা যাচ্ছে দুই পর উত্তর সিটির মেয়র দাবি করার মতো করে নিজেরেও মুক্তিযোদ্ধা দাবি করে বসছে জনতার মেথর মহোদয়</i></div>`)[0];
+                popup_0d85b90078fb00e4a4bbf33edaf0d1cf.setContent(html_298de0005cc81e1ed06555ed5600c0bc);
+            
+        
+
+        circle_marker_f631351c02f20d67aae97b9692bca3e5.bindPopup(popup_0d85b90078fb00e4a4bbf33edaf0d1cf)
+        ;
+
+        
+    
+    
+            var circle_marker_83027433354a591cf5760061eda09011 = L.circleMarker(
+                [22.1592, 90.125],
+                {"bubblingMouseEvents": true, "color": "#d41d55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d41d55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.387706540652894, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_aa72e13e804e0aa88971a628e9732e3a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_360a9448f017137b33d2abda978c5308 = $(`<div id="html_360a9448f017137b33d2abda978c5308" style="width: 100.0%; height: 100.0%;"><b>Barguna</b><br>Mentions: 6<br>Neg+Sarcastic Share: 83.3%<br><i>টয়লেট কে খাবে</i></div>`)[0];
+                popup_aa72e13e804e0aa88971a628e9732e3a.setContent(html_360a9448f017137b33d2abda978c5308);
+            
+        
+
+        circle_marker_83027433354a591cf5760061eda09011.bindPopup(popup_aa72e13e804e0aa88971a628e9732e3a)
+        ;
+
+        
+    
+    
+            var circle_marker_6898e94ff456e9165c9a1ba05a9d8c77 = L.circleMarker(
+                [22.1953, 92.2184],
+                {"bubblingMouseEvents": true, "color": "#ff0055", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0055", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.387706540652894, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_85069e63c6149d51dde1f3b13f30c715 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0ca9e672f8c9ef4eb8171e98c1185056 = $(`<div id="html_0ca9e672f8c9ef4eb8171e98c1185056" style="width: 100.0%; height: 100.0%;"><b>Bandarban</b><br>Mentions: 6<br>Neg+Sarcastic Share: 100.0%<br><i>প্রতিমন্ত্রী না প্রতিবন্ধী</i></div>`)[0];
+                popup_85069e63c6149d51dde1f3b13f30c715.setContent(html_0ca9e672f8c9ef4eb8171e98c1185056);
+            
+        
+
+        circle_marker_6898e94ff456e9165c9a1ba05a9d8c77.bindPopup(popup_85069e63c6149d51dde1f3b13f30c715)
+        ;
+
+        
+    
+    
+            var circle_marker_31047baf3cb9a349fed8019a4d41be78 = L.circleMarker(
+                [23.2423, 90.4348],
+                {"bubblingMouseEvents": true, "color": "#aa3c55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aa3c55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.387706540652894, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_5eebcb9e3df986a5013dbc0043cb9fee = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e02de9df150b73d1a30d039f3ba5bb50 = $(`<div id="html_e02de9df150b73d1a30d039f3ba5bb50" style="width: 100.0%; height: 100.0%;"><b>Shariatpur</b><br>Mentions: 6<br>Neg+Sarcastic Share: 66.7%<br><i>দেশের মারা শেষ</i></div>`)[0];
+                popup_5eebcb9e3df986a5013dbc0043cb9fee.setContent(html_e02de9df150b73d1a30d039f3ba5bb50);
+            
+        
+
+        circle_marker_31047baf3cb9a349fed8019a4d41be78.bindPopup(popup_5eebcb9e3df986a5013dbc0043cb9fee)
+        ;
+
+        
+    
+    
+            var circle_marker_c87e3472beff854f0356620675b7ac98 = L.circleMarker(
+                [24.8835, 90.7279],
+                {"bubblingMouseEvents": true, "color": "#cc2355", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc2355", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.266796959188417, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_597ecc1a29c7f58f34c2f1cb5d987d7c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c6456a70d809c5cb7c0409662a2c85ed = $(`<div id="html_c6456a70d809c5cb7c0409662a2c85ed" style="width: 100.0%; height: 100.0%;"><b>Netrokona</b><br>Mentions: 5<br>Neg+Sarcastic Share: 80.0%<br><i>সঠিক চালিয়ে যান</i></div>`)[0];
+                popup_597ecc1a29c7f58f34c2f1cb5d987d7c.setContent(html_c6456a70d809c5cb7c0409662a2c85ed);
+            
+        
+
+        circle_marker_c87e3472beff854f0356620675b7ac98.bindPopup(popup_597ecc1a29c7f58f34c2f1cb5d987d7c)
+        ;
+
+        
+    
+    
+            var circle_marker_751a07ec1ae414ef88c848f872e18e56 = L.circleMarker(
+                [25.0968, 89.023],
+                {"bubblingMouseEvents": true, "color": "#666c55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666c55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.266796959188417, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_3d5a3bbd40f266bbfed6c7bfe036a780 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1af070a34413a9add64d526cb62fc898 = $(`<div id="html_1af070a34413a9add64d526cb62fc898" style="width: 100.0%; height: 100.0%;"><b>Joypurhat</b><br>Mentions: 5<br>Neg+Sarcastic Share: 40.0%<br><i>অনেক ভালো প্রস্তাব। আইন প্রশাসন এবং বিচার ব্যবস্থা তাদের কথাটা একবার চিন্তা করতেও পারে। হা হা হা......</i></div>`)[0];
+                popup_3d5a3bbd40f266bbfed6c7bfe036a780.setContent(html_1af070a34413a9add64d526cb62fc898);
+            
+        
+
+        circle_marker_751a07ec1ae414ef88c848f872e18e56.bindPopup(popup_3d5a3bbd40f266bbfed6c7bfe036a780)
+        ;
+
+        
+    
+    
+            var circle_marker_b6ea9a62e0e856831e43a0c8d82725bd = L.circleMarker(
+                [23.7574, 89.6445],
+                {"bubblingMouseEvents": true, "color": "#cc2355", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc2355", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.266796959188417, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_bb59c55c37ac8cc35cc1fe5670488f32 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b27b63b3be3bf53d70621dd847dfbcd1 = $(`<div id="html_b27b63b3be3bf53d70621dd847dfbcd1" style="width: 100.0%; height: 100.0%;"><b>Rajbari</b><br>Mentions: 5<br>Neg+Sarcastic Share: 80.0%<br><i>কোথায়ও কেও নেই</i></div>`)[0];
+                popup_bb59c55c37ac8cc35cc1fe5670488f32.setContent(html_b27b63b3be3bf53d70621dd847dfbcd1);
+            
+        
+
+        circle_marker_b6ea9a62e0e856831e43a0c8d82725bd.bindPopup(popup_bb59c55c37ac8cc35cc1fe5670488f32)
+        ;
+
+        
+    
+    
+            var circle_marker_6c78682d4d62f2ba384ea9d07b3563ef = L.circleMarker(
+                [25.8054, 89.6362],
+                {"bubblingMouseEvents": true, "color": "#ff0055", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0055", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.13305764577413, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_695acbc2be46833f92d4efbc5296a14d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_be390135fb788a8fb91bac51ab439df2 = $(`<div id="html_be390135fb788a8fb91bac51ab439df2" style="width: 100.0%; height: 100.0%;"><b>Kurigram</b><br>Mentions: 4<br>Neg+Sarcastic Share: 100.0%<br><i>শুরু হয়ে গেল নাকি ধরপাকর। ভারত সরকার কি মেসেজ দিতে চাচ্চেন বাংলাদেশের জনগনকে।</i></div>`)[0];
+                popup_695acbc2be46833f92d4efbc5296a14d.setContent(html_be390135fb788a8fb91bac51ab439df2);
+            
+        
+
+        circle_marker_6c78682d4d62f2ba384ea9d07b3563ef.bindPopup(popup_695acbc2be46833f92d4efbc5296a14d)
+        ;
+
+        
+    
+    
+            var circle_marker_53da89bbe74ffa8648b22b5def6175ca = L.circleMarker(
+                [24.4829, 91.7774],
+                {"bubblingMouseEvents": true, "color": "#ff0055", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0055", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.981256705192587, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_20b9d9d56b92a3fea341a0e5b31b758c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ef7f39c99ddc6678a8472e1cc3c39ec5 = $(`<div id="html_ef7f39c99ddc6678a8472e1cc3c39ec5" style="width: 100.0%; height: 100.0%;"><b>Moulvibazar</b><br>Mentions: 3<br>Neg+Sarcastic Share: 100.0%<br><i>চলিতেসে সার্কাস</i></div>`)[0];
+                popup_20b9d9d56b92a3fea341a0e5b31b758c.setContent(html_ef7f39c99ddc6678a8472e1cc3c39ec5);
+            
+        
+
+        circle_marker_53da89bbe74ffa8648b22b5def6175ca.bindPopup(popup_20b9d9d56b92a3fea341a0e5b31b758c)
+        ;
+
+        
+    
+    
+            var circle_marker_3fe571074018d000365b36587dc18e8c = L.circleMarker(
+                [25.329, 89.5403],
+                {"bubblingMouseEvents": true, "color": "#aa3c55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aa3c55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.981256705192587, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_c2c140e6482aa0bbc6adab3eaeb83d4b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9a09f86c1fc7dcd599c51bb0e6e8f00c = $(`<div id="html_9a09f86c1fc7dcd599c51bb0e6e8f00c" style="width: 100.0%; height: 100.0%;"><b>Gaibandha</b><br>Mentions: 3<br>Neg+Sarcastic Share: 66.7%<br><i>"সঠিক কথা বলেছে,"</i></div>`)[0];
+                popup_c2c140e6482aa0bbc6adab3eaeb83d4b.setContent(html_9a09f86c1fc7dcd599c51bb0e6e8f00c);
+            
+        
+
+        circle_marker_3fe571074018d000365b36587dc18e8c.bindPopup(popup_c2c140e6482aa0bbc6adab3eaeb83d4b)
+        ;
+
+        
+    
+    
+            var circle_marker_e4e27ed0b41cb5024a765328fc45c1df = L.circleMarker(
+                [24.5965, 88.2775],
+                {"bubblingMouseEvents": true, "color": "#aa3c55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aa3c55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.981256705192587, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_fcd91946f438cf96fd5a01ff865fe032 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5dd5295f04563eb11e305a336782e271 = $(`<div id="html_5dd5295f04563eb11e305a336782e271" style="width: 100.0%; height: 100.0%;"><b>Chapainawabganj</b><br>Mentions: 3<br>Neg+Sarcastic Share: 66.7%<br><i>আচ্ছা</i></div>`)[0];
+                popup_fcd91946f438cf96fd5a01ff865fe032.setContent(html_5dd5295f04563eb11e305a336782e271);
+            
+        
+
+        circle_marker_e4e27ed0b41cb5024a765328fc45c1df.bindPopup(popup_fcd91946f438cf96fd5a01ff865fe032)
+        ;
+
+        
+    
+    
+            var circle_marker_46b249905f4390bfcb16a10017b1a573 = L.circleMarker(
+                [23.6402, 88.8418],
+                {"bubblingMouseEvents": true, "color": "#7f5a55", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7f5a55", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.801192744802153, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_220ee9aeff68cc92979b08c8e94496ab = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_97f4f1c6c178ff8f674985e31a0859e8 = $(`<div id="html_97f4f1c6c178ff8f674985e31a0859e8" style="width: 100.0%; height: 100.0%;"><b>Chuadanga</b><br>Mentions: 2<br>Neg+Sarcastic Share: 50.0%<br><i>সমোযোতা</i></div>`)[0];
+                popup_220ee9aeff68cc92979b08c8e94496ab.setContent(html_97f4f1c6c178ff8f674985e31a0859e8);
+            
+        
+
+        circle_marker_46b249905f4390bfcb16a10017b1a573.bindPopup(popup_220ee9aeff68cc92979b08c8e94496ab)
+        ;
+
+        
+    
+    
+            var circle_marker_5018ce5efa33adc00f82dfa3dde3d43f = L.circleMarker(
+                [22.6406, 90.1987],
+                {"bubblingMouseEvents": true, "color": "#ff0055", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0055", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.566528822887065, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_ef81ef2c4abdc3bf4802d41c228808b6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_955e2d6a63222c42a810af9cb26d3680 = $(`<div id="html_955e2d6a63222c42a810af9cb26d3680" style="width: 100.0%; height: 100.0%;"><b>Jhalokati</b><br>Mentions: 1<br>Neg+Sarcastic Share: 100.0%<br><i>R public toilet kara khabe?</i></div>`)[0];
+                popup_ef81ef2c4abdc3bf4802d41c228808b6.setContent(html_955e2d6a63222c42a810af9cb26d3680);
+            
+        
+
+        circle_marker_5018ce5efa33adc00f82dfa3dde3d43f.bindPopup(popup_ef81ef2c4abdc3bf4802d41c228808b6)
+        ;
+
+        
+    
+    
+            var circle_marker_d0942e61ce06f8aaaae0ddd595e56216 = L.circleMarker(
+                [23.7622, 88.6318],
+                {"bubblingMouseEvents": true, "color": "#00b455", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00b455", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.566528822887065, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1b97310d43885b50d64c4bc17bb51e22);
+        
+    
+        var popup_07d31e12f9af8a2d935017bac91e1b7a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_601f6c751aa1528566e061cd608051b9 = $(`<div id="html_601f6c751aa1528566e061cd608051b9" style="width: 100.0%; height: 100.0%;"><b>Meherpur</b><br>Mentions: 1<br>Neg+Sarcastic Share: 0.0%<br><i>তখন তো ওর জন্মই হয়নি ও মুক্তি যুদ্ধের কি বুঝবে ? আর মুক্তি যুদ্ধ বিষয়ক মন্ত্রণালয়ের কি দরকার বুঝি না ?</i></div>`)[0];
+                popup_07d31e12f9af8a2d935017bac91e1b7a.setContent(html_601f6c751aa1528566e061cd608051b9);
+            
+        
+
+        circle_marker_d0942e61ce06f8aaaae0ddd595e56216.bindPopup(popup_07d31e12f9af8a2d935017bac91e1b7a)
+        ;
+
+        
+    
+    
+            marker_cluster_1b97310d43885b50d64c4bc17bb51e22.addTo(map_4d2459051a7912c32fde5df034fbb39d);
+        
+</script>
+</html>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+<style>text{font-family:Arial,sans-serif;fill:#1f2937} .small{font-size:11px} .axis{stroke:#9ca3af;stroke-width:1}</style>
+<rect x="0" y="0" width="1200" height="780" fill="white"/>
+<text x="260" y="45" font-size="26" font-weight="700">Top Locations Overall (Mentions)</text>
+<line class="axis" x1="260" y1="710" x2="1130" y2="710"/>
+<line class="axis" x1="260.0" y1="80" x2="260.0" y2="710" stroke="#f3f4f6"/>
+<text class="small" x="260.0" y="730" text-anchor="middle">0</text>
+<line class="axis" x1="434.0" y1="80" x2="434.0" y2="710" stroke="#f3f4f6"/>
+<text class="small" x="434.0" y="730" text-anchor="middle">314</text>
+<line class="axis" x1="608.0" y1="80" x2="608.0" y2="710" stroke="#f3f4f6"/>
+<text class="small" x="608.0" y="730" text-anchor="middle">627</text>
+<line class="axis" x1="782.0" y1="80" x2="782.0" y2="710" stroke="#f3f4f6"/>
+<text class="small" x="782.0" y="730" text-anchor="middle">941</text>
+<line class="axis" x1="956.0" y1="80" x2="956.0" y2="710" stroke="#f3f4f6"/>
+<text class="small" x="956.0" y="730" text-anchor="middle">1254</text>
+<line class="axis" x1="1130.0" y1="80" x2="1130.0" y2="710" stroke="#f3f4f6"/>
+<text class="small" x="1130.0" y="730" text-anchor="middle">1568</text>
+<rect x="260" y="85.9" width="870.0" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="107.7" text-anchor="end">Dhaka</text>
+<text class="small" x="1138.0" y="107.7">1568</text>
+<rect x="260" y="127.9" width="201.4" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="149.7" text-anchor="end">Chattogram</text>
+<text class="small" x="469.4" y="149.7">363</text>
+<rect x="260" y="169.9" width="92.1" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="191.7" text-anchor="end">Barishal</text>
+<text class="small" x="360.1" y="191.7">166</text>
+<rect x="260" y="211.9" width="82.7" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="233.7" text-anchor="end">Khulna</text>
+<text class="small" x="350.7" y="233.7">149</text>
+<rect x="260" y="253.9" width="65.5" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="275.7" text-anchor="end">Sylhet</text>
+<text class="small" x="333.5" y="275.7">118</text>
+<rect x="260" y="295.9" width="56.6" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="317.7" text-anchor="end">Cumilla</text>
+<text class="small" x="324.6" y="317.7">102</text>
+<rect x="260" y="337.9" width="54.9" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="359.7" text-anchor="end">Gazipur</text>
+<text class="small" x="322.9" y="359.7">99</text>
+<rect x="260" y="379.9" width="48.8" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="401.7" text-anchor="end">Mymensingh</text>
+<text class="small" x="316.8" y="401.7">88</text>
+<rect x="260" y="421.9" width="44.4" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="443.7" text-anchor="end">Rangpur</text>
+<text class="small" x="312.4" y="443.7">80</text>
+<rect x="260" y="463.9" width="42.2" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="485.7" text-anchor="end">Noakhali</text>
+<text class="small" x="310.2" y="485.7">76</text>
+<rect x="260" y="505.9" width="39.9" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="527.7" text-anchor="end">Rajshahi</text>
+<text class="small" x="307.9" y="527.7">72</text>
+<rect x="260" y="547.9" width="30.5" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="569.7" text-anchor="end">Kishoreganj</text>
+<text class="small" x="298.5" y="569.7">55</text>
+<rect x="260" y="589.9" width="29.4" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="611.7" text-anchor="end">Chandpur</text>
+<text class="small" x="297.4" y="611.7">53</text>
+<rect x="260" y="631.9" width="27.2" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="653.7" text-anchor="end">Pabna</text>
+<text class="small" x="295.2" y="653.7">49</text>
+<rect x="260" y="673.9" width="26.1" height="30.2" fill="#1f77b4" opacity="0.9"/>
+<text class="small" x="248" y="695.7" text-anchor="end">Bogura</text>
+<text class="small" x="294.1" y="695.7">47</text>
+</svg>
