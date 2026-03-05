@@ -49,12 +49,15 @@ Location-based insights are generated from finalized period files with district 
 - Top-location summary: `outputs/election_text_analysis/location_top_mentions.csv`
 - Top-by-period summary: `outputs/election_text_analysis/location_top_by_period.csv`
 - Top co-occurrence pairs: `outputs/election_text_analysis/location_top_cooccurrence.csv`
-- Interactive Bangladesh map: [outputs/notebook_assets/bangladesh_interactive_location_map.html](outputs/notebook_assets/bangladesh_interactive_location_map.html)
+
+## Interactive Map
+![Interactive Map Preview](outputs/notebook_assets/Screenshot%202026-03-06%20at%2010.24.46%E2%80%AFam.png)
+
 - Hosted interactive map URL: [https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html](https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html)
 
 ### Interactive Map Embed (local markdown preview)
 
-<iframe src="outputs/notebook_assets/bangladesh_interactive_location_map.html" width="100%" height="620" style="border:1px solid #ddd;border-radius:8px;"></iframe>
+<iframe src="https://rafsunsheikh.github.io/bangladesh_interactive_location_map.html" width="100%" height="620" style="border:1px solid #ddd;border-radius:8px;"></iframe>
 
 ## Main Outputs
 Generated under `outputs/election_text_analysis/`:
