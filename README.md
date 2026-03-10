@@ -15,7 +15,7 @@ The workflow uses 4 sentiment classes:
 - `sarcastic_negative`
 
 ## Latest Updates (March 10, 2026)
-- Added tabbed dashboard with map + chart visualizations.
+- Added tabbed dashboard with map + chart visualizations. [Dashboard](https://rafsunsheikh.github.io/bangladesh_2026_election_visual_analysis.html)
 - Added sentiment-specific Bangladesh map with selectable sentiment layers.
 - Applied `x5` scaling to all dashboard visualization values.
 - Removed these tabs from dashboard:
