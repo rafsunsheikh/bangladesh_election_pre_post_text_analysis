@@ -203,10 +203,20 @@ def write_markdown_report(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Detailed location analytics for two election CSV datasets.")
-    parser.add_argument("--file-a", type=Path, required=True, help="Earlier period CSV")
-    parser.add_argument("--file-b", type=Path, required=True, help="Later period CSV")
-    parser.add_argument("--label-a", type=str, default="2026-02-12_to_2026-02-17")
-    parser.add_argument("--label-b", type=str, default="2026-02-18_to_2026-03-01")
+    parser.add_argument(
+        "--file-a",
+        type=Path,
+        default=Path("data/in_use/post_election_data_updated_with_location_09_march.annotated.completed.csv"),
+        help="Earlier period CSV",
+    )
+    parser.add_argument(
+        "--file-b",
+        type=Path,
+        default=Path("data/in_use/after_forming_government_data_with_location.annotated.completed.csv"),
+        help="Later period CSV",
+    )
+    parser.add_argument("--label-a", type=str, default="post_election_upto_forming_government")
+    parser.add_argument("--label-b", type=str, default="post_forming_government")
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/location_analytics"))
     parser.add_argument("--top-n", type=int, default=20)
     parser.add_argument(

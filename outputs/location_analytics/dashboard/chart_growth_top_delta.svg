@@ -3,61 +3,61 @@
 <rect x="0" y="0" width="1200" height="820" fill="white"/>
 <text x="280" y="45" font-size="26" font-weight="700">Largest Mention Changes (Period B - Period A)</text>
 <line class="axis" x1="700.0" y1="85" x2="700.0" y2="750" stroke="#374151"/>
-<rect x="697.5" y="89.2" width="2.5" height="26.2" fill="#d62728" opacity="0.88"/>
-<text class="small" x="270" y="108.1" text-anchor="end">Rajbari</text>
-<text class="small" x="689.5" y="108.1" text-anchor="end">-3</text>
-<rect x="698.4" y="124.2" width="1.6" height="26.2" fill="#d62728" opacity="0.88"/>
-<text class="small" x="270" y="143.1" text-anchor="end">Kurigram</text>
-<text class="small" x="690.4" y="143.1" text-anchor="end">-2</text>
-<rect x="699.2" y="159.2" width="0.8" height="26.2" fill="#d62728" opacity="0.88"/>
-<text class="small" x="270" y="178.1" text-anchor="end">খাও হালুয়া</text>
-<text class="small" x="691.2" y="178.1" text-anchor="end">-1</text>
-<rect x="699.2" y="194.2" width="0.8" height="26.2" fill="#d62728" opacity="0.88"/>
-<text class="small" x="270" y="213.1" text-anchor="end">Meherpur</text>
-<text class="small" x="691.2" y="213.1" text-anchor="end">-1</text>
-<rect x="699.2" y="229.2" width="0.8" height="26.2" fill="#d62728" opacity="0.88"/>
-<text class="small" x="270" y="248.1" text-anchor="end">Moulvibazar</text>
-<text class="small" x="691.2" y="248.1" text-anchor="end">-1</text>
-<rect x="699.2" y="264.2" width="0.8" height="26.2" fill="#d62728" opacity="0.88"/>
-<text class="small" x="270" y="283.1" text-anchor="end">Nilphamari</text>
-<text class="small" x="691.2" y="283.1" text-anchor="end">-1</text>
-<rect x="699.2" y="299.2" width="0.8" height="26.2" fill="#d62728" opacity="0.88"/>
-<text class="small" x="270" y="318.1" text-anchor="end">Brahmanbaria</text>
-<text class="small" x="691.2" y="318.1" text-anchor="end">-1</text>
-<rect x="699.2" y="334.2" width="0.8" height="26.2" fill="#d62728" opacity="0.88"/>
-<text class="small" x="270" y="353.1" text-anchor="end">Netrokona</text>
-<text class="small" x="691.2" y="353.1" text-anchor="end">-1</text>
-<rect x="700.0" y="369.2" width="0.8" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="388.1" text-anchor="end">Rangamati</text>
-<text class="small" x="708.8" y="388.1" text-anchor="start">1</text>
-<rect x="700.0" y="404.2" width="27.0" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="423.1" text-anchor="end">Noakhali</text>
-<text class="small" x="735.0" y="423.1" text-anchor="start">33</text>
-<rect x="700.0" y="439.2" width="27.8" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="458.1" text-anchor="end">Rangpur</text>
-<text class="small" x="735.8" y="458.1" text-anchor="start">34</text>
-<rect x="700.0" y="474.2" width="28.6" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="493.1" text-anchor="end">Bogura</text>
-<text class="small" x="736.6" y="493.1" text-anchor="start">35</text>
-<rect x="700.0" y="509.2" width="31.1" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="528.1" text-anchor="end">Sylhet</text>
-<text class="small" x="739.1" y="528.1" text-anchor="start">38</text>
-<rect x="700.0" y="544.2" width="36.8" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="563.1" text-anchor="end">Gazipur</text>
-<text class="small" x="744.8" y="563.1" text-anchor="start">45</text>
-<rect x="700.0" y="579.2" width="45.8" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="598.1" text-anchor="end">Cumilla</text>
-<text class="small" x="753.8" y="598.1" text-anchor="start">56</text>
-<rect x="700.0" y="614.2" width="60.5" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="633.1" text-anchor="end">Barishal</text>
-<text class="small" x="768.5" y="633.1" text-anchor="start">74</text>
-<rect x="700.0" y="649.2" width="80.9" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="668.1" text-anchor="end">Khulna</text>
-<text class="small" x="788.9" y="668.1" text-anchor="start">99</text>
-<rect x="700.0" y="684.2" width="136.5" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="703.1" text-anchor="end">Chattogram</text>
-<text class="small" x="844.5" y="703.1" text-anchor="start">167</text>
-<rect x="700.0" y="719.2" width="420.0" height="26.2" fill="#2ca02c" opacity="0.88"/>
-<text class="small" x="270" y="738.1" text-anchor="end">Dhaka</text>
-<text class="small" x="1128.0" y="738.1" text-anchor="start">514</text>
+<rect x="280.0" y="89.2" width="420.0" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="108.1" text-anchor="end">Dhaka</text>
+<text class="small" x="272.0" y="108.1" text-anchor="end">-5010</text>
+<rect x="585.1" y="124.2" width="114.9" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="143.1" text-anchor="end">Chattogram</text>
+<text class="small" x="577.1" y="143.1" text-anchor="end">-1370</text>
+<rect x="648.0" y="159.2" width="52.0" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="178.1" text-anchor="end">Sylhet</text>
+<text class="small" x="640.0" y="178.1" text-anchor="end">-620</text>
+<rect x="657.7" y="194.2" width="42.3" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="213.1" text-anchor="end">Barishal</text>
+<text class="small" x="649.7" y="213.1" text-anchor="end">-505</text>
+<rect x="664.4" y="229.2" width="35.6" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="248.1" text-anchor="end">Cumilla</text>
+<text class="small" x="656.4" y="248.1" text-anchor="end">-425</text>
+<rect x="673.2" y="264.2" width="26.8" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="283.1" text-anchor="end">Gazipur</text>
+<text class="small" x="665.2" y="283.1" text-anchor="end">-320</text>
+<rect x="674.9" y="299.2" width="25.1" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="318.1" text-anchor="end">Rangpur</text>
+<text class="small" x="666.9" y="318.1" text-anchor="end">-300</text>
+<rect x="674.9" y="334.2" width="25.1" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="353.1" text-anchor="end">Khulna</text>
+<text class="small" x="666.9" y="353.1" text-anchor="end">-300</text>
+<rect x="682.4" y="369.2" width="17.6" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="388.1" text-anchor="end">Rajshahi</text>
+<text class="small" x="674.4" y="388.1" text-anchor="end">-210</text>
+<rect x="684.5" y="404.2" width="15.5" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="423.1" text-anchor="end">Chandpur</text>
+<text class="small" x="676.5" y="423.1" text-anchor="end">-185</text>
+<rect x="699.6" y="439.2" width="0.4" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="458.1" text-anchor="end">MunশIganj</text>
+<text class="small" x="691.6" y="458.1" text-anchor="end">-5</text>
+<rect x="699.6" y="474.2" width="0.4" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="493.1" text-anchor="end">Munshiganj</text>
+<text class="small" x="691.6" y="493.1" text-anchor="end">-5</text>
+<rect x="699.6" y="509.2" width="0.4" height="26.2" fill="#d62728" opacity="0.88"/>
+<text class="small" x="270" y="528.1" text-anchor="end">Manikganj</text>
+<text class="small" x="691.6" y="528.1" text-anchor="end">-5</text>
+<rect x="700.0" y="544.2" width="0.4" height="26.2" fill="#2ca02c" opacity="0.88"/>
+<text class="small" x="270" y="563.1" text-anchor="end">Jhalokati</text>
+<text class="small" x="708.4" y="563.1" text-anchor="start">5</text>
+<rect x="700.0" y="579.2" width="0.4" height="26.2" fill="#2ca02c" opacity="0.88"/>
+<text class="small" x="270" y="598.1" text-anchor="end">Natore</text>
+<text class="small" x="708.4" y="598.1" text-anchor="start">5</text>
+<rect x="700.0" y="614.2" width="0.4" height="26.2" fill="#2ca02c" opacity="0.88"/>
+<text class="small" x="270" y="633.1" text-anchor="end">Chuadanga</text>
+<text class="small" x="708.4" y="633.1" text-anchor="start">5</text>
+<rect x="700.0" y="649.2" width="1.3" height="26.2" fill="#2ca02c" opacity="0.88"/>
+<text class="small" x="270" y="668.1" text-anchor="end">Jhenaidah</text>
+<text class="small" x="709.3" y="668.1" text-anchor="start">15</text>
+<rect x="700.0" y="684.2" width="1.3" height="26.2" fill="#2ca02c" opacity="0.88"/>
+<text class="small" x="270" y="703.1" text-anchor="end">Jessore</text>
+<text class="small" x="709.3" y="703.1" text-anchor="start">15</text>
+<rect x="700.0" y="719.2" width="1.3" height="26.2" fill="#2ca02c" opacity="0.88"/>
+<text class="small" x="270" y="738.1" text-anchor="end">Sirajganj</text>
+<text class="small" x="709.3" y="738.1" text-anchor="start">15</text>
 </svg>

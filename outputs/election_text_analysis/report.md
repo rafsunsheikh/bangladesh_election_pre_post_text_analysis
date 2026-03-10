@@ -1,151 +1,92 @@
 # Election Text Exploration Report
 
+## Latest Updates (March 10, 2026)
+- Dashboard visual values are scaled by `x5` for readability.
+- Tabbed dashboard excludes: `Growth Delta`, `Mentions Map Period A`, `Mentions Map Period B`, `Mentions Growth Map`.
+- Published HTML targets:
+  - `outputs/dashboard/tabbed_visual_dashboard.html`
+  - `outputs/notebook_assets/bangladesh_interactive_location_map.html`
+  - `outputs/notebook_assets/bangladesh_interactive_sentiment_map.html`
+- Note: this report's analytical tables are original computed values; `x5` is applied to dashboard visual layers.
+
 ## Datasets Processed
-- Before Election
-- After Election
-- After Forming Government
+- Before Election Some
+- Post Election Data Updated With Location 09 March
+- After Forming Government Data With Location
 
 ## Dataset Summary
 | dataset | total_rows | non_empty_rows | empty_raw_rows | empty_after_clean | avg_char_length | median_char_length | avg_token_length | median_token_length |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| After Election | 2044 | 1935 | 109 | 116 | 36.82583170254403 | 26.0 | 5.167318982387475 | 4.0 |
-| After Forming Government | 2559 | 2517 | 42 | 93 | 48.95974990230559 | 33.0 | 6.533411488862837 | 4.0 |
-| Before Election | 1370 | 1358 | 12 | 18 | 42.93576642335766 | 33.5 | 6.015328467153284 | 5.0 |
+| After Forming Government Data With Location | 1655 | 1655 | 0 | 3 | 38.721450151057404 | 31.0 | 5.495468277945619 | 4.0 |
+| Before Election Some | 1370 | 1358 | 12 | 18 | 42.941605839416056 | 33.5 | 6.015328467153284 | 5.0 |
+| Post Election Data Updated With Location 09 March | 3250 | 3249 | 1 | 7 | 38.43415384615385 | 30.0 | 5.4 | 4.0 |
 
 ## Sentiment Summary
-Final-annotation sentiment across four classes (`negative`, `sarcastic_negative`, `neutral`, `positive`).
+Model-based sentiment over cleaned text (`negative`, `sarcastic_negative`, `neutral`, `positive`).
 
 | dataset | sentiment_label | count | percentage |
 | --- | --- | --- | --- |
-| After Election | negative | 445 | 0.2299741602067183 |
-| After Election | sarcastic_negative | 885 | 0.4573643410852713 |
-| After Election | neutral | 114 | 0.0589147286821705 |
-| After Election | positive | 491 | 0.2537467700258398 |
-| After Forming Government | negative | 806 | 0.3202224870878029 |
-| After Forming Government | sarcastic_negative | 886 | 0.3520063567739372 |
-| After Forming Government | neutral | 265 | 0.1052840683353198 |
-| After Forming Government | positive | 560 | 0.22248708780294 |
-| Before Election | negative | 522 | 0.381021897810219 |
-| Before Election | sarcastic_negative | 453 | 0.3306569343065693 |
-| Before Election | neutral | 129 | 0.0941605839416058 |
-| Before Election | positive | 266 | 0.1941605839416058 |
-
-![Sentiment distribution](outputs/election_text_analysis/plot_sentiment_distribution.svg)
-
-## Location Analysis
-Location analytics are computed from finalized location-labeled period datasets.
-
-### Top Locations (All Periods)
-
-| location | total_mentions | pressure_share |
-| --- | --- | --- |
-| Dhaka | 1568 | 0.7698 |
-| Chattogram | 363 | 0.7989 |
-| Barishal | 166 | 0.8253 |
-| Khulna | 149 | 0.7785 |
-| Sylhet | 118 | 0.839 |
-| Cumilla | 102 | 0.7745 |
-| Gazipur | 99 | 0.8485 |
-| Mymensingh | 81 | 0.7901 |
-| Rangpur | 80 | 0.75 |
-| Noakhali | 76 | 0.7895 |
-| Rajshahi | 72 | 0.6944 |
-| Bogura | 47 | 0.6596 |
-
-### Top Locations by Period
-
-| period | location | mentions |
-| --- | --- | --- |
-| 12.02.26 —- 17.02.26 | Dhaka | 527 |
-| 12.02.26 —- 17.02.26 | Chattogram | 98 |
-| 12.02.26 —- 17.02.26 | Barishal | 46 |
-| 12.02.26 —- 17.02.26 | Sylhet | 40 |
-| 12.02.26 —- 17.02.26 | Gazipur | 27 |
-| 12.02.26 —- 17.02.26 | Mymensingh | 26 |
-| 12.02.26 —- 17.02.26 | Khulna | 25 |
-| 12.02.26 —- 17.02.26 | Cumilla | 23 |
-| 18.02.26 —--- 01.03.26 | Dhaka | 1041 |
-| 18.02.26 —--- 01.03.26 | Chattogram | 265 |
-| 18.02.26 —--- 01.03.26 | Khulna | 124 |
-| 18.02.26 —--- 01.03.26 | Barishal | 120 |
-| 18.02.26 —--- 01.03.26 | Cumilla | 79 |
-| 18.02.26 —--- 01.03.26 | Sylhet | 78 |
-| 18.02.26 —--- 01.03.26 | Gazipur | 72 |
-| 18.02.26 —--- 01.03.26 | Noakhali | 57 |
-
-### Top Co-occurring Location Pairs
-
-| period | location_a | location_b | co_mentions |
-| --- | --- | --- | --- |
-| 12.02.26 —- 17.02.26 | Dhaka | Gazipur | 24 |
-| 12.02.26 —- 17.02.26 | Chattogram | Dhaka | 23 |
-| 12.02.26 —- 17.02.26 | Barishal | Dhaka | 19 |
-| 12.02.26 —- 17.02.26 | Dhaka | Mymensingh | 17 |
-| 12.02.26 —- 17.02.26 | Chattogram | Noakhali | 15 |
-| 12.02.26 —- 17.02.26 | Dhaka | Rangpur | 14 |
-| 12.02.26 —- 17.02.26 | Dhaka | Kishoreganj | 11 |
-| 12.02.26 —- 17.02.26 | Barishal | Bhola | 9 |
-| 18.02.26 —--- 01.03.26 | Chattogram | Dhaka | 62 |
-| 18.02.26 —--- 01.03.26 | Dhaka | Gazipur | 62 |
-| 18.02.26 —--- 01.03.26 | Chattogram | Noakhali | 45 |
-| 18.02.26 —--- 01.03.26 | Barishal | Dhaka | 42 |
-| 18.02.26 —--- 01.03.26 | Dhaka | Khulna | 41 |
-| 18.02.26 —--- 01.03.26 | Dhaka | Mymensingh | 37 |
-| 18.02.26 —--- 01.03.26 | Dhaka | Rangpur | 30 |
-| 18.02.26 —--- 01.03.26 | Dhaka | Pabna | 27 |
-
-### Interactive Bangladesh Map
-
-- Open interactive map: [outputs/notebook_assets/bangladesh_interactive_location_map.html](outputs/notebook_assets/bangladesh_interactive_location_map.html)
+| After Forming Government Data With Location | negative | 559 | 0.3377643504531722 |
+| After Forming Government Data With Location | sarcastic_negative | 692 | 0.41812688821752264 |
+| After Forming Government Data With Location | neutral | 144 | 0.08700906344410876 |
+| After Forming Government Data With Location | positive | 260 | 0.15709969788519637 |
+| Before Election Some | negative | 522 | 0.381021897810219 |
+| Before Election Some | sarcastic_negative | 453 | 0.33065693430656934 |
+| Before Election Some | neutral | 129 | 0.09416058394160584 |
+| Before Election Some | positive | 266 | 0.19416058394160585 |
+| Post Election Data Updated With Location 09 March | negative | 1000 | 0.3076923076923077 |
+| Post Election Data Updated With Location 09 March | sarcastic_negative | 1490 | 0.4584615384615385 |
+| Post Election Data Updated With Location 09 March | neutral | 305 | 0.09384615384615384 |
+| Post Election Data Updated With Location 09 March | positive | 455 | 0.14 |
 
 ## Top Distinctive Terms
 Distinctiveness score is each term's relative frequency in one dataset minus
 the average relative frequency across other datasets.
 
-### Before Election
+### Before Election Some
 | term | count | relative_freq | distinctiveness_score |
 | --- | --- | --- | --- |
-| আব্বাস | 64 | 0.007766047809731828 | 0.007766047809731828 |
-| ধানের | 84 | 0.010192937750273025 | 0.007516979343178214 |
-| বিএনপি | 82 | 0.009950248756218905 | 0.0064489676416340964 |
-| ঢাকা | 39 | 0.004732435384055333 | 0.00441849217501028 |
-| শীষ | 43 | 0.0052178133721635725 | 0.004133965187936954 |
-| চান্দা | 35 | 0.004247057395947094 | 0.004127433016498563 |
-| মির্জা | 33 | 0.004004368401892974 | 0.0039744623070308415 |
-| আওয়ামী | 39 | 0.004732435384055333 | 0.003867709796798109 |
-| মানুষ | 51 | 0.006188569348380051 | 0.0036967251159032415 |
-| চাঁদাবাজ | 29 | 0.003518990413784735 | 0.0031551565219645654 |
+| ভোট | 105 | 0.012741172187841281 | 0.011538153717093288 |
+| ইনশাআল্লাহ | 89 | 0.010799660235408324 | 0.01018290358786553 |
+| ধানের | 84 | 0.010192937750273025 | 0.009608680722915392 |
+| বিএনপি | 82 | 0.009950248756218905 | 0.008134483229623252 |
+| আব্বাস | 64 | 0.007766047809731828 | 0.0077375577812417995 |
+| শীষ | 43 | 0.0052178133721635725 | 0.005189323343673544 |
+| ঢাকা | 39 | 0.004732435384055333 | 0.0045350099804727 |
+| আওয়ামী | 39 | 0.004732435384055333 | 0.004030208651042454 |
+| চান্দা | 35 | 0.004247057395947094 | 0.0038217117644442334 |
+| মির্জা | 33 | 0.004004368401892974 | 0.003668502447555332 |
 
-### After Election
+### Post Election Data Updated With Location 09 March
 | term | count | relative_freq | distinctiveness_score |
 | --- | --- | --- | --- |
-| ভোট | 188 | 0.01779965915546298 | 0.00936555251605517 |
-| ইনশাআল্লাহ | 150 | 0.014201855709145995 | 0.007366533038059453 |
-| বিজয় | 63 | 0.005964779397841318 | 0.004783820698800645 |
-| দালাল | 55 | 0.005207347093353532 | 0.004755315435264482 |
-| খবর | 49 | 0.0046392728649876916 | 0.004366677776071439 |
-| দাদু | 46 | 0.0043552357508047715 | 0.004082640661888519 |
-| সাদা | 42 | 0.003976519598560878 | 0.003976519598560878 |
-| কাকু | 39 | 0.0036924824843779587 | 0.0033284489932967794 |
-| শকুন | 31 | 0.0029350501798901724 | 0.0029350501798901724 |
-| আল্লাহ | 55 | 0.005207347093353532 | 0.0027131003967468034 |
+| সমঝোতা | 164 | 0.009344729344729345 | 0.007640496249622143 |
+| রাষ্ট্রপতি | 96 | 0.00547008547008547 | 0.00541511020895298 |
+| মন্ত্রী | 74 | 0.004216524216524216 | 0.004051598433126745 |
+| হলো | 81 | 0.004615384615384616 | 0.003932893532270573 |
+| চাঁদা | 76 | 0.004330484330484331 | 0.0037351558201111105 |
+| শেষ | 72 | 0.0041025641025641026 | 0.0028968107323524487 |
+| নোটিশ | 50 | 0.002849002849002849 | 0.002849002849002849 |
+| লাভ | 53 | 0.00301994301994302 | 0.0026730004910049594 |
+| তেল | 51 | 0.002905982905982906 | 0.0022898610587634327 |
+| মুক্তিযোদ্ধা | 40 | 0.002279202279202279 | 0.002279202279202279 |
 
-### After Forming Government
+### After Forming Government Data With Location
 | term | count | relative_freq | distinctiveness_score |
 | --- | --- | --- | --- |
-| মাফিয়া | 94 | 0.005622345834080986 | 0.005622345834080986 |
-| শুরু | 109 | 0.006519528679944973 | 0.005506074651920024 |
-| শপথ | 90 | 0.005383097075183922 | 0.005261752578156862 |
-| সংবিধান | 82 | 0.004904599557389796 | 0.004904599557389796 |
-| কাজে | 75 | 0.004485914229319935 | 0.004209218445718372 |
-| জুলাই | 78 | 0.004665350798492732 | 0.0038885943656202164 |
-| তাহলে | 99 | 0.005921406782702315 | 0.003469792987057707 |
-| সংস্কার | 55 | 0.0032896704348346194 | 0.0032896704348346194 |
-| যুদ্ধ | 45 | 0.002691548537591961 | 0.0026442090185614746 |
-| করতে | 95 | 0.005682158023805252 | 0.002413789606838998 |
+| কষ্ট | 105 | 0.01154480483782298 | 0.011138560055895636 |
+| খাও | 63 | 0.006926882902693787 | 0.00606848985645946 |
+| হাট | 64 | 0.007036833424958769 | 0.005865050065334128 |
+| খা | 61 | 0.006706981858163826 | 0.005766810917992886 |
+| ঠিক | 81 | 0.008905992303463442 | 0.005428113820124456 |
+| ভাই | 91 | 0.010005497526113249 | 0.005360077554883304 |
+| ঘাট | 57 | 0.006267179769103903 | 0.005270028771952906 |
+| খাবে | 54 | 0.005937328202308961 | 0.004818832708130903 |
+| তুই | 40 | 0.0043980208905992305 | 0.0032674013180429996 |
+| খেতে | 35 | 0.0038482682792743265 | 0.0031893054324701985 |
 
 ## Topics
-### Before Election
+### Before Election Some
 | topic_id | topic_prevalence | top_terms |
 | --- | --- | --- |
 | 0 | 0.20895145078887953 | ধানের, শীষ, মানুষ, ইনশাআল্লাহ, নাই, তারেক, চোর, খুনি, তুই, বিজয় |
@@ -154,20 +95,20 @@ the average relative frequency across other datasets.
 | 3 | 0.18783954417918117 | আব্বাস, চান্দা, মির্জা, মনে, বিএনপি, থাকবে, খাম্বা, আপনারা, ভাই, ঠিক |
 | 4 | 0.2053118033496599 | ইনশাআল্লাহ, বিএনপি, জিতবে, নাই, করতে, বি, জয়, দলে, জনগণ, ভালো |
 
-### After Election
+### Post Election Data Updated With Location 09 March
 | topic_id | topic_prevalence | top_terms |
 | --- | --- | --- |
-| 0 | 0.18966908798828752 | মনে, দাঁড়িপাল্লা, নাই, বলে, আলহামদুলিল্লাহ, বাটপার, ইনশাআল্লাহ, তাহলে, ভোট, তামিম |
-| 1 | 0.21002895457377554 | ভোট, বাংলাদেশ, খবর, আজ, ঠিক, নতুন, শেষ, পাল্লা, কাক্কু, ভালো |
-| 2 | 0.1819045636813587 | দাদু, ভোট, কাকু, নাটক, হয়ে, নাকি, রহমান, মুখে, আবার, খবর |
-| 3 | 0.2073838219677034 | ভোট, দালাল, আল্লাহ, সাদা, প্রথম, শকুন, করতে, করেন, দেশের, জনগণ |
-| 4 | 0.21101357178887334 | ইনশাআল্লাহ, বিজয়, ধানের, জয়, একটু, মন, শীষ, এবার, খারাপ, শীষের |
+| 0 | 0.23186592901822967 | ঠিক, হলো, কাজ, মনে, লাভ, তেল, এত, নাই, নোটিশ, কোন |
+| 1 | 0.1986605643941385 | রাষ্ট্রপতি, ভালো, দরকার, মন্ত্রী, নতুন, চাই, উনি, বিষয়ক, সংবিধান, জুলাই |
+| 2 | 0.172761075969543 | আলহামদুলিল্লাহ, শেষ, দেশের, ঘাট, হাট, মারা, ঘেরাও, সারা, নাম, good |
+| 3 | 0.1877596007606989 | হোক, দেওয়া, সে, কোন, করতে, আবার, মানুষ, ডিম, বড়, শাহরিয়ার |
+| 4 | 0.2089528298573906 | সমঝোতা, চাঁদা, বলে, সমঝোতার, ভাই, নাই, খেলা, চাদা, খা, হা |
 
-### After Forming Government
+### After Forming Government Data With Location
 | topic_id | topic_prevalence | top_terms |
 | --- | --- | --- |
-| 0 | 0.20440745718418746 | শপথ, সংবিধান, আলহামদুলিল্লাহ, সংস্কার, ভোট, নির্বাচন, তাহলে, শুরু, হয়ে, অনুযায়ী |
-| 1 | 0.21551754641820314 | ভালো, কাজে, চাই, দেখতে, তারেক, এটাই, ইনশাআল্লাহ, আবার, ধন্যবাদ, নয় |
-| 2 | 0.20684508261093412 | করতে, যুদ্ধ, বিরুদ্ধে, জনগণ, নিজের, ঠিক, এগিয়ে, পল্টি, আপনারা, দেশের |
-| 3 | 0.1755485650530031 | আল্লাহ, বলে, ভাই, নাই, বড়, করেন, কাজ, প্রথম, বাবা, জুলাই |
-| 4 | 0.19768134873366952 | মাফিয়া, শুরু, মনে, নিজেই, সিদ্ধান্ত, জুলাই, বিএনপি, তাহলে, নিজে, সে |
+| 0 | 0.20997327499023483 | খাও, খা, ভালো, তুই, নাই, নেতা, মনে, জুলাই, হোক, পিছনে |
+| 1 | 0.1983658016464394 | হাট, ঘাট, খাইতে, বছর, ভাই, আপনারা, কোন, খেয়ে, দরদ, আহারে |
+| 2 | 0.1713302949905066 | খাবে, খাবেন, তাহলে, আপনাদের, টয়লেট, অবশ্যই, বাহ, সমস্যা, সমঝোতা, সুন্দর |
+| 3 | 0.2200787468136823 | কষ্ট, বলে, তোর, খান, বেশি, তোমাদের, ভাই, নাই, গাড়ির, দেয় |
+| 4 | 0.20025188155913567 | ঠিক, ভাই, খাওয়ার, জ্বালা, চাই, অধিকার, খেতে, বলেছেন, যান, ভোট |

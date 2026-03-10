@@ -1,0 +1,1378 @@
+Comment,Sentiment,sentiment_confidence,sentiment_source,needs_review
+লিডার চালিয়ে যান পুরো পৃথিবী আপনার বিপক্ষে থাকলেও আমি পৃথিবীর পক্ষেই আছি,Positive,0.3152671812220947,manual,False
+ভোট দিবো ধানের শীর্ষে চাঁদা তুলবো মিলেমিশে,Sarcastic_negative,0.4129735639279795,manual,False
+"ছেলেটা দারুণ সাহসী। এতো জুতা খাওয়ার পরও নতুন নতুন বানী নিয়ে চলে আসে,, বাহ -- লেগে থাক ভাই..
+",Sarcastic_negative,0.3171628964234322,manual,False
+জনগণের ইচ্ছে যাকে খুশি তাকে ভোট দিবে দেশ টাকার বাবার না স্বৈরাচারের মতো ব্যবহার করে পরিপাশে আগস্টের মত শেখ হাসিনার মত হবে ইনশাআল্লাহ,Positive,0.5984479894842938,manual,False
+এদেশের গর্ব তুমি ভাই আরও এগিয়ে যাও! পাবনার দিকে,Sarcastic_negative,0.5723739336490498,manual,False
+সাহসী নেতার সাহসী বাণী!,Positive,0.3260782175285262,manual,False
+"""১২ তারিখের পর ওই এলাকার মানুষ ওকে খুঁজবে। আর ও কোথায় থাকবে, তা জানা নেই।",Negative,0.3820380762826344,manual,False
+"তারুণ্যের প্রথম ভোটটি হোক অন্যায়, দুর্নীতি, চাদাবাজি, ঋণ খেলাপির বিরুদ্ধে। ন্যায় সততা ও ইনসাফ এর পক্ষে, শিক্ষিত মার্জিত! একজন ভালো ব্যক্তির পক্ষে!",Positive,0.6466374867898778,manual,False
+,Neutral,1.0,manual_second_pass,False
+নেতা এমনই হওয়া দরকার,Positive,0.4684038585276586,manual,False
+বেশি লাফালাফি করলে দাঁড়িয়ে থাকতে পারবে না,Negative,0.5046398893419402,manual,False
+চাঁদাবাজ মুক্ত সন্ত্রাস মুক্ত দূর্নীতি মুক্ত দেশ গড়তে দাঁড়িপাল্লায় ভোট দিয়ে জয়যুক্ত করুন ইনসাফের রাষ্ট্র গঠন করুন।,Positive,0.6537141862415697,manual,False
+প্রতিহিংসার রাজনীতি না করি কিভাবে দেশে ভালো কিছু করা যায় সেভাবে কাজ করি,Positive,0.621699412555699,manual,False
+"নৌকা গেছে যে পথে, ধানের শীষ যাবে সে পথে। নৌকা আর ধানের শীষ লাঙ্গল দেখাও শেষ, দাঁড়িপাল্লা গড়বে এবার সোনার বাংলাদেশ।",Positive,0.6189323426571106,manual,False
+সব জায়গায় একই অবস্থা নির্বাচন বন্ধ করে দেওয়া হোক আমি লীগকে ঘুরিয়ে নিয়ে আনুক তারা বিপক্ষে কোন দলকে সাইট দেয় না হুমকি দিয়ে থাকে প্রতিটা ওয়ার্ড পর্দা থেকে একই অবস্থা,Negative,0.4333127554066169,manual,False
+"দল থেকে দেরকে আজীবনের জন্য বহিষ্কার করা হোক,, নয়তো বিএনপি-র ইজ্জত মাঠে থেকে যাবে বাসায় নিয়ে ফিরতে পারবে না",Negative,0.5446264875994645,manual,False
+ক্ষমতা আসার আগেই এতো কিছু। ক্ষমতা আসার পর কি হবে একমাত্র আল্লাহ জানে,Sarcastic_negative,0.3350643030866991,manual,False
+"দেশের জনগণ এখন সচেতন। জোরজবরদস্তির রাজনীতি এখন আর চলবে না মানুষ আদর্শবান নেতা চায়, যার হাতে নিরাপদ দেশ ও জাতি",Positive,0.8111880696720509,manual,False
+এই বক্তব্য জামাতের কেউ দিলে রাকিব চাচা দল বল নিয়ে রাস্তায় নাইমে যাতো,Negative,0.3858436877728405,model_autofill,False
+বিএনপি আস্তে আস্তে আসল রূপে ফিরে আসতেছে,Negative,0.3922074327935571,model_autofill,False
+"একবারে আওমী সন্ত্রাসীদের হুংকার দিয়ে ভোটারদের জিম্মি করতে চাই,এগুলো কে জনগন আর ভয় করে না।",Positive,0.345299850089309,model_autofill,False
+নব্য ফ্যাসিজম,Sarcastic_negative,1.0,manual_second_pass,False
+ভালবাসা দিয়ে মানুষের মন জয় করতে হয় ভয় দেখিয়ে নয়,Sarcastic_negative,0.4353929089752684,model_autofill,False
+ওকে দশটা জুতার বাড়ি দেওয়া হোক,Negative,0.3311016455744056,model_autofill,False
+দেন উনাকে ভাইরাল করে চান্দে উঠাইবেন,Sarcastic_negative,0.3627977172094994,model_autofill,False
+এই পাগল ছাগলরা দলটাকে শেষ করে দিলো,Negative,0.3777729467200875,model_autofill,False
+এই সময় এই ধরনের শব্দ যেই করবে দল থেকে বহিষ্কার করা উচিৎ। আজকাল এই গুলো মানুষ ভয়পায়না।,Negative,0.4890039445265238,model_autofill,False
+এজন্যই ত জাতি এঁদের থেকে মুখ ফিরিয়ে নিয়েছে।,Negative,1.0,manual_second_pass,False
+দম্ভ ধ্বংস হোক,Negative,1.0,manual_second_pass,False
+এরকম কিছু পাগল না থাকলে নির্বাচনীয় মাঠ গরম হয় না।,Sarcastic_negative,0.358722572744955,model_autofill,False
+ভোট দিবো কিশে ধানের শীষে,Sarcastic_negative,0.3764218977244323,model_autofill,False
+আপনাদের জরিপটা সুন্দর লাগলো এটাই বাস্তব আর অন্যগুলোতে সবাই শক্ত অবস্থায় আছে সেখান থেকে কিছু সিট বিএনপি পাবে মোটামুটি,Negative,0.4313035481407538,model_autofill,False
+ইনশাআল্লাহ ধানের শীষ আমি আসা করি বিএনপি ক্ষমায় আসলে বাংলাদেশ নতুন বাংলাদেশ হয়ে উঠবে আবার,Positive,0.3888618732885247,model_autofill,False
+যে মন পঞ্চগড় এক আসন বিএনপি ধানের শীষ জিতবে,Negative,0.3710931207585661,model_autofill,False
+কুমিল্লা নাঙ্গলকোট আসন বিএনপি বিশাল ভোটে জয় লাভ করবে,Negative,0.4245893477097406,model_autofill,False
+পাগলের সুখ নাকি মনে মনে এই পাগলামি নির্বাচনের পরে কোথায় থাকবে আপনার,Sarcastic_negative,0.3974279248765706,model_autofill,False
+আমাদের মুন্সিগন্জ জেলার ২ নং আসন লৌহজং ও টংগি বাড়ি এডভোকেট আব্দুল সালাম আজাদ ১০০% নিসচিত ইনশাআল্লাহ,Positive,0.4015293461559579,model_autofill,False
+এই খবর দেখে আপনারা বিএনপির ভাইরা আনন্দে গদ গদ ইয়েন না। ফলাফল ঘরে তোলা পর্যন্ত অতন্দ্র প্রহরীর মত ভোট কেন্দ্র পাহারা দিবেন ।সবার বড় দায়িত্ব মহিলাদের ভোট কেন্দ্রে নিয়ে ভোট দেয়ানো ।ভোট দেয়ার পর মহিলাদের সম্মানের সহিত বাড়িতে পৌছে দিতে হবে,Negative,0.3463660435939149,model_autofill,False
+আপনার ধারণা অনেকটাই সত্য।,Sarcastic_negative,0.3945308511343631,model_autofill,False
+সঠিক মোট ২২০ পাবে,Neutral,1.0,manual_second_pass,False
+লক্ষীপুর জেলায় কোন আসন না পেলেও লক্ষীপুর ৪ শতভাগ নিশ্চিত ইনশাআল্লাহ,Negative,0.4124160002511469,model_autofill,False
+নোয়াখালী পাঁচ ফখরুল ইসলাম 100%,Sarcastic_negative,0.359081012699225,model_autofill,False
+হবিগঞ্জ সদর আছে নাম্বার ওয়ান আলকাত জি কে গোস বিপুল পুরে পাস হইবো বিপুল ভোটে,Neutral,0.3805419618236991,model_autofill,False
+কিসের বি এন পি পাবে ৪২০ আসন,Sarcastic_negative,0.3265408016735785,model_autofill,False
+তাহলে আর নির্বাচন দরকার কি।,Sarcastic_negative,1.0,manual_second_pass,False
+আপনার জরিপ আমার খুব পছন্দ হয়েছে তবে আরও বেশি আসন পাবে বিএনপি,Negative,0.4336161007685713,model_autofill,False
+২৮ কুড়িগ্রাম ৪ বিএন পি জয় নিশ্চিত ইনশাআল্লাহ।,Negative,0.4054594136920282,model_autofill,False
+চুয়াডাঙ্গা এক আসন জেলা বিএনপি ৭০% ভোটার এগিয়ে আছে চুয়াডাঙ্গা শরিফুজ্জামান শরীফ ভাই এমপি প্রার্থী হবে,Neutral,0.3741960914902328,model_autofill,False
+সময় টিভি কে জয় বাংলা করা হবে শনিবার দিন,Neutral,0.5806079873465927,model_autofill,False
+এত বড় গুনিনরা যখন গননা করে দিয়েছে তখন আর ভোটের দরকার কি? রাত থেকেই ফ্যামিলি কার্ড দেওয়া শুরু করে দিক।,Positive,0.4668672540024078,model_autofill,False
+এমন ততথো উঠে আসে সুধু সময় টিভিতে,Sarcastic_negative,0.3255703497930992,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+মিডিয়া তো দেখছি ১দলিয় কাজ করছে,Negative,0.3503198650234009,model_autofill,False
+বিএনপির ইশরাকের কর্মীরা রাতে ভোট দিতে গিয়ে জনতার কাছে ধরা। ভোটকেন্দ্র পাহারা দাও ছাত্র-জনতা।,Sarcastic_negative,0.3270333264028073,model_autofill,False
+ইনশাআল্লাহ বিজয় আমাদের,Negative,0.4211995810599845,model_autofill,False
+"ইনশাআল্লাহ ধানের শীষের বিজয় সুনিশ্চিত
+
+",Positive,0.4343673718104231,model_autofill,False
+ইনশাআল্লাহ দাড়ি পাল্লা বিজয় হবে,Positive,0.3565459541633501,model_autofill,False
+"সবাই নাহিদ ভাইকেই দেয়া উচিৎ,,, বিএনপি আওয়ামিলীগ অনেকবার পাওয়ারে আসছে, জনগ উপর শুধু জুলুম করছে তারা,,আল্লাহ দেশের মানুষ কে হেফাজত করুক,, জালিমের হাত থেকে,,",Negative,0.3908866295437817,model_autofill,False
+নাহিদ ভাই নিশ্চিত ১০০%,Neutral,0.3413520438351543,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+"নতুন প্রজন্ম ভোট দিবে নাহিদ শাপলা কলি কে,,,কিন্তু পুরান আমলের মানুস ভোট দিবে ধানের শীষ",Sarcastic_negative,0.3834399217087537,model_autofill,False
+কাইয়ুম জিতবে,Sarcastic_negative,0.3782682541297436,model_autofill,False
+শাপলা কলি,Sarcastic_negative,0.3285096052915726,model_autofill,False
+শাপলাকলি,Neutral,1.0,manual_second_pass,False
+এবার প্রথম ভোট ধানের শীষেই দেবো ইনশাআল্লাহ।,Positive,0.5034707459236973,model_autofill,False
+মোবাইলে কল দিয়ে ভোট চাচ্ছে এর মানে বুজতে হবে নির্বাচনে অবৈধ ভাবে টাকা করতেছে,Sarcastic_negative,0.4053640906598209,model_autofill,False
+ইত্তেফাক গুটিকয়েক জামায়াত নিয়ে ভোটের জরিপ করে জনগণকে বিভ্রান্ত করার চেষ্টা করতেছে...!! আশাকরি আগামী ১২/০২/২০২৬ইং তাদের এই ভাঁওতাবাজির মুখোশ উন্মোচন হবে ইনশাআল্লাহ।,Negative,0.3501396738456788,model_autofill,False
+কতো পন্ডিত এখনও বলে নাহিদরে নাকি ঢাকা ১১ র অর্ধেক মানুষও চিনে না,Negative,1.0,manual_second_pass,False
+"মানুষকে টাকা দিয়ে যোর যবদস্তি করে কেনা যাইনা,,ব্যাবহার এবং ভালোবাসায় মুগ্ধ হয়ে যাই",Positive,0.4218644770171912,model_autofill,False
+আর কিছি লোক ধরে নিয়ে কথা বলেন,Positive,0.5155819057006609,model_autofill,False
+ধানের শীষের বিজয় ইনশাআল্লাহ,Positive,0.4413310263214562,model_autofill,False
+ময়লা কোথায় ফালাতে হবে সেটাই জানেনা- ভোটের ভালো জায়গা খুঁজে পাবে কি করে!,Neutral,0.4319594666140109,model_autofill,False
+নাহিদ ভাইয়ের বিজয় হবেই ইনশাআল্লাহ,Positive,1.0,manual_second_pass,False
+আমার হাতপাখার কথা কেউ কয় না কে,Sarcastic_negative,1.0,manual_second_pass,False
+শাফলা কলি,Sarcastic_negative,0.3285096052915726,model_autofill,False
+বিজয় নিশ্চিত নাহিদ ভাই,Neutral,0.3547583493576833,model_autofill,False
+দল নয় এক জন সৎ এবং যোগ্য ব্যাক্তি কে ভোট দিন ইন শাহ আল্লাহ্।,Positive,0.3268721466252472,model_autofill,False
+শাপলা কলি নাহিদ কে,Sarcastic_negative,0.3478154076954344,model_autofill,False
+সুন্দর প্রতিবেদন প্রকাশ।,Negative,0.3971353194508014,model_autofill,False
+ইনকিলাব জিন্দাবাদ,Sarcastic_negative,0.3385000540347216,model_autofill,False
+কাকি চাঁদাবাজির কথা বইলা বিএনপির পোন মারি দিছে,Sarcastic_negative,1.0,manual_second_pass,False
+সাড়া বাংলাদেশ জাতীয়তাবাদী সন্ত্রাসী সংগঠন মানুকে ভয় দেখিয়ে ভোট সেন্টারে না যাওয়ার জন্য । গেলে হত্যার করা হবে এখনি সময় রুখে দিতে হবে,Neutral,0.3904763627780037,model_autofill,False
+ইত্তেফাক জামাতি মাল,Negative,0.4349614797474855,model_autofill,False
+কার সাথে কিসের তুলনা।কই কাইউম ভাই আরও কই গোপালভার,Sarcastic_negative,0.3386543744473763,model_autofill,False
+বাড্ডা নতুনবাজারসহ সর্বত্র কাইউমের যে চাদার মহরা চলে এর থেকে রক্ষা পেতে শাপলাকলির বিকল্প নাই,Negative,0.3918432038548743,model_autofill,False
+এসব লোক ধরে নিয়ে কথা বলতেছে আমরা জানি । বাড্ডাতে বিএনপি বেশী যখন সিটি কর্পোরেশন নির্বাচন হয়েছে তখন ও দেখছি ।,Negative,0.3972484096725463,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+"যত যাই বলো,বিজয় এবার দাঁড়িপাল্লার,",Positive,0.3787476234645962,model_autofill,False
+বিএনপির বিকল্প নেই ঠিক বলেছেন।,Negative,0.3517877197709286,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+"এম এ কাইয়ুম ভাই, ধানের শীষ ইনশাআল্লাহ !",Positive,0.4338005263116333,model_autofill,False
+দল মত ধর্ম বর্ণ নির্বিশেষে - ভোট দিবো সবাই ধানের শীষে,Positive,1.0,manual_second_pass,False
+নাহিদ ইসলাম জিতবে ইনশাআল্লাহ,Negative,0.3820596158099593,model_autofill,False
+ভোটের দিনেই বুঝতে পারবে নাহিদ তার জামানত নিয়ে বাসায় যেতে পারবে না,Negative,0.4385186812302257,model_autofill,False
+ইনশাআল্লাহ শাপলা কলি,Negative,0.388400425022744,model_autofill,False
+ফেসবুকের জড়িপে জিতে গেছে শাপলা কলি,Sarcastic_negative,0.3829005179266579,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+গোপাল ভাড় নাহিদ বিপুল ভোটে পরাজিত হবে,Neutral,0.4839700771553928,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+নাহিদ তো রাজাকার দের দলে যোগ দিছে,Negative,0.3941921945552416,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+নাহিদ তো রাজাকার দের দলে যোগ দিছে,Negative,0.3941921945552416,model_autofill,False
+নাহিদ ভাই পাশ করুক এটা মনেপ্রাণে চাই,Positive,1.0,manual_second_pass,False
+ঢাকার মানুষের কৃতজ্ঞতা,Positive,1.0,manual_second_pass,False
+কায়ুম ভাই বিএনপি,Negative,0.4128223890177988,model_autofill,False
+মাশাআল্লাহ জাযাকাল্লাহ খায়ের,Negative,0.3545275051039337,model_autofill,False
+ঢাকা নয় হাবিব ভাই,Negative,0.3242515514664212,model_autofill,False
+বদ্দা কিন্তু ডাকসুতেও ছাত্রদলকে জিতাইছিলেন,Sarcastic_negative,0.3790936700586521,model_autofill,False
+থাকবো সবাই মিলে মিশে ভোট দিবো ধানের শীষে,Sarcastic_negative,0.3974233348289977,model_autofill,False
+দুই পক্ষেই দেখি চরম চাপাবাজি চলতেছে। বিএনপি যদিও জিতে ১৬০/১৬৫ এর বেশি পাবেনা। তবে বিএনপি এইবার জিতার সম্ভাবনা কম।,Negative,0.3865411469323845,model_autofill,False
+জামাত এগারো দলীয় জোট 150 + পাবে।,Negative,0.3675978556504167,model_autofill,False
+কমেন্ট দেখলে বুঝা যায় জামাত কোন লেভেলের বট তৈরি করে রাখছে...!!!,Negative,0.3785277094893735,model_autofill,False
+এই তথাকথিত বুদ্ধিজীবিদের অতিরিক্ত আত্নবিশ্বাসই হয়তো বিএনপিকে ডুবাতে যথেষ্ট।,Negative,0.4631853684095318,model_autofill,False
+"এইসব পেইড দালালরা ছাড়া কেউই বলছেনা বিএনপি ক্ষমতায় আসবে।যদি নির্বাচন সুষ্ঠ হয় বিএনপি সর্বোচ্চ একশ সিট পাবে,পরে মিলিয়ে নিবেন।",Negative,0.4443303146922283,model_autofill,False
+বুদ্ধিজীবি ১২ কোটি ভোটারের মনের খবর জানে,Sarcastic_negative,1.0,manual_second_pass,False
+উনি ঢাকায় বসে ডাকসু নির্বাচনে ফতুয়া দিয়েছিল সেদিক থেকে বুঝেছি হেতার মাথায় কিছুই নাই,Negative,0.3388815228018915,model_autofill,False
+ইনার মুখে কয়েকদিন আগে শুনলাম বিএনপি ২৫০+ আসন পাবে আজকে শুনি ২০০+,Negative,0.4303449390919848,model_autofill,False
+সস্তা বুদ্ধিজীবী!,Sarcastic_negative,1.0,manual_second_pass,False
+রুমিন আপার প্রেডিকশনটা যদি একটু করে দিতেন!!,Sarcastic_negative,1.0,manual_second_pass,False
+জাহিদ ভাইয়ের মুখ বন্ধ করার জন্যই মানুষ জামাতকে ভোট দেবে,Negative,1.0,manual_second_pass,False
+"জামাতের ইশতিহারে ইসলামকে নৈতিকতা, দায়িত্বশীলতা ও মানবকল্যাণের দর্শন হিসেবে তুলে ধরা হয়েছে। শরিয়াহ বলতে শুধু দণ্ডবিধি নয়; বরং ন্যায়বিচার, দুর্নীতিমুক্ত শাসন, মানবিক মর্যাদা, সামাজিক নিরাপত্তা ও জবাবদিহিকে অগ্রাধিকার দেওয়া হয়েছে",Positive,1.0,manual_second_pass,False
+"এই যদি বিনপি বুদ্ধিজীবির অবস্থা হয়, এই দল বেশি দুর যাবে না।",Negative,0.4938557890503228,model_autofill,False
+ডাকসুর মত হবে ইনশাআল্লাহ।,Positive,0.417953621404542,model_autofill,False
+পাগলা পানি খাইছে,Sarcastic_negative,0.3746429690935231,model_autofill,False
+"বহু বছর আওয়ামী লীগ সরকার দেখেছি , বহু বছর বিএনপি সরকার দেখেছি , একবার জামাত সরকার দেখতে চাই ।",Negative,0.3845928545577431,model_autofill,False
+আগে থেকে রাস্তা তৈরি,Negative,0.3360915195737047,model_autofill,False
+"জনগন বিএনপির মিছিল মিটিংয়ে যায়। কিন্তু, ভোট দিবে বলতেছে দাঁড়িপাল্লায়",Negative,0.32621095809741,model_autofill,False
+তোর কথা যেন সত্যি হয় যেমন সত্যি হয়েছিল ডাকসু নির্বাচনে,Sarcastic_negative,0.3449617598092597,model_autofill,False
+ছাপরি,Negative,0.3333694265496635,model_autofill,False
+জেন ঝি ৪ কোটি ভোটার ইনসাফ কে ভোট দিবে।,Positive,0.4497910096592817,model_autofill,False
+বস্তাপচা বুদ্ধিজীবী!,Sarcastic_negative,1.0,manual_second_pass,False
+কাচা গান্জা খাইছে।,Sarcastic_negative,0.3362865189043371,model_autofill,False
+ভদ্রলোকের বক্তব্য আগে দেখতাম। কিন্তু ইদানীং ওনার কথাবার্তা তৃতীয় শ্রেণীর ব্যক্তিবর্গের থেকেও নিকৃষ্ট মানের।,Positive,0.3939575043237953,model_autofill,False
+কিসের বুদ্ধিজীবি ওনার মাথায় তো কুত্তার গু বরা,Sarcastic_negative,1.0,manual_second_pass,False
+ওগুলো ভারতের মাল ও বুঝতে পারছে জামাত ক্ষমতায় আসলে আমার টকশোতে আর ভ্যালু থাকবে না এই জন্যই এগুলো বলতেছে।,Negative,0.4071726846475164,model_autofill,False
+"বিএনপি জিতবে না ওকে ফাইন, তাহলে জামাতের আমিরকে প্রশ্ন করেন কেনো বিএনপির সাথে জাতীয় সরকার গঠন করতে চাচ্ছে?? জামাতের দল কানা সমর্থকদের বলছি?",Negative,0.4458883350865077,model_autofill,False
+বাটপার,Negative,0.4809830535735718,model_autofill,False
+হাসের খবর কি দালাল,Sarcastic_negative,0.3253638850542827,model_autofill,False
+বিএনপি ২০০ আসন ক্রস করবেই ফেইল করে ২২৫ জামায়াতে ইসলাম ৭৫ বিএনপি।Loud & Clear,Negative,0.4318164213721866,model_autofill,False
+মহা পন্ডিত যে ডাকসুর প্রেডিকশন করলো তাতে তো বিএনপি গো হারা হারল,Negative,0.4434396871871086,model_autofill,False
+এই ছাগল তুই মনে করলেই কি আর না করলেই কি তুই ওখানে বসে সারাদেশের জনগণের মনে কি আছে তুই জানোস পাগল ছাগল সব টকশোতে ধরে নিয়ে আসে ভিউ বাড়ানোর জন্য,Negative,0.4044080156442343,model_autofill,False
+জাহেদ় ভাই সঠিক বলছেন,Positive,1.0,manual_second_pass,False
+এদের কে কেন অনুষ্ঠানে আনেন এরা বিএনপি পন্থী,Sarcastic_negative,0.3480575304852525,model_autofill,False
+তোমার মুখের কথা মুখেই থেকে যাবে তোমার ধারণা নাই এসব তেল মারা কথা,Sarcastic_negative,1.0,manual_second_pass,False
+আলহামদুলিল্লাহ দাঁড়িপাল্লা,Positive,1.0,manual_second_pass,False
+ইনশাআল্লাহ বি এন পি সরকার গঠন করবে,Positive,0.3963878272623489,model_autofill,False
+উনি এই সমস্ত চিন্তায় বেশি ছিল।,Negative,0.4876500583526778,model_autofill,False
+তুমি কেন মনে করবা তুমি খাইচো না আরো খাওয়ার অপেক্ষায় আছো না ?,Sarcastic_negative,0.3566550633923848,model_autofill,False
+তুমি কি বুদ্ধিজীবী,Sarcastic_negative,0.4483303444366572,model_autofill,False
+ইনশাআল্লাহ,Positive,0.3860122329985906,model_autofill,False
+এই লোক সেই লোক না ঢাকা বিশ্ববিদ্যালয় জিতিয়েছিল কোন দলকে যেন,Negative,0.50263114050287,model_autofill,False
+জাহিদ ভাইয়ের ধারণা উল্টে যাওয়া অসম্ভব না। সুষ্ঠ সুন্দর শান্তিপূর্ণ নির্বেজাল নিরপেক্ষ নির্বাচন চাই যেই পাশ করুক।,Sarcastic_negative,0.3608953726904077,model_autofill,False
+এই পরজীবী ডাকসু নির্বাচনের আগেও এরকম প্রেডিকশন করেছিল,Negative,0.3664076479613957,model_autofill,False
+আওয়ামীলীগ জামাতকে ভোট দিবে এটা ভাবা দিবা সপ্ন।,Sarcastic_negative,0.3346053098093148,model_autofill,False
+সময় আসতে দেন দেখেন,Sarcastic_negative,0.3356480649693124,model_autofill,False
+বরদা কিন্তু এক চামচ বেশি বুঝে,Sarcastic_negative,0.3682368011472219,model_autofill,False
+ওকে চিনেছি দালাল একটা আগে গোঁড়ার খবর নে পরে সিদ্ধান্ত কর,Negative,1.0,manual_second_pass,False
+এই বিশেষজ্ঞর কথা যদি সত্যি না হয় তারে সবাই ডাস্টবিনের মধ্যে ফালাইয়া ময়লা খাওয়াইতে হইবো,Negative,0.4951871867389014,model_autofill,False
+"বলদা,, সমিকরন করতে জানেনা",Sarcastic_negative,0.4892652690185158,model_autofill,False
+এই বলদ যার পক্ষ নেই সেই হারে,Negative,0.4172613915148088,model_autofill,False
+সালার কানে কখন যে তাপড়াবো,Sarcastic_negative,0.3478858423128289,model_autofill,False
+ঠিক বলছেন জামাত দালাল কিনতে পারেনাই। বিএনপি মিডিয়া আর দালালদের এক করতে পারছে তাই ভোটের আগেই বলে দিচছে বিএনপি২০০ বেশি ছিট বাবে।,Negative,0.3533705560492479,model_autofill,False
+জামাত জিতে গেলে দেশে মাদকের চোরাচালান বন্ধ হয়ে গেলে এদের কি হবে জামাতের কাছে অনুরোধ তারা যাতে দেশে ফ্রিতে মাদক নিরাময় সেবা দেয় নাহলে এত এত লোকের কি হবে,Neutral,0.3787281298178043,model_autofill,False
+তুই মনে করলে কি না করলে কি আমরা জনগোন মনে করলে হই,Negative,0.4211707707991315,model_autofill,False
+আর কিছু দিন গেলে জাহেদ ১৫০ বলতো।,Positive,0.3739972226308806,model_autofill,False
+বাংলাদেশের সব ভোটে গ্রেট মাদারবোর্ডে দিব। যার জন্যই তো ভোটকেন্দ্র থেকে ৪০০ মিটার দূরে মোবাইল নেওয়া যাবে না। যদি মোবাইল নেওয়া যায় তাহলে তো টু থার্ড মেজরিটি হবে না,Sarcastic_negative,1.0,manual_second_pass,False
+এইবার মুখের কথা কাজে লেগে গেছে,Positive,0.325044529544489,model_autofill,False
+কাঁচা পাতা খেয়ে আসছে,Sarcastic_negative,0.3489074869816755,model_autofill,False
+এই হালা যা বলে সব ভূয়া,Negative,0.4007277553429744,model_autofill,False
+মনে হয় অনেক খেয়েছে।,Sarcastic_negative,0.3629557130418469,model_autofill,False
+এই লোক চামচামি করে কিছু একটা করতে হতে চায় বিএনপি সরকারে আসলে,Negative,0.4096702994841988,model_autofill,False
+ইসলাম থাক বা না থাক সেটা বড় ব্যাপার না ব্যাপারটা হচ্ছে তারা সৎ আপনাদের মত অসৎ না সেই জন্যই সেখানে ভোট দেয়া উচিত,Negative,1.0,manual_second_pass,False
+ঘেটু জাহিদ এভাবেই কথা বলে আন্দাজে,Positive,0.4724862528130657,model_autofill,False
+"বরং আমি তো মনে করি আপনি উল্টা হাইপ তৈরি করার চেষ্টা করছেন যে, বিএনপি ২০০ এর বেশি সিট পাবে।",Negative,0.3705825167019507,model_autofill,False
+জাহেদ সাব কথা কেমন যেন গালে বেজে যাচ্ছে।,Positive,0.3475516491845221,model_autofill,False
+"প্রতিহিংসার রাজনীতি বিএনপি করেন না' যে রাজনীতি দল স্বপ্ন দেখছে, জনগণ ঘাটে নিয়ে তরী ডুবানেন।",Positive,0.3819258602668525,model_autofill,False
+"দালাল মিডিয়া টাকার কাছে বিক্রি হয়ে গেছে কিন্তু বিএনপির অনুকুলে সবাই সাবধান, এটা প্লানের অংশ, সব মিডিয়াই জামাতের বিরুদ্ধে নিউজ করতাছে।",Sarcastic_negative,0.3317403965252492,model_autofill,False
+বাহ্: বিনা মূলধনে ধনী হওয়ার নিনজা টেকনিক।,Negative,1.0,manual_second_pass,False
+কি পরিমান চাটাচাটি শুরু করছে মিডিয়া,Negative,0.3880389843348259,model_autofill,False
+"ন্যায় ও ইনসাফভিত্তিক সমাজ গঠন করা জরুরি,এই প্রজন্ম অনেক নষ্ট হয়ে গেছে,হে তরুণ , যদি পরবর্তী প্রজন্মেকে ভালো কিছু উপহার দিতে চাও তাহলে তোমার ভোট ভেবে দাও।",Positive,0.4173914935429346,model_autofill,False
+"আসন্ন নির্বাচনে আপনার একটি ভোট কেবল একটি সিল নয়, বরং এটি একটি আগামীর অঙ্গীকার। আমরা ভোট দেবো বাংলাদেশের পক্ষে, আমরা ভোট দেবো জুলাইয়ের বিপ্লবের চেতনাকে ধারণ করে। ইনসাফ ভিত্তিক সমাজ গড়তে সততা আর ঐক্যের কোনো বিকল্প নেই।",Positive,0.4610422590310719,model_autofill,False
+"ধান লাগা, চান্দা উঠা।",Sarcastic_negative,0.5325161366306502,model_autofill,False
+"বার বার প্রমাণিত চাদাবাজ, দুর্নীতিবাজ, লুটপাট, দখলদাদের বয়কট করুন। এদের হাত থেকে দেশকে বাচান।",Positive,0.342606845373077,model_autofill,False
+৬০% বিএনপি প্রার্থী ঋণখেলাপী চোর এদের দায় সাধারণ জনগণ কি নিবে?,Negative,0.3444603717924156,model_autofill,False
+ইনশাআল্লাহ বিএনপি,Negative,0.4736095212930061,model_autofill,False
+ইনশাআল্লাহ জয় নিশ্চিত,Negative,0.3882304952258211,model_autofill,False
+ইনশা আল্লাহ,Negative,0.3773459946143148,model_autofill,False
+মাশাআল্লাহ আলহামদুলিল্লাহ,Negative,0.3577851508371583,model_autofill,False
+"নৌকা, ধানের শীষ, লাঙ্গল দেখা শেষ দাঁড়িপাল্লা এবার গড়বে বাংলাদেশ ",Positive,0.3444524865457637,model_autofill,False
+"শান্তিপূর্ণ, নিরপেক্ষ ভোট হলে গণতন্ত্রের সূচনা হবে: তারেক রহমান",Neutral,0.3992984315637618,model_autofill,False
+গণতন্ত্র পক্ষে ধানের শীষে ভোট দিয়ে আমরা গর্বিত,Positive,0.3270178788193408,model_autofill,False
+ভোট দিয়েছি স্যার। ইনশাআল্লাহ আপনি আমাদের দেশের মানুষের প্রত্যাশার প্রধানমন্ত্রী হবেন,Positive,0.3697287340296453,model_autofill,False
+"একবার মনে হচ্ছে বিএনপি জিতবে, আবার মনে হচ্ছে জামাত জিতবে। আম্লীগের সময় এই টেনশন করতে হতো না, আমরা জানতাম কে জিতবে। আগেই ভালো ছিলাম।",Negative,0.477405500219935,model_autofill,False
+ইনশাআল্লাহ জয় আমাদেরই হবে,Negative,0.3344299505101151,model_autofill,False
+"আমি বললাম, প্রয়োজনে লিখে রাখেন জামায়াত সরকার গঠন করবে। যদি ভোট সুষ্ঠু হয়। ইনশাআল্লাহ",Positive,0.4392358370478502,model_autofill,False
+ভোটের ফলাফল যদি দেরি করে ঘোষণা হয় তাহলে কি জাতি মেনে নেবে কি নেবে না,Positive,0.3771440403817283,model_autofill,False
+আমাদের এলাকার জামাত পাস হয়েছে দাঁড়িপাল্লা,Negative,0.3537602373696938,model_autofill,False
+ইনসাহা আললাহ মাঠে শিবীর বুলেটেট মত কাজ করবে কেউ সাহস করবে না এবার,Positive,0.4073025090017554,model_autofill,False
+ইনশাআল্লাহ জিতবে,Positive,0.3921799354369873,model_autofill,False
+নির্বাচন ঘিরে বিএনপি সারা দেশে কি পরিমান অরাজকতা করতেছে সেটা কি আপনার অনুমতিতে?,Sarcastic_negative,0.3943376844104202,model_autofill,False
+লন্ডন ফেরত চাই না যাদের নেতা বলে হ্যা ভোট কর্মী বলে না ভোট,Positive,0.4683377073865165,model_autofill,False
+আমার বয়সে আমি প্রথম ভোট দিতে চাইছিলাম দিতে পারলাম না অনেক কষ্ট পাইলাম,Negative,0.359665078648303,model_autofill,False
+বিপুল ভোটে ধরনের শীষ,Sarcastic_negative,1.0,manual_second_pass,False
+ইনশাল্লাহ এম এমাপাটি জামায়াত ইসলামী বাংলাদেশ জিন্দাবাদ নারে তাকবীর আল্লাহু আকবার এম এমাপাটি জামায়াত ইসলামী,Positive,0.4083459183270387,model_autofill,False
+ইনশাআল্লাহ জয় খুব নিকটে,Negative,0.4159820361353966,model_autofill,False
+অনেক ইচ্ছা ছিল একটা ধানের শীষে ভোট দিব,Sarcastic_negative,0.3866710744333142,model_autofill,False
+তরুণ্যের প্রথম ভোট ধানের শীষের পক্ষে হোক।,Positive,0.4035867176094951,model_autofill,False
+জয় বাংলা_জিতবে এইবার ধানের শীষ_দাঁড়িপাল্লায় ভোট দিস,Positive,0.3314937140993509,model_autofill,False
+যৌবন এর প্রথম ভোট ইসলামী কেন দলের দিবে ইনশাআল্লাহ,Positive,0.3375024114501069,model_autofill,False
+৭০% বললেও এটা সামনের কয়েক সপ্তাহে ৮০% হয়ে যাবে।,Sarcastic_negative,1.0,manual_second_pass,False
+ধানের শীষের ভোটার যারা জয়ের মালা পর্বে তারা ধানের শীর্ষে ভোটার যারা করবে তারা,Positive,1.0,manual_second_pass,False
+তাহলে আর বিনাকরণে ভোট করার দরকার কি?,Positive,0.5094945656307431,model_autofill,False
+ইনশাআল্লাহ দাঁড়িপাল্লার বিজয়ী হবে,Positive,0.3891564449917048,model_autofill,False
+ইনশাআল্লাহ বিএনপি সরকার গঠন করবে,Negative,0.4663213481291377,model_autofill,False
+নৌকা আর ধানের শীষ দুই সাপের একই বিষ,Positive,0.4769990656116649,model_autofill,False
+"জামায়াতে ইসলাম,ছাত্র শিবির সরকারের দায়িত্ব পেলে ইনশাল্লাহ দাঁড়িপাল্লা সব দুর্নীতি জিরো টলারেন্স করবে।",Positive,0.3911099470775523,model_autofill,False
+রিপোর্টের ভেতরে খাম্বার কথা দেখে আরও গর্ব অনুভব করলাম। খাম্বার খ্যাতি বিশ্বজুড়ে ছড়িয়ে গেছে। আলহামদুলিল্লাহ। জিতবে এবার ধানের শীষ,Positive,0.3562430662887689,model_autofill,False
+প্ল্যান প্ল্যান কইরা লাগাইলি তো মারামারি খুনাখুনি জাতি প্ল্যান দেখতাছে লগে ভবিষ্যৎও দেখতেছে,Negative,0.3757290616052855,model_autofill,False
+টাইম তারেক রহমান কে খাম্বা মেনশন করলো কেন,Sarcastic_negative,0.332282261761821,model_autofill,False
+"তারেকের অনেক গুণ, ইলেকশনে মানুষ খু' ন",Negative,1.0,manual_second_pass,False
+টাইম তারেক রহমান কে খাম্বা মেনশন করলো কেন,Sarcastic_negative,0.332282261761821,model_autofill,False
+সন্ত্রাসী তারেকের বিচার চাই,Neutral,0.3647707004607634,model_autofill,False
+খাম্বা বলে কি বুঝাইলো রে ভাই ওইটা যে বল্লি না,Sarcastic_negative,1.0,manual_second_pass,False
+"খাম্বা, ‌,,,, ‌,,,,,,,,,,,,,,, আমার লিটার। দুরনিতিতে তিন বারের চেম্পিয়ন",Negative,0.4202924771111908,model_autofill,False
+"একদা এক বালক স্বপ্নে নায়িকা কে নিয়ে স্বপ্ন দেখেছে, সকালে উঠে দেখে তার স্বপ্নদোষ হয়েছে। এই স্বপ্নদোষের কারণ কি নায়িকার নাকি ছেলেটার। BNP ও ঐরকম স্বপ্নদোষের স্বপ্ন দেখছে।",Negative,0.3857059282094847,model_autofill,False
+"ভাই সিরিয়াসলি এটা শেয়ার দিয়েছে। নিচের দিকে তারেক রহমানকে নিয়ে যে পরিমাণ বাজে মন্তব্য করেছেন তারপরও এটা শেয়ার দিল। অন্তত একটু ইংরেজি ট্রান্সলেট করা শেখো ,কারা চালায় এসব পেজ। তারেক রহমানের অতীতের অপকর্ম নিয়ে লিখেছে এই নিউজ চ্যানেলটা তারা আবার এটা শেয়ার দিয়েছে।",Negative,0.4074124644069453,model_autofill,False
+"লাখো কণ্ঠ, এক স্বপ্ন—ন্যায়ভিত্তিক বাংলাদেশ। ❝ভোট দিবো কিসে— ধানের শীষে।❞",Sarcastic_negative,0.328894342902644,model_autofill,False
+"বিএনপি হেরে গেলে হেরে যাবে বাংলাদেশ ❤️প্রজন্ম থেকে প্রজন্ম ধানের শীষ থাকবে🤲 দলে দলে যোগ দিন ধানের শীষে ভোট দিন
+
+",Positive,1.0,manual_second_pass,False
+আপনারা আগে বলেছেন জামায়াতে ইসলামী ৫ % আর এখন জরিপে আসছে ১৯ % এইভাবে বারতে থাকলে ইনশাআল্লাহ জামায়াত ইসলামি ১০০% হতে বেশি দিন লাগবে না।,Positive,0.4128288334430193,model_autofill,False
+টাইম ম্যাগাজিন লিডারভকে খাম্বা বল্ল কেন বুঝলাম্না,Sarcastic_negative,0.3406654891103049,model_autofill,False
+লেতা কি হরবেন মনে হয়। চিন্তায় কি বিচি কান্দে না কি।,Sarcastic_negative,0.3585065792855232,model_autofill,False
+সকল জনগণের সমর্থন নিয়ে জনাব তারেক রহমান এগিয়ে যাবে ।সকল ষড়যন্ত্র চক্রান্ত প্রতিহত করে বিএনপি সফলতায় পৌঁছাবে। ধানের শীষ মার্কা জিন্দাবাদ। ইনশাল্লাহ।,Positive,0.4399842233818317,model_autofill,False
+"চাঁদাবাজি, টেন্ডারবাজি, দুর্নীতি ও মাদকমুক্ত বাংলাদেশ গড়তে জনগণের আস্থার শীর্ষে ধানের শীষ। আপনিও আপনার মূল্যবান ভোট প্রদানের মাধ্যমে ধানের শীষ কে শক্তিশালী করুন।",Sarcastic_negative,0.3913922121390918,model_autofill,False
+"নেতা করে খাম্বা চুরি, কর্মি মারে গলায় ছুরি।",Positive,0.4172549807833796,model_autofill,False
+"জেগেছে জনতা, বেঁধেছে জোট ধানের শীষে দিবে ভোট।।
+",Sarcastic_negative,0.3975062843541869,model_autofill,False
+বেটা ভন্ড চাঁদা বাজদের বয়কট,Sarcastic_negative,0.3373198039410132,model_autofill,False
+ধানের শীষ জিন্দাবাদ,Sarcastic_negative,0.3479291957951836,model_autofill,False
+খাম্বা তারেক বলছে সেটাও বলো,Sarcastic_negative,1.0,manual_second_pass,False
+টাইম ম্যাগাজিন খাম্বা না লিখে ইলেকট্রিক পুল লিখলেও পারত,Negative,0.4437066696298944,model_autofill,False
+ফ্যামিলি কার্ডের পাশাপাশি একটা কাফন কার্ড ও দিয়েন,Sarcastic_negative,0.3451179946298366,model_autofill,False
+"বিম্পি এভাবেই অনলাইনে জিতে। সারা দেশে চাঁদাবাজি খুনখারাপি, লীগের মতো ডায়লগ মেরে বলে যে তারা নাকি জিতবে। বারো তারিখ পর্যন্ত অপেক্ষা করো তখন ফলাফল দেখবা",Positive,0.4283014688130444,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+"সব জায়গায় জামাতের প্রিজাইডিং অফিসার নিয়োগ হইছে।যারা ইতিমধ্যে কোন দিন ডিউটি করে নাই, গেষ্ট টিচার দিয়ে প্রিজাইডিং অফিসার নিয়োগ হইছে, অন্যদিকে অনেক মাধ্যমিক বিদ্যালয়ের প্রধান শিক্ষক ও দায়িত্ব পাই নাই।কোন স্কুলে প্রধান শিক্ষক কে বাদ দিয়ে জামায়াত নেতা হিসাবে পরিচিত সহকারী প্রধান শিক্ষক কে প্রিজাইডিং অফিসার নিয়োগ দিছে।",Negative,0.3294327570802327,model_autofill,False
+"ভোটকেন্দ্রে যান,নিজের সিদ্ধান্ত নিজে নিন। ধানের শীষ প্রতীকে ভোট দিন।",Sarcastic_negative,0.4136486961638984,model_autofill,False
+টাইমস তো খাম্বা তারেক ও মেনশন করলো সেটাও কি বিশ্বাস করো নাকি?একাংশ নিবা একাংশ নিবানা তা ত হয়না সোনা বন্ধু।,Sarcastic_negative,0.3342658768214865,model_autofill,False
+"হাসিনার রেখে যাওয়া কাজ গুলো করা জন্য দেশে আসছে ১৭ বছর পালিয়ে থাকা নেত
+",Sarcastic_negative,1.0,manual_second_pass,False
+হে দেশবাসী আগামী ১২ তারিখ বিএনপি নামে দল কে আওয়ামীলীগ এর মত করে লন্ডনের পথে পাঠানোর সিদ্ধান্ত এখন আপনার আমার সবার,Negative,0.3764862434489402,model_autofill,False
+★ভোট দিবো কিসে★ধানের শীষে★,Sarcastic_negative,0.3682400413953458,model_autofill,False
+নির্বাচনকে ঘিরে প্লেয়াররা প্রস্তুত— আসলেই কি ভোট হবে?,Neutral,0.3639428265737998,model_autofill,False
+তারেক রহমান,Negative,0.3256338918345998,model_autofill,False
+ইনশাআল্লাহ,Positive,0.3860122329985906,model_autofill,False
+"তারেক জিয়া কে যে ভাবে মানুষ এই দেশে বরন করে নিয়েছে,এক দিন জয় কেউ এই মাটিতে বরন করে নিবে।শুধু সময় এর ব্যাপার।",Positive,1.0,manual_second_pass,False
+তারেক রহমানের জিন্দাবাদ বাংলাদেশ জাতীয়তাবাদী দল বিএনপি জিন্দাবাদ,Negative,0.3352688503634862,model_autofill,False
+আলহামদুলিল্লাহ ফি আমানিল্লাহ অভিনন্দন,Negative,0.375165259201858,model_autofill,False
+আমার প্রানের বাংলাদেশে বিএনপি ছিল বিএনপি আগামীতেও থাকবে ইনশাআল্লাহ,Negative,0.4579441103862423,model_autofill,False
+"শান্তিপূর্ণ, নিরপেক্ষ ভোট হলে গণতন্ত্রের সূচনা হবে: তারেক রহমান",Neutral,0.3992984315637618,model_autofill,False
+"আমরা কোন সাহেব চাই না, সেবক চাই।",Negative,0.4051752521247219,model_autofill,False
+আলহামদুলিল্লাহ,Positive,1.0,manual_second_pass,False
+আমরা সবাই চাই ভালো কিছু ধর্ম বর্ণ নির্বিশেষে আমরা সবাই একসাথে মহান আল্লাহ আমাদের সহায় হোন আমরা সবাই দোয়া করি আল্লাহর কাছে,Negative,0.4296461434631337,model_autofill,False
+বারো তারিখ সারা দিন ধামের শিশে ভোট দিয়ে,Sarcastic_negative,0.3514714862431275,model_autofill,False
+বাংলাদেশ জিন্দাবাদ জাতীয়তাবাদী দল জিন্দাবাদ,Positive,1.0,manual_second_pass,False
+হাঙ্গামা সৃষ্টিকারীরা ভোটার বিমুখ পরিবেশ তৈরি করে নির্বাচনকে বিতর্কিত করতে চাচ্ছে। অবিলম্বে নিজ নিজ দলের পক্ষ থেকে এদের চিহ্নিত করে আইনের হাতে সোপর্দ করুন। এরা দলের এবং দেশের শত্রু..,Negative,1.0,manual_second_pass,False
+আরে জামাতে চুরি করি ব্যালট নিয়া মারি রাখের যে সেটা নিয়া আপনাদের কর্মীদের সচেতন থাকতে বলে পোস্ট দেন। প্রতিরোধ করতে বলেন। নয়তো হাতছাড়া হইব,Positive,0.5007930324737372,model_autofill,False
+"ইনশাআল্লাহ ধানের শীষের হবে জয়,,আশা করি তারেক রহমান আমাদের প্রধানমন্ত্রী হবে",Positive,0.3653501138627567,model_autofill,False
+বট বাইনি যেন না ঢুকতে পারে এখানে সবাই চোখ রাখবেন,Negative,0.3691554000090579,model_autofill,False
+দাড়ি পাল্লা না রিকশা না ধানের শীষ বিজয় হবে,Neutral,0.477725990613683,model_autofill,False
+ভরাসাগরের পানীয় কেউ খেতে পারে না বড় পাহাড়েও কেউ বসবাস করতে পারে না বড় তোলো কারো উপকার করতে পারে না,Sarcastic_negative,0.4038383027626784,model_autofill,False
+"বর্তমান ইসিও বিচি ছাড়া ইসি।আওয়ামী লীগ,বিএনপি ও ভারত সহযোগে গভীর ষড়যন্ত্র চলছে। দেশব্যাপী দাঁড়িপাল্লায় যে গনজোয়ার ভোট সুষ্ঠ না হলে নিজ ভোট সেন্টারে ভোট গ্রহন অনিয়ম হলে ইসির খুলে নিতে হবে।",Negative,1.0,manual_second_pass,False
+বিভিন্ন দেশে মানুষ প্রয়োজন হয় না শুধু ক্যামেরা দিয়ে নিয়ন্ত্রণ করতে পারে,Sarcastic_negative,0.3636492673170592,model_autofill,False
+"রাইট,দাড়িপাল্লার জয়দেখে এরকম করে।",Positive,0.3967988897880892,model_autofill,False
+ধানের শিসে ভোট দিন,Sarcastic_negative,0.3460974659498154,model_autofill,False
+জয় হোক জনতার বিএনপি জিন্দাবাদ।,Negative,0.3485692026977954,model_autofill,False
+লিডার আপনাকে অনেক ধন্যবাদ আপনার পরিকল্পনা গুলো যেন বাস্তবায়ন হয়,Sarcastic_negative,0.4042657085533798,model_autofill,False
+সবার আগে বাংলাদেশ,Positive,1.0,manual_second_pass,False
+ফরিদপুর সদর ত আসনের নীতি,Neutral,1.0,manual_second_pass,False
+"যিনি কুরআন তেলাওয়াত করেছেন, একজন আলেম মানুষ তার জন্য কি একটা চেয়ার হয় না, তাকে একটি চেয়ারে বসিয়ে দেয়া হোক।",Positive,0.3972748227590498,model_autofill,False
+জুলাই সনদ আস‌লে কি?,Neutral,1.0,manual_second_pass,False
+"হ‌্যাঁ ভোট বা না ভোট, কোনটা দেয়া উ‌চিত?",Sarcastic_negative,0.328285799876591,model_autofill,False
+"অভিনন্দন, চমৎকার এবং সময়োপযোগী একটি ইশতেহার দেয়ার জন্য।",Positive,0.3248525866164956,model_autofill,False
+ইনশাআল্লাহ বিএনপি বিজয় হবে,Negative,0.3680340709116484,model_autofill,False
+ধানের শীর্ষ ধানের শীর্ষ,Sarcastic_negative,0.3380444581257525,model_autofill,False
+সবার আগে বাংলাদেশ,Positive,1.0,manual_second_pass,False
+কারণ ওরা বুঝে গেছে এখন জনগণ কোন পথে,Sarcastic_negative,0.372581809911184,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+কথা টা রাইট,Positive,0.3582837281160888,model_autofill,False
+ঠিক আছে,Negative,0.3972355767361783,model_autofill,False
+হাতপাখা জিন্দাবাদ,Sarcastic_negative,0.331840104698098,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+ঠিক বলেছেন ম্যাডাম ধন্যবাদ আপনাকে ঠিক বলেছেন,Positive,0.3327398312624033,model_autofill,False
+তরুণ প্রজন্মের প্রথম ভোট ধানের শীষের,Positive,1.0,manual_second_pass,False
+পক্ষে হোক,Positive,0.3491772801540953,model_autofill,False
+"চাঁদাবাজি দুর্নীতি নৈরাজ্য ঘুষ সন্ত্রাসের মুক্ত হোক, ইনসাফের বাংলাদেশ যুক্ত হোক। ইনক্লাব জিন্দাবাদ।",Positive,0.5683773643834586,model_autofill,False
+ইন্সাআল্লাহ জিতবে ধানের শীষ। স্বাধীনতাবিরোধী রাজনৈতিক দল নিপাত যাক।,Positive,0.4058603641916489,model_autofill,False
+ইনশাআল্লাহ দাঁড়িপাল্লার জয় নিশ্চিত,Positive,0.4340834262952787,model_autofill,False
+তারুণ্যের প্রথম ভোট ইনসাফের পক্ষে হোক হঠাও চাঁদাবাজ বাচাও দেশ দাড়িপাল্লার বাংলাদেশ,Positive,0.6426086108441866,model_autofill,False
+এটা বিএনপির জন্যই মানায়,Negative,0.4023023978661399,model_autofill,False
+ভয় কাজ করছে,Negative,1.0,manual_second_pass,False
+হারলেই বলবে নির্বাচন সুষ্ঠ হয়নি জিতলে বলবে নির্বাচন সুষ্ঠ হয়েছে,Sarcastic_negative,0.3732415431786743,model_autofill,False
+বিএনপি নেতাকর্মী এবং পুলিং এজেন্ট গুলি আরো কঠোর নজরদারি থাকতে হবে সারাদেশে ভোট জালিয়াতি টাকা ছড়াছড়ি হচ্ছে।,Positive,0.3732628775843455,model_autofill,False
+"""১২ তারিখ, সারাদিন ধানের শীষে ভোট দিন। ইনশাআল্লাহ, আমাদের জয় হবে!",Positive,0.3324133984694167,model_autofill,False
+বিএনপি ভালো করেই জানেন নির্বাচন সুষ্ঠু হবে এবং তারা হারবে এজন্য তারা উল্টাপাল্টা কথা বলতেছে।,Sarcastic_negative,1.0,manual_second_pass,False
+ধানের শীষের জয় হবেই ইনশাআল্লাহ,Positive,0.3842948682228269,model_autofill,False
+ইনশাআল্লাহ ধানের শীষের বিজয় হবেই হবে।,Neutral,0.3818991362883257,model_autofill,False
+এখন পর্যন্ত সংবাদ মাধ্যম গুলোর মধ্যে যা দেখতে পেলাম সবচেয়ে বেশি বিএনপির নেতাকর কর্মীরা সবচেয়ে বেশি অ্যারেস্ট হয়েছে অস্ত্র নিয়ে,Negative,0.3961401766623742,model_autofill,False
+"বাগেরহাট, ১আসনে কফিলকৃষ্ণ মন্ডল বিকল্প নেই",Neutral,1.0,manual_second_pass,False
+তারেক রহমান জিন্দাবাদ,Positive,1.0,manual_second_pass,False
+মগবাজারে আগুন লাগিয়ে দিয়েছেন লিডার,Negative,1.0,manual_second_pass,False
+বাগেরহাট ৩ লায়ন ডক্টর শেখ ফরিদুল ইসলাম,Neutral,1.0,manual_second_pass,False
+ধন্যবাদ ভাইয়া,Positive,1.0,manual_second_pass,False
+ধানের শীস,Sarcastic_negative,0.3401039761586544,model_autofill,False
+জয়বালা,Sarcastic_negative,0.3797628195621744,model_autofill,False
+রাইট কথা বলছো,Positive,0.3705328363835404,model_autofill,False
+ধন্যবাদ ধন্যবাদ,Positive,1.0,manual_second_pass,False
+মাগুরা জেলা,Neutral,1.0,manual_second_pass,False
+দেখা হবে বিজয়ে,Neutral,0.6217415734298687,model_autofill,False
+ইনশাআল্লাহ ধানের শীষের বিজয়ী হবে,Positive,0.3905568476032447,model_autofill,False
+জামায়াত বয়কট,Negative,0.4522685670278155,model_autofill,False
+বাংলাদেশের জনগণ,Sarcastic_negative,0.3806310447716574,model_autofill,False
+খুলনা বিভাগের পক্ষ থেকে আপনাকে জানাই স্বাগতম প্রিয় লিডার জনাব তারেক রহমান,Positive,1.0,manual_second_pass,False
+কাতার প্রবাসী সিরাজগঞ্জ এর ছেলে,Sarcastic_negative,0.3678096667320775,model_autofill,False
+বিএনপি,Negative,0.4493180623483842,model_autofill,False
+ইনশা আল্লাহ ধানের শীস,Positive,0.4242323302602857,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+"ভোটকেন্দ্রে যাবো, মোবাইল নিয়েই যাবো। দাঁড়িপাল্লায়, ভোট দিবো সেলফি তুলে সেলিব্রেট করবো। ভোট হবে উৎসব ইনশাআল্লাহ।",Positive,0.3851042580123645,model_autofill,False
+চুরি করার সুযোগ দিলে নাকি সুষ্ঠু নিরপেক্ষ নির্বাচন হয়। মনের কথা বিএনপির,Negative,1.0,manual_second_pass,False
+মা মেনে উপায় নাইরে পাগলা,Sarcastic_negative,0.3332607996947135,model_autofill,False
+"সারা বাংলা হয়েছে জোট, নৌকা ছাড়া কিসের ভোট।",Sarcastic_negative,0.3514092341868217,model_autofill,False
+এসেছে জোয়ার এসেছে ঢেউ ধানের শীষের  বিজয় ঠেকাতে পারবে না কেউ,Sarcastic_negative,0.3896124205955867,model_autofill,False
+বিএনপির মহাসচিব নির্যাত ফখরুল ইসলাম আলমগীর আগাম কথা একটু কমায় বলেন,Positive,0.3326761380859127,model_autofill,False
+বিএনপি একটা আদর্শিক গণতান্ত্রিক দল তাদের উদারত মন আছে দেশ জাতির স্বার্থে বিএনপি যে কোন জিনিস মেনে নেয় এটাকে বলে,Negative,0.5036348404220948,model_autofill,False
+"এই নির্বাচলে বি এন পিই জিতবে, তবে অনেক কষ্ট হবে,",Neutral,0.3935235679443816,model_autofill,False
+বাংলাদেশ জাতীয়বাদী দল এমন একটা দল যে কোন কিছু মেনে নেওয়ার জন্য প্রস্তুতি থাকে ইনশাল্লাহ বাংলার জনগণ যদি মেনে নেয় বাংলাদেশ জাতীয়বাদী দল মেনে নিবে ইনশাআল্লাহ যেকোন ফলাফল,Negative,0.3822426922730014,model_autofill,False
+ইনশাআল্লাহ তারুণ্যের প্রথম ভোট ধানের শীষের পক্ষে হোক,Positive,0.5673961277357006,model_autofill,False
+ইনশাআল্লাহ ধানের শীষ,Positive,0.4442189259093412,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+ইনশাআল্লাহ,Positive,0.3860122329985906,model_autofill,False
+ইনশাআল্লাহ,Positive,0.3860122329985906,model_autofill,False
+"বিজয় আমাদের হবে,,টেকনাফ থেকে তেঁতুলিয়া সমতল থেকে পাহাড়,  মার্কা মোদের একটাই ধানের শীষ দিবো ভোট ধানের শীষে, গড়বো দেশ মিলেমিশে",Neutral,0.3592912304434744,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+ইনশাআল্লাহ বিএনপি,Negative,0.4736095212930061,model_autofill,False
+"নির্বাচন সুস্থ না হলে কারচুপি হলে নির্বাচন মেনে নিবে না জনগণ,",Sarcastic_negative,0.4059536756665244,model_autofill,False
+"আগামীকাল রাতে বাংলাদেশে রাতে গরু ছাগলের হাট বসবে, উক্ত গরু ছাগলরা গলায় দড়ি পড়ে রেডি থাকবেন",Sarcastic_negative,0.409363180516427,model_autofill,False
+ইনশাআল্লাহ যাবে দাড়িপাল্লা কেউ ঠেকাতে পারবেনা,Negative,0.3832859794352043,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+বিএনপি সরকার গঠন করবে ইনশাআল্লাহ,Negative,0.4496845699261539,model_autofill,False
+হেরে গেলে বলবে নির্বাচন সুষ্ঠু হয়নি,Sarcastic_negative,0.3753083307706797,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+ভয় কাজ করছে কলিজার ভেতরে .!!,Negative,0.3926430657750036,model_autofill,False
+অথচ জামায়াত আগ থেকেই সুতা ধরার পায়তারা খুঁজতেছে একটু আগে বলছে তাঁরা মানবে না,Negative,0.4139963528463426,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+সাজানো নাটক মঞ্চস্থ হচ্ছে সেরকম মনে হচ্ছে একটি মেয়ে বলতেছে শিখিয়ে দেওয়া কথা মনে হলো।,Sarcastic_negative,0.3694603234417566,model_autofill,False
+"বই, এন, পি, এবার জিতবে ইনশাল্লাহ",Positive,0.3447283714595205,model_autofill,False
+ইনশাল্লাহ জয় হবে ধানের শীষের জয় হবে,Neutral,0.4751879474560044,model_autofill,False
+জনাব তারেক রহমান এর হাত ধরে বাংলাদেশ এগিয়ে যাবে,Positive,1.0,manual_second_pass,False
+"চাঁ দা বা জি র টাকা দিয়ে বস্তির মানুষকে বাসস্থান করে দেওয়ার আশ্বা'স দিচ্ছে, সে নিজেঔ চলে চাঁ দা র টাকা দিয়ে, আবার মানুষকে দেওয়ার প্রতিশ্রুতি দিচ্ছে",Positive,0.3753053978171403,model_autofill,False
+"এই তো জিয়ার ছেলে,,,অল্পতেই সাধারণ মানুষের সাথে মিশে যান,,",Negative,0.3914063581240784,model_autofill,False
+দেখা যাক কি হয়,Neutral,1.0,manual_second_pass,False
+In sha allah,Positive,1.0,manual_second_pass,False
+বট বাহিনীর বেহেস্তের টিকিট শেষ হয়ে যাচ্ছে।,Sarcastic_negative,0.3336480014718839,model_autofill,False
+২০০১-২০০৬ পর্যন্ত অসীম দুর্নীতি ভুলে নাই জাতি,Negative,0.3435941310223846,model_autofill,False
+বিএনপি,Negative,0.4493180623483842,model_autofill,False
+রাজনৈতিক মুক্ত পেইজ স্বাগতম আপনাকে,Positive,1.0,manual_second_pass,False
+ইনশাআল্লাহ বিজয় সুনিশ্চিত,Negative,0.3907657413926009,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+ধানের শীর্ষ,Sarcastic_negative,0.3380444581257525,model_autofill,False
+ইনশাআল্লাহ দাঁড়িপাল্লা,Positive,0.4400870908590628,model_autofill,False
+আহা তেল,Sarcastic_negative,1.0,manual_second_pass,False
+ইনশাআল্লাহ।,Positive,0.3860122329985906,model_autofill,False
+বি এন পির বিজয় হবে ইনশাআল্লাহ,Positive,0.3257439009908033,model_autofill,False
+Utite jader dorniti paoajaynay taderke kumuta deoa durkar,Positive,1.0,manual_second_pass,False
+আসসালামু আলাইকুম,Negative,0.3592003687551465,model_autofill,False
+অসাধারণ,Sarcastic_negative,0.3885773091582606,model_autofill,False
+চান্দা,Sarcastic_negative,0.5861184710774276,model_autofill,False
+Alhamdulillah,Positive,1.0,manual_second_pass,False
+"প্রিয় লিডার , রংপুরের প্রতিটি আসন ইনশাআল্লাহ আমরা আপনাকে উপহার দিবো",Negative,0.4336491833685795,model_autofill,False
+নিরাপত্তার কথা বলোনা,Positive,0.446829005347588,model_autofill,False
+আহ কমেডিতে সেরা রেহ,Sarcastic_negative,0.3251254614056938,model_autofill,False
+আলহামদুলিল্লাহ,Positive,1.0,manual_second_pass,False
+এগুলি মিটিং মিছিল করার আগে নেতাকর্মীরা যেভাবে চাঁদাবাজি করতেছে খেয়াল করেন বন্ধ করেন বন্ধ করেন তাহলে সবই হবে,Sarcastic_negative,0.4108139295113284,model_autofill,False
+ফ্যামিলি কার্ড দিয়ে কোন লাভ নাই,Negative,0.3376301871008305,model_autofill,False
+মানুষকে কর্মসংস্থানের ব্যবস্থা করেন,Positive,0.3477311522519224,model_autofill,False
+আমরা চাই কর্মসংস্থান হোক,Negative,0.3599473897288323,model_autofill,False
+কারো করুণা বা কারো সাহায্য না,Neutral,1.0,manual_second_pass,False
+বেকারত্ব দূর করেন,Sarcastic_negative,0.3452707583167413,model_autofill,False
+আপনি ফ্যামিলি কার্ড,Sarcastic_negative,0.4029775182805583,model_autofill,False
+কৃষক কার্ড,Neutral,1.0,manual_second_pass,False
+এগুলি বন্ধ করে আপনি বেকারত্ব বন্ধ করার ক্ষেত্রে কর্মের ব্যবস্থা করুন,Sarcastic_negative,0.4151382264277195,model_autofill,False
+মানুষ বুঝে গেছে বুঝছেন মানুষ এখন মানুষের জীবনে নিরাপত্তা চায়,Sarcastic_negative,1.0,manual_second_pass,False
+আমি চাই আমি যেন ভালোভাবে চলতে পারি আমার ফ্যামিলিকে নিয়ে আমার ফ্যামিলি কার দরকার নাই,Negative,0.3798345759254481,model_autofill,False
+ধরে নেন বিএনপি পাস করল না,Negative,0.4502379691603405,model_autofill,False
+তাহলে কি আমরা ফ্যামিলি কার্ড পাব না,Negative,0.4180690322322948,model_autofill,False
+আমি তো ভেবেছিলাম সরকারি না জিতলেও ফ্যামিলি কার্ড দেওয়া হবে,Neutral,0.4104261752192015,model_autofill,False
+একবেলা বাজার করলে ২ হাজার টাকা লেগে যায়,Negative,0.3393764118105972,model_autofill,False
+যেই শহরে চাঁদাবাজদের জন্য আমাদের জীবনের নিরাপত্তা নাই,Sarcastic_negative,0.3300913861284783,model_autofill,False
+আপনারা এই বিষয়ে একটু কথা বলেন,Sarcastic_negative,0.34570942760066,model_autofill,False
+বিএনপি কমাতে গেলে একটিও চাঁদাবাজ থাকবে না,Negative,0.3827525963303892,model_autofill,False
+এইটার প্রতিশ্রুতি দেন,Negative,0.3602067044200655,model_autofill,False
+চাঁদাবাজির অভিজ্ঞতাও নাই অন্যদের,Sarcastic_negative,0.3482699284572129,model_autofill,False
+mohammadpur er tokai,Sarcastic_negative,1.0,manual_second_pass,False
+বিএনপি ৫ বছর সময় পেলে,Negative,0.4208166536804024,model_autofill,False
+পরিকল্পনা হলো বৃহত্তর চান্দা বাজি।,Sarcastic_negative,0.4852320170402876,model_autofill,False
+খাম্বা প্রজেক্ট এর মালিক,Sarcastic_negative,0.3655503354701886,model_autofill,False
+এসো নবীন দলে দলে,Negative,0.3885056891587748,model_autofill,False
+যোগ দাও চাঁদাবাজির দলে।,Negative,0.3978163835873536,model_autofill,False
+ইনশাআল্লাহ জয় জামাতেরই হবে,Positive,0.3304761702464303,model_autofill,False
+ঠিকমতো বিসমিল্লাহ বলতে পারেন না শুদ্ধভাবে,Sarcastic_negative,1.0,manual_second_pass,False
+ভোট দিবো কিসেধানের শীষে,Sarcastic_negative,0.3723837052661187,model_autofill,False
+যার নিজের নাই নিরাপত্তা,Negative,1.0,manual_second_pass,False
+সে দিবে দেশের নিরাপত্তা!,Sarcastic_negative,0.401215262928954,model_autofill,False
+দাঁড়িপাল্ল,Neutral,1.0,manual_second_pass,False
+এই হলো বুদ্ধির দৌড়। আদমজী হতে পাশ করা কাউকে আড়াই হাজার টাকা সহযোগিতায় কি হবে ? আর সবার জন্যই এই সুবিধা উন্মুক্ত কি ফেয়ার ?,Negative,1.0,manual_second_pass,False
+ন্যায় ইনসাফের প্রতীক দাঁড়ি পাল্লা মার্কা,Positive,0.4309431225874683,model_autofill,False
+পরিবর্তীত রাজনীতি,Positive,0.3639219960060258,model_autofill,False
+জামাত হাদিয়া দল,Negative,0.4972785415222495,model_autofill,False
+জামাত একটা মুনাফিকের দল।,Negative,0.3973825913686443,model_autofill,False
+দাঁড়ী পাল্লা,Sarcastic_negative,0.3514761756794791,model_autofill,False
+জিয়া দেখেছি ঠকি নাই,Positive,1.0,manual_second_pass,False
+বক্তব্য তো ভালই হচ্ছিল হঠাৎ ধর্ম হতে দেশ রক্ষা করার কথা বলে তো আকাম করলেন।,Positive,0.4604918320989893,model_autofill,False
+তারেক রহমান জিন্দাবাদ,Positive,1.0,manual_second_pass,False
+"করবো কাজ, গড়বো দেশ",Positive,1.0,manual_second_pass,False
+আজকের ফ্রি অফার!!,Sarcastic_negative,0.3339818696470749,model_autofill,False
+ধানের শীষের বিজয় হবেই,Neutral,0.5444835182141752,model_autofill,False
+"আল্লাহ ছাড় দেয়, কিন্তু ছেড়ে দেয় না",Negative,0.3453308224425502,model_autofill,False
+বাটপার,Negative,0.4809830535735718,model_autofill,False
+"খেলা যে চলছে কোন লেভেলে,,,",Sarcastic_negative,1.0,manual_second_pass,False
+বট বাহিনী আর জান্নাতের টিকেট এর কারনেই জামাত হারবে।,Negative,0.3398714783396511,model_autofill,False
+দাঁড়িপাল্লা,Neutral,1.0,manual_second_pass,False
+Ledar,Neutral,1.0,manual_second_pass,False
+শরিয়া আইন মানে না অমুসলিম রা,Negative,1.0,manual_second_pass,False
+Leader ....,Neutral,1.0,manual_second_pass,False
+Comment,Neutral,1.0,manual_second_pass,False
+"জাগবে এবার চাষাভুষা, জাগবে মাঝিমাল্লা,",Positive,1.0,manual_second_pass,False
+"সৎ লোকের শাসন হবে, জিতবে দাঁড়িপাল্লা।",Neutral,0.5219600880877924,model_autofill,False
+জনাব তারেক রহমান আপনাকে অনেক অনেক ধন্যবাদ আপনার মুখ থেকে জাতি শুনতে চাইছিল হা পক্ষে ভোট চাওয়াটা আপনি বলে দিয়েছেন আপনাকে অনেক অনেক ধন্যবাদ এগিয়ে যান আপনাকে আল্লাহ মঙ্গল করুক,Positive,1.0,manual_second_pass,False
+"৪৭% মানুষ চায় এদেশের প্রধানমন্ত্রী হবেন জনাব তারেক রহমান, আর ২২ শতাংশ মানুষ চায় এ দেশের প্রধানমন্ত্রী হবেন ড. শফিকুর রহমান। সর্বশেষ এগিয়ে বিএনপি",Neutral,0.3361423885186764,model_autofill,False
+কার্ড দেওয়ার আগে ব্যাগ দেওয়ার ব্যবস্থা করেন।এতো কার্ড পকেটে রাখলে হারাইয়া ফেলবো।,Sarcastic_negative,1.0,manual_second_pass,False
+Card Party,Sarcastic_negative,1.0,manual_second_pass,False
+একশেন টু একশেন চাদা বাজের বুরুদ্ধে ডাইরেক্ট একশেন,Sarcastic_negative,0.3441231890575502,model_autofill,False
+ইলেকট্রনিক গাছ,Negative,0.3264149905553278,model_autofill,False
+ইনশাআল্লাহ দাঁড়ি পাল্লা,Positive,0.411907778957756,model_autofill,False
+খাম্বার ইতিহাস মনে পড়ে,Negative,0.4306025276212047,model_autofill,False
+বিএনপি'র পক্ষে সম্ভব চাঁদাবাজি করা অন্য কারো পক্ষে না,Positive,0.3397342651744402,model_autofill,False
+সবাইকে আলাদিনের একটা করে চেরাগ দিয়ে দিন।,Sarcastic_negative,1.0,manual_second_pass,False
+‘আমার একটা হাঁসও যেনো কোনো শিয়ালের বাচ্চা চুরি না করতে পারে।রুমিন ফারহানা,Sarcastic_negative,0.4040361458297263,model_autofill,False
+https://www.facebook.com/share/r/1CuwK2yvgV/,Neutral,1.0,manual_second_pass,False
+10 হাজার টাকা কি কেউ ঋণ নেয়????,Neutral,1.0,manual_second_pass,False
+গুপ্ত বাহিনী এখন শুনলি,Positive,0.328053862571488,model_autofill,False
+ভারত নিয়ে কি কথা বলতে লজ্জা লাগে,Sarcastic_negative,1.0,manual_second_pass,False
+হা হা ভুয়া,Negative,0.3407358968178424,model_autofill,False
+Bangladesh Donald trump,Sarcastic_negative,1.0,manual_second_pass,False
+ইনশাআল্লাহ,Positive,0.3860122329985906,model_autofill,False
+মজার মজা,Sarcastic_negative,1.0,manual_second_pass,False
+অনেক সুন্দর বক্তব্য,Sarcastic_negative,0.3553035259036537,model_autofill,False
+মাশাআল্লাহ,Negative,0.3627129527238737,model_autofill,False
+Shandabaj,Sarcastic_negative,0.4490149223774851,model_autofill,False
+চান্দা card,Sarcastic_negative,0.5861184710774276,model_autofill,False
+ধানের শী,Sarcastic_negative,0.3401039761586544,model_autofill,False
+লিডার,Positive,1.0,manual_second_pass,False
+নায়ক,Positive,1.0,manual_second_pass,False
+সবার আগে বাংলাদেশ তারপরে কি ইন্ডিয়া নাকি লন্ডন?,Sarcastic_negative,1.0,manual_second_pass,False
+আমি বি এন পি ভালো বাসি,Positive,1.0,manual_second_pass,False
+সরাসরি মাঠে দেখতেছি,Sarcastic_negative,1.0,manual_second_pass,False
+ইনশাআল্লাহ দাড়িপাল্লা,Positive,0.4352854386485469,model_autofill,False
+বক্তব্য শুনে জামাতের জ্বলে,Sarcastic_negative,1.0,manual_second_pass,False
+চাপে পড়ে বলেন,Sarcastic_negative,0.3366014150140359,model_autofill,False
+কিশোরগঞ্জ ৪ আসন থেকে দেখছি,Negative,0.3484221302211132,model_autofill,False
+ইনশাআল্লাহ এবার জিতবে দাঁড়িপাল্ল,Positive,0.4429117968333435,model_autofill,False
+তারেক ভাই আগামীর প্রধানমন্ত্রী,Positive,1.0,manual_second_pass,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+"এটাকে তো আমার কোনভাবে রাজনৈতিক বক্তব্য বলে মনে হচ্ছে না যেন কোনো হকার রাস্তার মোড়ে দাঁড়িয়ে সস্তায় কোন কিছু বিক্রি করছেন এমন বলে মনে হচ্ছে ওই যে আসে না শুক্রবারে হাটে বাজারে ঠিক তেমন দেখাচ্ছে ,",Negative,0.3462774680631787,model_autofill,False
+এখানে বট বাহিনী এসেছে কেনো,Sarcastic_negative,0.3424032180233702,model_autofill,False
+বট ২০ টাকা প্লেট,Sarcastic_negative,1.0,manual_second_pass,False
+ভোরবেলা গিয়ে দাঁড়িপাল্লায় ভোট দিবেন,Sarcastic_negative,0.3770003447776581,model_autofill,False
+যে কার্ডের মধ্যে খাম্বা থাকবে,Sarcastic_negative,0.3342616252942438,model_autofill,False
+ধানের শীষের বিকল্প নাই,Sarcastic_negative,0.3339142955501136,model_autofill,False
+বরগুনা জেলা থেকে বলছি,Negative,0.3458076721225508,model_autofill,False
+মানুষ নাই,Neutral,1.0,manual_second_pass,False
+পিনাক ভাই ছালাম নিন,Neutral,0.4237560749852017,model_autofill,False
+তারেক জিয়ার অনেক গুণ,Positive,1.0,manual_second_pass,False
+ইলেকশনে মানুষ খুন!,Negative,0.3287986619741598,model_autofill,False
+তারেক রহমান এই ছিল আপনার প্লান??,Negative,0.3977258565724506,model_autofill,False
+নেতা এখন ট্রাম্প এর ভূমিকা,Positive,0.4922606794695117,model_autofill,False
+Kun jaigai aita?,Neutral,1.0,manual_second_pass,False
+দুর্নীতির বরপুএ তারেক রহমান,Negative,1.0,manual_second_pass,False
+জামায়াতের খপ্পরে পড়ে সর্বস্ব হারিয়ে যাওয়ার পথে এনসিপির নেতা,Negative,0.3608208906975437,model_autofill,False
+নারীদের গায়ে হাত দেন আবার লম্বা লম্বা কথা,Positive,0.3696791895542624,model_autofill,False
+খালি আর কার্ড এক বয়ান,Positive,0.3568041392416124,model_autofill,False
+"খাম্বা চুরির পর, নতুন চুরির আইডিয়া",Negative,0.4019068108592257,model_autofill,False
+আওয়ামী লীগ ঘরে ঘরে মোবাইল ফোন দিয়েছে আর বিম্পি ক্ষমতা না গিয়ে ফ্যামেলির কার্ড বাহ বাহ বাহ বাহ বাহ,Negative,0.3416766960627247,model_autofill,False
+তারেক রহমানের হাতেই নিরাপদ আমার প্রিয় বাংলাদেশ,Negative,0.373158962152046,model_autofill,False
+ইনকিলাব জিন্দাবাদ জামাতি ইসলাম জিন্দাবাদ দাঁড়িপাল্লার বিজয় নিশ্চিত,Positive,0.3458700742124397,model_autofill,False
+"বেসরকারি পরামর্শক প্রতিষ্ঠানটির ‘পিপলস ইলেকশন পালস সার্ভে (পেপস)’তে দেখা যাচ্ছে, বিএনপির সমর্থন বৃদ্ধির পাশাপাশি এখন ৪৭ শতাংশের বেশি মানুষ দলটির চেয়ারম্যান তারেক রহমানের প্রধানমন্ত্রী হওয়ার সম্ভাবনা দেখছেন।",Negative,0.3556697640292611,model_autofill,False
+#TariqueRahman #bnpleader #bangladeshelection,Neutral,1.0,manual_second_pass,False
+Ins Allah Daripalla,Positive,1.0,manual_second_pass,False
+হ্যাঁ মানে পাকিস্তান!,Sarcastic_negative,0.3325955511086948,model_autofill,False
+Kausar Hossain ki re vau desh neta ote gese hamaghorek dawat des ni eta kono kam!!!,Sarcastic_negative,0.3692546745410921,model_autofill,False
+Md Samiul Ahmed Sohan ki kos!?,Sarcastic_negative,0.3679233661218622,model_autofill,False
+কৃষককে সার চাওয়ার জন্য গুলি করে আপনারাই মেরেছিলেন,Sarcastic_negative,0.364818010738387,model_autofill,False
+"চাঁন্দাবাজকে না বলুন,",Sarcastic_negative,0.3837019488001734,model_autofill,False
+পাটক্ষেতী জনতা চায় না । চোর পীর হবে পাটক্ষেতী মানুষ হবে না । আন্ধা ই রবে,Neutral,0.3804423817305856,model_autofill,False
+আলহামদুলিল্লাহ,Positive,1.0,manual_second_pass,False
+আজ পর্যন্ত জামাত শিবির এরকম একটা বক্তব্য দিতে পারেনি শুধু আছে মানুষের বিরুদ্ধে গীবত করা,Negative,0.3515846894549434,model_autofill,False
+হ্যামিলিউনের বাঁশিওয়ালার নেতৃত্ব দেশে সুনামি চলছে।,Sarcastic_negative,0.3275442736749201,model_autofill,False
+"""স্বপ্ন আছে হাজারটা, মার্কা মোদের একটা",Negative,0.4261652541221822,model_autofill,False
+বিএনপি মানেই বাংলাদেশ মানুষ বুঝতে বাকি নেই,Negative,0.4432935379770321,model_autofill,False
+পাগলগলচা,Sarcastic_negative,0.3807492928188926,model_autofill,False
+চাপা বাস,Negative,0.3339730620588236,model_autofill,False
+কাম্মা চোরের ঘরের কাম চুর,Sarcastic_negative,0.3397915658731084,model_autofill,False
+"প্ল্যান, প্ল্যান, কোন প্ল্যান?",Sarcastic_negative,1.0,manual_second_pass,False
+ধরনের শীষে ভোট দিন সবার আগে বাংলাদেশ,Positive,1.0,manual_second_pass,False
+মির্জা আব্বাসের লোক যেসব জায়গায় চাদাবাজি করে:-,Positive,0.3895667990326337,model_autofill,False
+তারেক রহমান মানেই বাংলাদেশ,Positive,1.0,manual_second_pass,False
+আন্ডার মেট্রিক।,Negative,1.0,manual_second_pass,False
+খাম্বা ধরিয়ে দিবে,Sarcastic_negative,0.4039833835355778,model_autofill,False
+লন্ডন থেকে আসতে যত দেরি হয়েছে আবার লন্ডনে পালাতে এত সময় লাগবে না,Negative,0.34041954278033,model_autofill,False
+ধানের শীষ ইনশাআল্লাহ,Positive,0.4442189259093412,model_autofill,False
+মুলা দরিয়ে দিবে,Sarcastic_negative,0.4013372249534198,model_autofill,False
+"বিএনপি চাঁদাবাজ, খাম্বা তারেক ধোঁকাবাজ। জামায়াত ইসলাম জিন্দাবাদ, পাকিস্তান জিন্দাবাদ।",Negative,0.3313084769908188,model_autofill,False
+Dekha jabe,Sarcastic_negative,1.0,manual_second_pass,False
+আর কত বোকা বানাইবেন মানুষকে,Negative,0.3542095515874778,model_autofill,False
+দাঁড়িপাল্লা,Neutral,1.0,manual_second_pass,False
+আমি সাতক্ষীরা জেলা কালীগঞ্জ থেকে দেখছি বি এপি সাপোর্ট করি,Negative,0.3350536800407807,model_autofill,False
+তারেক রহমান জিন্দাবাদ,Positive,1.0,manual_second_pass,False
+ফি আমানিল্লাহ্,Negative,0.3753191119227796,model_autofill,False
+আল্লাহ সুস্থ রাখুন আমিন,Negative,0.4084961145723153,model_autofill,False
+সবার আগে বাংলাদেশ,Positive,1.0,manual_second_pass,False
+বসন্ত কাল চলছে বি এন পির,Sarcastic_negative,0.3735816142515066,model_autofill,False
+অন্য দলের সমালোচনা করতে করতে উনি রংপুরে কি উন্নয়ন করবেন সেটা বলতে ভুলে গেছেন। শুভ কামনা রইলো,Sarcastic_negative,0.4905737931915822,model_autofill,False
+ইনশাল্লাহ আমরা আছি তোমার সাথে ভয় নাই রাজপথ ছাড়ি নাই ধানের শেষের পক্ষে থাকবো ইনশাল্লাহ,Negative,0.3834723454059537,model_autofill,False
+"ভাবছিলাম নেতা লন্ডন থেকে অনেক কিছু শিক্ষা আইছে কিন্তু ঘটনা দেখি উল্টা ,,",Sarcastic_negative,1.0,manual_second_pass,False
+চাঁদাবাজ,Negative,1.0,manual_second_pass,False
+আওয়ামী দুঃশাসন আর দুর্নীতির দোসররা এখন একজোট। সাধারণ মানুষের অধিকার হরণকারী আর দেশের সম্পদ লুটকারীদের আসল চেহারা চিনে রাখুন।,Positive,0.4571410777490758,model_autofill,False
+চুম্মা শফিক কে চুম্মার লাইসেন্স দেওয়া হোক,Sarcastic_negative,1.0,manual_second_pass,False
+১২ তারিখ সারাদিন দাঁড়িপাল্লায় ভোট দিন,Positive,1.0,manual_second_pass,False
+পরিবর্তন চাই চাঁদাবাজ পরিবর্তন হোক সন্ত্রাসী বিএনপি পরিবর্তন হও,Negative,0.348242415657264,model_autofill,False
+এ দেখি খাম্বা চোরা তারেক,Negative,0.3389195166757077,model_autofill,False
+ইনশাআল্লাহ আপনার মনের আশা পূর্ণ হবে ধানের শীষ নিশ্চয়ই জয় হবে,Neutral,0.333400958531063,model_autofill,False
+তারেক রহমান ইনশাআল্লাহ আগামী প্রধানমন্ত্রী,Positive,0.3954817210229979,model_autofill,False
+আমরা সবাই মিলে মিসে ভোট দিবো ধানের শীষে,Positive,1.0,manual_second_pass,False
+বাংলাদেশ জিন্দাবাদ তারেক রহমান জিন্দাবাদ,Positive,0.3321443695770367,model_autofill,False
+১২ তারিখ সারাদিন ধানের শীষ মার্কায় ভোট দিন,Sarcastic_negative,0.3242470602449645,model_autofill,False
+ইনশাআল্লাহ ধানের শীষে ভোট দিব,Positive,0.4640843476092844,model_autofill,False
+ভোট দিব কিসে ধানের শীষে,Sarcastic_negative,0.3682400413953458,model_autofill,False
+দুর্নীতিমুক্ত অপরাধ মুক্ত সোনার বাংলা গড়তে আসুন সবাই মিলে ধানের শীষ এ ভোট দিয়ে জয়যুক্ত করি,Positive,0.5117196206149837,model_autofill,False
+ইনশাআল্লাহ ধানের শীষ,Positive,0.4442189259093412,model_autofill,False
+ধানের শীষ জিতলে এগিয়ে যাবে বাংলাদেশ,Positive,1.0,manual_second_pass,False
+স্যালুট তারেক রহমান কে,Positive,1.0,manual_second_pass,False
+ফ্যামিলি কার্ডে কি টাকা থাকবে না খাম্বা থাকবে জানালে খুশি হতাম,Sarcastic_negative,0.3942751357273381,model_autofill,False
+তারেক রহমান ইনশাআল্লাহ,Negative,0.3911170556374017,model_autofill,False
+ধানের শীষ ছাড়া কোন গান নাই,Sarcastic_negative,0.3291469847026777,model_autofill,False
+বিএনপি বেইমান,Negative,0.4559462380681597,model_autofill,False
+তারেক রহমান ভারতীয় রাজাকার,Negative,0.4581175691933583,model_autofill,False
+হত্যা করে ক্ষমতায় যাওয়ার সপ্ন নিপাত যাক,Negative,1.0,manual_second_pass,False
+তোমাদের খাম্বা চুরি করার অভিকতা বেশি,Negative,0.4121527314786204,model_autofill,False
+ভূতের মুখে রাম রাম,Sarcastic_negative,1.0,manual_second_pass,False
+তারেক জিয়ার দুর্নীতিবাজ,Negative,1.0,manual_second_pass,False
+ফেসবুক আইডিতে ব্লু টিক নিলে ইনবক্সে করুন এখনই ৩৮ টাকায়,Positive,0.3819294386941052,model_autofill,False
+দুর্নীতিবাজ তারে,Negative,1.0,manual_second_pass,False
+মিস্টার টেন পার্সেন্ট তারেক রহমান,Negative,1.0,manual_second_pass,False
+তোমার মেয়েকে সবাই ১২ তারিখে করবে,Negative,0.4680487281554342,model_autofill,False
+খাম্বা থাকবে না,Sarcastic_negative,0.3888563606184454,model_autofill,False
+খাম্বা তারেক,Negative,0.3303015749366739,model_autofill,False
+ইনশাআল্লাহ জিতবে দাঁড়ি পাল্লা,Positive,0.4167794691357049,model_autofill,False
+চান্দাবাজ বয়কট,Sarcastic_negative,1.0,manual_second_pass,False
+খাম্বা,Sarcastic_negative,0.3354309684192135,model_autofill,False
+দুর্নীতির চ্যাম্পিয়ন বিএনপি চাঁদাবাজের শীর্ষ বিএনপি,Negative,0.4305030395963429,model_autofill,False
+ইনশাআল্লাহ জিতবে এবার দাঁড়ি পাল্লা,Positive,0.4322411125842506,model_autofill,False
+আচ্ছা স্যার! সবার আগে বাংলাদেশ তারপরে কি ইন্ডিয়া নাকি লন্ডন?,Sarcastic_negative,1.0,manual_second_pass,False
+আমি জামাত থেকে বিএনপিতে যোগ দিলাম,Negative,0.4963740239261955,model_autofill,False
+মুফতি তারেক চোর,Negative,1.0,manual_second_pass,False
+তাহলে নারীদেরকে আপনারা মারলেন কেন এই চাঁদাবাজি বিএনপি,Negative,0.5145686001410077,model_autofill,False
+রাজাকারদের এই জায়গায় কাজ কি,Negative,0.4942021759827448,model_autofill,False
+চাঁদা বাজ,Sarcastic_negative,0.3594503190004279,model_autofill,False
+ও রে বাটপার,Negative,0.48833668330421,model_autofill,False
+চাঁদাবাজ বইকট,Negative,1.0,manual_second_pass,False
+জামাত ইসলাম নামে ভন্ড মুনাফেকের দল,Negative,0.4003470270854969,model_autofill,False
+বয়কট বিএনপি,Negative,0.4512834545690945,model_autofill,False
+বিএনপি শয়তান,Negative,0.4493180623483842,model_autofill,False
+আপনারা ক্ষমতায় গেলে এক বছরের ভিতরে দেশ দেউলিয়া হয়ে যাবে খাম্বা ছিল কারেন্ট ছিল না কাট থাকবে টাকা থাকবে না,Sarcastic_negative,0.4086062873364054,model_autofill,False
+চুম্মা শফিক ভয় নাই।ধানের শীষ ছাড়ি নাই,Sarcastic_negative,1.0,manual_second_pass,False
+তোরে লন্ডনে পাঠাও,Negative,0.3389750252056281,model_autofill,False
+কমেন্ট কিছু বট বাহিনীর খানকির পোলার পাকিস্তানের রাজাকার বিচ দেখা যাচ্ছে,Negative,1.0,manual_second_pass,False
+চাঁদাবাজ তারেক রহমান,Negative,0.3286952839377471,model_autofill,False
+বিএনপি চাঁদাবাজ,Negative,0.4508857611286512,model_autofill,False
+খাম্বা ছিল কারেন্ট ছিল না এখন কাট থাকবে টাকা থাকবে না,Sarcastic_negative,0.3583657245114332,model_autofill,False
+কমেন্টে কিছু জারক আছে এই পাকিস্তানি ব্রিজ দেরকে একটু জবাব দেন সবাই,Negative,0.5301226375774812,model_autofill,False
+শালা বট বাহিনীর খানকির পোলার,Negative,0.3598402746431694,model_autofill,False
+চাঁদাবাজ বয়ক,Negative,0.3853934631793951,model_autofill,False
+প্রত্যেকটা পরিবারের গুদমারানি দিব আমরা,Negative,0.4940763002830387,model_autofill,False
+পাচদা বাঁশ দিয়ে দিব,Sarcastic_negative,0.3519188659463791,model_autofill,False
+নারীদের তো এখনই মাইর শুরু করে দিছো মি.খাম্বা,Positive,1.0,manual_second_pass,False
+খাম্বা চুর,Sarcastic_negative,0.3349606612329666,model_autofill,False
+হা ভুয়া খাম্বা,Negative,0.3372763691177858,model_autofill,False
+ভুয়া ভুয়া,Negative,1.0,manual_second_pass,False
+আগে নিজের দলের ইনকিলাপি আছে তাদের ঋণ পরিশোধ কর,Negative,0.4328399025999868,model_autofill,False
+দাঁড়িপাল্লা দাড়িপাল্লা দাড়িপাল্লা দাড়িপাল্লা,Positive,1.0,manual_second_pass,False
+দাঁড়িপাল্লা দাড়িপাল্লা,Positive,1.0,manual_second_pass,False
+,Neutral,1.0,manual_second_pass,False
+চান্দাব্বাস হাদী হত্যা ভূমিকায় অপরিসীম।,Sarcastic_negative,0.4229368446331889,model_autofill,False
+কথাটা তো মনের নাম মুখের কথা,Positive,0.3572038100053348,model_autofill,False
+আপনাদের রাজনীতি যদি সঠিক পথে থাকে তাহলে আপনাদের এত কথা বলার দরকার নেই জনগণ তাদের রায় দিয়ে দিবে,Positive,0.4373491002487366,model_autofill,False
+তাহলে তো দেখি ফেসবুকে দলে দলে মানুষ আওয়ামী লীগ থেকে বিএনপিতে যোগ দিচ্ছে আপনি তখন চোখে দেখেন না আসলে সবাই মিথ্যুক,Negative,0.4722754221022799,model_autofill,False
+"বিচারের দাবি নাই, তাই আপাকে দেশে না এনে দাদাদের কাছেই রাখতে চায়!! নতুন বন্দোবস্ত",Sarcastic_negative,0.4659381264765166,model_autofill,False
+"আপনারাই তো হাসিনার পক্ষে কথা বলেন,,এখন সুর বদল হইছে",Positive,0.4536061613239686,model_autofill,False
+চান্দা জনগণ তোমারে ভোটে শিক্ষা,Sarcastic_negative,0.4890294166027266,model_autofill,False
+এগুলো এখন মানুষ বুঝে,Positive,0.351821212303074,model_autofill,False
+কি কয় এই পাগলায়,Negative,0.4843795649466257,model_autofill,False
+কিরে এত সহজে বাইরে গেল ভাষণ,Sarcastic_negative,1.0,manual_second_pass,False
+এ দেশে আসামি নিরাপদ,Sarcastic_negative,0.3626019229676679,model_autofill,False
+অনেক সুন্দর কথা,Positive,0.3437957731455273,model_autofill,False
+বিনপি তো আওমীলিগ সাথে নিতে ছে,Sarcastic_negative,0.338047446092249,model_autofill,False
+এটা বুঝতে অনেক দেরি হয়ে গেছে....,Sarcastic_negative,1.0,manual_second_pass,False
+চাঁন্দা আব্বাস,Negative,0.4030661125877161,model_autofill,False
+Toi khoni,Sarcastic_negative,1.0,manual_second_pass,False
+হাদি ভাইয়ের বিচার চাই ।,Negative,0.3733508420537233,model_autofill,False
+"মুরুব্বী মুরুব্বী,, সৃষ্টির ষষ্ঠা একজনই",Neutral,1.0,manual_second_pass,False
+রং লেগেছে,Sarcastic_negative,0.3252338333657554,model_autofill,False
+ভালোয় লাগছে,Positive,1.0,manual_second_pass,False
+Batpar,Negative,1.0,manual_second_pass,False
+কাকু সময় বদলাইছে ওহন পাব্লিক আগের পুরানা নষ্ট খাবার খায় না,Sarcastic_negative,0.3442587407911566,model_autofill,False
+বাটপার,Negative,0.4809830535735718,model_autofill,False
+মির্জা আব্বাস হল,Negative,0.4218325107560862,model_autofill,False
+বিএনপি'র মীরজাফর।,Negative,0.4493180623483842,model_autofill,False
+আপনার চেহারা ছবি তো তার প্রমান জনাব।,Sarcastic_negative,0.3494135593166584,model_autofill,False
+দাদু গিরগিটির মতো রং চেঞ্জ করো না তোমাদের মুখে একটা অন্তরে আরেকটা,Negative,0.4384441720759847,model_autofill,False
+তুমি এত ভালো মানুষ এত ভয় পাও কেন ভালো মানুষের তো ভোট আছি তাই এত ভয় পাও কেন,Sarcastic_negative,1.0,manual_second_pass,False
+যদি সঠিক নির্বাচন হয় ৷ এমন মারা দিবো জনগনে মরার পরেও ভূলতে পারবে না ৷,Negative,0.3900666057151105,model_autofill,False
+"ভারতীয় রং আপনাদেরকে কেউ লাগাতে পারবেনা কারন ভারতীয় রং ইতিমধ্যে আপনারা গায়ে মেখে এসেছেন, ষার।",Negative,0.4657583680405288,model_autofill,False
+ID Dallas,Sarcastic_negative,1.0,manual_second_pass,False
+আওয়ামিলীগকে আপনারা আস্রয় দিতেছেন।,Sarcastic_negative,0.4949765501228516,model_autofill,False
+তোরে কে ভোট দিবো,Sarcastic_negative,0.3624338915967034,model_autofill,False
+আপনার দুই পা কবরে কি আর বলবেন মুরবি,Sarcastic_negative,0.3845575467633046,model_autofill,False
+বিশ্বাসের মা মারা গেছে।,Sarcastic_negative,0.3523220443250435,model_autofill,False
+কথা বলতে পারেনা,Negative,1.0,manual_second_pass,False
+"বন্দু,তুমি,,যাই,,বলো,,,লিগের,,দুসর",Sarcastic_negative,0.5175923869993972,model_autofill,False
+গডফাদার,Negative,1.0,manual_second_pass,False
+বিএনপির মির্জা আব্বাস ভাই খুবি অসন্তুষ্ট ঢাকার আসনে অন্য জেলার মানুষ কেন নির্বাচন করতে আসছে।,Negative,0.3918076699180269,model_autofill,False
+এ্যালার্ট,Negative,1.0,manual_second_pass,False
+"Insaf , Zindabad .",Sarcastic_negative,0.3574898602354987,model_autofill,False
+এ-র জন্যই হাদিকে সরিয়ে দিয়েছিস,Negative,1.0,manual_second_pass,False
+ঢাকা -৮ এ চান্দাবাজ এর স্থান আর হবে না ইনশাআল্লাহ,Positive,0.4788524419427258,model_autofill,False
+চান্দাব্বাছ,Sarcastic_negative,0.5346280650110575,model_autofill,False
+Ata aponar kota awomilige vokto 6 kote votarar kota na.awomiliger shomay moto asbei karor bapero khomota ni feranor.,Sarcastic_negative,0.3692546745410921,model_autofill,False
+চান্দাব্বাস,Sarcastic_negative,0.4996815341891294,model_autofill,False
+"আপনার দলই তো, আওয়ামী লীগ কে দলে এডপ্ট করতেছে।",Sarcastic_negative,0.4684755174178958,model_autofill,False
+হ্লা ফ্লাউল,Sarcastic_negative,1.0,manual_second_pass,False
+হাসিনাকে তোমরা নিয়ে আসবা,Negative,0.3714145233580507,model_autofill,False
+চান্দাভাই ডরাইছে।,Sarcastic_negative,0.5176956460662782,model_autofill,False
+মনা তুমি 3rd হবা,Neutral,0.4532410727177858,model_autofill,False
+সুর পাল্টায় কেন,Sarcastic_negative,0.4244383941411169,model_autofill,False
+"এই কথা আওয়ামী থাকলে আপনাদের ব্যাপারে ও প্রচুর বলেছে রাতদিন বলেছে, এখন কোন দেশের জনগন পারলো? আওয়ামীর পরে আপনাদের পালা এখন!",Positive,0.3363185604133231,model_autofill,False
+হু হু হা হা,Negative,0.3669677187750402,model_autofill,False
+ভারতীয় রং আপনারা নিজেরাই গায়ে লাগিয়ে গুরতেছেন,Sarcastic_negative,0.4118650940677677,model_autofill,False
+এখন নতুনদের রাজনীতিতে আসা উচিৎ পুরানদের খানা নেই,Positive,0.4336853788070562,model_autofill,False
+"জনগণ কে সিদ্ধান্ত নিতে দিন , আপনারা বাধা দিচ্ছেন কেন ?",Sarcastic_negative,0.5113587002595313,model_autofill,False
+"কালার না সত্যি, নিজের বংশের কিছু লোক কে এমন দেখলাম। আর কারে কি বলবো।",Negative,0.3515589273748442,model_autofill,False
+৮ এর জনগন বুঝে শুনে ভোট দিবে,Sarcastic_negative,0.4930055573514257,model_autofill,False
+বাংলা সিনেমা পাবলিক দেখে না সিনেমা র হল গুলো বন্ধ হইয়া গেছে,Sarcastic_negative,0.457952990001156,model_autofill,False
+আপনি তো হাদিকে মারচেন আল্লাহ বিচার করবেন ইংশাললাহ অপেক্ষায় থাকেন,Negative,0.3890863771535598,model_autofill,False
+মীরজা ওবায়দুল কাদের,Sarcastic_negative,1.0,manual_second_pass,False
+আরে আসতে কতক্ষণ?,Positive,0.3538255070885913,model_autofill,False
+হাদি ভাই থাকলে.... দেখা যাইত...,Negative,0.550210266353944,model_autofill,False
+ভারতীয় রং কন রং কে বলা হয় যদি একটু বলেন তাহলে বুঝতে পারতাম।,Negative,0.3617402378392831,model_autofill,False
+চান্দা আব্বাস।‌।,Sarcastic_negative,0.3909075419881699,model_autofill,False
+এএএএএ চোষড়,Sarcastic_negative,1.0,manual_second_pass,False
+রঙ লাগিয়ে কেউ দেয় নি দাদু,Sarcastic_negative,1.0,manual_second_pass,False
+তোমাদের কৃতকর্মের কারনেই তোমাদের গায়ে রঙ লাগছে।,Negative,0.3736725532367596,model_autofill,False
+"তুমি হলে,,,",Sarcastic_negative,0.4782275667780134,model_autofill,False
+লা ই ন দেহি সোজা হইতাছে,Sarcastic_negative,1.0,manual_second_pass,False
+"ঢাকা ৮ এর জনগণ, অবশ্যই হাদী ভাই এর হত্যার বিচার করবে, চান্দাব্বাসকে হারিয়ে",Sarcastic_negative,0.3736183385509368,model_autofill,False
+সব আওয়ামী লীগ তো বিএনপিতে যোগ দিতাছে।,Negative,0.432515487317411,model_autofill,False
+বুঝলাম না এতগুলা কমেন্টসের ভিড়ে আমি একটু পজিটিভ কমেন্টস খুজতেছিলাম,Negative,0.4154919171569556,model_autofill,False
+আব্বাস ভাই জিন্দাবাদ,Positive,0.35163345618444,model_autofill,False
+ভূয়া,Negative,1.0,manual_second_pass,False
+Ora Batper,Sarcastic_negative,1.0,manual_second_pass,False
+চাঁন্দা ভাইকে বর্জন করুন,Negative,1.0,manual_second_pass,False
+যেখানে স্পষ্ট র*ক্ত দেখা যাচ্ছে,Negative,1.0,manual_second_pass,False
+সেখানে রং লাগানোর কী প্রয়োজন,Sarcastic_negative,1.0,manual_second_pass,False
+মির্জা আব্বাস সাহেব আপনি।,Negative,0.3983250919553515,model_autofill,False
+হাদীকে আপনি থ্রেড দিয়েছিলেন কেন তাকে কেন বলেছিলেন যে তুমি কখনো ওয়ার্ড কাউন্সিলার হয়েছিলে,Sarcastic_negative,0.4141545829265067,model_autofill,False
+চান্দাববাছ,Sarcastic_negative,0.5777799575152235,model_autofill,False
+keno? protidondi nai? Patoary?,Neutral,0.4398226897361554,model_autofill,False
+হাদির খু/নের পিছনে কে থাকতে পারে ?,Negative,0.5256807961408589,model_autofill,False
+ব্যাংকের মালিক হইলা কেমনে।,Sarcastic_negative,1.0,manual_second_pass,False
+চান্দা আব্বাস,Sarcastic_negative,0.3909075419881699,model_autofill,False
+চান্দাবাজদের বয়কট করেছে বাংলাদেশের ছাত্র সমাজ। তার প্রমাণ ছয়টা বিশ্ববিদ্যালয়ের ছাত্র সংসদ ভোটের রেজাল্ট।,Positive,0.3903572079791129,model_autofill,False
+১৭ বছর কয় ছিলেন,Sarcastic_negative,0.4372987034316262,model_autofill,False
+"নতুন আরেকটি রঙ আবিস্কার বলো, ভারতীয় রঙ",Positive,0.3574453531094513,model_autofill,False
+ইনসা আল্লাহ আপনার বিচার খুব শিগগিরই হবে রেডি গয়ে থাকেন,Neutral,1.0,manual_second_pass,False
+কে আপনাদের গাঁয়ে ভারতের রঙ লাগিয়ে দিচ্ছে? আপনারা নিজেরাই তো ভারতের রং গাঁয় মেখে বসে আছে!!,Sarcastic_negative,0.4007192160444054,model_autofill,False
+কথা শুনে ভালো লাগছে।যার কোন বাস্তবতা রাজপথে নাই।সবই উল্টো,Positive,0.4313305750907528,model_autofill,False
+দুর হালা খবিস,Negative,0.3442089633651597,model_autofill,False
+র এর এজেন্ট Ab bus,Sarcastic_negative,0.3903365186563042,model_autofill,False
+সত্যি তো,Neutral,1.0,manual_second_pass,False
+Dhaka 8 mane tumi chanda abbas joy bangla,Sarcastic_negative,0.514112970941489,model_autofill,False
+দূর্নিতির বর পুত্র,Sarcastic_negative,1.0,manual_second_pass,False
+জুলাই যোদ্ধাদের কারণে আজকে তোমাদের মুখের সেদা দিয়ে কথা আসতাছে,Negative,1.0,manual_second_pass,False
+আওয়ামী লীগ পুনর্বাসনের কাজ চলছে,Negative,1.0,manual_second_pass,False
+কাকু এতদিন কি করছেন,Sarcastic_negative,0.3480394631452549,model_autofill,False
+আরে বাটপার এসব বক্তব্য এতদিন কই ছিল,Negative,0.3793054778740354,model_autofill,False
+সে একটা ছেলে নয়! নাসির উদ্দিন পাটোয়ারী নির্বাচিত হয়ে স্বরাষ্ট্রমন্ত্রী ইনশাল্লাহ!,Positive,1.0,manual_second_pass,False
+হাদীর বিচার চাইলে চান্দাব্বাসদের হটাতে হবে৷,Sarcastic_negative,0.3398343427731056,model_autofill,False
+#JusticeForHadi,Neutral,0.7356243479452386,model_autofill,False
+17 bosor val falaise,Sarcastic_negative,0.3692546745410921,model_autofill,False
+চাঁদাবাজ ও সন্ত্রাস ভূমিধস দুর্নীতি ৫চ্যামফিয়ান দলকে না বলুন,Positive,0.3592948341426338,model_autofill,False
+পাটোয়ারী,Sarcastic_negative,0.3430754997637276,model_autofill,False
+Kako ফেল,Sarcastic_negative,0.3240685630828183,model_autofill,False
+"টালমাটাল অবস্থায়, হারুন সাহেব বলেছেন এক কথা, ফখরুল এক কথা, মিজ্জা আব্বাস অন্য কথা!",Positive,0.4199380456131829,model_autofill,False
+Apnar party lokerai Hasina k anar jonno campain kortece,Sarcastic_negative,0.3692546745410921,model_autofill,False
+Hadir khuni...,Neutral,0.5605687428940489,model_autofill,False
+শাপলা কলি নাছির উদ্দীন পাটোয়ারী,Sarcastic_negative,0.3582908294700404,model_autofill,False
+মির্জা আব্বাস থেকে তো আপনার নাম চান্দা আব্বাস এমনি এমনি হয়নি,Negative,0.4072541460886074,model_autofill,False
+আপনার দলের একজন গুরুত্বপূর্ণ ব্যক্তিগত হারুন এই গতকালই বলেছে সে আওয়ামী লীগকে রক্ষা করবে।,Negative,0.4201775392966204,model_autofill,False
+Tore o icche kore latthi maira india pathate,Sarcastic_negative,1.0,manual_second_pass,False
+That is real truth,Positive,1.0,manual_second_pass,False
+পাটোয়ারী,Sarcastic_negative,0.3807492928188926,model_autofill,False
+বুঝতে পারছে কিভাবে কথা বললে মানুষ খাবে।,Positive,0.4325192123939581,model_autofill,False
+Thank apnake,Sarcastic_negative,0.3679233661218622,model_autofill,False
+আপনারা নিজেরাই তো বলতেছেন আওয়ামী লীগের সব মামলা উঠায় নিবেন,Sarcastic_negative,0.4957634404387289,model_autofill,False
+জামানত বাজেয়াপ্ত করতে হবে ডার্বি নাসিরের,Neutral,0.5501595844800887,model_autofill,False
+এই দেশে এখন আর লোভ বা ভয়-ভীতি দেখিয়ে আর রাজনীতি করা যাবে না দিনে দিনে সবকিছু পরিবর্তন হতে যাচ্ছে।,Positive,0.5762308945258159,model_autofill,False
+চান্দা বাবার মুখে ধর্মের বুলি,Sarcastic_negative,0.4912871887063356,model_autofill,False
+চান্দা ভাই,Sarcastic_negative,0.4977235357753164,model_autofill,False
+হাদি হত্যার সাথে চান্দা আব্বাসকে সন্দেহের বাহিরে রাখা যায় না,Negative,0.3788642283423438,model_autofill,False
+তোমাদেরকেও বাংলাদেশ গ্রহন করবে না এর কেউ বাংলাদেশ গ্রহন করবে না,Negative,0.4175527725572185,model_autofill,False
+"আগের দিন ভুলে যান, এখন জাতি আর বুড়া দিয়া দেশ চালানো পছন্দ করে না। Generation change হয়েছে।",Positive,0.4970990176672101,model_autofill,False
+"গ্রামের মহিলারা এখন অনেক সচেতন, বিএনপি ভুয়া ফ্যামিলি কার্ডের লোভ দেখিয়ে তাদেরকে কিনতে পারবেনা ইনশাআল্লাহ। তারাও ইতিহাস জানে। শেষ পর্যন্ত দেখুন।",Negative,0.4257804643398931,model_autofill,False
+Osobbo akta manus mirza abbas,Sarcastic_negative,0.4563302615211024,model_autofill,False
+Shala chadabaz shontrashi.agent of raw.,Negative,0.3879854987406019,model_autofill,False
+ইনকিলাব মঞ্চের উচিত ছিলো ঢাকা ৮ আসনে প্রার্থী দেওয়া,Neutral,1.0,manual_second_pass,False
+গত ১৭ বছর কি করছেন আপনারা,Sarcastic_negative,0.4667409345713501,model_autofill,False
+দাদু কদু খাও,Sarcastic_negative,0.337911292401637,model_autofill,False
+বি এন পি মুখে মুখে ভালোবাসা দেখায়,Sarcastic_negative,1.0,manual_second_pass,False
+"Buira chut,,,,,,,,,, hadire maira akhon 8 asot Tor na,",Neutral,0.4664678623384016,model_autofill,False
+ভারতের কাছাকাছি না গেলে কি রঙ লাগতো..?,Negative,0.4139080535262705,model_autofill,False
+রাজনিতি,Neutral,1.0,manual_second_pass,False
+"চান্দা আব্বাস, হাদি হত্যার সাথে জড়িত তবে সেটা প্রকাশ হতে অনেক সময় লাগবে। আপনারা আওয়ামী লীগের পূর্নবাসন করছেন সেটা জনগণ বলছে।",Negative,0.3730379907745613,model_autofill,False
+কেও ওরে একটা ব্রাশ আর একটু হার্পিক কিনে দে মুখ দিয়ে গন্ধ বের হচ্ছে।,Positive,0.392190773025194,model_autofill,False
+"আসায় থাকো কাউয়া পাকলে খাইয়ো ডেউয়া, আপনার বয়স হয়েছে তাই আবোল তাবোল বলার চেয়ে কথা কম বলাই ভালো।",Positive,0.3838770497268609,model_autofill,False
+একটা রাজনৈতিক দল ফ্যামিলি কার্ডের লোভ দেখিয়ে সরকারে আসতে চাইলে সেটা হবে দুঃখজনক,Negative,1.0,manual_second_pass,False
+চান্দা আব্বাস এবার জামানত হারাবি রে,Sarcastic_negative,0.3587241998996938,model_autofill,False
+আগেই রেন্ডিয়ার ভিষা রেডি রাখ,Sarcastic_negative,1.0,manual_second_pass,False
+র এর এজেন্ট এটা ১০০% সত্যি।,Negative,0.3307982039332593,model_autofill,False
+17 বছর ভণ্ডামি করছো।।।,Sarcastic_negative,0.3544771448852622,model_autofill,False
+ঢাকাতে সবাই শিক্ষিত যদিও মূর্খ থাকে শিক্ষিতদের সাথে থেকে অনেক জ্ঞানী হয়ে যায়,Negative,0.3415641806171599,model_autofill,False
+জ্ঞানীরা সঠিক সিদ্ধান্তই নেবে,Positive,1.0,manual_second_pass,False
+নাটক কম করো প্রিয়,Sarcastic_negative,1.0,manual_second_pass,False
+চাঁদার জন্য পাথর দিয়ে মানুষ হত্যা কারি দল কে বয়কট করা উচিত।,Negative,0.4147865280338186,model_autofill,False
+নিজের আসনের প্রতি কোন আত্মবিশ্বাস নাই নেতার,Negative,0.3718044759187038,model_autofill,False
+সারা বাংলাদেশে বিএনপি জিতবে বলতেছে।,Negative,0.3949326218217537,model_autofill,False
+এক নামবার চান্দাবাস,Sarcastic_negative,0.49149104181059,model_autofill,False
+মির্জা আব্বাস হাদী হত্যাই জড়িত,Negative,0.5048766690653305,model_autofill,False
+তার কথার বুঝা যায়,Positive,0.3281479224665881,model_autofill,False
+ভারতীয় রং নয় আপনারা ভারতের রঙের মাঝখানে ডুবদিয়া আছেন,Negative,0.4102717145794577,model_autofill,False
+হাসি লাগে,Sarcastic_negative,1.0,manual_second_pass,False
+চান্দাব্বাস। হাদী হত্যার সাথে জড়িত।,Sarcastic_negative,0.4252372270229689,model_autofill,False
+চান্দাবাজ হটাও দেশ বাঁচাও,Sarcastic_negative,0.4744453224082157,model_autofill,False
+হাসিনা দেশে আসলে তো চাঁদাবাজি ভাগ দিতে হবে তাকে,Neutral,0.3987264548002124,model_autofill,False
+নাটক নাটিকা দেখলো জনগণ ফ্যাস্টিট এর কথা বাদ আপনারা যা শুরু করেছেন ম্যাডাম বলেছিল আল্লাহর গজব পড়বে,Sarcastic_negative,0.3513000126750673,model_autofill,False
+তাহলে আব্বাস ভাই আপনি ফখরুল সাহেব কে বুঝান,Negative,0.4104645079928287,model_autofill,False
+তুমাকেও আমরা চাই না।এবার শুধু জামাত,Negative,0.4256977652691005,model_autofill,False
+চাঁন্দা ভাই,Sarcastic_negative,0.3684732055806914,model_autofill,False
+ঢাকা ৮ হাদি বনাম ভারতীয় আধিপত্যবাদ।,Negative,0.4449635894657583,model_autofill,False
+"কোন ভদ্র লোক,খুনি চাঁন্দাবাজ কে ভোট দিবে না।",Sarcastic_negative,0.4024045383763939,model_autofill,False
+ইনকিলাব জিন্দাবাদ আল্লাহু আকবার,Positive,0.4348377507241173,model_autofill,False
+হাদী ভাই থাকলে আপনি থার্ড হইতেন,Negative,0.3733948508499645,model_autofill,False
+চন্দাব্বাস,Sarcastic_negative,0.4090658512938533,model_autofill,False
+সত্য বলে দিছে হাসিনা দেশে আসতে পারছেন না জুলাই যোদ্ধাদের জন্য তাই তিনি আনতেও পারছেন না।,Positive,0.3373896933476216,model_autofill,False
+চাঁদ্দাব্বাস,Sarcastic_negative,0.3634525342333811,model_autofill,False
+ভূতের মুখে রাম নাম,Sarcastic_negative,1.0,manual_second_pass,False
+I came here just to read the comments.,Neutral,1.0,manual_second_pass,False
+এবার ভোট কমে গেছে ইনশাআল্লাহ,Positive,0.4300615359082034,model_autofill,False
+টাকার বদলে আওয়ামী লীগ দিয়েই তো দলটা পরিচালনা করছেন আপনারা,Sarcastic_negative,0.393624062983848,model_autofill,False
+"আমরা বিশ্বাস করি না,শুনেছিলাম,জিয়াউর রহমান না কি হাসিনাকে দেশে এনেছিল, এবার দেখবো তার ছেলে হাসিনাকে নিয়ে আসবে।",Neutral,0.3294458380050674,model_autofill,False
+অসংখ্য আওয়ামী লীগ কর্মী কে নমিনেশন দেয়ার পরে যারা এই কথা বলে এটা হাস্যকর,Positive,0.3768365866484497,model_autofill,False
+"ভাষা তো চেঞ্জ করা দরকার,, কিছু ছেলে ফেলে বলে সম্বোধন ঠিক না,, ঢাকা ৮ আপনাকে ইজারা দেওয়া হয় না।",Positive,0.3596461487483123,model_autofill,False
+ইনশাআল্লাহ দাঁড়ি পাল্লা বিজয়ী হবে তোমার আসনে,Positive,1.0,manual_second_pass,False
+আমরাও আশাবাদী ঢাকা ৮ আসনের মানুষ আপনাকে গ্রহন করবে না,Negative,0.3988665683622681,model_autofill,False
+"শরিফ ওসমান হাদীর,,",Negative,0.4272625897703873,model_autofill,False
+ধান্দাবাজি সব,Sarcastic_negative,0.4402374205820696,model_autofill,False
+মি: র ' আপনি ফেল্টু ঢাকা -৮ এ,Sarcastic_negative,0.3823316785018362,model_autofill,False
+ভুতের মুখে রাম রাম,Sarcastic_negative,1.0,manual_second_pass,False
+ধামরা চান্দা আব্বাস বিএনপি র পতনের কারন হবে।,Negative,0.3406368073330609,model_autofill,False
+তারাই আশ্রয়দাতা,Negative,1.0,manual_second_pass,False
+"আপনারা আ'লীগের সব মামলা তুলে নিবেন, এটাতো আপনাদের মহাসচিব ঘোষণা দিয়েই দিছে।",Sarcastic_negative,0.4073329220763482,model_autofill,False
+এখন অন্যের ঘারে দোষ চাপাচ্ছেন কেন??,Negative,1.0,manual_second_pass,False
+"সেজন্য ভয় তে হাদীকে সরাই দিছেন, আর ইউনুস তাকে এখন ও কিছু বলেনি",Positive,0.4782410947187303,model_autofill,False
+আওয়ামী লীগের সবাই বিএনপিতে যোগ দিতেছে,Negative,0.4476250100265179,model_autofill,False
+সে বাংলা সিনেমার মতো ডায়লগ মারে অনলাইনে এসে,Sarcastic_negative,1.0,manual_second_pass,False
+Hadir khuni,Neutral,0.5605687428940489,model_autofill,False
+১৭ বছর না খেয়ে থাকা পাগলা কুকুর হইতে সাবধান।,Sarcastic_negative,0.4189585178006535,model_autofill,False
+আমরা আশা করি এবং কি আল্লাহর একটু ভরসা করে নিশ্চিত হয়েছি আপনি ফেল,Negative,0.3500157075994767,model_autofill,False
+চাঁন্দাবাসকে রিমান্ডে নিলেই হাদি হ*ত্যার প্রকৃত সত্য বেরিয়ে আসবে।,Negative,0.4332076313124434,model_autofill,False
+বিএনপি দেখলেই চাঁদাবাজির কাহিনী মনে পরে,Negative,0.5267602201648635,model_autofill,False
+Maje maje mon kharap hole Aisob Rajnitibid der soglaf dekhi tokhon only hasi,Sarcastic_negative,0.3692546745410921,model_autofill,False
+নৌকা R ধানের শিস দুই শাপের একি বিশ,Sarcastic_negative,0.3302041284119371,model_autofill,False
+আপনি চান্দাবাজের বিরুদ্ধে একটু বলেন,Sarcastic_negative,0.5063189052872,model_autofill,False
+"হাসিনার আমলে এই কথা বলার সাহস আপনার কোথায় ছিলো। ছাত্রদের কাধে বর করে,এখন ক্ষমতার স্বাদ নিতে চান।",Positive,0.4316493156324958,model_autofill,False
+হাসিনা আসবে আপনাদের মাধ্যমে আসবে,Sarcastic_negative,0.344034262168135,model_autofill,False
+ভারতীয় রঙ নয় ভারতীয় র ক্ত কথা বললে এমনিতেই জনগণের চোখে লাগে,Sarcastic_negative,1.0,manual_second_pass,False
+চাদা আব্বাস,Negative,0.4553699284353476,model_autofill,False
+চান্দাব্বাস।,Sarcastic_negative,0.4996815341891294,model_autofill,False
+ভিপিনুর আগামীর রাস্ট্র নায়ক,Sarcastic_negative,0.3376358240339744,model_autofill,False
+বিএনপি তে ২০০ আওমী লিগের লোক কেনো যোগ দিতে দিলেন জবাব দেন তাইলে,Negative,0.4009984368305439,model_autofill,False
+মির্জা গাব গাছ হাদী হ'ত্যার পরিকল্পনাকারী,Negative,0.4586994887376031,model_autofill,False
+Apnar dol e korse…,Neutral,1.0,manual_second_pass,False
+Chanda Abbasss….,Sarcastic_negative,0.514112970941489,model_autofill,False
+Allah ore jannat nashib koro Allah. Plz,Positive,1.0,manual_second_pass,False
+তোমাকে ওতি শিকরই আইনের আওতায় আনা হবে।,Neutral,0.527504283445058,model_autofill,False
+ইনশাআল্লাহ।ওসমান হাদি ভাইর বিচার হবেই ইনশাআল্লাহ।,Negative,0.3656862883002414,model_autofill,False
+আহারে পুরুষ কত সুন্দর অভিনয় জানে,Negative,0.3619574476423432,model_autofill,False
+বাটা আয়শা গেছে বুঝতে পারতেছেন ধন্যবাদ,Sarcastic_negative,0.3784565126948317,model_autofill,False
+"আব্বাইসারে কবে যে দেখবো চোরের মতো সাধারণ জনগণ জুতা দিয়ে পেটাচ্ছেন,, ইয়া রাব্বুল আলামিন কবুল করেন",Positive,0.3306731251113938,model_autofill,False
+ভারতের দালালকে তো ভারতের দালালের চেক লাগাবে এটাই স্বাভাবিক,Negative,0.4427581885410707,model_autofill,False
+।#WeAreHadi,Neutral,0.7356243479452386,model_autofill,False
+৮ এর জয় মানে জুলাই এর জয়,Sarcastic_negative,0.3623387930764929,model_autofill,False
+এজন্য তারাই সব আওয়ামী লীগ সাথে নিয়েছে,Negative,1.0,manual_second_pass,False
+আপনারাই বড় বড় কথা বলেন কিন্তু পরে আপনারে আওয়ামী লীগের দেশে আসার সুযোগ করে দিবেন এখন মানুষদেরকে বোকা বানানোর চেষ্টা করতেছেন ক্ষমতায় আসার জন্য,Sarcastic_negative,0.3385568778001512,model_autofill,False
+ভারতের দোসর হয়ে আছেন। আবার ডায়লগ কি,Negative,0.413680260582402,model_autofill,False
+তাহলে কিভাবে নবীন বরন করছেন,Sarcastic_negative,1.0,manual_second_pass,False
+ভোট চুরি করে ক্ষমতায় গেছে আবার লেকচার মারে,Positive,0.3562053119669238,model_autofill,False
+চান্দাবাজ,Sarcastic_negative,0.5214120492871508,model_autofill,False
+৭৪ থেকে শুরু করছেন রাজনীতি এইবার বাদহ্ দেন।,Positive,0.3448130759195568,model_autofill,False
+octopodhi se mdb MP3,Neutral,1.0,manual_second_pass,False
+চল যায় যুদ্ধে,Negative,1.0,manual_second_pass,False
+মাদকের বিরুদ্ধে,Neutral,0.3865449082526724,model_autofill,False
+বুড়া বয়সেও ক্লিন সেভ,Sarcastic_negative,1.0,manual_second_pass,False
+"চান্দাআব্বাস এখনও ভয়ে ভয়ে কথা বলে,আগে চিন্তা করে পরে বলে।",Positive,0.4448748047556004,model_autofill,False
+হাস্যকর ডায়লগ আপনাদের এই কথা কাউকে বিশ্বাস করেনা।,Sarcastic_negative,1.0,manual_second_pass,False
+Uni ki shok prokas korte gia hus a chole asce naki,Negative,0.4509841991729875,model_autofill,False
+পরিবারতন্ত্রকে না বলুন।,Negative,0.3934814379018047,model_autofill,False
+ওকে ভুট দেওয়া মানে হাদী হত্যার বিচারকে অস্বীকার করা,Negative,0.4360058842176381,model_autofill,False
+"ও মনে হয় ঠিক মত হাগে না, গু সব মাথায় উটে যাচ্ছে,",Positive,0.4110652216887336,model_autofill,False
+কাকা ১৭ বছর কি করলেন।,Sarcastic_negative,0.4414344401447106,model_autofill,False
+আল্লামা মির্জা আব্বাস ঘুম থেকে উঠে বালটি নিয়ে চাঁদাবাজি করে,Negative,0.4180346225833752,model_autofill,False
+শিখানো কথা ।,Positive,0.3648478382669705,model_autofill,False
+আপনিকি মঙ্গলগ্রহে থাকেন নাকি সব আওয়ামী লীগ বিএনপি বানাইছে তার পরেও এসব কথা বলেন কোন মুখে সরম করে না,Negative,1.0,manual_second_pass,False
+আপনাকে সবাই চান্দাবাজ বলে কেনো',Sarcastic_negative,0.4999500205291344,model_autofill,False
+চান্দাবাস,Sarcastic_negative,0.5303265634733908,model_autofill,False
+ভিডিওটা ডাউনলোড করে রাখলাম দেখি কোথা কাজে কতটা মিল থাকে,Negative,0.3579673367951307,model_autofill,False
+চুরি করে চোর,Negative,1.0,manual_second_pass,False
+ঢাকা আর থেকে বয়কট,Negative,0.4265720630922139,model_autofill,False
+আপনারা কি এমন ভালো কাজ করেছেন বা তার ভূমিকাটা কি জাতি একটু দেখতে চায়,Sarcastic_negative,0.3339300246683761,model_autofill,False
+আহারে,Sarcastic_negative,0.3299049866684633,model_autofill,False
+Kaka bnp te Awami League joyen diche ai bisoy ki chu bole jan,Negative,0.4509841991729875,model_autofill,False
+হাদি ভাই তোমার কথা মনে পড়ে খুব দরকার ছিল তোমাকে বাংলার,Negative,0.3853479078762111,model_autofill,False
+আল্লামা মির্জা আব্বাস ওরফে চান্দা আব্বাস,Negative,0.4116997591829744,model_autofill,False
+2nd obaidul kader,Sarcastic_negative,1.0,manual_second_pass,False
+Amar bhai Hadi hottay ei kulanggar o jorito..,Neutral,0.7186830306555643,model_autofill,False
+"মিস্টার ষ্যাড় আপনারা ঘোষণা দিয়ে আওয়ামী লীগ কে গ্রহণ করেছেন, অনুগ্রহ করে আর মিথ্যা বলবেন না।",Negative,1.0,manual_second_pass,False
+"মানুষ দেখবে আপনারা কি করেন, শুধু সময়ের অপেক্ষা",Sarcastic_negative,0.341091682178864,model_autofill,False
+মির্জা পরিবার কে আর নয়,Positive,0.3353787162724179,model_autofill,False
+হালারে দেখতেই চাঁদা বাজের মতো লাগে,Negative,0.3366989428218964,model_autofill,False
+হাদি চিরকাল বেচে থাকুক বাংলাদেশের হৃদয়ে,Negative,0.4403272673583338,model_autofill,False
+কাক্কু মনে হচ্ছে কাজ হবে না,Neutral,0.5756325033708386,model_autofill,False
+বিএনপি একটা জোকার দলে পরিনত হইছে,Negative,0.5027766369838278,model_autofill,False
+টপিক গুরিয়ে ফেলেছে তার মানে বড় নেতায় শিখিয়ে দিছে যাতে নাসির উদ্দীন পাটোয়ারীর টপিক ভুলে যায়,Negative,0.3429598531122235,model_autofill,False
+আমরা আশাবাদী তোমাকেও জন গণ করবে ইনশাআল্লহ,Negative,0.4852743208262656,model_autofill,False
+ওরে বাটপার চান্দা আব্বাস,Negative,0.4757973839411647,model_autofill,False
+কোথায় আসে না ভূতের মুখে রাম রাম,Negative,0.3309570860991008,model_autofill,False
+হাসিনার সাথে মির্জার বিশে দেওয়া দরকার।,Negative,1.0,manual_second_pass,False
+ওনি তো মুফতি ওয়াজ ভালো জানেন,Sarcastic_negative,1.0,manual_second_pass,False
+সত্য কে কিভাবে মানবেন না,Sarcastic_negative,0.3499212100965351,model_autofill,False
+হাসিনা বিতাড়িত আপনাদের কোনো ভূমিকা নেই।,Sarcastic_negative,0.3247301036550549,model_autofill,False
+"সালা তুইতো, ভারতী*",Negative,0.5425609315762586,model_autofill,False
+ইনশাহআল্লাহ মির্জা আব্বাস ভোটে হারবে,Negative,0.4700089562341309,model_autofill,False
+ঢাকা ৮ ওসমান হাদির।,Negative,0.4309720672772358,model_autofill,False
+এটা নিশ্চিত হাদী ভাইকে এই আব্বাস মেরেছে,Negative,0.5985113256249517,model_autofill,False
+আমার ভাইয়ের খুনের জরিত ব্যক্তি,Negative,0.399373693020518,model_autofill,False
+মজার বিষয় হইল পোস্টের রিয়েক্ট পড়ছে ১৫ হাজার তারমধ্যে দশ হাজারই হা হা,Negative,0.3738835655105265,model_autofill,False
+এই মাল যেন হেরে যায়,Negative,0.4357401014311721,model_autofill,False
+"কথাতেই বুঝা যায় আসবে কি না,, ওনি ওনি বলে কথা বলেন আব্বাস সাহেব",Positive,0.4787955991652512,model_autofill,False
+"চান্দা আর ভোট, দুইটা পাশাপাশি দেওয়া সম্ভব না।",Positive,0.3868898848522263,model_autofill,False
+Joto projonto na abbas podteg korche totokhon manus bolte thakbe canda abbas,Sarcastic_negative,0.483810044956882,model_autofill,False
+হাদি নাই হইলো কেমনে ঢাকা ৮ থেইকা?,Negative,0.3933212647828406,model_autofill,False
+ভোটের পরে বুঝা যাবে।,Negative,0.3518777654898128,model_autofill,False
+-আপনি আগে আপনার এলাকার কর্মীদের সংশোধন করুন।,Sarcastic_negative,0.3406955946868594,model_autofill,False
+"ভারত এর বিরুদ্ধে একটা স্লোগান দে,,",Sarcastic_negative,0.3287853670680229,model_autofill,False
+কেমন দেশপ্রেম.??,Sarcastic_negative,1.0,manual_second_pass,False
+"নিষিদ্ধ করে বড়বড় বক্তৃতা কর, আসবো আসবে সেইদিন তোমাদের খুজে পাওয়া যাবেনা।",Positive,0.3407300266448523,model_autofill,False
+Ajk akdom kajer kotha bolse,Positive,1.0,manual_second_pass,False
+বাংলাদেশ এ ডুকতে হলে চাঁন্দা দিয়ে ডুকতে হবে,Neutral,0.329729153529001,model_autofill,False
+চাপা মেরে লাভ নেই বাংলার জনগণ তোমাকে আর গ্রহণ করবে না,Negative,0.4537881156819864,model_autofill,False
+তোমাদের নেতা কে যেরকম,Positive,1.0,manual_second_pass,False
+গাবগাছ আংকের নাসিরের স্কয়ার গাড়ির সাইড কিট চুরি করছে কে??,Negative,1.0,manual_second_pass,False
+আব্বাস উদ্দিন এম পি হওয়া শ্যাস,Negative,0.3639252620997645,model_autofill,False
+সোনার বাংলাদেশ,Positive,1.0,manual_second_pass,False
+কাকু আপনার বয়স হয়েছে এবার অবসরে যান!,Sarcastic_negative,0.459548755641881,model_autofill,False
+আর কতো চাঁদা নিবেন ৪বার এমপি হয়েতো অনেক লুটছেন এবার থামেন কাকু!,Sarcastic_negative,1.0,manual_second_pass,False
+⍨ ক্ষমতার চেয়ার না জনতার চেয়ার,Positive,1.0,manual_second_pass,False
+Dhaka big Mafia,Sarcastic_negative,1.0,manual_second_pass,False
+Corer mukhe ram ram,Sarcastic_negative,1.0,manual_second_pass,False
+জিয়তছে তো অনেক কষ্টে আওয়ামী লীগ থাকলে তাও জীবনে জিততেন না যদি আওয়ামী লীগের পক্ষ থেকে কলা গাছ দাড়াইলো ওই কলা গাছে জিতবে,Sarcastic_negative,0.3811552599997953,model_autofill,False
+Vote chor,Negative,0.3325532369368065,model_autofill,False
+এবার একটু আল্লাহরে ভয় করেন এক পা কবরে আপনার এত অমানুষ এর খাতায় নাম লিখাইয়েন নাহ যেনো মরলেও মানুষ খুশিতে নাচে,Sarcastic_negative,1.0,manual_second_pass,False
+"ঢাকা ৮, ১৩,১৭ এই আসন গুলোর ভোট লাইভে গণনার জন্য জোর দাবী জানাচ্ছি।",Negative,0.3479762110785997,model_autofill,False
+ডাকাত,Negative,1.0,manual_second_pass,False
+পৃথিবীতে সবচেয়ে সুখী মানুষ বিএনপির সকল কর্মী কারন তাদের কোনো লজ্জা শরম নাই ।,Negative,0.3565770904915383,model_autofill,False
+"তাদের নেতাকর্মীদের গ্রহন করবে,এটা তো বললেন না।আপনাদের জন্য আওয়ামী লীগ ঠিক ছিল।",Positive,0.3918989019306214,model_autofill,False
+কাক্কু মনে হয় ফেল,Sarcastic_negative,0.3826441080607102,model_autofill,False
+চুরা আব্বাস,Negative,0.4670456035306621,model_autofill,False
+এ হালারে দেখতে আর ভালো লাগেনা,Positive,0.4709400321268184,model_autofill,False
+অহংকারী ধংশ হবে,Neutral,0.6664341971735612,model_autofill,False
+Aoyamilig protihoto thakbe ar Abbas ar chadabaji obbahoto thakbe,Sarcastic_negative,0.3671068922535723,model_autofill,False
+এক ঝুড়ি আরেক ঝুড়িকে বলে তোর পিছনে ছি*দ্র*,Positive,0.384789971711623,model_autofill,False
+"Balur track er bishoy ta jodi bolten, oi somoy onk soto cilam.",Neutral,0.4398226897361554,model_autofill,False
+Chanda Vai,Sarcastic_negative,0.4518123625176797,model_autofill,False
+না না না এইটা তো ঠিক না... ওদের DNA-ই তো ভারতের,Negative,0.4320142333932459,model_autofill,False
+ai ta to age thaie laganu ache,Sarcastic_negative,1.0,manual_second_pass,False
+চান্দার ঘুম হারাম হয়ে গেছে,Sarcastic_negative,0.5148895453518383,model_autofill,False
+কেও রং লাগাইয়ো না সরাসরি ভারতি বলো।,Negative,0.3643873343193946,model_autofill,False
+আপনার দিন শেষ,Sarcastic_negative,0.46498260781118,model_autofill,False
+হাদির খুনি,Negative,0.5570903145303717,model_autofill,False
+চাঁদাবাজ,Sarcastic_negative,1.0,manual_second_pass,False
+আপনার তো চোর তাই বলেছে বুকের দম থাকলে দেখায় দেন সত্যিকারে অর্থে নির্বাচন কে জিতে,Sarcastic_negative,0.398957419599227,model_autofill,False
+"রঙ কেন লাগাবে, রং নিজেই মেখেছো",Sarcastic_negative,1.0,manual_second_pass,False
+সবাই আমার ভাইকে ভুলে গেলেন.....,Negative,0.3971900736833528,model_autofill,False
+#WeAreHadi #JusticeForHadi #justiceforhadibhai #WeAreOsmanHadi,Neutral,0.7304997734393839,model_autofill,False
+Abbas bhai thik ache,Sarcastic_negative,0.4563302615211024,model_autofill,False
+মাফিয়ার ডন,Negative,1.0,manual_second_pass,False
+হেতির চান্দিতে সুটার ফয়সালে চেহাড়া ভেসে ওঠে,Sarcastic_negative,0.4573212964209297,model_autofill,False
+#WeAreHadi,Neutral,0.7356243479452386,model_autofill,False
+এই কথাটা যাতে ঠিক থাকে,Negative,0.3344148730584795,model_autofill,False
+আওয়ামী লীগের মতো আচরণ যারাই করবে জনগণ তাদের প্রত্যাখ্যান করবে ইনশাআল্লাহ,Positive,0.4381339300865912,model_autofill,False
+অল্পের জন্য স্টক করে মরেন নি,Sarcastic_negative,0.3867923917898625,model_autofill,False
+জাওরা গাবগাছ,Sarcastic_negative,1.0,manual_second_pass,False
+চোরের মায়ের বড় গলা,Negative,0.4230054132076833,model_autofill,False
+Chanda abbas vote chor no.1,Sarcastic_negative,0.4974668049493995,model_autofill,False
+কারন তর মতো বাটপাড় কেউই নির্বাচনে দাড়ায় নাই...,Negative,0.3990297805760446,model_autofill,False
+স্বৈরাচার মুক্ত দেশ গড়তে গণভোটে হ্যা দিন।,Positive,1.0,manual_second_pass,False
+ভারতীয় আগ্রাসন রুখতে গণভোটে হ্যা দিন।,Positive,1.0,manual_second_pass,False
+মির্জা গাবগাছ,Negative,1.0,manual_second_pass,False
+https://www.facebook.com/share/v/1D33nofQRw/,Neutral,1.0,manual_second_pass,False
+দাদু কেমন আছেন আপনি পকেটে চাদার টাকা ডুকতে দেরি হচ্ছে,Sarcastic_negative,0.332792091653836,model_autofill,False
+ভোটকেন্দ্র আপনার স্ত্রীকে ঢুকিয়ে বুট ধান্দাবাজি করছেন।,Sarcastic_negative,0.5159077748791877,model_autofill,False
+https://www.facebook.com/share/v/1K8ysgUnmt/,Neutral,1.0,manual_second_pass,False
+#JusticeForHadi #WeAreOsmanHadi,Neutral,0.7356243479452386,model_autofill,False
+মোদীর বাচ্চা,Negative,0.3322023513818723,model_autofill,False
+https://www.facebook.com/share/1FU68427h1/,Neutral,1.0,manual_second_pass,False
+#killarmirza,Negative,1.0,manual_second_pass,False
+আইডিতে গিয়ে একটা ফলে দিলে ভরপুর ভালেবাসা পাইবেন এবং ফলে বেগ পাইবেন,Sarcastic_negative,0.3844931509932229,model_autofill,False
+আওয়ামী লীগ এর প্রশ্রয় দেওয়ার প্রমাণ তো পথে ঘাটেই দেখা যাচ্ছে,Sarcastic_negative,0.3627704605518277,model_autofill,False
+এবার চাঁদাবাজ রে কোন লোক ভোট দেবে না,Negative,1.0,manual_second_pass,False
+স্বৈরাচার ফ্যাসিজমের বিরুদ্ধে দাড়ান।,Neutral,0.3383843583834811,model_autofill,False
+খান্কিরছেলে কয় কি রে,Sarcastic_negative,0.3521300433573054,model_autofill,False
+শহীদ শরীফ ওসমান হাদীর হত্যার পিছনে আপনার হাত আছে এটা বাংলাদেশের জনগণ জানে,Negative,0.3966515303490702,model_autofill,False
+পূর্বের ১৭ বছর আপনারা বাল ফালাইছেন না এখন বড় বড় লেকচার ছাড়,Sarcastic_negative,0.3767497011755405,model_autofill,False
+"এই দেশের মানুষ, আওয়ামীলীগ ও হাসিনাকে গ্রহণ করবে না কিন্তু আওয়ামীলীগের পদস্থবিদের বিএনপিতে যোগ দিবে ? বাটপার",Negative,0.5212028441587271,model_autofill,False
+"#JusticeForHadi আমার ভাইয়ের রক্ত খেয়ে কাউকে হজম করতে দেবো না হাদী ভাই আমাদের এমপি, আমাদের সরকার",Negative,0.3908667570621799,model_autofill,False
+কেননা সব সাইটে বাংলাদেশের স্বৈরাচার হাসিনাকে সরাল এত ছাত্র জনতা মির্জা আব্বাস কোন বিষয় না এটা,Negative,0.36172382432353,model_autofill,False
+"আমার তো মনে হয় আপনি হয় স্টক করতেন,,নয়তো সুইসাইড করতেন",Sarcastic_negative,0.5276261171074815,model_autofill,False
+Kako fail,Sarcastic_negative,1.0,manual_second_pass,False
+আব্বাস হাদী হত্যাকারীর পরিকল্পনাকারী,Negative,0.543114976568567,model_autofill,False
+https://www.facebook.com/devid.john.774194,Neutral,1.0,manual_second_pass,False
+Hadir khuni abbas,Neutral,0.3756556998670133,model_autofill,False
+Nasir by,Neutral,1.0,manual_second_pass,False
+বিএনপি একমাত্র রাজনৈতিক দল যারা ক্ষমতায় যাওয়ার আগেই বাংলাদেশের সর্বস্তরের জনগণ তাদের পতন চায়,Negative,0.4213829873232617,model_autofill,False
+ঢাকা ৮ আপনি পাবেন না মশাই।,Sarcastic_negative,0.4083118558571832,model_autofill,False
+ভারতের রং লাগানো আছে বর্তমানে বিএনপিদের গায়ে।,Negative,0.5415545588946284,model_autofill,False
+দুধে ধোয়া তুলসী পাতা,Sarcastic_negative,0.3382524682917892,model_autofill,False
+ইনশাআল্লাহ,Positive,0.3860122329985906,model_autofill,False
+আপনার দলের লোকরাই তো আস্রয় দিচ্ছে এক অংগে কতো পদের রুপ,Negative,0.3576666085088125,model_autofill,False
+চান্দা আব্বাসউদ্দীন,Sarcastic_negative,0.4099244185337425,model_autofill,False
+সম্পর্ক বদলে গেলো একটি পলকে ভোট চুরের কারণে মির্জা আব্বাস আসলো সংসদে,Negative,0.4053929606119488,model_autofill,False
+আপনার বউ হয়েনাকি আসবে হাসিনা কি ?,Sarcastic_negative,0.345756654850713,model_autofill,False
+"এটা আবার কেমন রং, এবারের ঈদে আমিও ইউনিক ভারতীয় রঙের জুতো পড়তে চাই",Negative,0.4699221849141141,model_autofill,False
+"ভারতের ডান হাত ছিল আওয়ামীলীগ,,, এবং বাম হাত b*p,,,কথা টা মিলিয়ে দেইখেই",Negative,0.3653553739205841,model_autofill,False
+কথা যেনো ঠিক থাকে,Positive,0.4114496666214651,model_autofill,False
+চোরের মায়ের লম্বা গলা কথাটা আজ বাস্তবে পরিণত হলো,Negative,1.0,manual_second_pass,False
+শালা চান্দা আব্বাস,Sarcastic_negative,0.3807893828236528,model_autofill,False
+বুইড়া চুন্নি আব্বাসনি কই,Negative,0.4216484579449391,model_autofill,False
+remember,Neutral,1.0,manual_second_pass,False
+Keno bharat pochhondo koren e toh,Sarcastic_negative,1.0,manual_second_pass,False
+Candabaz,Sarcastic_negative,0.402815425699271,model_autofill,False
+"দুর্নীতিবাজ,",Negative,1.0,manual_second_pass,False
+"আকাম করছো তাহলে কেমনে মেনে নেয় মানুষ,",Negative,0.3410926521933375,model_autofill,False
+ভূতের মুখে রাম রাম,Sarcastic_negative,1.0,manual_second_pass,False
+আমরা আশাবাদী জনগণ ভোটের মাঠে প্রমান করবে।,Negative,0.3483071392114986,model_autofill,False
+নানা আপনি অবসরে চলে যান।,Sarcastic_negative,0.4186241587434516,model_autofill,False
+নোয়াখালী এখন কুমিল্লার যারা ঢাকা ৮ আসনের ভোটার আছেন দয়া করে আপনারা সবাই নাসির উদ্দিন পাটোয়ারী কে ভোট দিবেন,Neutral,1.0,manual_second_pass,False
+যারা আওয়ামীলীগ করতেন তারা কি এরে ভোট দিবেন,Sarcastic_negative,0.5737356045587703,model_autofill,False
+ইনশাআল্লাহ আমরা হ্যাঁ ভোটের মাধ্যমে দেশের সর্বস্তরের জনগণ মিলে সন্ত্রাস চান্দাবাজ টেন্ডারবাজ মুক্ত একটি নতুন বাংলাদেশ গড়তে চাই,Positive,0.3867612914412311,model_autofill,False
+,Neutral,1.0,manual_second_pass,False
+#Saluting_Our_Cultural_Hero,Positive,1.0,manual_second_pass,False
+শাপলা কলি জিন্দাবাদ,Sarcastic_negative,0.35595449187295,model_autofill,False
+"মানুষকে ভোটকেন্দ্রে যেতে দিয়েন, যার ভোট তাকে দেয়ার সুযোগ দিয়েন। তাহলেই বুঝবেন আসল খেলা কি।",Sarcastic_negative,0.4523343632550298,model_autofill,False
+Mirza abbas BNP inshallah,Sarcastic_negative,0.4563302615211024,model_autofill,False
+চাদা আব্বাস হারবে সে খুনি,Negative,0.5983083238789807,model_autofill,False
+Public hase,Sarcastic_negative,0.3692546745410921,model_autofill,False
+হাদিকে সরিয়ে দেওয়ার পিছনে জামাত কাজ করেছে। হাদি একমাত্র আওয়ামী লীগ ও জঙ্গি জামাতের অন্তরায় ছিলো।,Negative,0.4453179829034199,model_autofill,False
+"☞আপনারা আ'লীগের সব মামলা তুলে নিবেন, এটাতো আপনাদের মহাসচিব ঘোষণা দিয়েই দিছে।",Sarcastic_negative,0.4073329220763482,model_autofill,False
+#KillerMirzaAbbas,Sarcastic_negative,0.4563302615211024,model_autofill,False
+অথচ নিজেদের দলেই আম্লীগের নেতাদের মনোনয়ন দিয়ে রাখসে বাটপার,Negative,0.4678191488627242,model_autofill,False
+কবিতা বুঝানোর দিন শেষ,Sarcastic_negative,0.3810049000482717,model_autofill,False
+চান্দা আব্বাস এতো লাফায়েন না ঢাকা -৮ পাবেন না,Sarcastic_negative,0.3733327542383209,model_autofill,False
+বিএনপিকে ভোট দেওয়া মানে নিজের পায়ে নিজে কুড়াল দেওয়া,Negative,0.3772763190830356,model_autofill,False
+আপনি নিজেই তো প্রতি সপ্তাহে সদলবলে গণভবনে যেয়ে হাসিনার সাথে চা খেয়ে আড্ডা মেরে টাকা নিয়ে আসতেন!,Negative,0.3605540229198758,model_autofill,False
+সেজন্য আওয়ামীলীগ কে দলে নিচ্ছেন দল ভারি করতে।মনে রাইখেন পাপ বাপকেও ছাড়েনা।,Sarcastic_negative,0.3654614481092081,model_autofill,False
+মীর্জা আব্বাস না মীর্জাফর,Positive,0.3534642391206442,model_autofill,False
+সুষ্ঠ নির্বাচন হলে মির্জা আব্বাস ফেল,Negative,0.3958311318877611,model_autofill,False
+১৭ হারাচ্ছো! তুমি ৮ নিয়ে পড়ে আছো?,Sarcastic_negative,0.4322353244150861,model_autofill,False
+যারা বলে এখন মুজিব কোট তুলে রেখে দিছি আওয়ামী লীগ আসলে নামাবো তাদের বেলায় কি??,Sarcastic_negative,1.0,manual_second_pass,False
+আমরা চান্দাবাজি সন্ত্রাসী ঢাকা ৮ আসনে দেখতে চাই না,Negative,1.0,manual_second_pass,False
+ঢাকা ৮ আসনের জনগণের রুচি কি এতই খারাপ এদেরকে এমপি বানাবে।!,Negative,1.0,manual_second_pass,False
+আমরা আশাবাদী এবারের নির্বাচনে বাংলাদেশের জনগণ চাঁন্দাবাজ খুনিদের কে ও আর সুযোগ দেবে না ইনশাআল্লাহ,Positive,0.4239516375580363,model_autofill,False
+বাংলাদেশের মানুষ ন্যায় ইনসাফ আজাদী ভিত্তি শাসন চায়।,Positive,0.4579628139419155,model_autofill,False
+চাদাবাজ সন্ত্রাসী লুটপাটের দেশ সাধারণ মানুষের পছন্দ করে না।,Positive,1.0,manual_second_pass,False
+"হ দিবোনে তোমারে,,",Negative,0.3750407133991414,model_autofill,False
+"হাসিনাকে ভুলে গেলেন,আপনার ঢাকা ব্যাংকে একটা ফুলের টোকাও লাগতে দেয় নাই।",Sarcastic_negative,1.0,manual_second_pass,False
+দেশে আসলেই তোমাকে বাগুন ভরে দেয়া হবে,Neutral,0.3552920269050996,model_autofill,False
+ওই নির্বাচনে আপনার পরাজয় নিশ্চিত হবে ইনশাআল্লাহ,Negative,0.3476765057773894,model_autofill,False
+এই পাগল কে ভোট দিলে দেশের বারোটা বেজে যাবে,Negative,0.3798676330121537,model_autofill,False
+সব জায়গায় তো আওয়ামী তো সবাই এখন বি,Negative,1.0,manual_second_pass,False
+আরে ভাই আপনারা সবাই মির্জা আব্বাসকে নিয়ে আবোল তাবোল বলতেছেন কেউ পজিটিভ কথা বলেন।,Positive,0.4262818785920043,model_autofill,False
+এটা সাধারণ মানুষ জানে,Positive,1.0,manual_second_pass,False
+ভারতীয় রং বরং ভারতীয় চামড়া পড়ে আছেন।,Negative,0.4381840254568755,model_autofill,False
+সুর পালটে গেলো মনে হচ্ছে,Sarcastic_negative,0.413354542540847,model_autofill,False
+"হেতি নাকি হত্যাকারী, সবাই কয় আরকি৷",Negative,0.3665916673910034,model_autofill,False
+টেম্পু,Sarcastic_negative,1.0,manual_second_pass,False
+ভন্ড তার নিজের দলের লোকেরাই আনুষ্ঠানিক ভাবে দলে আওয়ামীলীগের লোককে আশ্রয় দিয়েছে,Negative,0.361366971307718,model_autofill,False
+হাদী হত্যার প্রধান নায়ক,Negative,0.4146677765556631,model_autofill,False
+এই ঢাকা আট নির্বাচনই জন্যই আজ হাদী ভাই কবরে।,Negative,0.4510282470099283,model_autofill,False
+কাকা বিএম্পি আমিলীকগে জায়গায় জায়গায় গ্রহন করছে,Negative,0.407497739306378,model_autofill,False
+চান্দাব্বাস। এলাকায় এমন কোনো দোকান নাই চান্দা না তুলে,Sarcastic_negative,0.5362975005615543,model_autofill,False
+"মির্জা আব্বাস এর পাপের ফসল, নাসিরউদ্দিনের পাটোয়ারি",Negative,0.3392702396723203,model_autofill,False
+চাচা ভালো হয়ে যাও চাদাবাজী করা বাদ দাও মানুষ কিন্তু সব জানে,Positive,0.4939205768921766,model_autofill,False
+পিওনের ছেলে আন্ডার মেট্রিক কিভাবে একটা ব্যাংকের মালিক হয় এটাই মাথায় ঢুকে না আমার।,Negative,0.3569306505757058,model_autofill,False
+দলে দলে লীগের প্রার্থী দিচ্ছে আবার বলে যায়গা নাই।,Negative,0.3362779163068757,model_autofill,False
+এটা আবার নতুন কি,Negative,0.3515541841097131,model_autofill,False
+কোন ষড়যন্ত্রে কাজ হবে না ইনশাআল্লাহ ধানের শীষের বিজয় সুনিশ্চিত,Positive,0.3696777329565665,model_autofill,False
+অলি অলি,Sarcastic_negative,1.0,manual_second_pass,False
+Canddabazz.com,Sarcastic_negative,0.3574898602354987,model_autofill,False
+জনগণ দেখবে,Sarcastic_negative,0.3261755809578119,model_autofill,False
+"ইজ্জত থাকতে মনোনয়ন প্রত্যাহার করেন, নইলে জমানত বাজেয়াপ্ত হবে।",Sarcastic_negative,1.0,manual_second_pass,False
+বটবাহিনী মির্জা আব্বাসের পিছনে ভালই লেগেছে তবে যারা কমেন্ট করছে এরা সবাই সারা বাংলাদেশের বটবাহিনী!,Negative,0.3606646933173195,model_autofill,False
+ইনশাআল্লাহ জয় আপনার হবে,Positive,1.0,manual_second_pass,False
+বট বাহিনী,Negative,1.0,manual_second_pass,False
+আসল কথা,Sarcastic_negative,0.3626461281873805,model_autofill,False
+বি এন পি একটি ক্ষুদার্ত সন্ত্রাসী দল এদের মুখে দেশের মানুষ পেশাব পায়খানা করবে অপেক্ষা শুধু সময়ের!!!,Negative,1.0,manual_second_pass,False
+খুনিদেরকে দেশের মানুষ ক্ষমতাই দেখতে চায়না,Negative,0.4230515272091377,model_autofill,False
+বিএনপি পাশ করলে ও আপনি ডাবল ফেল হবেন ।,Neutral,0.3345344107231502,model_autofill,False
+আপনাদেরকে শায়েস্তা করার জন্য একমাত্র শেখ হাসিনাই যথেষ্ট ছিল,Negative,1.0,manual_second_pass,False
+অথচ দশ বছর পরে শেখ হাসিনাকে ফিরিয়ে আনার ঘোষণা দিলেন বিএনপির এক নেত্রী,Negative,0.371912464516494,model_autofill,False
+সময়ের অপেক্ষা মাএ,Negative,1.0,manual_second_pass,False
+এইবার মনে হয় তোমারে লাল কার্ড দেখাবে জনগণ,Negative,1.0,manual_second_pass,False
+insha'Allah Mirza saheb,Sarcastic_negative,1.0,manual_second_pass,False
+যারা থাকেই রংয়ের মধ্যে তাদের গায়কি রংলাগানো যায়।,Negative,0.4087106824050857,model_autofill,False
+NCPভাইদেরকে অনুরোধ করবো আমজাদ ভাইকে সমর্থনের কথা কেন্দ্রীয়ভাবে সমর্থন এবং জানানো হোক এর ফলে পলাশে আপনাদের জন্য এবং সকল জনগণের জন্য ভালো হবে,Positive,0.3879355572410694,model_autofill,False
+ইনশাআল্লাহ ঢাকা ৮ টের মানুষ আপনাকে গ্রহণ করবে না?,Negative,0.4383974404108957,model_autofill,False
+tui jan war hadi k marsos,Neutral,0.7186830306555643,model_autofill,False
+এবার চির জীবনের জন্য হারাতে হবে ঢাকা ৮ আসন। ১৭ পর ঘেউ ঘেউ জনগণ তার জানে কে আপনি সন্ত্রাস,Sarcastic_negative,1.0,manual_second_pass,False
+"লুটতরাজ, চাঁদাবাজি ও স্বৈরাচার মুক্ত দেশ গঠনে অবশ্যই আমাদের ""হ্যা"" ভোট দিতে হবে।",Neutral,0.3633828677648078,model_autofill,False
+আওয়ামীলীগকে আশ্রয় দেওয়া একমাত্র দল বিএনপি,Negative,0.4909169612701732,model_autofill,False
+আলহামদুলিল্লাহ আমরা হাজী সেলিমের রিপ্লেসমেন্ট পেয়ে গেছি,Negative,0.4144228752828925,model_autofill,False
+তোমার কপালে সনির দশা।,Negative,0.3401224419662869,model_autofill,False
+"Kuttar bachcha futfute sundor, chandabbas kuni hadir",Sarcastic_negative,0.43023681289424,model_autofill,False
+ধন্যবাদ মির্জা ভাই,Positive,1.0,manual_second_pass,False
+কিন্তু আওয়ামী লীগ কে বিএনপি গ্রহণ করতেছে সামনেও করবে।,Negative,0.4355867368067201,model_autofill,False
+হাদী দেখাতে চেয়েছিল:—,Negative,0.4021590387119973,model_autofill,False
+আমি আওয়ামী লীগ করি,Neutral,1.0,manual_second_pass,False
+বটদের কমেন্ট ভরা।,Negative,1.0,manual_second_pass,False
+আর যাই হোক ঢাকা ৮ আসনের লোকজন আপনাকে এমপি হিসেবে দেখতে চায় না। আপনি এমপি হচ্ছেন না এই কথা ক্লিয়ার,Negative,1.0,manual_second_pass,False
+আপনি মনে মনে ধরে নেন,Sarcastic_negative,0.4372590674193904,model_autofill,False
+জোকার,Sarcastic_negative,1.0,manual_second_pass,False
+মানুষ চান্দাবাজের বিরুদ্ধে আছে।,Sarcastic_negative,0.369283538266405,model_autofill,False
+খালেদা জিয়ার বাসার সামনে থেকে একটা বালুর ট্রাক সরাতে পারে নাই আবার বড় বড় কথা বলে,Positive,0.4134806568056332,model_autofill,False
+তোমার আর বেইল নাই,Negative,0.4019124679009478,model_autofill,False
+Mukh O mukhosh...,Neutral,1.0,manual_second_pass,False
+পাঁচ বার দুর্নীতিতে চেম্পিয়ান,Sarcastic_negative,1.0,manual_second_pass,False
+মানুষ আর পুরান খায় না,Positive,0.472272175219097,model_autofill,False
+হাদী মারলো কারা জাতি জানতে চায়,Negative,0.3694844160844305,model_autofill,False
+ইনশাআল্লাহ দাঁড়িপাল্লা,Positive,0.4400870908590628,model_autofill,False
+Muhammad Yasin মির্জা আব্বাসের আসে পাশে আসার মতো হতে অনেক যুগ লাগবে,Negative,0.3628735702480859,model_autofill,False
+ইনশাল্লাহ এখানে আপনি বিশাল ব্যবধানের জয় হবেন ধানের শীষ,Positive,1.0,manual_second_pass,False
+"মানুষ এখন কথায় বিশ্বাস করে না,কাজে।",Positive,0.4980703397909032,model_autofill,False
+তোমারদের কথায় ভেজাল আছে,Negative,0.3714252128985505,model_autofill,False
+#হাদীর_হত্যাকারী,Negative,0.4559413151172722,model_autofill,False
+মুখে মুখে ..,Neutral,1.0,manual_second_pass,False
+খুনি আব্বাস!,Negative,0.5775465605394164,model_autofill,False
+ধান্দাবাজের মুখে রাম রাম,Sarcastic_negative,0.4310292014686899,model_autofill,False
+হাসিনা যখন আসবে আপনার কেউ বাংলাদেশ এ থাকবেনা।,Sarcastic_negative,0.3801240893550777,model_autofill,False
+মির্জা আব্বাস তোমাকে যারা ভোট দেবে তারা হাদীর সাথে বেইমানি করবে ইনসাফের সাথে বেইমানি করবে ইনকিলাব জিন্দাবাদ,Positive,0.3906846400477322,model_autofill,False
+ধানের শীষ,Sarcastic_negative,0.3401039761586544,model_autofill,False
+চান্দ আব্বাস,Negative,0.369948895339068,model_autofill,False
+আল্লাহ বিএনপি থেকে বাংলাদেশকে হেফাজত করুক যেভাবে করেছেন আওয়ামীলীগ থেকে। আগামীর বাংলাদেশ হবে ইসলামের বাংলাদেশ ইনশাআল্লাহ।,Positive,0.3603605860240696,model_autofill,False
+মানে ৮ আসনে আপনাকে খেয়ে দিবে নাসির পাটোয়ারী বাকিটা সময়ে বলে দিবে,Sarcastic_negative,0.3885771466225414,model_autofill,False
+এই খুনির বিচার আমরা করবই ইনশাআল্লাহ।,Negative,0.5634871700169594,model_autofill,False
+তরা ত ভারতেরি এজেন্ট রং আর লাগাইব কি,Negative,0.4114606110908806,model_autofill,False
+হা/লারা,Negative,1.0,manual_second_pass,False
+হেতেন শীতে হাগল ওই গেছে।,Sarcastic_negative,0.4393135913289277,model_autofill,False
+গোপন আঁতাত করে এখন লম্বা লম্বা কথা বলে আজকে হারুন ঘোষণা করেছে আ'লীগ কাউকে গ্রেফতার করলে থানা ঘেরাও করে নিয়ে আসবে,Positive,0.4793905937493763,model_autofill,False
+Allahy jani toder thokay,Negative,1.0,manual_second_pass,False
+Tui hadi re khun korchoch,Neutral,0.7186830306555643,model_autofill,False
+নিজের গায়ে নিজেইতো মেখে বসে আছেন,Negative,0.4346976106181251,model_autofill,False
+দেশে আনার ব্যাবস্থা করে দেন।তাদের লোকজন কে তো বিএনপি নামধারী আওয়ামী লীগের দোসর চাঁদাবাজ লুটপাট দখলবাজ মাধক কারবারীদের পুনবাসন করছে,Negative,0.418353339111784,model_autofill,False
+সন্ধ্যার পর ভোটের জন্য সাবের চৌধুরী সাহেবকে ভোটের সহযোগিতা চেয়ে কল দেননা তার গ্যারান্টি কি??,Negative,1.0,manual_second_pass,False
+আপনাদের হারুন ভাই দেয় চোখে দেখেন না থানা এটাক করবে ঘোষনা দিতেছে,Negative,0.3541523673495972,model_autofill,False
+"অন্যান্য সকল প্রার্থী ঢাকা ৮ আসনে যত ভোট পাবে, তার তিন গুণ বেশি ভোট পেয়ে মির্জা আব্বাস সাহেব বিজয়ী হবেন।",Positive,1.0,manual_second_pass,False
+আপনারাই ঘোষণা দিয়ে আশ্রয় দিচ্ছেন।,Sarcastic_negative,0.4839862030767847,model_autofill,False
+"সময় হলে বুঝবে,, ভালো-মন্দ খুঁজবে",Negative,0.3410792004534305,model_autofill,False
+হাসিনা গোপনে কল দিয়ে ফান করছি বলিয়েন না,Sarcastic_negative,1.0,manual_second_pass,False
+বিএনপির সব চেয়ে সুবিধাবাদী নেতা। আওয়ামী আমলে যেন এখন ও তেমন।,Positive,0.3731758873923568,model_autofill,False
+ঢাকা 8 এজন্যই তো ওসমান হাদী ভাইকে মেরে ফেলা হয়াছে,Negative,0.3944271131148213,model_autofill,False
+ভারতীয় রঙের ডিব্বায় ডুব দিয়ে এখন বলেন রং লাগানোর চেষ্টা করা হচ্ছে। এটা কোন কথা হইল।,Positive,0.3828316063183021,model_autofill,False
+বোকা বানিয়ে ধোঁকা দিয়ে ক্ষমতায় যেতে চায়। আওয়ামী লীগ কে পূর্ন বাংলাদেশের মাটিতে বিএনপি আনার ব্যবস্থা করতে মরিয়া হয়ে গেছে।,Negative,0.3891770443940394,model_autofill,False
+Jamat,Neutral,1.0,manual_second_pass,False
+Dhaka8 Hadi,Neutral,0.7186830306555643,model_autofill,False
+ফুটফুটে সুন্দর.......,Sarcastic_negative,0.3839197348823551,model_autofill,False
+মানুষ বুঝে এখন আর আগের দিন নাই,Positive,0.449871280845475,model_autofill,False
+চাঁদাবাজ আগে হাদি হত্যার বিচার করেন তারপরে লেকচার দেন ২৪ শে জুলাই পরে মানুষ এখন কেয়ারফুল,Negative,0.3437397392713793,model_autofill,False
+মির্জা আব্বাস কে ও পতিহত করা হবে,Negative,1.0,manual_second_pass,False
+আজকে নাকি মিটিং হয়েছে,Neutral,1.0,manual_second_pass,False
+রঙ লাগানোর পর আরো সুন্দর দেখায়,Negative,0.348982883285829,model_autofill,False
+পুরনো রাজনীতি জনগণ চায়না এটা বোঝার ক্ষমতা কি আপনার আছে,Positive,0.3240253730106506,model_autofill,False
+হাদী খুনের বিচার চাই,Negative,0.4147878474232548,model_autofill,False
+"এটা ভোট পাওয়ার জন্য কৌশল মাত্র, সারাদেশে ওনার দলের কেন্দ্রিয় নেতারা আওয়ামী লীগের সাথে আপোষের ঘোষণা দেয়,আর উনি নতুন সবক দিচ্ছে মানুষকে।",Positive,0.5059717323257934,model_autofill,False
+পরিবারতন্ত্র কে না বলুন।,Negative,0.3350162578022843,model_autofill,False
+কিও কয় চাচায়,Neutral,1.0,manual_second_pass,False
+Miza Abas ok sapot,Sarcastic_negative,0.3679233661218622,model_autofill,False
+এদেশের মানুষ চোর গ্রহণ করবে না বাটপার গ্রহণ করবে না ছিনতাই চাঁদাবাজ গ্রহণ করবে না,Negative,0.4740972736695806,model_autofill,False
+হাদির হত্যার বিচার আগে,Negative,0.4449513152670403,model_autofill,False
+তারপরে নির্বাচন,Sarcastic_negative,0.3658804745805098,model_autofill,False
+আর খায়না,Positive,0.3576176797917552,model_autofill,False
+এখানে জামাত শিবিরের গুপ্তবাহিনী বট বাহিনি আছে,Negative,0.4223625181295227,model_autofill,False
+"এইডার আয়ু কমে আসছে,,",Negative,1.0,manual_second_pass,False
+চান্দা,Sarcastic_negative,0.5861184710774276,model_autofill,False
+"কথায় কি বুঝলেন, আর এক স্বৈরাচার উৎপত্তির আভাস,",Positive,0.4748255257292162,model_autofill,False
+"শেখ হাসিনার গৃহপালিত পশু,,,",Sarcastic_negative,1.0,manual_second_pass,False
+"এক মেয়ের সাথে কিছু করতে পারেন নাই, আর আসছেন শেখ হাসিনা আটকানোর জন্য",Sarcastic_negative,1.0,manual_second_pass,False
+বিএনপির একেক নেতারা এক এক বক্তব্য দিচ্ছে,Negative,0.3815650434147884,model_autofill,False
+আপনি শহীদ ওসমান বিন হাদি হত্যার দায় এড়াতে পারবেননা।,Negative,0.4227749517219544,model_autofill,False
+"Dhaka 8, Fantastic",Positive,1.0,manual_second_pass,False
+"বি এন পি দলের নেতাদের কথার কোনো আগা মাথা নাই,এক নেতা বলে হাসিনাকে আনবে আরেক নেতা ভোটের৷ জন্য বলে আনবে না,,কার কথা মানুষ বিশ্বাস করবে",Positive,0.6978098559101937,model_autofill,False
+কথা টাকি শেষ পযন্ত ঠিক থাকবে।,Positive,0.378097697723132,model_autofill,False
+আহা রে এভাবে যদি হাদি ভাই এর বিচারটা করতে পারতেন নিজ দায়িত্বে তাহলে এমন না বললেও জনগণ আপনাকে বুকে টেনে নিতো,Sarcastic_negative,0.454658912382106,model_autofill,False
+"এই বক্তব্য এই মূহুর্তে দেওয়া ঠিক হয় নাই,,একে বলে নিজের পায়ে নিজে কুড়াল মারা।",Negative,0.3837565758506426,model_autofill,False
+বিএনপি একমাত্র দল যারা ক্ষমতায় যাবার আগে জনগণ পতন চায় বিএনপির সময় তিনবার সন্ত্রাসীতে চ্যাম্পিয়ন হয়েছিল বিশ্বের বুকে আমাদের ছোট হতে হয়েছিল,Negative,0.4341829176636393,model_autofill,False
+"ইনশাআল্লাহ, ধানের শীষের হবে জয়",Positive,0.3873177277998128,model_autofill,False
+ঢাকা ৮ আসন হাদি ভাইয়ের রক্তে রঞ্জিত পথ...,Negative,0.5072469527382939,model_autofill,False
+পাগলে বলে কি,Sarcastic_negative,1.0,manual_second_pass,False
+বয়স হয়েছে আপনি এবার মসজিদে গিয়ে আল্লাহ আল্লাহ করেন,Negative,0.3324598629454275,model_autofill,False
+পথ ক্লিয়ার করে ওয়াজ করলে যা হয়,Positive,0.3330407279076272,model_autofill,False
+দেশে আনার জন্য আপনার উৎপেতে বসে আছেন,Sarcastic_negative,0.392960732699476,model_autofill,False
+বাংলাদেশের জনগণ আপনাদেরকে চায় না বহুত আপনাদেরকে সময় দিয়েছে আর না এবারের শপথ দাঁড়িপাল্লার শপথ,Negative,1.0,manual_second_pass,False
+আমরা আশাবাদী তোমাকেও ঢাকা ৮ গ্রহণ করবে না।,Negative,0.5495579838109275,model_autofill,False
+হিংসার রাজনীতি চাই না। আমরা চাই দল মত নির্বিশেষে ১৮ কোটি মানুষের জীবন ও জীবিকার মান উন্নয়ন।,Positive,0.3298487994176763,model_autofill,False
+বাংলাদেশের মানুষ শেখ হাসিনার জন্য কান্না করে জায়নামাজে বসে শেখ হাসিনা আসবে বীরের বেশে,Positive,0.4011159303624396,model_autofill,False
+রং লাগিয়ে দেওয়ার চেষ্টা করে না আপনারা নিজেরা রঙে রঙে সেজে গেছেন দা/লা/লং,Sarcastic_negative,0.3862791674668425,model_autofill,False
+জনতার জম,Sarcastic_negative,1.0,manual_second_pass,False
+নাসির উদ্দীন পাটোয়ারী,Neutral,0.432858779894558,model_autofill,False
+হারুন ভাইর কথার সাথে মিল নেই,Sarcastic_negative,1.0,manual_second_pass,False
+তুমি নিজে ভালো হও,Sarcastic_negative,0.3833689436223126,model_autofill,False
+"এই দেশের ৭৩% মানুষ হাসিনাকে চায়,,, আপনাদের কে চায় না না না",Negative,0.3578151437384322,model_autofill,False
+রক্ত মাখা গায়ে,Negative,0.421564878649759,model_autofill,False
+ঢাকা ৮ এর প্রতিদ্বন্দ্বি সৎ ও আদর্শের উজ্জল নক্ষত্র হাদি হত্যার বিচার কি হবে?,Negative,1.0,manual_second_pass,False
+লা হাওলা ওয়ালা কুওয়াতা ইল্লা বিল্লাহিল আলিউল আজীম,Negative,0.3311436294958593,model_autofill,False
+"শেখ হাসিনা আসতে পারবে না, কিন্তু আওয়ামী লীগের ভোট নেওয়া যাবে",Sarcastic_negative,0.3275955119189332,model_autofill,False
+দূর হালার ঘরে হালা,Negative,0.3574845898286029,model_autofill,False
+দাঁড়িপাল্লা,Neutral,1.0,manual_second_pass,False
+হাসিনার আমলে তো আপনি তেলতেলা ছিলেন।,Sarcastic_negative,0.3505778199686669,model_autofill,False
+Amar এলাকার মানুষ উনি,Neutral,1.0,manual_second_pass,False
+আব্বাস সাহেব আপনি সময় পাবেন না ।এমন সুযোগ হবে পালানোর সুযোগ পাবেন না,Sarcastic_negative,0.328187698281026,model_autofill,False
+আওয়ামী লীগ ছাড়া বাংলাদেশে সুষ্ঠু নিরপেক্ষ নির্বাচন সম্ভব নয়,Sarcastic_negative,0.3752616370003068,model_autofill,False
+গত ১৫ বছর মির্জা আব্বাস সাহেব অনেক প্রতিহত করেছে,Negative,0.3921985208461793,model_autofill,False
+এই পৃথিবীর ইতিহাসে তিন জন উসমানের নাম ইতিহাসের সোনালি অক্ষরে লেখা আছে।,Negative,0.5061857166769224,model_autofill,False
+ঢাকা ৮ খু নি বালপাস,Negative,0.35059109961695,model_autofill,False
+"বয়স কি কমছে,, ভালো মানুষ হও,,,হিসাব পাই টু পাই ওপারে দেওয়া লাগবে",Negative,0.3489309873452592,model_autofill,False
+চাদা বাজের বাবা গড ফাদার আব্বাস চোরা ভোট চোর না ভোট,Negative,0.3272712082889139,model_autofill,False
+পেয়ে পাস য়াকে জন গন বিসসাস ক রে না,Negative,1.0,manual_second_pass,False
+ভোট চোর,Negative,1.0,manual_second_pass,False
+হাদি হত্যাকারী বেহায়া নির্লজ্জ জালিম নমরুদের বাচ্চা,Negative,0.4404362000531216,model_autofill,False
+ছাগলের তিন নম্বর বাচ্চা,Sarcastic_negative,1.0,manual_second_pass,False
+চাঁদাবাজ মির্জা আব্বাস বোরকা আব্বাস চাম্বা চান্দাবাজ,Negative,0.4001239277797808,model_autofill,False
+মুরব্বী মুরব্বী হুহু,Negative,0.3703151619184818,model_autofill,False
+টাকলা চোর হাদির খোনি তরাই,Negative,0.5072035182773255,model_autofill,False
+জাগো বি এম পি জাগো,Positive,1.0,manual_second_pass,False
+পুরো দেশ দখল নে,Sarcastic_negative,1.0,manual_second_pass,False
+বর্তমানে কারা আওয়ামী লীগের অফিস খুলে দিতে আছে,Negative,0.3985671393953246,model_autofill,False
+মুরগি চোর অলি,Negative,1.0,manual_second_pass,False
+লজ্জা করে বেটা কথা বলতে,Positive,0.4294123621402121,model_autofill,False
+ক্রিমিনাল+চোর,Sarcastic_negative,1.0,manual_second_pass,False
+"ভোট চোর , চান্দা আব্বাস",Sarcastic_negative,0.3802777682151371,model_autofill,False
+তুই হাদিরে হত্যা করছোস,Negative,0.515631306686101,model_autofill,False
+"কিরে চান্দ আব্বাস না এটা,",Negative,0.4007200032703366,model_autofill,False
+"আপনারা যদি উল্টা পাল্টা করলে,,আপনাদের ছাটাই করা হবে,,,তখন আপনাদেরও এদেশের মানুষ গ্রহন করবে নাহ",Sarcastic_negative,0.336723695151461,model_autofill,False
+চান্দা আব্বাসের ভাষন,Sarcastic_negative,0.4024035263730058,model_autofill,False
+আব্বাস চাঁদাবাজ,Negative,0.4165686891401952,model_autofill,False
+চোর বোট চোর বিএনপি চাঁদাবাজ খুনি ডাকাত চোর বোট চোর,Negative,0.5253815374011145,model_autofill,False
+ভোট চোরি করা,Positive,0.3680276131549592,model_autofill,False
+স্কাটোনে/মালিবাগে ল্যান্ড শেয়ারে ফ্ল্যাট কিনুন আর ঘুরে সুন্দরবন/ কক্সবাজার পরিবারসহ।আমার ব্যাক্তিগত অফার!সিমীত সময়ের জন্য।,Positive,0.3400703898283447,model_autofill,False
+আপনারা বিনোদোন উপভোগ করুন আর আপনাদের পার্টনাদের নিয়ে ঘুরে আসুন মালদ্বীপ ও শ্রীলংকা অথবা কক্সবাজার ঢাকা-মাওয়া রোডে জমি কিনে।,Sarcastic_negative,1.0,manual_second_pass,False
+চাদা বাজ,Sarcastic_negative,0.338152481818194,model_autofill,False
+আল্লামা মির্জা আব্বাস,Negative,0.4317028901154872,model_autofill,False
+ভোট চুর,Sarcastic_negative,0.3343402718836101,model_autofill,False
+চাঁদাবাস,Negative,0.3375318459403684,model_autofill,False
+চিটার আব্বাস,Negative,0.4449487284059863,model_autofill,False
+তুমি সন্ত্রাসী আব্বাস,Negative,0.3333589669226092,model_autofill,False
+"চোর বাটপার চান্দা, বোরখা আব্বাস কত পদবি তার",Negative,0.519287205486508,model_autofill,False
+ভোট চোর,Negative,1.0,manual_second_pass,False
+চান্দাআববাস এই দেশ একাই পোদ মেরে দিচ্ছে,Sarcastic_negative,0.3630766386152916,model_autofill,False
+চোর চান্দাব্বাস ভুয়া,Sarcastic_negative,0.4853102943924874,model_autofill,False
+তোমরা চুদুরবুদুর করলে তোমাদেরকেও দেশ থেকে বিতারিত করা হবে,Negative,0.3972803012028485,model_autofill,False
+তু্ই হাদী কে হত্যা করছো একদম সত্যি কথা,Negative,0.3780664329317738,model_autofill,False
+চোরের বাচ্চা চোর,Negative,0.3369736919053859,model_autofill,False
+চোরা আববাস,Negative,0.3324740775585941,model_autofill,False
+"যারা ভারতের চাটাচাটি করে, তারা কি?",Negative,0.3433014047229482,model_autofill,False
+"এরা হচ্ছে,বিএনপিতে গুপ্ত",Negative,0.3883989444602064,model_autofill,False
+যারা কয়েকটা টাকার লোভে ভোট বিক্রি করে ভাই সেই দেশের উন্নতি কেমনে হবে?,Neutral,0.4005449687658277,model_autofill,False
+তাহলে বিচার হবে কার আপনার কাকু......,Neutral,0.4188698516414308,model_autofill,False
+উনাকে দেশে মাস্ট বি আনতেই হবে এবং উনার বিচার জনসম্মুখের সামনে করতে হবে.....,Neutral,0.562674079812228,model_autofill,False
+আসসালামু আলাইকুম চান্দাব্বাস,Sarcastic_negative,0.4121438885959327,model_autofill,False
+তোমার দিন শ্যাষ,Negative,0.3520852176825454,model_autofill,False
+ঘটনা সত্য!!,Negative,1.0,manual_second_pass,False
+"চান্দা বাজ কেউ,,,",Sarcastic_negative,0.541322573420382,model_autofill,False
+Stupid,Sarcastic_negative,1.0,manual_second_pass,False
+এর চেহারা দেখলেই ত বাটপার বোঝা যায়,Negative,0.4953220171449184,model_autofill,False
+চাদাবাজ,Sarcastic_negative,0.3324185189542894,model_autofill,False
+আংশিক সত্য ও আংশিক মিথ্যা দিয়ে গল্প সাজানো,Negative,1.0,manual_second_pass,False
+tmr porajoy nijei krso,Sarcastic_negative,1.0,manual_second_pass,False
+জাতীয় জোকার দল,Negative,0.3918989650986528,model_autofill,False
+"আপনার মেন্টালিটির যে অবস্থা,, কিছু দিন পর আপনাকে ও এ দেশের মানুষ গ্রহন করবে না।",Sarcastic_negative,0.3595850213953593,model_autofill,False
+অটিস্টিক কোথাকার,Negative,1.0,manual_second_pass,False
+আওয়ামী লীগ কি ওরে এখন ভোট দিবে,Positive,0.3371301147859439,model_autofill,False
+ফেনসিডিল ব্যবসায়ীর মুখে ভারত বিরোধী কথা শুনতে ভালই লাগতাছে মাথার মজাক মনে হয় একটু ঘুরছে,Sarcastic_negative,1.0,manual_second_pass,False
+ইনশাল্লাহ দাড়ি পাল্লা । ভোট দিবো নাসির পাটোয়ারী ইনশাআল্লাহ,Positive,0.3902840747451365,model_autofill,False
+আপনাকে জুতার ভোট দেওয়া হবে,Neutral,0.4513472154648565,model_autofill,False
+"ফ্রুটিকা, মনকে করে দেয় একটু বেশিই পিউর।",Sarcastic_negative,1.0,manual_second_pass,False
+বলতে চাইছিলো ভাগ্যের কি পরিহাস ঢাকা ৮ এ হাদি আর নাই।,Negative,0.4040507471230334,model_autofill,False
+"হাসিনা আইতাসে,,,,এইবার চুন চুনকে মারেগা। পেহালা নাম্বার তেরা হ্যায় রে চান্দাবাজ",Sarcastic_negative,0.3592604985188505,model_autofill,False
+সুর মনে হয় পাল্টায় গেছে ?,Sarcastic_negative,0.4374734274283622,model_autofill,False
+তোমরাই তো ৭১ ৭১ করে হাসিনাকে কৌশলে আদর জানাচছো,Neutral,0.3272100921331505,model_autofill,False
+বুইরা শয়তান,Negative,1.0,manual_second_pass,False
+আবালজাত,Sarcastic_negative,0.3484696506454539,model_autofill,False
+জাতীয় চাঁদাবাজ,Negative,1.0,manual_second_pass,False
+চাঁদাবাজ খুনি সন্ত্রাসী নিপাত যাক,Negative,1.0,manual_second_pass,False
+মির্জা আব্বাস রিন খেলাপি কিনা খুজে বের করা দরকার। Dreamless Jobair,Positive,0.3764400129501669,model_autofill,False
+You are indan how you say that,Sarcastic_negative,0.3679233661218622,model_autofill,False
+আগের যুগ আর বর্তমান যুগ অনেক পার্থক্য আব্বাস ভাই,Negative,0.3569525423840274,model_autofill,False
+চাঁদা বাজ,Sarcastic_negative,0.3594503190004279,model_autofill,False
+"খুনি হাসিনা , গনহত্যাকারী হাসিনা, দেশে আসতে পারবে না কথাটা ভালো লাগছে, বাঁকী কথাগুলো সন্ত্রাসী কায়দায!",Negative,1.0,manual_second_pass,False
+Natok,Sarcastic_negative,1.0,manual_second_pass,False
+Bcos you're the greatest চাঁদাবাজ of Bangladesh,Sarcastic_negative,1.0,manual_second_pass,False
+বাটপার একটা বুইড়া খাটাশ কয় কি,Negative,0.4876973910174415,model_autofill,False
+"ভরাডুবির ভয়ে দিশেহারা মগা,",Sarcastic_negative,0.3567421927881628,model_autofill,False
+"ভারতীয় দালালকে তো ভারতীয়ই বলবে। আচ্ছা, ইন্ডিয়ান বলবোনে। খুশি থাকো",Negative,0.4456997270142965,model_autofill,False
+তোর বাপের নামে মির্জা নাই তোর নামে মির্জা কেন ? বাটপার আগে সেটার ব্যাখ্যা দে ।,Negative,0.4826732127367623,model_autofill,False
+হাদি হত্যার কে করছে,Negative,0.4748863003917744,model_autofill,False
+না না নানানানান,Sarcastic_negative,1.0,manual_second_pass,False
+হাদীর মতো স্বচ্ছ একজন দেশপ্রেমিকের খুনির সাথে যার লেজুরভিত্তি তাকে চব্বিশ পরবর্তী জনতা খাবে না।,Negative,0.370345275759642,model_autofill,False
+মাকে দেখিয়ে আসি আমার থেকে বড় নিলজ্জ লোক আছে,Negative,0.4982145689313495,model_autofill,False
+হাদি হত্যার মেইন মাষ্টার মাইন হচ্ছে এই চান্দা আব্বাস,Negative,0.529736729716928,model_autofill,False
+আপনারা নরেন্দ্র মোদির কাছে আত্মসমর্পণ করেছেন এটা জনগণ বুজে,Sarcastic_negative,0.3780893429604522,model_autofill,False
+তুমি ভারতীয় প্রোডাক্ট চাঁদা আব্বাস,Negative,0.4693397062849211,model_autofill,False
+৮.৪ কে হাহক,Negative,0.3376506641685779,model_autofill,False
+তুই খুনি চাঁদাবাজ,Negative,0.4546792264561695,model_autofill,False
+আসবে না কেন এনে ফাঁসি দাও ।,Sarcastic_negative,0.3603082009085057,model_autofill,False
+ফ্যামেলি কার্ড ×,Sarcastic_negative,1.0,manual_second_pass,False
+‌‌‌লাল কার্ড √,Sarcastic_negative,1.0,manual_second_pass,False
+হাদির হত্যার জন্য এই মাদার ফাকার দায়ী,Negative,0.5009685140989037,model_autofill,False
+মাদার ফাকার এটা খুনি,Negative,0.4925316570242259,model_autofill,False
+"আপনারা রং মেখে বসে আছেন,",Sarcastic_negative,0.407561470465746,model_autofill,False
+বললেই অপরাধ হবে কেন ???,Neutral,0.6255012506325391,model_autofill,False
+তোরা তো অবশ্যই ভারতের টাকা খেয়ে ভারতের গোলামী করতেছো ত,Sarcastic_negative,0.3907137123257412,model_autofill,False
+ঢাকা ৮ এ তোমাকে চুদে দেওয়া হবে,Neutral,0.5083967217000267,model_autofill,False
+Hadi re apnara khaisen beshidin tikben na,Neutral,0.7186830306555643,model_autofill,False
+ধান্দাবাজ বাটপার,Negative,0.3473060089029007,model_autofill,False
+Kafar mirga abbas racord coran aita,Sarcastic_negative,0.4563302615211024,model_autofill,False
+চাঁদাবাজ আর দালালদের জন্য যেটা প্রাপ্য,Positive,0.4411115205462298,model_autofill,False
+তাকে দেখতে ক্রিমিনালের মতো দেখা যায়,Positive,0.3748071163026629,model_autofill,False
+মির্জা আব্বাস খুবই খারাপ লোক।চাদাবাজ।,Negative,0.3937165297289015,model_autofill,False
+চান্দা বাজ,Sarcastic_negative,0.5547887563305749,model_autofill,False
+এই গলাবাজি গুলা 5 আগস্টের আগে কোথায় ছিলো চান্দা ভাই? মাদারবোর্ড,Negative,0.409571752911306,model_autofill,False
+ঢাকা - ৮ এর যোগ্যতা এবং অধিকার শুধু হাদি ভাই এর ছিলো। #JusticeForHadi,Neutral,0.3372369151822658,model_autofill,False
+রাজাকারের বাচচা,Negative,0.3656343504967964,manual,False
+হাম্মা চুর শালা,Negative,0.3839453796808852,manual,False
+আবাল।,Sarcastic_negative,0.4483810958757654,manual,False
+খুনি তুই,Negative,0.5214169282377968,manual,False
+"হাসিনাকে ফিরিয়ে এনে বিচার করা হবে, অপেক্ষা করেন",Neutral,0.7070229924277455,manual,False
+তুমি ফেল,Negative,0.4910526508772123,manual,False
+"খাওয়া থাকবে না, আফনে ফেইল মারবেন",Sarcastic_negative,0.4743463149649495,manual,False
+www.chandabbas.com,Sarcastic_negative,0.5337026480682044,manual,False
+দাদা দেশে না আসলে ফাসি দিবেন কেমনে,Sarcastic_negative,0.5251204033017507,manual,False
+MD Aslam Uddin SanSha,Neutral,0.3113418963308571,manual,False
+জনগণ এরে মূলা খাইয়ে দিবে,Sarcastic_negative,0.5289166271618723,manual,False
+তুই হাদির খুনি,Negative,0.5747600228559641,manual,False
+Chadabaz,Negative,0.3879854987406019,manual,False
+Gaza khyce,Sarcastic_negative,0.3113418963308571,manual,False
+চান্দাবাজ চান্দাআব্বাস,Sarcastic_negative,0.4809565968536287,manual,False
+আমার ভাই ওসমা হাদী বিচার চাই।তার খুনিদের কাছে।।।,Negative,0.4929604265616457,manual,False
+সেইজন্য একযোগে কয়েকশ আওয়ামী লীগকে দলে নিয়েছেন।,Sarcastic_negative,0.3190782387969131,manual,False
+পাল্তু,Sarcastic_negative,0.4663493375824074,manual,False
+শুধু তোমাকে না পুরো বিএনপিকে বয়কট করে জনগণ এর জবাব দিবে জাতির সাথে তোমরা কত বড় বেইমানি করছ,Negative,0.5782898474819417,manual,False
+"যে যতটুকু পানিতে নামে সে ততটুকু ভিজে, আর যেটুকু ভিজে সেটুকু দেখা যায়",Sarcastic_negative,0.4411140707673168,manual,False
+চান্দাব্বাস তোমার পট্কি মারে ডার্বি নাসির,Negative,0.3639777159252834,manual,False
+ঠিক কথা বলে ছেন,Positive,0.5488977372606667,manual,False
+"ঢাকা ৮ জনগণ চান্দাবাজ বয়কট করবে, ইনশাআল্লাহ",Positive,0.5200461193012298,manual,False
+ওই কামরা বন্ধ কর,Sarcastic_negative,0.5083943016428403,manual,False
+সিঙ্গারা বিক্রি করতে তোমার বাবা এত টাকা কিভাবে তোমার,Sarcastic_negative,0.4736101982653701,manual,False
+ঢাকা ৮ এ আমাদের হাদি ভাই এর রক্ত লেগে আচে কোনো চাঁদা বাজ কে আমরা চাই না,Negative,0.5536629104530152,manual,False
+তুই আসল চাঁদাবাজ,Negative,0.4059221531611256,manual,False
+আপনারা যে কি মাল সাধারণ জনগণের কাছে পরিষ্কার,Sarcastic_negative,0.5061042526029521,manual,False
+আপনার জন্য ভালো বাঁশা,Sarcastic_negative,0.3355342250801196,manual,False
+চাঁন্দাবাজের দিন শেষ,Sarcastic_negative,0.4509391533890592,manual,False
+Tui to modir putro go mutro,Negative,0.3113418963308571,manual,False
+হাদী ভাই বেচে থাকলে। চান্দা আব্বাস ১০০% ফেল করত,Negative,0.4065171504465739,manual,False
+তুমি পুটকি মারা খাইবা ইনশাআল্লাহ,Negative,0.4119978578522237,manual,False
+বিএনপি মানে চাঁদাবাজ সন্ত্রাসী,Negative,0.3528175043983643,manual,False
+তুইতো আসলে ঐটাই শালা মেইড ইন সোনাগাছি,Negative,0.4743495038214073,manual,False
+১৭ বছর কার বাল ছিড়ছেন,Sarcastic_negative,0.5133907486056644,manual,False
+তুমি চান্দাব্বাস।,Sarcastic_negative,0.5692711471280479,manual,False
+তুই যে কি লেভেলের জাইরা ঢাকাবাসী জানে,Negative,0.3462250108668427,manual,False
+ভারতিয় রং লাগায় নি অন্তরে ঢুকিয়ে রাখছেন,Negative,0.5437536077767969,manual,False
+হাদীর খুনি,Negative,0.5480798455844296,manual,False
+বুড়া বয়সে যে ভীমরতিতে ধরে এই বুড়ারে না দেখলে বুজতেই পারতাম না,Negative,0.5928563342520041,manual,False
+Chadabazz der lider tui jawra abbas,Sarcastic_negative,0.3566009012413258,model_autofill,False
+Justice For Hadi,Neutral,0.704576375173165,manual,False
+#WeAreOsmanHadi,Neutral,0.7356243479452386,manual,False
+বয়কট চাঁদাবাজ দল,Negative,0.4784223751238903,manual,False
+বোকাচোদা আব্বাস,Negative,0.4872883873152393,manual,False
+কারণ তুই ঢাকা ৮ আসনের টপ লেভেলের চাঁদাবাজ কুলাঙ্গার হাদীর খুনি।,Negative,0.5497881324287245,manual,False
+এরা বুঝে কথা বলে। রাতে চুরি করে সকালে সাধু সাজে,Sarcastic_negative,0.3918330965362977,manual,False
+"এটা তোমার ভাগ্যের পরিহাস না এটা তোমার কর্মের ফল যাকে বলে কর্মফল,",Negative,0.4138976415335259,manual,False
+"ভারতের লোকেরা বলে, তাদের গায়ে ভারতের রং লাগিয়ে দিচ্ছে, কি আজব না",Negative,0.3650644995580303,manual,False
+তা ঠিক আছে কিন্তু তোর মতো চান্দাব্বাস কেও চুদে তাড়াবে,Negative,0.3539474880324564,manual,False
+Madar Chod Dalaal,Negative,0.4749246729156332,manual,False
+হাদীরে খুন করাইছোস তুই,Negative,0.4346634410004593,manual,False
+Hassokor,Sarcastic_negative,0.392246352846629,manual,False
+চান্দা আব্বাস বিএনপিকে গিলে খেয়েছে তোমার খেইল খতম,Negative,0.4908212906999821,manual,False
+ভারত আওয়ামীবিষয়ক বিম্পির স্থায়ী সদস্য,Sarcastic_negative,0.3896720645333923,manual,False
+শুর দি পালটে গেছে,Sarcastic_negative,0.451130424654473,manual,False
+Chud ling,Negative,0.4509841991729875,manual,False
+মাদারবোর্ড,Negative,0.4456945806733686,manual,False
+তুমি সন্ত্রাস তুমি চাঁদাবাজ মির্জা আব্বাস তোমাকে জনগণ বয়কট করবে ইনশাআল্লাহ।,Negative,0.4454123183626348,manual,False
+আমরা আশাবাদী তোমাকে ঢাকা ৮ গ্রহণ করে না ইনশাআল্লাহ,Negative,0.5364437524481069,manual,False
+তোরা মুনাফেক ভিতরে একটা বাহিরে আরেকটা চান্দা ভাই,Sarcastic_negative,0.3505286698189538,manual,False
+তোরেও ভারত পাঠাই দিমু,Negative,0.4608423559270145,manual,False
+চান্দা আব্বাসের মতো নেতা দেশের অলিগলিতে পাওয়া যাবে কিন্তু ওসমান হাদি একজনই ।,Negative,0.4746015421011411,manual,False
+"হাদি হত্যায় চরম ভুমিকা,,এই খানকির পোলার",Negative,0.5343538619827384,manual,False
+তুমি চান্দাব্বাস হতে পারবা না,Sarcastic_negative,0.597540243286918,manual,False
+নাটক কম করেন,Sarcastic_negative,0.4500179874152287,manual,False
+আহারে চান্দা কাকু,Sarcastic_negative,0.5704146769348262,manual,False
+হাদি হত্যার বিচার চাই এই সব বাদ,Neutral,0.5309211644946307,manual,False
+মুখে মধু অন্তরে বিষ৷ এখন বঙালী আর বোকা.দা নেই।,Negative,0.4838224302770333,manual,False
+চান্দা + অভ্যাস৷,Sarcastic_negative,0.5818218865145421,manual,False
+সন্ধি বিশ্চেদ কী হবে?,Neutral,0.7879836662685333,manual,False
+তোমাকে ও ঢাকা গ্রহণ করবে না ইনশাআল্লাহ,Negative,0.5279469798073835,manual,False
+#Banglaedition,Neutral,0.3113418963308571,manual,False
+Pinaki Bhattacharya - পিনাকী ভট্টাচার্য,Neutral,0.6404559197659675,manual,False
+নাসিরুদ্দিন ভাই,Neutral,0.5952408266544483,manual,False
+বয়কট বয়কট বয়কট,Negative,0.4391990921678276,manual,False
+এই শালা চুপ চিটার বাটপার,Negative,0.6009638868641133,manual,False
+জনগণ ইতি মধ্যে বুঝে গেছে তোমরা খাটি ভারতীয়,Negative,0.4885594603510095,manual,False
+Chanda abbas,Sarcastic_negative,0.514112970941489,manual,False
+হাদির খুনি মিরজাপর আব্বাস,Negative,0.6752804768990823,manual,False
+হাদির রক্ত তোর হাতে লেগে আছে,Negative,0.5996170516988639,manual,False
+"এই বাটপার কে ধরলে হাদি হত্যা কে করছে সবকিছুই বের হয়ে জাবে,",Negative,0.6269767859566451,manual,False
+"বাল ফালাইয়া দিছো ১৭ বছর দেখলাম তো,,",Negative,0.3915996600234389,manual,False
+তুমি মির্জা আব্বাস তুমিও আওয়ামী লীগের দোসর তোমারে জনগণ বয়কট করবে।,Negative,0.4954505494917167,manual,False
+খুনি আব্বাছ,Negative,0.5766911847161224,manual,False
+মীর্জা আব্বাস সাহেব জিন্দাবাদ,Positive,0.4477052335743631,manual,False
+আপনি অনেক ভয়ে আছেন এজন্য অন্য ক্যান্ডিডেটদের গ্রামে নির্বাচন করতে বলতেছেন।,Sarcastic_negative,0.5239301511289166,manual,False
+Indian agent,Negative,0.3113418963308571,manual,False
+মানুষ এখন সচেতন কাকে ভোট দিলে তাদের নতুন প্রজন্ম ভালো থাকবে এটা মানুষ যানে,Positive,0.662949184507134,manual,False
+তুই তো কালারই শালা,Sarcastic_negative,0.3753399480894416,manual,False
+আপনারা স্বৈরাচার শেখ হাসিনার চাইতেও বড় খতরনাক,Negative,0.4118569135071355,manual,False
+আরে চান্দাবাজ মির্জা আব্বাস,Negative,0.468734881219276,manual,False
+তুমি কে চিনলাম নাতো,Sarcastic_negative,0.4906210222985252,manual,False

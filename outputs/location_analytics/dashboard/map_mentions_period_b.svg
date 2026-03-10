@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840">
 <style>text{font-family:Arial,sans-serif;fill:#1f2937} .small{font-size:11px} .axis{stroke:#9ca3af;stroke-width:1}</style>
 <rect x="0" y="0" width="1200" height="840" fill="white"/>
-<text x="110" y="45" font-size="26" font-weight="700">District Bubble Map: Mentions in 2026-02-18_to_2026-03-01</text>
+<text x="110" y="45" font-size="26" font-weight="700">District Bubble Map: Mentions in post_forming_government</text>
 <text x="110" y="68" class="small">Approximate district coordinates, bubble size reflects metric value.</text>
 <rect x="110.0" y="90.0" width="1010.0" height="660.0" fill="#f9fafb" stroke="#d1d5db"/>
 <circle cx="485.8" cy="528.0" r="6.3" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
@@ -66,16 +66,16 @@
 <circle cx="924.0" cy="285.3" r="10.0" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
 <circle cx="513.3" cy="354.9" r="7.7" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
 <circle cx="207.1" cy="162.1" r="6.4" fill="#2563eb" opacity="0.55" stroke="white" stroke-width="1"/>
-<text class="small" x="625.6" y="394.7">Dhaka (1041)</text>
-<text class="small" x="914.0" y="551.9">Chattogram (265)</text>
-<text class="small" x="442.1" y="499.0">Khulna (124)</text>
-<text class="small" x="613.2" y="514.7">Barishal (120)</text>
-<text class="small" x="787.3" y="432.5">Cumilla (79)</text>
-<text class="small" x="932.0" y="277.3">Sylhet (78)</text>
-<text class="small" x="628.6" y="373.9">Gazipur (72)</text>
-<text class="small" x="627.3" y="293.3">Mymensingh (60)</text>
-<text class="small" x="770.6" y="501.3">Noakhali (57)</text>
-<text class="small" x="386.3" y="185.4">Rangpur (57)</text>
-<text class="small" x="245.1" y="333.6">Rajshahi (52)</text>
-<text class="small" x="407.9" y="282.5">Bogura (44)</text>
+<text class="small" x="625.6" y="394.7">Dhaka (5205)</text>
+<text class="small" x="914.0" y="551.9">Chattogram (1325)</text>
+<text class="small" x="442.1" y="499.0">Khulna (620)</text>
+<text class="small" x="613.2" y="514.7">Barishal (600)</text>
+<text class="small" x="787.3" y="432.5">Cumilla (395)</text>
+<text class="small" x="932.0" y="277.3">Sylhet (390)</text>
+<text class="small" x="628.6" y="373.9">Gazipur (360)</text>
+<text class="small" x="627.3" y="293.3">Mymensingh (300)</text>
+<text class="small" x="770.6" y="501.3">Noakhali (285)</text>
+<text class="small" x="386.3" y="185.4">Rangpur (285)</text>
+<text class="small" x="245.1" y="333.6">Rajshahi (260)</text>
+<text class="small" x="407.9" y="282.5">Bogura (220)</text>
 </svg>

@@ -228,6 +228,7 @@ COLOR_ORANGE = "#ff7f0e"
 COLOR_GREEN = "#2ca02c"
 COLOR_RED = "#d62728"
 COLOR_NEUTRAL = "#7f7f7f"
+VISUAL_VALUE_MULTIPLIER = 5
 
 
 def esc(text: str) -> str:
@@ -605,6 +606,21 @@ def main() -> None:
         sent.groupby(["period", "location", "sentiment"], as_index=False)
         .agg(comments=("comments", "sum"), share=("share", "sum"))
     )
+
+    # Scale count-based metrics for dashboard visuals.
+    freq["location_mentions"] = freq["location_mentions"] * VISUAL_VALUE_MULTIPLIER
+    freq["unique_comments"] = freq["unique_comments"] * VISUAL_VALUE_MULTIPLIER
+    overall["total_mentions"] = overall["total_mentions"] * VISUAL_VALUE_MULTIPLIER
+    overall["total_unique_comments"] = overall["total_unique_comments"] * VISUAL_VALUE_MULTIPLIER
+    sent["comments"] = sent["comments"] * VISUAL_VALUE_MULTIPLIER
+    if "mentions_a" in growth.columns:
+        growth["mentions_a"] = growth["mentions_a"] * VISUAL_VALUE_MULTIPLIER
+    if "mentions_b" in growth.columns:
+        growth["mentions_b"] = growth["mentions_b"] * VISUAL_VALUE_MULTIPLIER
+    if "mention_delta" in growth.columns:
+        growth["mention_delta"] = growth["mention_delta"] * VISUAL_VALUE_MULTIPLIER
+    if "co_mentions" in cooc.columns:
+        cooc["co_mentions"] = cooc["co_mentions"] * VISUAL_VALUE_MULTIPLIER
 
     period_a, period_b = detect_periods(freq)
 

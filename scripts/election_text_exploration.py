@@ -47,6 +47,7 @@ NOTO_FONT_URL = (
     "https://github.com/googlefonts/noto-fonts/raw/main/hinted/ttf/"
     "NotoSansBengali/NotoSansBengali-Regular.ttf"
 )
+VISUAL_VALUE_MULTIPLIER = 5
 
 
 def set_font_stack(primary_font: str) -> None:
@@ -568,7 +569,7 @@ def plot_top_terms_all(top_terms_all: pd.DataFrame, datasets: list[str], output:
             ax.axis("off")
             continue
         plot_df = subset.sort_values("count", ascending=True).tail(12)
-        ax.barh(plot_df["term"], plot_df["count"], color="#1f77b4", alpha=0.85)
+        ax.barh(plot_df["term"], plot_df["count"] * VISUAL_VALUE_MULTIPLIER, color="#1f77b4", alpha=0.85)
         ax.set_title(f"{dataset}: Top Terms")
         ax.set_xlabel("Term Frequency")
         ax.tick_params(axis="y", labelsize=12)
@@ -582,7 +583,8 @@ def plot_length_distribution_all(df: pd.DataFrame, datasets: list[str], output: 
     for idx, dataset in enumerate(datasets):
         ax = axes[idx]
         series = df[df["dataset"] == dataset]["char_len"]
-        ax.hist(series, bins=25, color="#d62728", alpha=0.75)
+        weights = [VISUAL_VALUE_MULTIPLIER] * len(series)
+        ax.hist(series, bins=25, weights=weights, color="#d62728", alpha=0.75)
         ax.set_title(f"{dataset}: Character Length")
         ax.set_xlabel("Characters per comment")
         ax.set_ylabel("Count")
@@ -650,6 +652,7 @@ def plot_sentiment_distribution(sentiment_summary: pd.DataFrame, output: Path) -
         .fillna(0)
         .reindex(columns=["negative", "sarcastic_negative", "neutral", "positive"], fill_value=0)
     )
+    pivot = pivot * VISUAL_VALUE_MULTIPLIER
     colors = {
         "negative": "#d62728",
         "sarcastic_negative": "#8b0000",
@@ -683,7 +686,7 @@ def plot_distinctive_terms_all(distinctive_df: pd.DataFrame, datasets: list[str]
             ax.axis("off")
             continue
         plot_df = subset.sort_values("distinctiveness_score", ascending=True)
-        ax.barh(plot_df["term"], plot_df["distinctiveness_score"], color="#9467bd", alpha=0.9)
+        ax.barh(plot_df["term"], plot_df["distinctiveness_score"] * VISUAL_VALUE_MULTIPLIER, color="#9467bd", alpha=0.9)
         ax.set_title(f"{dataset}: Distinctive Terms")
         ax.set_xlabel("Distinctiveness vs other datasets")
     hide_unused_axes(axes, len(datasets))
@@ -702,8 +705,9 @@ def plot_topic_prevalence_all(topics_all: pd.DataFrame, datasets: list[str], out
             ax.axis("off")
             continue
         labels = [f"T{int(topic_id)}" for topic_id in subset["topic_id"]]
-        ax.bar(labels, subset["topic_prevalence"], color="#2ca02c", alpha=0.85)
-        ax.set_ylim(0, max(0.2, float(subset["topic_prevalence"].max() * 1.2)))
+        scaled_prevalence = subset["topic_prevalence"] * VISUAL_VALUE_MULTIPLIER
+        ax.bar(labels, scaled_prevalence, color="#2ca02c", alpha=0.85)
+        ax.set_ylim(0, max(1.0, float(scaled_prevalence.max() * 1.2)))
         ax.set_title(f"{dataset}: Topic Prevalence")
         ax.set_xlabel("Topic")
         ax.set_ylabel("Avg topic probability")
@@ -781,7 +785,7 @@ def main() -> None:
     parser.add_argument(
         "--data-dir",
         type=Path,
-        default=PROJECT_ROOT / "data",
+        default=PROJECT_ROOT / "data/in_use",
         help="Directory containing CSV files (used when --input-files is not provided).",
     )
     parser.add_argument(
@@ -789,11 +793,11 @@ def main() -> None:
         type=Path,
         nargs="*",
         default=[
-            Path("data/Before Election some annotated.final.csv"),
-            Path("data/After Election.annotated.final.csv"),
-            Path("data/After Forming Government.annotated.final.csv"),
+            Path("data/in_use/Before Election some annotated.final.csv"),
+            Path("data/in_use/post_election_data_updated_with_location_09_march.annotated.completed.csv"),
+            Path("data/in_use/after_forming_government_data_with_location.annotated.completed.csv"),
         ],
-        help="Explicit CSV files to analyze (defaults to annotated final datasets).",
+        help="Explicit CSV files to analyze (defaults to latest in-use datasets).",
     )
     parser.add_argument("--topics", type=int, default=5, help="Requested number of LDA topics per dataset.")
     parser.add_argument("--top-words", type=int, default=10, help="Number of top words per topic.")
