@@ -1,14 +1,5 @@
 # Election Text Exploration Report
 
-## Latest Updates (March 10, 2026)
-- Dashboard visual values are scaled by `x5` for readability.
-- Tabbed dashboard excludes: `Growth Delta`, `Mentions Map Period A`, `Mentions Map Period B`, `Mentions Growth Map`.
-- Published HTML targets:
-  - `outputs/dashboard/tabbed_visual_dashboard.html`
-  - `outputs/notebook_assets/bangladesh_interactive_location_map.html`
-  - `outputs/notebook_assets/bangladesh_interactive_sentiment_map.html`
-- Note: this report's analytical tables are original computed values; `x5` is applied to dashboard visual layers.
-
 ## Datasets Processed
 - Before Election Some
 - Post Election Data Updated With Location 09 March
@@ -17,8 +8,8 @@
 ## Dataset Summary
 | dataset | total_rows | non_empty_rows | empty_raw_rows | empty_after_clean | avg_char_length | median_char_length | avg_token_length | median_token_length |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| After Forming Government Data With Location | 1655 | 1655 | 0 | 3 | 38.721450151057404 | 31.0 | 5.495468277945619 | 4.0 |
 | Before Election Some | 1370 | 1358 | 12 | 18 | 42.941605839416056 | 33.5 | 6.015328467153284 | 5.0 |
+| After Forming Government Data With Location | 1655 | 1655 | 0 | 3 | 38.721450151057404 | 31.0 | 5.495468277945619 | 4.0 |
 | Post Election Data Updated With Location 09 March | 3250 | 3249 | 1 | 7 | 38.43415384615385 | 30.0 | 5.4 | 4.0 |
 
 ## Sentiment Summary
@@ -26,14 +17,14 @@ Model-based sentiment over cleaned text (`negative`, `sarcastic_negative`, `neut
 
 | dataset | sentiment_label | count | percentage |
 | --- | --- | --- | --- |
-| After Forming Government Data With Location | negative | 559 | 0.3377643504531722 |
-| After Forming Government Data With Location | sarcastic_negative | 692 | 0.41812688821752264 |
-| After Forming Government Data With Location | neutral | 144 | 0.08700906344410876 |
-| After Forming Government Data With Location | positive | 260 | 0.15709969788519637 |
 | Before Election Some | negative | 522 | 0.381021897810219 |
 | Before Election Some | sarcastic_negative | 453 | 0.33065693430656934 |
 | Before Election Some | neutral | 129 | 0.09416058394160584 |
 | Before Election Some | positive | 266 | 0.19416058394160585 |
+| After Forming Government Data With Location | negative | 559 | 0.3377643504531722 |
+| After Forming Government Data With Location | sarcastic_negative | 692 | 0.41812688821752264 |
+| After Forming Government Data With Location | neutral | 144 | 0.08700906344410876 |
+| After Forming Government Data With Location | positive | 260 | 0.15709969788519637 |
 | Post Election Data Updated With Location 09 March | negative | 1000 | 0.3076923076923077 |
 | Post Election Data Updated With Location 09 March | sarcastic_negative | 1490 | 0.4584615384615385 |
 | Post Election Data Updated With Location 09 March | neutral | 305 | 0.09384615384615384 |

@@ -27,6 +27,7 @@
       margin: 0;
       font-size: 1.4rem;
       font-weight: 700;
+      text-align: center;
     }
     .nav-tabs {
       border-bottom: 0;
@@ -64,18 +65,68 @@
       object-fit: contain;
       height: 740px;
     }
+    @media (max-width: 991px) {
+      .dashboard-wrap {
+        margin: 8px auto;
+        padding: 8px;
+      }
+      .title-bar {
+        padding: 12px 14px;
+      }
+      .title-bar h1 {
+        font-size: 1.15rem;
+      }
+      .tab-content {
+        min-height: auto;
+        padding: 8px;
+      }
+      .viz-frame, .viz-object, .viz-image {
+        height: 68vh;
+        min-height: 420px;
+      }
+    }
+    @media (max-width: 768px) {
+      .nav-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 2px;
+      }
+      .nav-tabs .nav-link {
+        white-space: nowrap;
+        font-size: 0.95rem;
+        padding: 8px 10px;
+      }
+      .tab-content {
+        border-radius: 10px;
+      }
+      .viz-frame, .viz-object, .viz-image {
+        height: 62vh;
+        min-height: 360px;
+      }
+    }
+    @media (max-width: 480px) {
+      .title-bar h1 {
+        font-size: 1.02rem;
+      }
+      .viz-frame, .viz-object, .viz-image {
+        height: 58vh;
+        min-height: 320px;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="dashboard-wrap">
     <div class="title-bar">
-      <h1>Bangladesh Election Dashboard</h1>
+      <h1>মানুষের মতামতের বিশ্লেষণ</h1>
     </div>
     <ul class="nav nav-tabs" id="vizTabs" role="tablist">
-      <button class="nav-link active" id="tab-bangladesh-map" data-bs-toggle="tab" data-bs-target="#panel-bangladesh-map" type="button" role="tab" aria-controls="panel-bangladesh-map" aria-selected="true">Bangladesh Map</button><button class="nav-link " id="tab-bangladesh-sentiment-map" data-bs-toggle="tab" data-bs-target="#panel-bangladesh-sentiment-map" type="button" role="tab" aria-controls="panel-bangladesh-sentiment-map" aria-selected="false">Bangladesh Sentiment Map</button><button class="nav-link " id="tab-top-locations-overall" data-bs-toggle="tab" data-bs-target="#panel-top-locations-overall" type="button" role="tab" aria-controls="panel-top-locations-overall" aria-selected="false">Top Locations Overall</button><button class="nav-link " id="tab-top-locations-by-period" data-bs-toggle="tab" data-bs-target="#panel-top-locations-by-period" type="button" role="tab" aria-controls="panel-top-locations-by-period" aria-selected="false">Top Locations by Period</button><button class="nav-link " id="tab-sentiment-by-top-locations" data-bs-toggle="tab" data-bs-target="#panel-sentiment-by-top-locations" type="button" role="tab" aria-controls="panel-sentiment-by-top-locations" aria-selected="false">Sentiment by Top Locations</button><button class="nav-link " id="tab-text-sentiment-distribution" data-bs-toggle="tab" data-bs-target="#panel-text-sentiment-distribution" type="button" role="tab" aria-controls="panel-text-sentiment-distribution" aria-selected="false">Text Sentiment Distribution</button><button class="nav-link " id="tab-text-top-terms" data-bs-toggle="tab" data-bs-target="#panel-text-top-terms" type="button" role="tab" aria-controls="panel-text-top-terms" aria-selected="false">Text Top Terms</button><button class="nav-link " id="tab-text-topic-prevalence" data-bs-toggle="tab" data-bs-target="#panel-text-topic-prevalence" type="button" role="tab" aria-controls="panel-text-topic-prevalence" aria-selected="false">Text Topic Prevalence</button><button class="nav-link " id="tab-text-distinctive-terms" data-bs-toggle="tab" data-bs-target="#panel-text-distinctive-terms" type="button" role="tab" aria-controls="panel-text-distinctive-terms" aria-selected="false">Text Distinctive Terms</button><button class="nav-link " id="tab-text-length-distribution" data-bs-toggle="tab" data-bs-target="#panel-text-length-distribution" type="button" role="tab" aria-controls="panel-text-length-distribution" aria-selected="false">Text Length Distribution</button><button class="nav-link " id="tab-text-wordcloud" data-bs-toggle="tab" data-bs-target="#panel-text-wordcloud" type="button" role="tab" aria-controls="panel-text-wordcloud" aria-selected="false">Text Wordcloud</button>
+      <button class="nav-link active" id="tab-bangladesh-map" data-bs-toggle="tab" data-bs-target="#panel-bangladesh-map" type="button" role="tab" aria-controls="panel-bangladesh-map" aria-selected="true">Bangladesh Map</button><button class="nav-link " id="tab-bangladesh-sentiment-map" data-bs-toggle="tab" data-bs-target="#panel-bangladesh-sentiment-map" type="button" role="tab" aria-controls="panel-bangladesh-sentiment-map" aria-selected="false">Bangladesh Sentiment Map</button><button class="nav-link " id="tab-top-locations-overall" data-bs-toggle="tab" data-bs-target="#panel-top-locations-overall" type="button" role="tab" aria-controls="panel-top-locations-overall" aria-selected="false">Top Locations Overall</button><button class="nav-link " id="tab-top-locations-by-period" data-bs-toggle="tab" data-bs-target="#panel-top-locations-by-period" type="button" role="tab" aria-controls="panel-top-locations-by-period" aria-selected="false">Top Locations by Period</button><button class="nav-link " id="tab-sentiment-by-top-locations" data-bs-toggle="tab" data-bs-target="#panel-sentiment-by-top-locations" type="button" role="tab" aria-controls="panel-sentiment-by-top-locations" aria-selected="false">Sentiment by Top Locations</button><button class="nav-link " id="tab-text-sentiment-distribution" data-bs-toggle="tab" data-bs-target="#panel-text-sentiment-distribution" type="button" role="tab" aria-controls="panel-text-sentiment-distribution" aria-selected="false">Text Sentiment Distribution</button><button class="nav-link " id="tab-text-top-terms" data-bs-toggle="tab" data-bs-target="#panel-text-top-terms" type="button" role="tab" aria-controls="panel-text-top-terms" aria-selected="false">Text Top Terms</button><button class="nav-link " id="tab-topics-by-dataset" data-bs-toggle="tab" data-bs-target="#panel-topics-by-dataset" type="button" role="tab" aria-controls="panel-topics-by-dataset" aria-selected="false">Topics by Dataset</button><button class="nav-link " id="tab-text-length-distribution" data-bs-toggle="tab" data-bs-target="#panel-text-length-distribution" type="button" role="tab" aria-controls="panel-text-length-distribution" aria-selected="false">Text Length Distribution</button><button class="nav-link " id="tab-text-wordcloud" data-bs-toggle="tab" data-bs-target="#panel-text-wordcloud" type="button" role="tab" aria-controls="panel-text-wordcloud" aria-selected="false">Text Wordcloud</button>
     </ul>
     <div class="tab-content" id="vizTabsContent">
-      <div class="tab-pane fade show active" id="panel-bangladesh-map" role="tabpanel" aria-labelledby="tab-bangladesh-map"><iframe src="../notebook_assets/bangladesh_interactive_location_map.html" class="viz-frame" loading="lazy"></iframe></div><div class="tab-pane fade " id="panel-bangladesh-sentiment-map" role="tabpanel" aria-labelledby="tab-bangladesh-sentiment-map"><iframe src="../notebook_assets/bangladesh_interactive_sentiment_map.html" class="viz-frame" loading="lazy"></iframe></div><div class="tab-pane fade " id="panel-top-locations-overall" role="tabpanel" aria-labelledby="tab-top-locations-overall"><object data="../location_analytics/dashboard/chart_top_locations_overall.svg" type="image/svg+xml" class="viz-object"></object></div><div class="tab-pane fade " id="panel-top-locations-by-period" role="tabpanel" aria-labelledby="tab-top-locations-by-period"><object data="../location_analytics/dashboard/chart_top_locations_by_period.svg" type="image/svg+xml" class="viz-object"></object></div><div class="tab-pane fade " id="panel-sentiment-by-top-locations" role="tabpanel" aria-labelledby="tab-sentiment-by-top-locations"><object data="../location_analytics/dashboard/chart_sentiment_top_locations.svg" type="image/svg+xml" class="viz-object"></object></div><div class="tab-pane fade " id="panel-text-sentiment-distribution" role="tabpanel" aria-labelledby="tab-text-sentiment-distribution"><img src="../election_text_analysis/plot_sentiment_distribution.png" class="viz-image" alt="Visualization"/></div><div class="tab-pane fade " id="panel-text-top-terms" role="tabpanel" aria-labelledby="tab-text-top-terms"><img src="../election_text_analysis/plot_top_terms.png" class="viz-image" alt="Visualization"/></div><div class="tab-pane fade " id="panel-text-topic-prevalence" role="tabpanel" aria-labelledby="tab-text-topic-prevalence"><img src="../election_text_analysis/plot_topic_prevalence.png" class="viz-image" alt="Visualization"/></div><div class="tab-pane fade " id="panel-text-distinctive-terms" role="tabpanel" aria-labelledby="tab-text-distinctive-terms"><img src="../election_text_analysis/plot_distinctive_terms.png" class="viz-image" alt="Visualization"/></div><div class="tab-pane fade " id="panel-text-length-distribution" role="tabpanel" aria-labelledby="tab-text-length-distribution"><img src="../election_text_analysis/plot_length_distribution.png" class="viz-image" alt="Visualization"/></div><div class="tab-pane fade " id="panel-text-wordcloud" role="tabpanel" aria-labelledby="tab-text-wordcloud"><img src="../election_text_analysis/plot_wordcloud.png" class="viz-image" alt="Visualization"/></div>
+      <div class="tab-pane fade show active" id="panel-bangladesh-map" role="tabpanel" aria-labelledby="tab-bangladesh-map"><iframe src="../notebook_assets/bangladesh_interactive_location_map.html" class="viz-frame" loading="lazy"></iframe></div><div class="tab-pane fade " id="panel-bangladesh-sentiment-map" role="tabpanel" aria-labelledby="tab-bangladesh-sentiment-map"><iframe src="../notebook_assets/bangladesh_interactive_sentiment_map.html" class="viz-frame" loading="lazy"></iframe></div><div class="tab-pane fade " id="panel-top-locations-overall" role="tabpanel" aria-labelledby="tab-top-locations-overall"><object data="../location_analytics/dashboard/chart_top_locations_overall.svg" type="image/svg+xml" class="viz-object"></object></div><div class="tab-pane fade " id="panel-top-locations-by-period" role="tabpanel" aria-labelledby="tab-top-locations-by-period"><object data="../location_analytics/dashboard/chart_top_locations_by_period.svg" type="image/svg+xml" class="viz-object"></object></div><div class="tab-pane fade " id="panel-sentiment-by-top-locations" role="tabpanel" aria-labelledby="tab-sentiment-by-top-locations"><object data="../location_analytics/dashboard/chart_sentiment_top_locations.svg" type="image/svg+xml" class="viz-object"></object></div><div class="tab-pane fade " id="panel-text-sentiment-distribution" role="tabpanel" aria-labelledby="tab-text-sentiment-distribution"><img src="../election_text_analysis/plot_sentiment_distribution.png" class="viz-image" alt="Visualization"/></div><div class="tab-pane fade " id="panel-text-top-terms" role="tabpanel" aria-labelledby="tab-text-top-terms"><img src="../election_text_analysis/plot_top_terms.png" class="viz-image" alt="Visualization"/></div><div class="tab-pane fade " id="panel-topics-by-dataset" role="tabpanel" aria-labelledby="tab-topics-by-dataset"><iframe src="../election_text_analysis/topics_prevalence_by_dataset.html" class="viz-frame" loading="lazy"></iframe></div><div class="tab-pane fade " id="panel-text-length-distribution" role="tabpanel" aria-labelledby="tab-text-length-distribution"><img src="../election_text_analysis/plot_length_distribution.png" class="viz-image" alt="Visualization"/></div><div class="tab-pane fade " id="panel-text-wordcloud" role="tabpanel" aria-labelledby="tab-text-wordcloud"><img src="../election_text_analysis/plot_wordcloud.png" class="viz-image" alt="Visualization"/></div>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

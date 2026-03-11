@@ -62,12 +62,12 @@
 <rect x="855.0" y="666.1" width="110.5" height="36.2" fill="#7f7f7f"/>
 <rect x="965.5" y="666.1" width="144.5" height="36.2" fill="#2ca02c"/>
 <text class="small" x="250" y="692.1" text-anchor="end">Bogura</text>
-<rect x="920" y="35" width="12" height="12" fill="#d62728"/>
-<text class="small" x="938" y="45">negative</text>
-<rect x="920" y="55" width="12" height="12" fill="#8b0000"/>
-<text class="small" x="938" y="65">sarcastic_negative</text>
-<rect x="920" y="75" width="12" height="12" fill="#7f7f7f"/>
-<text class="small" x="938" y="85">neutral</text>
-<rect x="920" y="95" width="12" height="12" fill="#2ca02c"/>
-<text class="small" x="938" y="105">positive</text>
+<rect x="920" y="18" width="12" height="12" fill="#d62728"/>
+<text class="small" x="938" y="28">negative</text>
+<rect x="920" y="38" width="12" height="12" fill="#8b0000"/>
+<text class="small" x="938" y="48">sarcastic_negative</text>
+<rect x="920" y="58" width="12" height="12" fill="#7f7f7f"/>
+<text class="small" x="938" y="68">neutral</text>
+<rect x="920" y="78" width="12" height="12" fill="#2ca02c"/>
+<text class="small" x="938" y="88">positive</text>
 </svg>

@@ -18,6 +18,12 @@ from build_interactive_location_map import (
 )
 
 SENTIMENT_MENTION_MULTIPLIER = 5
+SENTIMENT_OFFSETS = {
+    "positive": (0.045, 0.0),            # up
+    "negative": (-0.045, 0.0),           # down
+    "neutral": (0.0, -0.055),            # left
+    "sarcastic_negative": (0.0, 0.055),  # right
+}
 
 
 def parse_args():
@@ -67,6 +73,7 @@ def build_sentiment_counts(loc_df: pd.DataFrame, sentiment: str, group: Optional
 def add_layer(
     m: folium.Map,
     df: pd.DataFrame,
+    sentiment_key_name: str,
     layer_name: str,
     sentiment_label: str,
     color: str,
@@ -78,8 +85,11 @@ def add_layer(
         return
 
     max_m = max(int(df["mentions"].max()), 1)
+    lat_off, lon_off = SENTIMENT_OFFSETS.get(sentiment_key_name, (0.0, 0.0))
     for r in df.itertuples(index=False):
         size = int(24 + 72 * ((r.mentions / max_m) ** 0.5))
+        shifted_lat = float(r.lat) + lat_off
+        shifted_lon = float(r.lon) + lon_off
         popup = (
             f"<b>{r.location}</b><br>"
             f"Mentions: {int(r.mentions)}<br>"
@@ -87,7 +97,7 @@ def add_layer(
             f"<i>{str(r.sample_comment)[:180]}</i>"
         )
         folium.Marker(
-            location=[r.lat, r.lon],
+            location=[shifted_lat, shifted_lon],
             icon=folium.DivIcon(
                 html=(
                     f'<div class="sentiment-bubble" style="'
@@ -181,6 +191,7 @@ def main() -> None:
         add_layer(
             m,
             layer_df,
+            sentiment_key_name=key,
             layer_name=label,
             sentiment_label=label.replace("Sentiment: ", ""),
             color=color,

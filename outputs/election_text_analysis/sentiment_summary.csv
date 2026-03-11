@@ -1,12 +1,12 @@
 dataset,sentiment_label,count,percentage
-After Forming Government Data With Location,negative,559,0.3377643504531722
-After Forming Government Data With Location,sarcastic_negative,692,0.41812688821752264
-After Forming Government Data With Location,neutral,144,0.08700906344410876
-After Forming Government Data With Location,positive,260,0.15709969788519637
 Before Election Some,negative,522,0.381021897810219
 Before Election Some,sarcastic_negative,453,0.33065693430656934
 Before Election Some,neutral,129,0.09416058394160584
 Before Election Some,positive,266,0.19416058394160585
+After Forming Government Data With Location,negative,559,0.3377643504531722
+After Forming Government Data With Location,sarcastic_negative,692,0.41812688821752264
+After Forming Government Data With Location,neutral,144,0.08700906344410876
+After Forming Government Data With Location,positive,260,0.15709969788519637
 Post Election Data Updated With Location 09 March,negative,1000,0.3076923076923077
 Post Election Data Updated With Location 09 March,sarcastic_negative,1490,0.4584615384615385
 Post Election Data Updated With Location 09 March,neutral,305,0.09384615384615384

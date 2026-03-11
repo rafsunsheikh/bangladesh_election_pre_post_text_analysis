@@ -68,8 +68,7 @@ def main() -> None:
         ("Sentiment by Top Locations", project_root / "outputs/location_analytics/dashboard/chart_sentiment_top_locations.svg", "svg"),
         ("Text Sentiment Distribution", project_root / "outputs/election_text_analysis/plot_sentiment_distribution.png", "image"),
         ("Text Top Terms", project_root / "outputs/election_text_analysis/plot_top_terms.png", "image"),
-        ("Text Topic Prevalence", project_root / "outputs/election_text_analysis/plot_topic_prevalence.png", "image"),
-        ("Text Distinctive Terms", project_root / "outputs/election_text_analysis/plot_distinctive_terms.png", "image"),
+        ("Topics by Dataset", project_root / "outputs/election_text_analysis/topics_prevalence_by_dataset.html", "iframe"),
         ("Text Length Distribution", project_root / "outputs/election_text_analysis/plot_length_distribution.png", "image"),
         ("Text Wordcloud", project_root / "outputs/election_text_analysis/plot_wordcloud.png", "image"),
     ]
@@ -130,6 +129,7 @@ def main() -> None:
       margin: 0;
       font-size: 1.4rem;
       font-weight: 700;
+      text-align: center;
     }}
     .nav-tabs {{
       border-bottom: 0;
@@ -167,12 +167,62 @@ def main() -> None:
       object-fit: contain;
       height: 740px;
     }}
+    @media (max-width: 991px) {{
+      .dashboard-wrap {{
+        margin: 8px auto;
+        padding: 8px;
+      }}
+      .title-bar {{
+        padding: 12px 14px;
+      }}
+      .title-bar h1 {{
+        font-size: 1.15rem;
+      }}
+      .tab-content {{
+        min-height: auto;
+        padding: 8px;
+      }}
+      .viz-frame, .viz-object, .viz-image {{
+        height: 68vh;
+        min-height: 420px;
+      }}
+    }}
+    @media (max-width: 768px) {{
+      .nav-tabs {{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 2px;
+      }}
+      .nav-tabs .nav-link {{
+        white-space: nowrap;
+        font-size: 0.95rem;
+        padding: 8px 10px;
+      }}
+      .tab-content {{
+        border-radius: 10px;
+      }}
+      .viz-frame, .viz-object, .viz-image {{
+        height: 62vh;
+        min-height: 360px;
+      }}
+    }}
+    @media (max-width: 480px) {{
+      .title-bar h1 {{
+        font-size: 1.02rem;
+      }}
+      .viz-frame, .viz-object, .viz-image {{
+        height: 58vh;
+        min-height: 320px;
+      }}
+    }}
   </style>
 </head>
 <body>
   <div class="dashboard-wrap">
     <div class="title-bar">
-      <h1>Bangladesh Election Dashboard</h1>
+      <h1>মানুষের মতামতের বিশ্লেষণ</h1>
     </div>
     <ul class="nav nav-tabs" id="vizTabs" role="tablist">
       {''.join(tab_buttons)}

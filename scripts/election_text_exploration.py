@@ -364,7 +364,11 @@ def build_sentiment_summary(df: pd.DataFrame) -> pd.DataFrame:
     summary["percentage"] = summary["count"] / total_per_dataset
     label_order = {"negative": 0, "sarcastic_negative": 1, "neutral": 2, "positive": 3}
     summary["label_order"] = summary["sentiment_label"].map(label_order).fillna(99)
-    summary = summary.sort_values(["dataset", "label_order"]).drop(columns=["label_order"])
+    summary["dataset_rank"] = summary["dataset"].map(lambda x: dataset_sort_key(str(x))[0])
+    summary["dataset_name_rank"] = summary["dataset"].map(lambda x: dataset_sort_key(str(x))[1])
+    summary = summary.sort_values(["dataset_rank", "dataset_name_rank", "label_order"]).drop(
+        columns=["dataset_rank", "dataset_name_rank", "label_order"]
+    )
     return summary
 
 
@@ -382,6 +386,11 @@ def compute_summary(df: pd.DataFrame) -> pd.DataFrame:
         )
     )
     summary["non_empty_rows"] = summary["total_rows"] - summary["empty_raw_rows"]
+    summary["dataset_rank"] = summary["dataset"].map(lambda x: dataset_sort_key(str(x))[0])
+    summary["dataset_name_rank"] = summary["dataset"].map(lambda x: dataset_sort_key(str(x))[1])
+    summary = summary.sort_values(["dataset_rank", "dataset_name_rank"]).drop(
+        columns=["dataset_rank", "dataset_name_rank"]
+    )
     return summary[
         [
             "dataset",
@@ -653,6 +662,20 @@ def plot_sentiment_distribution(sentiment_summary: pd.DataFrame, output: Path) -
         .reindex(columns=["negative", "sarcastic_negative", "neutral", "positive"], fill_value=0)
     )
     pivot = pivot * VISUAL_VALUE_MULTIPLIER
+    dataset_label_map = {
+        "After Forming Government Data With Location": "After Forming Government Data",
+        "Before Election Some": "Before Election Data",
+        "Post Election Data Updated With Location 09 March": "Post Election Data upto Forming Government",
+    }
+    pivot = pivot.rename(index=dataset_label_map)
+    desired_dataset_order = [
+        "Before Election Data",
+        "Post Election Data upto Forming Government",
+        "After Forming Government Data",
+    ]
+    ordered = [name for name in desired_dataset_order if name in pivot.index]
+    remaining = [name for name in pivot.index if name not in ordered]
+    pivot = pivot.reindex(ordered + remaining)
     colors = {
         "negative": "#d62728",
         "sarcastic_negative": "#8b0000",
@@ -669,7 +692,7 @@ def plot_sentiment_distribution(sentiment_summary: pd.DataFrame, output: Path) -
 
     ax.set_title("Sentiment Distribution by Dataset")
     ax.set_ylabel("Number of Comments")
-    ax.legend(loc="upper right")
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, 1.0), ncol=4)
     fig.savefig(output, dpi=200)
     plt.close(fig)
 

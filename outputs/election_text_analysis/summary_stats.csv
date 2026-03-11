@@ -1,4 +1,4 @@
 dataset,total_rows,non_empty_rows,empty_raw_rows,empty_after_clean,avg_char_length,median_char_length,avg_token_length,median_token_length
-After Forming Government Data With Location,1655,1655,0,3,38.721450151057404,31.0,5.495468277945619,4.0
 Before Election Some,1370,1358,12,18,42.941605839416056,33.5,6.015328467153284,5.0
+After Forming Government Data With Location,1655,1655,0,3,38.721450151057404,31.0,5.495468277945619,4.0
 Post Election Data Updated With Location 09 March,3250,3249,1,7,38.43415384615385,30.0,5.4,4.0

@@ -486,7 +486,7 @@ def draw_sentiment_stacked(freq_df: pd.DataFrame, sent_df: pd.DataFrame, output:
         lines.append(f'<text class="small" x="{ml-10}" y="{y + bh*0.72:.1f}" text-anchor="end">{esc(loc)}</text>')
 
     lx = width - mr - 190
-    ly = 35
+    ly = 18
     for idx, senti in enumerate(["negative", "sarcastic_negative", "neutral", "positive"]):
         yy = ly + idx * 20
         lines.append(f'<rect x="{lx}" y="{yy}" width="12" height="12" fill="{colors[senti]}"/>')
