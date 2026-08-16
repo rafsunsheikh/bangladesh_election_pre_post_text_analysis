@@ -80,10 +80,25 @@ def load_period(path: Path, period_label: str, model_path: Path | None) -> pd.Da
     out = df[["Comment", "Location 1", "Location 2", "Location 3"]].copy()
     out["period"] = period_label
     out["doc_id"] = range(len(out))
+
     sent = predict_sentiment(out["Comment"].fillna(""), model_path=model_path)
-    out["sentiment"] = sent["sentiment_label"]
-    out["sentiment_confidence"] = sent["sentiment_confidence"]
-    out["sentiment_source"] = sent["sentiment_source"]
+    out["sentiment"] = sent["sentiment_label"].values
+    out["sentiment_confidence"] = sent["sentiment_confidence"].values
+    out["sentiment_source"] = sent["sentiment_source"].values
+
+    # Curated labels beat re-prediction. Files carrying an annotated `Sentiment`
+    # column keep it; the model only fills the gaps.
+    if "Sentiment" in df.columns:
+        provided = df["Sentiment"].astype(str).str.strip().str.lower().replace({"nan": pd.NA, "": pd.NA})
+        provided = provided.replace({"sarcastic negative": "sarcastic_negative", "sarcastic-negative": "sarcastic_negative"})
+        valid = provided.isin(["negative", "neutral", "positive", "sarcastic_negative"])
+        out.loc[valid.values, "sentiment"] = provided[valid].values
+        out.loc[valid.values, "sentiment_source"] = "provided"
+        if "sentiment_confidence" in df.columns:
+            conf = pd.to_numeric(df["sentiment_confidence"], errors="coerce")
+            has_conf = valid & conf.notna()
+            out.loc[has_conf.values, "sentiment_confidence"] = conf[has_conf].values
+
     return out
 
 
@@ -162,8 +177,8 @@ def build_sentiment_by_location(long_df: pd.DataFrame) -> pd.DataFrame:
 def write_markdown_report(
     out_path: Path,
     overall_top: pd.DataFrame,
-    top_a: pd.DataFrame,
-    top_b: pd.DataFrame,
+    per_period: dict[str, pd.DataFrame],
+    growth_pair: tuple[str, str],
     growth: pd.DataFrame,
     cooc: pd.DataFrame,
 ) -> None:
@@ -185,19 +200,21 @@ def write_markdown_report(
         "## Overall Top Locations",
         to_md(overall_top),
         "",
-        "## Period A Top Locations",
-        to_md(top_a),
-        "",
-        "## Period B Top Locations",
-        to_md(top_b),
-        "",
-        "## Biggest Changes (B - A)",
-        to_md(growth),
-        "",
-        "## Top Co-occurring Location Pairs",
-        to_md(cooc),
-        "",
     ]
+
+    for label, table in per_period.items():
+        lines.append(f"## Top Locations — {label}")
+        lines.append(to_md(table))
+        lines.append("")
+
+    label_a, label_b = growth_pair
+    lines.append(f"## Biggest Changes ({label_b} - {label_a})")
+    lines.append(to_md(growth))
+    lines.append("")
+    lines.append("## Top Co-occurring Location Pairs")
+    lines.append(to_md(cooc))
+    lines.append("")
+
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -206,17 +223,32 @@ def main() -> None:
     parser.add_argument(
         "--file-a",
         type=Path,
-        default=Path("data/in_use/post_election_data_updated_with_location_09_march.annotated.completed.csv"),
-        help="Earlier period CSV",
+        default=Path("data/unified/periods/3_after_forming_government.csv"),
+        help="Earlier period CSV of the growth pair",
     )
     parser.add_argument(
         "--file-b",
         type=Path,
-        default=Path("data/in_use/after_forming_government_data_with_location.annotated.completed.csv"),
-        help="Later period CSV",
+        default=Path("data/unified/periods/5_post_june_2026.csv"),
+        help="Later period CSV of the growth pair",
     )
-    parser.add_argument("--label-a", type=str, default="post_election_upto_forming_government")
-    parser.add_argument("--label-b", type=str, default="post_forming_government")
+    parser.add_argument("--label-a", type=str, default="after_forming_government")
+    parser.add_argument("--label-b", type=str, default="post_june_2026")
+    parser.add_argument(
+        "--extra-files",
+        type=Path,
+        nargs="*",
+        default=[Path("data/unified/periods/2_after_election.csv")],
+        help="Additional period CSVs. They appear in frequency/sentiment/co-occurrence outputs; "
+        "growth stays pairwise between --file-a and --file-b.",
+    )
+    parser.add_argument(
+        "--extra-labels",
+        type=str,
+        nargs="*",
+        default=["after_election"],
+        help="Period labels for --extra-files, in the same order.",
+    )
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/location_analytics"))
     parser.add_argument("--top-n", type=int, default=20)
     parser.add_argument(
@@ -230,9 +262,17 @@ def main() -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     model_path = args.sentiment_model if args.sentiment_model.exists() else None
 
+    if len(args.extra_files) != len(args.extra_labels):
+        raise ValueError(
+            f"--extra-files ({len(args.extra_files)}) and --extra-labels ({len(args.extra_labels)}) must match in length."
+        )
+
     period_a = load_period(args.file_a, args.label_a, model_path=model_path)
     period_b = load_period(args.file_b, args.label_b, model_path=model_path)
-    all_df = pd.concat([period_a, period_b], ignore_index=True)
+    frames = [period_a, period_b]
+    for extra_path, extra_label in zip(args.extra_files, args.extra_labels):
+        frames.append(load_period(extra_path, extra_label, model_path=model_path))
+    all_df = pd.concat(frames, ignore_index=True)
 
     long_df = to_long_locations(all_df)
     long_df.to_csv(args.output_dir / "locations_long.csv", index=False, encoding="utf-8")
@@ -257,11 +297,14 @@ def main() -> None:
     sent = build_sentiment_by_location(long_df)
     sent.to_csv(args.output_dir / "location_sentiment.csv", index=False, encoding="utf-8")
 
+    # Follow the frequency table's period order so report sections read in sequence,
+    # rather than the growth-pair-first order the CLI arguments imply.
+    all_labels = freq["period"].dropna().unique().tolist()
     write_markdown_report(
         out_path=args.output_dir / "report.md",
         overall_top=overall.head(args.top_n),
-        top_a=freq[freq["period"] == args.label_a].head(args.top_n),
-        top_b=freq[freq["period"] == args.label_b].head(args.top_n),
+        per_period={label: freq[freq["period"] == label].head(args.top_n) for label in all_labels},
+        growth_pair=(args.label_a, args.label_b),
         growth=growth.head(args.top_n),
         cooc=cooc.head(args.top_n),
     )

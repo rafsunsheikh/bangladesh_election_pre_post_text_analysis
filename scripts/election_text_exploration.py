@@ -816,11 +816,14 @@ def main() -> None:
         type=Path,
         nargs="*",
         default=[
-            Path("data/in_use/Before Election some annotated.final.csv"),
-            Path("data/in_use/post_election_data_updated_with_location_09_march.annotated.completed.csv"),
-            Path("data/in_use/after_forming_government_data_with_location.annotated.completed.csv"),
+            Path("data/unified/periods/1_before_election.csv"),
+            Path("data/unified/periods/2_after_election.csv"),
+            Path("data/unified/periods/3_after_forming_government.csv"),
+            Path("data/unified/periods/4_june_2026.csv"),
+            Path("data/unified/periods/5_post_june_2026.csv"),
         ],
-        help="Explicit CSV files to analyze (defaults to latest in-use datasets).",
+        help="Explicit CSV files to analyze (defaults to the unified period slices "
+        "built by scripts/build_unified_dataset.py).",
     )
     parser.add_argument("--topics", type=int, default=5, help="Requested number of LDA topics per dataset.")
     parser.add_argument("--top-words", type=int, default=10, help="Number of top words per topic.")

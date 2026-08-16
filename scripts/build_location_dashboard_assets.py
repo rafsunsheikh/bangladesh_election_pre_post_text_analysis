@@ -228,6 +228,8 @@ COLOR_ORANGE = "#ff7f0e"
 COLOR_GREEN = "#2ca02c"
 COLOR_RED = "#d62728"
 COLOR_NEUTRAL = "#7f7f7f"
+# Series colors for period-grouped charts, cycled when there are more periods.
+PERIOD_COLORS = [COLOR_BLUE, COLOR_ORANGE, "#9467bd", "#17becf", "#8c564b"]
 VISUAL_VALUE_MULTIPLIER = 5
 
 
@@ -323,16 +325,18 @@ def draw_horizontal_bar_chart(
     write_svg(output, lines)
 
 
-def draw_grouped_bar(df: pd.DataFrame, output: Path, top_n: int = 12) -> None:
-    periods = list(df["period"].dropna().unique())
-    if len(periods) != 2:
-        raise ValueError("Expected exactly 2 periods in location_frequency_by_period.csv")
+def draw_grouped_bar(df: pd.DataFrame, output: Path, periods: list[str], top_n: int = 12) -> None:
+    if not periods:
+        raise ValueError("No periods found in location_frequency_by_period.csv")
 
     pivot = (
         df.pivot_table(index="location", columns="period", values="location_mentions", aggfunc="sum", fill_value=0)
         .reset_index()
     )
-    pivot["total"] = pivot[periods[0]] + pivot[periods[1]]
+    for period in periods:
+        if period not in pivot.columns:
+            pivot[period] = 0
+    pivot["total"] = pivot[list(periods)].sum(axis=1)
     pivot = pivot.sort_values("total", ascending=False).head(top_n)
 
     width, height = 1300, 760
@@ -342,17 +346,19 @@ def draw_grouped_bar(df: pd.DataFrame, output: Path, top_n: int = 12) -> None:
 
     lines = svg_start(width, height)
     lines.append('<text x="120" y="45" font-size="26" font-weight="700">Top Locations by Period</text>')
-    lines.append(f'<text x="120" y="70" class="small">{esc(periods[0])} vs {esc(periods[1])}</text>')
+    lines.append(f'<text x="120" y="70" class="small">{esc(" vs ".join(periods))}</text>')
 
     if pivot.empty:
         lines.append('<text x="120" y="120" font-size="16">No data available</text>')
         write_svg(output, lines)
         return
 
-    max_v = float(max(pivot[periods[0]].max(), pivot[periods[1]].max())) or 1.0
+    max_v = float(max(pivot[p].max() for p in periods)) or 1.0
     n = len(pivot)
     group_w = plot_w / n
-    bar_w = group_w * 0.34
+    # Reserve 13% padding either side of a group, and split the rest across series.
+    inner_w = group_w * 0.74
+    bar_w = inner_w / len(periods)
 
     lines.append(f'<line class="axis" x1="{ml}" y1="{mt+plot_h}" x2="{width-mr}" y2="{mt+plot_h}"/>')
     lines.append(f'<line class="axis" x1="{ml}" y1="{mt}" x2="{ml}" y2="{mt+plot_h}"/>')
@@ -365,23 +371,22 @@ def draw_grouped_bar(df: pd.DataFrame, output: Path, top_n: int = 12) -> None:
 
     for i, (_, row) in enumerate(pivot.iterrows()):
         gx = ml + i * group_w
-        v1 = float(row[periods[0]])
-        v2 = float(row[periods[1]])
         label = str(row["location"])
-        h1 = (v1 / max_v) * plot_h
-        h2 = (v2 / max_v) * plot_h
-        x1 = gx + group_w * 0.13
-        x2 = x1 + bar_w + group_w * 0.08
-        y1 = mt + plot_h - h1
-        y2 = mt + plot_h - h2
-        lines.append(f'<rect x="{x1:.1f}" y="{y1:.1f}" width="{bar_w:.1f}" height="{h1:.1f}" fill="{COLOR_BLUE}"/>')
-        lines.append(f'<rect x="{x2:.1f}" y="{y2:.1f}" width="{bar_w:.1f}" height="{h2:.1f}" fill="{COLOR_ORANGE}"/>')
+        for j, period in enumerate(periods):
+            value = float(row[period])
+            bar_h = (value / max_v) * plot_h
+            x = gx + group_w * 0.13 + j * bar_w
+            y = mt + plot_h - bar_h
+            color = PERIOD_COLORS[j % len(PERIOD_COLORS)]
+            lines.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_w*0.92:.1f}" height="{bar_h:.1f}" fill="{color}"/>')
         lines.append(f'<text class="small" x="{gx+group_w/2:.1f}" y="{mt+plot_h+18}" text-anchor="middle" transform="rotate(30 {gx+group_w/2:.1f},{mt+plot_h+18})">{esc(label)}</text>')
 
-    lx = width - mr - 260
+    lx = width - mr - 320
     ly = 40
-    lines.append(f'<rect x="{lx}" y="{ly}" width="14" height="14" fill="{COLOR_BLUE}"/><text class="small" x="{lx+20}" y="{ly+12}">{esc(periods[0])}</text>')
-    lines.append(f'<rect x="{lx}" y="{ly+22}" width="14" height="14" fill="{COLOR_ORANGE}"/><text class="small" x="{lx+20}" y="{ly+34}">{esc(periods[1])}</text>')
+    for j, period in enumerate(periods):
+        color = PERIOD_COLORS[j % len(PERIOD_COLORS)]
+        y = ly + j * 22
+        lines.append(f'<rect x="{lx}" y="{y}" width="14" height="14" fill="{color}"/><text class="small" x="{lx+20}" y="{y+12}">{esc(period)}</text>')
 
     write_svg(output, lines)
 
@@ -558,22 +563,46 @@ def draw_bubble_map(df: pd.DataFrame, value_col: str, title: str, output: Path, 
     return unmapped
 
 
-def detect_periods(freq_df: pd.DataFrame) -> tuple[str, str]:
-    periods = sorted(freq_df["period"].dropna().unique().tolist())
-    if len(periods) != 2:
-        raise ValueError(f"Expected exactly 2 periods, found {len(periods)}: {periods}")
-    return periods[0], periods[1]
+def detect_periods(freq_df: pd.DataFrame, period_order: list[str] | None = None) -> list[str]:
+    """Period labels for chart series, left-to-right.
+
+    location_analytics.py sorts its output by period *label*, so CSV order is
+    alphabetical and only coincidentally chronological. Pass --period-order to
+    state the intended sequence explicitly.
+    """
+    found = freq_df["period"].dropna().unique().tolist()
+    if not found:
+        raise ValueError("No periods found in location_frequency_by_period.csv")
+    if not period_order:
+        return found
+    unknown = [p for p in period_order if p not in found]
+    if unknown:
+        raise ValueError(f"--period-order names periods absent from the data: {unknown}. Found: {found}")
+    missing = [p for p in found if p not in period_order]
+    if missing:
+        raise ValueError(f"--period-order omits periods present in the data: {missing}")
+    return list(period_order)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build SVG charts/maps for location analytics outputs.")
     parser.add_argument("--input-dir", type=Path, default=Path("outputs/location_analytics"))
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/location_analytics/dashboard"))
+    parser.add_argument(
+        "--period-order",
+        type=str,
+        nargs="*",
+        default=[],
+        help="Explicit chronological period order for chart series. Must list every period present. "
+        "Defaults to CSV order, which location_analytics.py sorts alphabetically by label.",
+    )
     args = parser.parse_args()
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     freq = pd.read_csv(args.input_dir / "location_frequency_by_period.csv")
+    # Capture period order before the groupby below re-sorts it alphabetically.
+    periods = detect_periods(freq, args.period_order)
     overall = pd.read_csv(args.input_dir / "location_frequency_overall.csv")
     growth = pd.read_csv(args.input_dir / "location_growth.csv")
     cooc = pd.read_csv(args.input_dir / "location_cooccurrence.csv")
@@ -622,7 +651,8 @@ def main() -> None:
     if "co_mentions" in cooc.columns:
         cooc["co_mentions"] = cooc["co_mentions"] * VISUAL_VALUE_MULTIPLIER
 
-    period_a, period_b = detect_periods(freq)
+    # Bubble maps and the growth chart stay pairwise: earliest vs latest period.
+    period_a, period_b = periods[0], periods[-1]
 
     draw_horizontal_bar_chart(
         overall,
@@ -632,7 +662,7 @@ def main() -> None:
         output=args.output_dir / "chart_top_locations_overall.svg",
     )
 
-    draw_grouped_bar(freq, output=args.output_dir / "chart_top_locations_by_period.svg")
+    draw_grouped_bar(freq, output=args.output_dir / "chart_top_locations_by_period.svg", periods=periods)
 
     draw_growth_chart(growth, output=args.output_dir / "chart_growth_top_delta.svg")
 

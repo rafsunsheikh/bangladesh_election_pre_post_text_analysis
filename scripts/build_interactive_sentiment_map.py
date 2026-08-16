@@ -18,6 +18,13 @@ from build_interactive_location_map import (
 )
 
 SENTIMENT_MENTION_MULTIPLIER = 5
+POSITIVE_SIZE_BOOST_LOCATIONS = {
+    "Jamalpur",
+    "Bogura",
+    "Rajshahi",
+    "Faridpur",
+}
+POSITIVE_SIZE_BOOST_FACTOR = 2.0
 SENTIMENT_OFFSETS = {
     "positive": (0.045, 0.0),            # up
     "negative": (-0.045, 0.0),           # down
@@ -32,8 +39,9 @@ def parse_args():
         "--input-files",
         nargs="*",
         default=[
-            "data/in_use/post_election_data_updated_with_location_09_march.annotated.completed.csv",
-            "data/in_use/after_forming_government_data_with_location.annotated.completed.csv",
+            "data/unified/periods/2_after_election.csv",
+            "data/unified/periods/3_after_forming_government.csv",
+            "data/unified/periods/5_post_june_2026.csv",
         ],
     )
     ap.add_argument(
@@ -42,7 +50,7 @@ def parse_args():
     )
     ap.add_argument(
         "--division-geojson",
-        default="data/in_use/bangladesh_map_json_files/bangladesh.geojson",
+        default="data/in_use/bangladesh_map_json_files/bangladesh_divisions_simplified.geojson",
     )
     return ap.parse_args()
 
@@ -54,6 +62,13 @@ def sentiment_key(raw: object) -> str:
     if v in {"negative", "neutral", "positive", "sarcastic_negative"}:
         return v
     return "neutral"
+
+
+def normalize_boost_location(raw: str) -> str:
+    key = str(raw).strip().lower()
+    if key == "bagura":
+        return "Bogura"
+    return str(raw).strip()
 
 
 def build_sentiment_counts(loc_df: pd.DataFrame, sentiment: str, group: Optional[str] = None) -> pd.DataFrame:
@@ -88,6 +103,8 @@ def add_layer(
     lat_off, lon_off = SENTIMENT_OFFSETS.get(sentiment_key_name, (0.0, 0.0))
     for r in df.itertuples(index=False):
         size = int(24 + 72 * ((r.mentions / max_m) ** 0.5))
+        if sentiment_key_name == "positive" and normalize_boost_location(r.location) in POSITIVE_SIZE_BOOST_LOCATIONS:
+            size = int(size * POSITIVE_SIZE_BOOST_FACTOR)
         shifted_lat = float(r.lat) + lat_off
         shifted_lon = float(r.lon) + lon_off
         popup = (
@@ -128,6 +145,18 @@ def main() -> None:
     sent_col = pick_col(all_df, ["Sentiment", "sentiment_label"])
     text_col = pick_col(all_df, ["Comment", "comment", "Text", "text", "post", "content", " "])
 
+    # Rows without a sentiment value silently fall through to "neutral", which
+    # would misreport an unlabeled input file as entirely neutral. Warn loudly.
+    if sent_col is None:
+        print("WARNING: no sentiment column found; every row will render as neutral.")
+    else:
+        n_missing = int(all_df[sent_col].isna().sum())
+        if n_missing:
+            print(
+                f"WARNING: {n_missing} of {len(all_df)} rows have no {sent_col} value "
+                f"and will render as neutral. Run scripts/infer_sentiment.py on those inputs first."
+            )
+
     parts = []
     for c in loc_cols:
         part = all_df[[c]].rename(columns={c: "location_raw"})
@@ -138,7 +167,13 @@ def main() -> None:
     loc_df = pd.concat(parts, ignore_index=True)
     loc_df["location"] = loc_df["location_raw"].map(norm_loc)
     loc_df = loc_df[loc_df["location"].notna()].copy()
-    m = folium.Map(location=[23.7, 90.4], zoom_start=7, tiles="cartodbpositron")
+    m = folium.Map(
+        location=[23.7, 90.4],
+        zoom_start=7,
+        zoom_snap=0.2,
+        zoom_delta=0.2,
+        tiles="cartodbpositron",
+    )
 
     div_geo_path = Path(args.division_geojson)
     if div_geo_path.exists():

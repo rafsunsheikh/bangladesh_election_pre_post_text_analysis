@@ -1,13 +1,21 @@
 dataset,sentiment_label,count,percentage
-Before Election Some,negative,522,0.381021897810219
-Before Election Some,sarcastic_negative,453,0.33065693430656934
-Before Election Some,neutral,129,0.09416058394160584
-Before Election Some,positive,266,0.19416058394160585
-After Forming Government Data With Location,negative,559,0.3377643504531722
-After Forming Government Data With Location,sarcastic_negative,692,0.41812688821752264
-After Forming Government Data With Location,neutral,144,0.08700906344410876
-After Forming Government Data With Location,positive,260,0.15709969788519637
-Post Election Data Updated With Location 09 March,negative,1000,0.3076923076923077
-Post Election Data Updated With Location 09 March,sarcastic_negative,1490,0.4584615384615385
-Post Election Data Updated With Location 09 March,neutral,305,0.09384615384615384
-Post Election Data Updated With Location 09 March,positive,455,0.14
+1 Before Election,negative,519,0.38472942920681985
+1 Before Election,sarcastic_negative,451,0.33432171979243885
+1 Before Election,neutral,115,0.08524833209785027
+1 Before Election,positive,264,0.19570051890289103
+2 After Election,negative,1301,0.27194816053511706
+2 After Election,sarcastic_negative,2254,0.47115384615384615
+2 After Election,neutral,374,0.07817725752508362
+2 After Election,positive,855,0.17872073578595318
+3 After Forming Government,negative,1353,0.32578858656392967
+3 After Forming Government,sarcastic_negative,1574,0.37900313026727667
+3 After Forming Government,neutral,408,0.09824223452925596
+3 After Forming Government,positive,818,0.19696604863953768
+4 June 2026,negative,3467,0.2784738955823293
+4 June 2026,sarcastic_negative,5575,0.44779116465863456
+4 June 2026,neutral,678,0.05445783132530121
+4 June 2026,positive,2730,0.21927710843373494
+5 Post June 2026,negative,1031,0.27978290366350067
+5 Post June 2026,sarcastic_negative,1525,0.41383989145183175
+5 Post June 2026,neutral,178,0.04830393487109905
+5 Post June 2026,positive,951,0.2580732700135685

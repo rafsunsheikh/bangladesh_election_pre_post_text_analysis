@@ -76,6 +76,8 @@ def classify_dataset_group(stem: str) -> str:
     s = stem.lower().strip()
     s = s.replace("_", " ")
     s = re.sub(r"\s+", " ", s)
+    if "june" in s:
+        return "post_june_2026"
     if "forming" in s or "government" in s:
         return "post_forming_government"
     if "post election" in s or "after election" in s or "post_election" in stem.lower():
@@ -89,15 +91,16 @@ def parse_args():
         "--input-files",
         nargs="*",
         default=[
-            "data/in_use/post_election_data_updated_with_location_09_march.annotated.completed.csv",
-            "data/in_use/after_forming_government_data_with_location.annotated.completed.csv",
+            "data/unified/periods/2_after_election.csv",
+            "data/unified/periods/3_after_forming_government.csv",
+            "data/unified/periods/5_post_june_2026.csv",
         ],
     )
     ap.add_argument("--output-html", default="outputs/notebook_assets/bangladesh_interactive_location_map.html")
     ap.add_argument("--mention-multiplier", type=float, default=1.0)
     ap.add_argument(
         "--division-geojson",
-        default="data/in_use/bangladesh_map_json_files/bangladesh.geojson",
+        default="data/in_use/bangladesh_map_json_files/bangladesh_divisions_simplified.geojson",
     )
     return ap.parse_args()
 
@@ -192,7 +195,13 @@ def main():
     loc_df["location"] = loc_df["location_raw"].map(norm_loc)
     loc_df = loc_df[loc_df["location"].notna()].copy()
 
-    m = folium.Map(location=[23.7, 90.4], zoom_start=7, tiles="cartodbpositron")
+    m = folium.Map(
+        location=[23.7, 90.4],
+        zoom_start=7,
+        zoom_snap=0.2,
+        zoom_delta=0.2,
+        tiles="cartodbpositron",
+    )
 
     div_geo_path = Path(args.division_geojson)
     if div_geo_path.exists():
@@ -237,18 +246,25 @@ def main():
     multiplier = max(0.0, float(args.mention_multiplier))
     post_election = build_mentions(loc_df, group="post_election_upto_forming", mention_multiplier=multiplier)
     post_forming = build_mentions(loc_df, group="post_forming_government", mention_multiplier=multiplier)
+    post_june = build_mentions(loc_df, group="post_june_2026", mention_multiplier=multiplier)
     all_data = build_mentions(loc_df, group=None, mention_multiplier=multiplier)
 
     add_mentions_layer(
         m,
         post_election,
-        layer_name="Mentions: Post Election (Upto Forming Government)",
+        layer_name="Mentions: After Election",
         show=False,
     )
     add_mentions_layer(
         m,
         post_forming,
-        layer_name="Mentions: Post Forming Government",
+        layer_name="Mentions: After Forming Government",
+        show=False,
+    )
+    add_mentions_layer(
+        m,
+        post_june,
+        layer_name="Mentions: Post June 2026",
         show=False,
     )
     add_mentions_layer(
